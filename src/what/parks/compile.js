@@ -60,11 +60,13 @@ const _build = (_self, done) => {
                     "_id": `urn:ca:on:toronto:parks:${ _.id.slugify(ld.LocationID) }`,
                 }),
                 _.d.list(ld, "Facilities/Facility", [])
-                    .filter(fd => _filterFacilityType(fd.FacilityType))
+                    .map(fd => _.d.add(fd, "_subcategory", _.d.list(self.subcategory, fd.FacilityDisplayName, [])))
                     .map(fd => _.d.compose.shallow(ad, {
                         "_type": "what",
                         "_id": `urn:ca:on:toronto:parks:${ _.id.slugify(ld.LocationID) }:facility:${ _.id.slugify(fd.FacilityID) }`,
-                        "_category": `Park/${ fd.FacilityDisplayName }`,
+                        "_category": fd._subcategory
+                            .filter(s => !_.is.Empty(s))
+                            .map(s => `Park/${ s }`),
                     }))
             ]
         }), false)
