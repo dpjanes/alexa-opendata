@@ -1,0 +1,71 @@
+---
+url: "http://www1.toronto.ca/City_Of_Toronto/Information_Technology/Open_Data/Data_Sets/Assets/Files/locations-20110725.xml"
+address:
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: ON
+subcategory:
+  "Amphitheatre": 
+  - "Amphitheatre"
+  - "Theatre"
+  "Auditorium": "Auditorium"
+  "Ball Diamond": 
+  - "Ball Diamond"
+  - "Baseball Field"
+  - "Softball Field"
+  "Clubhouse": "Clubhouse"
+  "Coat Check Room": null
+  "Computer/Training Room": null
+  "Craft Room": "Craft Room"
+  "Curling Rink": "Curling Rink"
+  "Dogs Off-Leash Area": 
+  - "Dogs Off-Leash Area"
+  "Dressing Room": null
+  "Farm Display": null
+  "Firepit": "Firepit"
+  "Fitness/Weight Room": 
+  - "Weight Room"
+  - "Gymnasium"
+  - "Gym"
+  "Gallery": null
+  "Games Room": null
+  "Gymnasium": 
+  - "Gymnasium"
+  - "Gym"
+  "Indoor Dry Pad": 
+  - "Indoor Dry Pad"
+  - "Dry Pad"
+  "Indoor Pool": 
+  - "Indoor Pool"
+  - "Pool"
+  "Indoor Rink": 
+  - "Indoor Rink"
+  - "Rink"
+  "Indoor Track": 
+  - "Indoor Track"
+  - "Track"
+  "Kitchen": "Kitchen"
+  "Multipurpose Room": null
+  "Outdoor Dry Pad": 
+  - "Outdoor Dry Pad"
+  - "Dry Pad"
+  "Outdoor Pool": 
+  - "Outdoor Pool"
+  - "Pool"
+  "Outdoor Rink": 
+  - "Outdoor Rink"
+  - "Rink"
+  "Outdoor Track": 
+  - "Outdoor Track"
+  - "Track"
+  "Playground": "Playground"
+  "Pool": "Pool"
+  "Preschool Room": null
+  "ProShop": "ProShop"
+  "Skateboard Park": "Skateboard Park"
+  "Splash Pad": "Splash Pad"
+  "Sport Field": "Sport Field"
+  "Stadium": "Stadium"
+  "Stage": "Stage"
+  "Wading Pool": "Wading Pool"
+  "Washroom": "Washroom"

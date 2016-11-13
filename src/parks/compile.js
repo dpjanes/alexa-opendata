@@ -35,7 +35,7 @@ const unirest = require('unirest')
 const yaml = require('js-yaml');
 const Q = require('q');
 
-const common = require("../../../lib");
+const common = require("../../lib");
 
 const _filterFacilityType = type => {
     return true;
