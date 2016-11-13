@@ -78,6 +78,8 @@ const _q_build = Q.denodeify(_build);
 // -- put it altogether
 const compile = (done) => {
     Q({
+        url: "http://www1.toronto.ca/City_Of_Toronto/Information_Technology/Open_Data/Data_Sets/Assets/Files/locations-20110725.xml",
+        data_file: "data.xml",
         folder: __dirname,
     })
         .then(common.q_load_configuration)
