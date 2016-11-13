@@ -35,7 +35,7 @@ const unirest = require('unirest')
 const yaml = require('js-yaml');
 const Q = require('q');
 
-const common = require("../../common");
+const common = require("../../../lib");
 
 const _filterFacilityType = type => {
     return true;
@@ -86,6 +86,7 @@ const compile = (done) => {
         .then(common.q_parse_xml)
         .then(common.q_flatten_xml)
         .then(_q_build)
+        .then(common.q_geocode_all)
         .then(self => done(null, self.ds))
         .catch(error => done(error));
 }
