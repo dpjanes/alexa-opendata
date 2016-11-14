@@ -1,0 +1,48 @@
+---
+address:
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: ON
+subcategory:
+  "Bahai":
+  - "Bahai Temple"
+  - "Bahai Place of Worship"
+  "Buddhist":
+  - "Buddhist Temple"
+  - "Buddhist Shrine"
+  - "Temple"
+  "Catholic":
+  - "Catholic Church"
+  - "Church"
+  "Christian":
+  - "Christian Church"
+  - "Church"
+  "Hindu":
+  - "Hindu Temple"
+  - "Hindu Shrine"
+  - "Mandir"
+  - "Temple"
+  "Jain":
+  - "Jain Temple"
+  - "Temple"
+  "Jewish":
+  - "Synagogue"
+  "Muslim":
+  - "Mosque"
+  "Orthodox":
+  - "Orthodox Christian Church"
+  - "Orthodox Church"
+  - "Church"
+  "Other": null
+  "Scientology": null
+  "Sikh":
+  - "Sikh Temple"
+  - "Temple"
+  "Taoist":
+  - "Taoist Temple"
+  - "Temple"
+  "Unitarian":
+  - "Unitarian Church"
+  - "Church"
+  "Zoroastrian":
+  - "Fire Temple"
