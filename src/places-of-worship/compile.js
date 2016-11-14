@@ -41,10 +41,10 @@ const common = require("../../lib");
 const _build = (_self, done) => {
     const self = _.d.clone.shallow(_self);
 
-    self.ds = _.d.list(self.data, "/features", [])
+    self.outds = _.d.list(self.data, "/features", [])
         .map(featured => {
             const outd = _.d.compose.shallow({
-                "_type": "what",
+                "_type": [ "what", "where", ],
                 "name": _.d.first(featured, "properties/ORGANIZATI", null),
                 "streetAddress": _.d.first(featured, "properties/ADDRESS", null),
                 "addressLocality": _.d.first(featured, "properties/CITY", null),
@@ -79,7 +79,7 @@ const compile = (done) => {
         .then(common.q_parse_json)
         .then(_q_build)
         .then(common.q_geocode_all)
-        .then(self => done(null, self.ds))
+        .then(self => done(null, self.outds))
         .catch(error => done(error));
 }
 

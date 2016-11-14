@@ -45,7 +45,7 @@ const _filterFacilityType = type => {
 const _build = (_self, done) => {
     const self = _.d.clone.shallow(_self);
 
-    self.ds = _.flatten(
+    self.outds = _.flatten(
         _.d.list(self.data, "/Locations/Location", [])
         .map(ld => {
             const ad = _.d.compose.shallow({
@@ -54,21 +54,15 @@ const _build = (_self, done) => {
                 streetAddress: _.d.first(ld, "Address", null),
             }, self.address)
 
-            return [
-                _.d.compose.shallow(ad, {
-                    "_type": "where",
-                    "_id": `urn:ca:on:toronto:parks:${ _.id.slugify(ld.LocationID) }`,
-                }),
-                _.d.list(ld, "Facilities/Facility", [])
-                    .map(fd => _.d.add(fd, "_subcategory", _.d.list(self.subcategory, fd.FacilityDisplayName, [])))
-                    .map(fd => _.d.compose.shallow(ad, {
-                        "_type": "what",
-                        "_id": `urn:ca:on:toronto:parks:${ _.id.slugify(ld.LocationID) }:facility:${ _.id.slugify(fd.FacilityID) }`,
-                        "_category": fd._subcategory
-                            .filter(s => !_.is.Empty(s))
-                            .map(s => `Park/${ s }`),
-                    }))
-            ]
+            return _.d.list(ld, "Facilities/Facility", [])
+                .map(fd => _.d.add(fd, "_subcategory", _.d.list(self.subcategory, fd.FacilityDisplayName, [])))
+                .map(fd => _.d.compose.shallow(ad, {
+                    "_type": [ "what", "where" ],
+                    "_id": `urn:ca:on:toronto:parks:${ _.id.slugify(ld.LocationID) }:facility:${ _.id.slugify(fd.FacilityID) }`,
+                    "_category": fd._subcategory
+                        .filter(s => !_.is.Empty(s))
+                        .map(s => `Park/${ s }`),
+                }))
         }), false)
 
     return done(null, self);
@@ -89,7 +83,7 @@ const compile = (done) => {
         .then(common.q_flatten_xml)
         .then(_q_build)
         .then(common.q_geocode_all)
-        .then(self => done(null, self.ds))
+        .then(self => done(null, self.outds))
         .catch(error => done(error));
 }
 
