@@ -65,12 +65,12 @@ const _build = (_self, done) => {
                 "longitude": _.d.first(featured, "properties/LONGITUDE", null),
             }, self.address)
 
-            outd._id = `urn:ca:on:toronto:places-of-worship:${_.id.slugify(outd.streetAddress)}:${_.id.slugify(outd.name)}`;
+            outd._id = `urn:x-opendata:ca:on:toronto:places-of-worship:${_.id.slugify(outd.streetAddress)}:${_.id.slugify(outd.name)}`;
 
             const faith = _.d.first(featured, "properties/FAITH", null);
             const subcategories = self.subcategory[faith];
             if (!_.is.Empty(subcategories)) {
-                outd._category = subcategories.map(s => `Places of Worship/${ s }`)
+                outd._theme = subcategories.map(s => `Places of Worship … ${ s }`)
             }
 
             return outd;

@@ -58,10 +58,10 @@ const _build = (_self, done) => {
                 .map(fd => _.d.add(fd, "_subcategory", _.d.list(self.subcategory, fd.FacilityDisplayName, [])))
                 .map(fd => _.d.compose.shallow(ad, {
                     "_type": [ "what", "where" ],
-                    "_id": `urn:ca:on:toronto:parks:${ _.id.slugify(ld.LocationID) }:facility:${ _.id.slugify(fd.FacilityID) }`,
-                    "_category": fd._subcategory
+                    "_id": `urn:x-opendata:ca:on:toronto:parks:${ _.id.slugify(ld.LocationID) }:facility:${ _.id.slugify(fd.FacilityID) }`,
+                    "_theme": fd._subcategory
                         .filter(s => !_.is.Empty(s))
-                        .map(s => `Park/${ s }`),
+                        .map(s => `Park … ${ s }`),
                 }))
         }), false)
 
