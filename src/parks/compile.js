@@ -7,7 +7,7 @@
  *
  *  Build Park Data
  *
- *  Copyright [2013-2014] [David P. Janes]
+ *  Copyright [2013-2017] [David P. Janes]
  *
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -57,7 +57,6 @@ const _build = (_self, done) => {
             return _.d.list(ld, "Facilities/Facility", [])
                 .map(fd => _.d.add(fd, "_subcategory", _.d.list(self.subcategory, fd.FacilityDisplayName, [])))
                 .map(fd => _.d.compose.shallow(ad, {
-                    "_type": [ "what", "where" ],
                     "_id": `urn:x-opendata:ca:on:toronto:parks:${ _.id.slugify(ld.LocationID) }:facility:${ _.id.slugify(fd.FacilityID) }`,
                     "_theme": fd._subcategory
                         .filter(s => !_.is.Empty(s))

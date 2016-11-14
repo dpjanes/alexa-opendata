@@ -7,7 +7,7 @@
  *
  *  Build Places of Worship Data
  *
- *  Copyright [2013-2014] [David P. Janes]
+ *  Copyright [2013-2017] [David P. Janes]
  *
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -44,7 +44,6 @@ const _build = (_self, done) => {
     self.outds = _.d.list(self.data, "/features", [])
         .map(featured => {
             const outd = _.d.compose.shallow({
-                "_type": [ "what", "where" ],
                 "name": _.d.first(featured, "properties/TITLE", null),
                 "streetAddress": _.d.first(featured, "properties/ADDRESS", null),
                 "latitude": _.d.first(featured, "properties/LATITUDE", null),
