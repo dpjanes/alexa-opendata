@@ -51,15 +51,13 @@ const _build = (_self, done) => {
                 "longitude": _.d.first(featured, "properties/LONGITUDE", null),
             }, self.address)
 
-            /*
-            outd._id = `urn:ca:on:toronto:places-of-worship:${_.id.slugify(outd.streetAddress)}:${_.id.slugify(outd.name)}`;
+            outd._id = `urn:ca:on:toronto:places-of-worship:${_.id.slugify(outd.streetAddress || "")}:${_.id.slugify(outd.name)}`;
 
-            const faith = _.d.first(featured, "properties/FAITH", null);
-            const subcategories = self.subcategory[faith];
+            const category = _.d.first(featured, "properties/CATEGORY", null);
+            const subcategories = self.subcategory[category];
             if (!_.is.Empty(subcategories)) {
-                outd._category = subcategories.map(s => `Places of Worship/${ s }`)
+                outd._category = subcategories.map(s => `POI … ${ s }`)
             }
-            */
 
             return outd;
         })
@@ -78,7 +76,7 @@ const compile = (done) => {
         .then(common.q_load_data_from_url)
         .then(common.q_parse_json)
         .then(_q_build)
-        // .then(common.q_geocode_all)
+        .then(common.q_geocode_all)
         .then(self => done(null, self.outds))
         .catch(error => done(error));
 }
