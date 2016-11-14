@@ -1,6 +1,6 @@
 # Places of Worship
 
-* [source](http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=8cb289fe9c18b210VgnVCM1000003dd60f89RCRD)
+* [Data Source](http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=8cb289fe9c18b210VgnVCM1000003dd60f89RCRD)
 
 # Data
 

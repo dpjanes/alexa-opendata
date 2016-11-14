@@ -71,7 +71,6 @@ const _q_build = Q.denodeify(_build);
 // -- put it altogether
 const compile = (done) => {
     Q({
-        data_file: 'data.json',
         folder: __dirname,
     })
         .then(common.q_load_configuration)

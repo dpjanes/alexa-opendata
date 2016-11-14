@@ -1,4 +1,7 @@
 ---
+url: "http://opendata.toronto.ca/gcc/places_of_worship_wgs84.zip"
+extract: "PLACE_OF_WORSHIP_WGS84.shp"
+data_file: 'data.json'
 address:
   addressCountry: CA
   addressLocality: Toronto
@@ -46,3 +49,14 @@ subcategory:
   - "Church"
   "Zoroastrian":
   - "Fire Temple"
+fix_name:
+  "\\bSt[.]\\b": "Saint"
+  "\\bSt\\b": "Saint"
+  "'S": "'s"
+  " C$": " Church"
+  " Ch$": " Church"
+  " Chu$": " Church"
+  " Chur$": " Church"
+  " Churc$": " Church"
+  " Ctr$": " Centre"
+  " Jehovah's Wi": "Jehovah's Witness"
