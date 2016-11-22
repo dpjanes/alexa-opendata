@@ -37,8 +37,19 @@ const Q = require('q');
 
 const common = require("../../lib");
 
-const _filterFacilityType = type => {
-    return true;
+const _fix_name = (self, name) => {
+    if (!name) {
+        return null;
+    }
+
+    name = common.capwords(name);
+
+    _.mapObject(_.d.first(self, "fix_name") || {}, (value, key) => {
+        const key_re = new RegExp(key)
+        name = name.replace(key_re, () => value);
+    })
+
+    return name;
 }
 
 // --
@@ -49,7 +60,7 @@ const _build = (_self, done) => {
         _.d.list(self.data, "/Locations/Location", [])
         .map(ld => {
             const ad = _.d.compose.shallow({
-                name: common.capwords(_.d.first(ld, "LocationName", null)),
+                name: _fix_name(self, _.d.first(ld, "LocationName", null)),
                 postalCode: _.d.first(ld, "PostalCode", null),
                 streetAddress: _.d.first(ld, "Address", null),
             }, self.address)
