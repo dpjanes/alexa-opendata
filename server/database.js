@@ -87,12 +87,14 @@ const database = () => {
 
         _db_item[id] = itemd;
 
-        _add_list(_db_names, name, id);
+        _add_list(_db_names, name.toLowerCase(), id);
 
         _.flatten(themes.map(_all_subthemes), true)
+            .map(subtheme => subtheme.toLowerCase())
             .forEach(subtheme => _add_list(_db_themes, subtheme, id))
 
         _.flatten(themes.map(_theme_parts), true)
+            .map(theme_part => theme_part.toLowerCase())
             .forEach(theme_part => _add_list(_db_theme_parts, theme_part, id));
 
     }
@@ -103,9 +105,9 @@ const database = () => {
         .map(id => _db_item[id])
         .filter(d => d);
 
-    self.list_by_theme = theme => _retrieve(_db_themes[theme])
-    self.list_by_theme_part = theme_part => _retrieve(_db_theme_parts[theme_part])
-    self.list_by_name = name => _retrieve(_db_names[name])
+    self.list_by_theme = theme => _retrieve(_db_themes[theme.toLowerCase()])
+    self.list_by_theme_part = theme_part => _retrieve(_db_theme_parts[theme_part.toLowerCase()])
+    self.list_by_name = name => _retrieve(_db_names[name.toLowerCase()])
 
     self.dump = () => {
         console.log("+", "_db_names")

@@ -49,6 +49,12 @@ describe("list_by_name", function() {
         assert.deepEqual(result, [ warden ]);
     });
 
+    it("exists (WARDEN) ... case doesn't matter", function() {
+        const name = "WARDEN HILLTOP COMMUNITY CENTRE";
+        const result = db.list_by_name(name);
+        assert.deepEqual(result, [ warden ]);
+    });
+
     it("does not exists (Nowhere)", function() {
         const name = "nowhere";
         const result = db.list_by_name(name);
