@@ -66,11 +66,11 @@ const start = Q({
 if (ad.name && ad.theme) {
     start
         .then(query.query_name)
-        .then(util.require_location)
+        .then(util.filter_ll)
         .then(util.sort_by_distance)
         .then(util.make_result_center)
         .then(query.query_theme_part)
-        .then(util.require_location)
+        .then(util.filter_ll)
         .then(util.sort_by_distance)
         .then(util.uniq)
         .then(util.limit)
@@ -83,7 +83,7 @@ if (ad.name && ad.theme) {
 } else if (ad.name) {
     start
         .then(query.query_name)
-        .then(util.require_location)
+        .then(util.filter_ll)
         .then(util.sort_by_distance)
         .then(util.uniq)
         .then(util.limit)
@@ -96,7 +96,7 @@ if (ad.name && ad.theme) {
 } else if (ad.theme) {
     start
         .then(query.query_theme_part)
-        .then(util.require_location)
+        .then(util.filter_ll)
         .then(util.sort_by_distance)
         .then(util.uniq)
         .then(util.limit)

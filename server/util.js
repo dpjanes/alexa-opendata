@@ -34,7 +34,7 @@ const assert = require('assert');
 
 const Q = require('q');
 
-const _require_location = (_self, done) => {
+const _filter_ll = (_self, done) => {
     const self = _.d.clone.shallow(_self);
 
     assert.ok(self.resultds, "limit: self.resultds required");
@@ -123,7 +123,7 @@ const _make_result_center = (_self, done) => {
 /**
  *  API
  */
-exports.require_location = Q.denodeify(_require_location);
+exports.filter_ll = Q.denodeify(_filter_ll);
 exports.sort_by_distance = Q.denodeify(_sort_by_distance);
 exports.make_result_center = Q.denodeify(_make_result_center);
 exports.uniq = Q.denodeify(_uniq);
