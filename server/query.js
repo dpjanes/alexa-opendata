@@ -67,35 +67,3 @@ const _query_theme_part = (_self, done) => {
  */
 exports.query_name = Q.denodeify(_query_name);
 exports.query_theme_part = Q.denodeify(_query_theme_part);
-
-//
-const database = require("./database");
-const load = require("./load")
-const util = require("./util")
-
-Q({
-    dst_folder: path.join(__dirname, "..", "dst"),
-    database: database.database(),
-    n: 3,
-    latitude: 43.736342,
-    longitude: -79.419222,
-
-    name: "Toronto Eaton Centre",
-    theme_part: "Rink",
-})
-    .then(load.load)
-    .then(exports.query_name)
-    .then(util.require_location)
-    .then(util.sort_by_distance)
-    .then(util.make_result_center)
-    .then(exports.query_theme_part)
-    .then(util.require_location)
-    .then(util.sort_by_distance)
-    .then(util.uniq)
-    .then(util.limit)
-    .then(self => {
-        console.log("+", JSON.stringify(self.resultds, null, 2));
-    })
-    .catch(error => {
-        console.log("#", _.error.message(error));
-    })
