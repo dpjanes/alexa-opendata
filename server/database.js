@@ -97,14 +97,15 @@ const database = () => {
 
     }
 
-    self.get_by_id = id => {
-    }
+    self.get_by_id = id => _db_item[id] || null;
 
-    self.list_by_theme = theme => {
-    }
+    const _retrieve = ids => (ids || [])
+        .map(id => _db_item[id])
+        .filter(d => d);
 
-    self.list_by_name = name => {
-    }
+    self.list_by_theme = theme => _retrieve(_db_themes[theme])
+    self.list_by_theme_part = theme_part => _retrieve(_db_theme_parts[theme_part])
+    self.list_by_name = name => _retrieve(_db_names[name])
 
     self.dump = () => {
         console.log("+", "_db_names")
@@ -135,5 +136,26 @@ db.add({
     "postalCode": "M1L 0G6", 
     "streetAddress": "25 Mendelssohn St"
 })
+db.add({
+    "_id": "urn:x-opendata:ca:on:toronto:parks:1860:facility:42972", 
+    "_theme": [
+      "Park \u2026 Outdoor Rink", 
+      "Park \u2026 Rink"
+    ], 
+    "addressCountry": "CA", 
+    "addressLocality": "Toronto", 
+    "addressRegion": "ON", 
+    "latitude": 43.6448554, 
+    "longitude": -79.36523319999999, 
+    "name": "Sherbourne Common", 
+    "postalCode": "M5A 1B4", 
+    "streetAddress": "61 Dockside Dr"
+})
+
 
 db.dump()
+console.log(db.get_by_id("urn:x-opendata:ca:on:toronto:parks:1860:facility:42972"))
+console.log(db.get_by_id("Does Not Exist"))
+console.log(db.list_by_theme_part("Rink"))
+console.log(db.list_by_theme("Park"))
+console.log(db.list_by_theme("Park … Garden"))
