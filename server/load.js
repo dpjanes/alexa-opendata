@@ -33,6 +33,7 @@ const path = require('path');
 const assert = require('assert');
 
 const yaml = require('js-yaml');
+const Q = require('q');
 
 const _load = (_self, done) => {
     const self = _.d.clone.shallow(_self);
@@ -59,6 +60,12 @@ const _load = (_self, done) => {
     });
 }
 
+/**
+ *  API
+ */
+exports.load = Q.denodeify(_load);
+
+/*
 const database = require("./database").database();
 _load({
     dst_folder: path.join(__dirname, "..", "dst"),
@@ -68,3 +75,4 @@ _load({
     console.log(self.database.list_by_name("CN Tower"));
     console.log(self.database.list_by_theme_part("Gym"));
 })
+*/
