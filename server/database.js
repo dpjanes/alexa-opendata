@@ -120,6 +120,12 @@ const database = () => {
     return self;
 };
 
+/**
+ *  API
+ */
+exports.database = database;
+
+/*
 const db = database()
 db.add({
     "_id": "urn:x-opendata:ca:on:toronto:parks:1865:facility:43258", 
@@ -159,3 +165,4 @@ console.log(db.get_by_id("Does Not Exist"))
 console.log(db.list_by_theme_part("Rink"))
 console.log(db.list_by_theme("Park"))
 console.log(db.list_by_theme("Park … Garden"))
+*/
