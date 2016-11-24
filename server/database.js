@@ -59,6 +59,7 @@ const _add_list = (ds, key, value) => {
 const database = () => {
     const self = Object.assign({});
 
+    let _count = 0;
     const _db_item = {};
     const _db_themes = {};
     const _db_theme_parts = {};
@@ -69,7 +70,7 @@ const database = () => {
         
         const themes = _.d.list(itemd, "_theme")
         if (_.is.Empty(themes)) {
-            console.log("warning: no _theme");
+            // console.log("warning: no _theme");
             return;
         }
         
@@ -97,6 +98,7 @@ const database = () => {
             .map(theme_part => theme_part.toLowerCase())
             .forEach(theme_part => _add_list(_db_theme_parts, theme_part, id));
 
+        _count++;
     }
 
     self.get_by_id = id => _db_item[id] || null;
@@ -117,6 +119,8 @@ const database = () => {
         console.log("+", "_db_theme_parts")
         console.log(JSON.stringify(_db_theme_parts, null, 2))
     }
+
+    self.count = () => _count;
 
 
     return self;
