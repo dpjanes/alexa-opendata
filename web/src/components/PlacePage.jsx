@@ -43,7 +43,7 @@ class PlacePage extends React.Component {
 	}
 
     renderPopulate() {
-		if (this.props.places.length) {
+		if (this.props.places.ds.length) {
 			return <div />
 		}
         if (this.props.auth.status !== C.AUTH_LOGGED_IN) {

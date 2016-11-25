@@ -22,7 +22,7 @@ app.get('*', (req, res) => {
 	res.sendFile(path.join(__dirname, 'static', 'index.html'));
 });
 
-app.listen(8080, 'localhost', (err) => {
+app.listen(8080, '0.0.0.0', (err) => {
 	if (err) {
 		console.log("#", err);
 		return;

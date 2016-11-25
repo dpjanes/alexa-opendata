@@ -1,4 +1,7 @@
-export default (state = [], action) => {
+export default (state = {
+    timestamp: new Date().toISOString(),
+    ds: []
+}, action) => {
     switch (action.type) {
         case 'PLACES.POPULATE':
             return state;
@@ -7,7 +10,10 @@ export default (state = [], action) => {
             return state;
 
         case 'PLACES.SET':
-            return [...action.placeds];
+            return {
+                timestamp: new Date().toISOString(),
+                ds: action.placeds,
+            }
 
 		default:
             return state;

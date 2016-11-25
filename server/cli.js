@@ -35,15 +35,16 @@ const assert = require('assert');
 const Q = require('q');
 const minimist = require('minimist');
 
+const firebase = require("./firebase");
 const database = require("./database");
 const load = require("./load")
 const util = require("./util")
 const query = require("./query")
 
 const ad = minimist(process.argv.slice(2), {
-    boolean: [],
+    boolean: [ "firebase" ],
     default: {
-        n: 3,
+        n: 5,
         latitude: 43.736342,
         longitude: -79.419222,
         name: null,
@@ -54,6 +55,9 @@ const ad = minimist(process.argv.slice(2), {
 const start = Q({
     dst_folder: path.join(__dirname, "..", "dst"),
     database: database.database(),
+
+    station: "xhP0Y6lsKOW0OZXHBMEPnFvmKZw2",
+
     n: ad.n,
     latitude: ad.latitude,
     longitude: ad.longitude,
@@ -61,10 +65,29 @@ const start = Q({
     name: ad.name,
     theme_part: ad.theme,
 })
-    .then(load.load);
+    .then(load.load)
+    .then(ad.firebase ? firebase.connect : null);
+
+const _done = (self) => {
+    console.log("+", "done", self.resultds.length);
+
+    if (ad.firebase) {
+        setInterval(() => process.exit(), 500);
+    } else {
+        console.log(JSON.stringify(self.resultds, null, 2));
+    }
+}
+const _error = (error) => {
+    console.log("#", _.error.message(error));
+
+    if (ad.firebase) {
+        setInterval(() => process.exit(), 500);
+    }
+}
 
 if (ad.name && ad.theme) {
     start
+        .then(self => _.d.add(self, "title", `<b>${self.theme}</b> near <b>${self.name}</b>`))
         .then(query.query_name)
         .then(util.filter_ll)
         .then(util.sort_by_distance)
@@ -74,38 +97,34 @@ if (ad.name && ad.theme) {
         .then(util.sort_by_distance)
         .then(util.uniq)
         .then(util.limit)
-        .then(self => {
-            console.log(JSON.stringify(self.resultds, null, 2));
-        })
-        .catch(error => {
-            console.log("#", _.error.message(error));
-        })
+        .then(ad.firebase ? firebase.update_places : null)
+        .then(ad.firebase ? firebase.update_title : null)
+        .then(_done)
+        .catch(_error);
 } else if (ad.name) {
     start
+        .then(self => _.d.add(self, "title", `<b>${self.name}</b>`))
         .then(query.query_name)
         .then(util.filter_ll)
         .then(util.sort_by_distance)
         .then(util.uniq)
         .then(util.limit)
-        .then(self => {
-            console.log(JSON.stringify(self.resultds, null, 2));
-        })
-        .catch(error => {
-            console.log("#", _.error.message(error));
-        })
+        .then(ad.firebase ? firebase.update_places : null)
+        .then(ad.firebase ? firebase.update_title : null)
+        .then(_done)
+        .catch(_error);
 } else if (ad.theme) {
     start
+        .then(self => _.d.add(self, "title", `<b>${self.theme}</b> near me`))
         .then(query.query_theme_part)
         .then(util.filter_ll)
         .then(util.sort_by_distance)
         .then(util.uniq)
         .then(util.limit)
-        .then(self => {
-            console.log(JSON.stringify(self.resultds, null, 2));
-        })
-        .catch(error => {
-            console.log("#", _.error.message(error));
-        })
+        .then(ad.firebase ? firebase.update_places : null)
+        .then(ad.firebase ? firebase.update_title : null)
+        .then(_done)
+        .catch(_error);
 } else {
     console.log("#", "one or both of --name and --theme required");
 }

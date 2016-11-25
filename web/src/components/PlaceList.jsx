@@ -40,7 +40,7 @@ class PlaceList extends Component {
             <div>
             <style>{style}</style>
             <table className="places list-unstyled">
-            <tbody>{ this.props.places.map(this.renderPlace) }</tbody>
+            <tbody>{ this.props.places.ds.map(this.renderPlace) }</tbody>
             </table>
             </div>
         )
