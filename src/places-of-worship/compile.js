@@ -54,9 +54,9 @@ const _fix_name = (self, name) => {
 const _build = (_self, done) => {
     const self = _.d.clone.shallow(_self);
 
-    self.outds = _.d.list(self.data, "/features", [])
+    self.itemds = _.d.list(self.data, "/features", [])
         .map(featured => {
-            const outd = _.d.compose.shallow({
+            const itemd = _.d.compose.shallow({
                 "name": _fix_name(self, _.d.first(featured, "properties/ORGANIZATI", null)),
                 "streetAddress": _.d.first(featured, "properties/ADDRESS", null),
                 "addressLocality": _.d.first(featured, "properties/CITY", null),
@@ -64,15 +64,15 @@ const _build = (_self, done) => {
                 "longitude": _.d.first(featured, "properties/LONGITUDE", null),
             }, self.address)
 
-            outd._id = `urn:x-opendata:ca:on:toronto:places-of-worship:${_.id.slugify(outd.streetAddress)}:${_.id.slugify(outd.name)}`;
+            itemd._id = `urn:x-opendata:ca:on:toronto:places-of-worship:${_.id.slugify(itemd.streetAddress)}:${_.id.slugify(itemd.name)}`;
 
             const faith = _.d.first(featured, "properties/FAITH", null);
             const subcategories = self.subcategory[faith];
             if (!_.is.Empty(subcategories)) {
-                outd._theme = subcategories.map(s => `Places of Worship … ${ s }`)
+                itemd._theme = subcategories.map(s => `Places of Worship … ${ s }`)
             }
 
-            return outd;
+            return itemd;
         })
 
     return done(null, self);
@@ -91,7 +91,7 @@ const compile = (done) => {
         .then(common.parse_json)
         .then(_q_build)
         .then(common.geocode_all)
-        .then(self => done(null, self.outds))
+        .then(self => done(null, self.itemds))
         .catch(error => done(error));
 }
 

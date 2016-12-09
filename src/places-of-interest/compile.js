@@ -41,24 +41,24 @@ const common = require("../../lib");
 const _build = (_self, done) => {
     const self = _.d.clone.shallow(_self);
 
-    self.outds = _.d.list(self.data, "/features", [])
+    self.itemds = _.d.list(self.data, "/features", [])
         .map(featured => {
-            const outd = _.d.compose.shallow({
+            const itemd = _.d.compose.shallow({
                 "name": _.d.first(featured, "properties/TITLE", null),
                 "streetAddress": _.d.first(featured, "properties/ADDRESS", null),
                 "latitude": _.d.first(featured, "properties/LATITUDE", null),
                 "longitude": _.d.first(featured, "properties/LONGITUDE", null),
             }, self.address)
 
-            outd._id = `urn:x-opendata:ca:on:toronto:pois:${_.id.slugify(outd.streetAddress || "")}:${_.id.slugify(outd.name)}`;
+            itemd._id = `urn:x-opendata:ca:on:toronto:pois:${_.id.slugify(itemd.streetAddress || "")}:${_.id.slugify(itemd.name)}`;
 
             const category = _.d.first(featured, "properties/CATEGORY", null);
             const subcategories = self.subcategory[category];
             if (!_.is.Empty(subcategories)) {
-                outd._theme = subcategories.map(s => `POI … ${ s }`)
+                itemd._theme = subcategories.map(s => `POI … ${ s }`)
             }
 
-            return outd;
+            return itemd;
         })
 
     return done(null, self);
@@ -76,7 +76,7 @@ const compile = (done) => {
         .then(common.parse_json)
         .then(_q_build)
         .then(common.geocode_all)
-        .then(self => done(null, self.outds))
+        .then(self => done(null, self.itemds))
         .catch(error => done(error));
 }
 

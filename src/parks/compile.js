@@ -56,7 +56,7 @@ const _fix_name = (self, name) => {
 const _build = (_self, done) => {
     const self = _.d.clone.shallow(_self);
 
-    self.outds = _.flatten(
+    self.itemds = _.flatten(
         _.d.list(self.data, "/Locations/Location", [])
         .map(ld => {
             const ad = _.d.compose.shallow({
@@ -91,7 +91,7 @@ const compile = (done) => {
         .then(common.flatten_xml)
         .then(_q_build)
         .then(common.geocode_all)
-        .then(self => done(null, self.outds))
+        .then(self => done(null, self.itemds))
         .catch(error => done(error));
 }
 
