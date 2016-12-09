@@ -35,10 +35,6 @@ const assert = require('assert');
 const Q = require('q');
 const minimist = require('minimist');
 
-const firebase = require("./firebase");
-const load = require("./load")
-const query = require("./query")
-
 const lib = require("../lib")
 
 const ad = minimist(process.argv.slice(2), {
@@ -65,8 +61,8 @@ const start = Q({
     name: ad.name,
     theme_part: ad.theme,
 })
-    .then(load.load)
-    .then(ad.firebase ? firebase.connect : null);
+    .then(lib.load)
+    .then(ad.firebase ? lib.firebase.connect : null);
 
 const _done = (self) => {
     console.log("+", "done", self.itemds.length);
@@ -88,41 +84,41 @@ const _error = (error) => {
 if (ad.name && ad.theme) {
     start
         .then(self => _.d.add(self, "title", `<b>${self.theme_part}</b> near <b>${self.name}</b>`))
-        .then(query.query_name)
+        .then(lib.query_name)
         .then(lib.filter_ll)
         .then(lib.sort_by_distance)
         .then(lib.make_result_center)
-        .then(query.query_theme_part)
+        .then(lib.query_theme_part)
         .then(lib.filter_ll)
         .then(lib.sort_by_distance)
         .then(lib.uniq)
         .then(lib.limit)
-        .then(ad.firebase ? firebase.update_places : null)
-        .then(ad.firebase ? firebase.update_title : null)
+        .then(ad.firebase ? lib.firebase.update_places : null)
+        .then(ad.firebase ? lib.firebase.update_title : null)
         .then(_done)
         .catch(_error);
 } else if (ad.name) {
     start
         .then(self => _.d.add(self, "title", `<b>${self.name}</b>`))
-        .then(query.query_name)
+        .then(lib.query_name)
         .then(lib.filter_ll)
         .then(lib.sort_by_distance)
         .then(lib.uniq)
         .then(lib.limit)
-        .then(ad.firebase ? firebase.update_places : null)
-        .then(ad.firebase ? firebase.update_title : null)
+        .then(ad.firebase ? lib.firebase.update_places : null)
+        .then(ad.lib.firebase ? firebase.update_title : null)
         .then(_done)
         .catch(_error);
 } else if (ad.theme) {
     start
         .then(self => _.d.add(self, "title", `<b>${self.theme_part}</b> near me`))
-        .then(query.query_theme_part)
+        .then(lib.query_theme_part)
         .then(lib.filter_ll)
         .then(lib.sort_by_distance)
         .then(lib.uniq)
         .then(lib.limit)
-        .then(ad.firebase ? firebase.update_places : null)
-        .then(ad.firebase ? firebase.update_title : null)
+        .then(ad.firebase ? lib.firebase.update_places : null)
+        .then(ad.firebase ? lib.firebase.update_title : null)
         .then(_done)
         .catch(_error);
 } else {
