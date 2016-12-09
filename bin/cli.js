@@ -61,7 +61,7 @@ const start = Q({
     name: ad.name,
     theme_part: ad.theme,
 })
-    .then(lib.load)
+    .then(lib.load_database)
     .then(ad.firebase ? lib.firebase.connect : null);
 
 const _done = (self) => {
