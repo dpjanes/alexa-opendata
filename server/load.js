@@ -64,15 +64,3 @@ const _load = (_self, done) => {
  *  API
  */
 exports.load = Q.denodeify(_load);
-
-/*
-const database = require("./database").database();
-_load({
-    dst_folder: path.join(__dirname, "..", "dst"),
-    database: database,
-}, (error, self) => {
-    console.log("+", self.database.count());
-    console.log(self.database.list_by_name("CN Tower"));
-    console.log(self.database.list_by_theme_part("Gym"));
-})
-*/

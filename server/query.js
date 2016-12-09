@@ -43,7 +43,7 @@ const _query_name = (_self, done) => {
     assert.ok(self.longitude, "query_name: self.longitude required");
     assert.ok(self.name, "query_name: self.name required");
 
-    self.resultds = self.database.list_by_name(self.name);
+    self.itemds = self.database.list_by_name(self.name);
 
     done(null, self);
 }
@@ -57,7 +57,7 @@ const _query_theme_part = (_self, done) => {
     assert.ok(self.longitude, "query_theme_part: self.longitude required");
     assert.ok(self.theme_part, "query_theme_part: self.theme_part required");
 
-    self.resultds = self.database.list_by_theme_part(self.theme_part);
+    self.itemds = self.database.list_by_theme_part(self.theme_part);
 
     done(null, self);
 }
