@@ -2,6 +2,8 @@
 
 * [Data Source](http://www1.toronto.ca/City_Of_Toronto/Information_Technology/Open_Data/Data_Sets/Assets/Files/locations-20110725.xml)
 
+Note: save this file to 'data.xml' if you'd like to speed up data loading
+
 # Data
 ## Input 
 

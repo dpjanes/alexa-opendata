@@ -85,12 +85,12 @@ const compile = (done) => {
         data_file: 'data.json',
         folder: __dirname,
     })
-        .then(common.q_load_configuration)
-        .then(common.q_load_data_from_file)
-        .then(common.q_load_data_from_url)
-        .then(common.q_parse_json)
+        .then(common.load_configuration)
+        .then(common.load_data_from_file)
+        .then(common.load_data_from_url)
+        .then(common.parse_json)
         .then(_q_build)
-        .then(common.q_geocode_all)
+        .then(common.geocode_all)
         .then(self => done(null, self.outds))
         .catch(error => done(error));
 }

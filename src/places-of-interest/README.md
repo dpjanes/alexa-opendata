@@ -2,6 +2,8 @@
 
 * [Data Source](http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=d90ac71db136c310VgnVCM10000071d60f89RCRD&vgnextchannel=8896e03bb8d1e310VgnVCM10000071d60f89RCRD)
 
+Download this data and expand into './data'. We'd like to automate this at some point in the future.
+
 # Data
 
 ## Input
