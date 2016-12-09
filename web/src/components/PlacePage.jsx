@@ -11,6 +11,7 @@ import Auth from './Auth';
 import Header from './Header';
 import PlaceMap from './PlaceMap';
 import PlaceList from './PlaceList';
+import PlaceTitle from './PlaceTitle';
 
 class PlacePage extends React.Component {
 	constructor() {
@@ -83,6 +84,7 @@ class PlacePage extends React.Component {
 			<Header />
 			<div className="row">
 			<div className="col-md-8 the-map">
+			<PlaceTitle />
 			<PlaceMap onBoundsChange={this.onBoundsChange}
 			latitude={current.latitude}
 			longitude={current.longitude}

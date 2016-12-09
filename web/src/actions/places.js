@@ -90,6 +90,7 @@ const initialState = [
 ]
 
 let listenPlacesRef = null;
+let listenTitleRef = null;
 
 export const placesListen = () => {
 	return (dispatch, getState) => {
@@ -101,23 +102,31 @@ export const placesListen = () => {
 			})
 		}
 
-		if (listenPlacesRef) {
+        if (listenPlacesRef) {
 			listenPlacesRef.off()
-			listenPlacesRef = null;
 		}
 
 		listenPlacesRef = database.ref(`stations/${station}/places`);
 		listenPlacesRef.on('value', (snapshot) => {
             const placeds = (snapshot.val() || []).filter(value => value);
-			dispatch({
+            dispatch({
 				type: "PLACES.SET",
 				placeds: placeds,
 			});
 		}, (error) => {
+		});
+
+        if (listenTitleRef) {
+			listenTitleRef.off()
+		}
+        listenTitleRef = database.ref(`stations/${station}/query/title`);
+		listenTitleRef.on('value', (snapshot) => {
+            const title = snapshot.val() || null;
             dispatch({
-				type: "PLACES.SET",
-				placeds: []
+				type: "PLACES.TITLE",
+				title: title || null,
 			});
+		}, (error) => {
 		});
 	};
 };

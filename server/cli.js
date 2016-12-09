@@ -87,7 +87,7 @@ const _error = (error) => {
 
 if (ad.name && ad.theme) {
     start
-        .then(self => _.d.add(self, "title", `<b>${self.theme}</b> near <b>${self.name}</b>`))
+        .then(self => _.d.add(self, "title", `<b>${self.theme_part}</b> near <b>${self.name}</b>`))
         .then(query.query_name)
         .then(util.filter_ll)
         .then(util.sort_by_distance)
@@ -115,7 +115,7 @@ if (ad.name && ad.theme) {
         .catch(_error);
 } else if (ad.theme) {
     start
-        .then(self => _.d.add(self, "title", `<b>${self.theme}</b> near me`))
+        .then(self => _.d.add(self, "title", `<b>${self.theme_part}</b> near me`))
         .then(query.query_theme_part)
         .then(util.filter_ll)
         .then(util.sort_by_distance)

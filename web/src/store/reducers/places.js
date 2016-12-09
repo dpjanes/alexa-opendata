@@ -1,6 +1,7 @@
 export default (state = {
     timestamp: new Date().toISOString(),
-    ds: []
+    ds: [],
+    title: "<b>X</b> near the <b>Y</b>"
 }, action) => {
     switch (action.type) {
         case 'PLACES.POPULATE':
@@ -13,7 +14,13 @@ export default (state = {
             return {
                 timestamp: new Date().toISOString(),
                 ds: action.placeds,
+                title: action.title || state.title,
             }
+
+        case 'PLACES.TITLE':
+            return Object.assign({}, state, {
+                title: action.title || ""
+            });
 
 		default:
             return state;
