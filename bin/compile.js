@@ -5,7 +5,7 @@
  *  IOTDB.org
  *  2016-11-14
  *
- *  Compile all the src folders, storing the yaml in 'dst'
+ *  Compile all the src folders, storing the yaml in '../dst'
  *
  *  Copyright [2013-2017] [David P. Janes]
  *
@@ -67,7 +67,7 @@ const _load_folders = (_self, done) => {
     });
 
 };
-const _q_load_folders = Q.denodeify(_load_folders);
+const load_folders = Q.denodeify(_load_folders);
 
 const _mkdir_dst = (_self, done) => {
     const self = _.d.clone.shallow(_self);
@@ -84,7 +84,7 @@ const _mkdir_dst = (_self, done) => {
         return done(null, self);
     })
 };
-const _q_mkdir_dst = Q.denodeify(_mkdir_dst);
+const mkdir_dst = Q.denodeify(_mkdir_dst);
 
 const _run = (_self, done) => {
     const self = _.d.clone.shallow(_self);
@@ -117,7 +117,7 @@ const _run = (_self, done) => {
         done(error, self);
     });
 }
-const _q_run = Q.denodeify(_run);
+const run = Q.denodeify(_run);
 
 // -- put it altogether
 const compile = () => {
@@ -126,9 +126,9 @@ const compile = () => {
         dst_folder: path.join(__dirname, "..", "dst"),
         folder: __dirname,
     })
-        .then(_q_load_folders)
-        .then(_q_mkdir_dst)
-        .then(_q_run)
+        .then(load_folders)
+        .then(mkdir_dst)
+        .then(run)
         .catch(error => {
             console.log("#", "error", _.error.message(error));
         })
