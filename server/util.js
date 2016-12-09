@@ -5,8 +5,6 @@
  *  IOTDB.org
  *  2016-11-24
  *
- *  The database of locations
- *
  *  Copyright [2013-2017] [David P. Janes]
  *
  *  This program is free software: you can redistribute it and/or modify
@@ -34,6 +32,12 @@ const assert = require('assert');
 
 const Q = require('q');
 
+/**
+ *  Accepts: self.resultds
+ *  Produces: self.resultds
+ *  
+ *  This removes all items in resultds that don't have a latitude or longitude
+ */
 const _filter_ll = (_self, done) => {
     const self = _.d.clone.shallow(_self);
 
@@ -46,6 +50,12 @@ const _filter_ll = (_self, done) => {
     done(null, self);
 };
 
+/**
+ *  Accepts: self.resultds, self.latitude, self.longitude
+ *  Produces: self.resultds
+ *  
+ *  This sorts resultds by distance from latitude/longitude
+ */
 const _sort_by_distance = (_self, done) => {
     const self = _.d.clone.shallow(_self);
 
@@ -74,6 +84,12 @@ const _sort_by_distance = (_self, done) => {
     done(null, self);
 };
 
+/**
+ *  Accepts: self.resultds
+ *  Produces: self.resultds
+ *
+ *  This is like UNIX "uniq" - it removes immediate duplicates
+ */
 const _uniq = (_self, done) => {
     const self = _.d.clone.shallow(_self);
 
@@ -93,6 +109,12 @@ const _uniq = (_self, done) => {
     done(null, self);
 };
 
+/**
+ *  Accepts: self.resultds, self.n
+ *  Produces: self.resultds
+ *
+ *  This limits resultds to at most n items
+ */
 const _limit = (_self, done) => {
     const self = _.d.clone.shallow(_self);
 
@@ -104,6 +126,12 @@ const _limit = (_self, done) => {
     done(null, self);
 };
 
+/**
+ *  Accepts: self.resultds
+ *  Produces: self.latitude, self.longitude
+ *
+ *  This makes the first result the center
+ */
 const _make_result_center = (_self, done) => {
     const self = _.d.clone.shallow(_self);
 
