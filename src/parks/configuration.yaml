@@ -14,6 +14,7 @@ subcategory:
   - "Ball Diamond"
   - "Baseball Field"
   - "Softball Field"
+  - "Field"
   "Clubhouse": "Clubhouse"
   "Coat Check Room": null
   "Computer/Training Room": null
@@ -21,6 +22,8 @@ subcategory:
   "Curling Rink": "Curling Rink"
   "Dogs Off-Leash Area": 
   - "Dogs Off-Leash Area"
+  - "Off-Leash Area"
+  - "Off-Leash"
   "Dressing Room": null
   "Farm Display": null
   "Firepit": "Firepit"
@@ -38,9 +41,11 @@ subcategory:
   - "Dry Pad"
   "Indoor Pool": 
   - "Indoor Pool"
+  - "Swimming Pool"
   - "Pool"
   "Indoor Rink": 
   - "Indoor Rink"
+  - "Skating Rink"
   - "Rink"
   "Indoor Track": 
   - "Indoor Track"
@@ -52,9 +57,11 @@ subcategory:
   - "Dry Pad"
   "Outdoor Pool": 
   - "Outdoor Pool"
+  - "Swimming Pool"
   - "Pool"
   "Outdoor Rink": 
   - "Outdoor Rink"
+  - "Skating Rink"
   - "Rink"
   "Outdoor Track": 
   - "Outdoor Track"
@@ -65,7 +72,9 @@ subcategory:
   "ProShop": "ProShop"
   "Skateboard Park": "Skateboard Park"
   "Splash Pad": "Splash Pad"
-  "Sport Field": "Sport Field"
+  "Sport Field": 
+  - "Sport Field"
+  - "Field"
   "Stadium": "Stadium"
   "Stage": "Stage"
   "Wading Pool": "Wading Pool"
