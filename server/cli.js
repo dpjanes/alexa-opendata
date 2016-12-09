@@ -36,7 +36,6 @@ const Q = require('q');
 const minimist = require('minimist');
 
 const firebase = require("./firebase");
-const database = require("./database");
 const load = require("./load")
 const query = require("./query")
 
@@ -55,7 +54,7 @@ const ad = minimist(process.argv.slice(2), {
 
 const start = Q({
     dst_folder: path.join(__dirname, "..", "dst"),
-    database: database.database(),
+    database: lib.database(),
 
     station: "xhP0Y6lsKOW0OZXHBMEPnFvmKZw2",
 
