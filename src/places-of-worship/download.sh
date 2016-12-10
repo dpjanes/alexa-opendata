@@ -27,6 +27,6 @@
 
 [ ! -d data ] && mkdir data 
 cd data || exit  1
-curl 'http://opendata.toronto.ca/gcc/places_of_interest_wgs84.zip' > data.zip || exit 1
+curl "http://opendata.toronto.ca/gcc/places_of_worship_wgs84.zip" > data.zip || exit 1
 unzip -o data.zip
-shp2json PLACES_OF_INTEREST_WGS84.shp > ../data.json
+shp2json "PLACE_OF_WORSHIP_WGS84.shp" > ../data.json

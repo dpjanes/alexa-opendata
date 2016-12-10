@@ -87,7 +87,7 @@ const compile = (done) => {
     })
         .then(common.load_configuration)
         .then(common.load_data_from_file)
-        .then(common.load_data_from_url)
+        // .then(common.load_data_from_url)
         .then(common.parse_json)
         .then(_q_build)
         .then(common.geocode_all)

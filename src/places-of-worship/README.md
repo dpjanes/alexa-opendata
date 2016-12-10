@@ -2,7 +2,8 @@
 
 * [Data Source](http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=8cb289fe9c18b210VgnVCM1000003dd60f89RCRD)
 
-Download this data and expand into './data'. We'd like to automate this at some point in the future.
+Use `sh download.sh` to download the data. 
+At some point we'll integrate that into the Node.JS code.
 
 # Data
 
