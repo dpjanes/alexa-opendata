@@ -43,8 +43,8 @@ const ad = minimist(process.argv.slice(2), {
     }
 });
 
-const _extract_locations = self => {
-    const slot_path = path.join(self.slots_folder, "Locations")
+const _extract_where = self => {
+    const slot_path = path.join(self.slots_folder, "Where")
 
     fs.writeFileSync(
         slot_path, 
@@ -59,8 +59,8 @@ const _extract_locations = self => {
     return self;
 }
 
-const _extract_theme_parts = self => {
-    const slot_path = path.join(self.slots_folder, "Whats")
+const _extract_what = self => {
+    const slot_path = path.join(self.slots_folder, "What")
 
     fs.writeFileSync(
         slot_path, 
@@ -81,8 +81,8 @@ Q({
     database: lib.database(),
 })
     .then(lib.load_database)
-    .then(_extract_locations)
-    .then(_extract_theme_parts)
+    .then(_extract_where)
+    .then(_extract_what)
     .then(self => {
         console.log("OK")
     })
