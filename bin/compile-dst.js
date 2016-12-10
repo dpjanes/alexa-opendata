@@ -131,6 +131,7 @@ const compile = () => {
         .then(run)
         .catch(error => {
             console.log("#", "error", _.error.message(error));
+            console.log(error.stack);
         })
         .done(self => {
             console.log("+", "done");
