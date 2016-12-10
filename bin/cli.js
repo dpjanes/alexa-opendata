@@ -106,7 +106,7 @@ if (ad.name && ad.theme) {
         .then(lib.uniq)
         .then(lib.limit)
         .then(ad.firebase ? lib.firebase.update_places : null)
-        .then(ad.lib.firebase ? firebase.update_title : null)
+        .then(ad.firebase ? lib.firebase.update_title : null)
         .then(_done)
         .catch(_error);
 } else if (ad.theme) {
