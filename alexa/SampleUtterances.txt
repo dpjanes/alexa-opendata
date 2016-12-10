@@ -1,0 +1,7 @@
+HeyFirstIntent where is the {Where}
+HeyFirstIntent where is {Where}
+HeyFirstIntent where are {What}
+HeyFirstIntent where are {What} near {Where}
+HeyFirstIntent where are {What} near me
+HeyFirstIntent where are {What} near us
+HeyFirstIntent where are {What} nearby

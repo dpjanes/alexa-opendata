@@ -1,0 +1,26 @@
+{
+  "intents": [
+    {
+      "intent": "HeyFirstIntent",
+      "slots": [
+        {
+            "name": "What",
+            "type": "What"
+        },
+        {
+            "name": "Where",
+            "type": "Where"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
