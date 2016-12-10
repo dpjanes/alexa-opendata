@@ -1,0 +1,31 @@
+{
+    "author": "David Janes <davidjanes@davidjanes.com>", 
+    "bin": {
+        "alexa-opendata": "cli.js"
+    }, 
+    "bugs": {
+        "url": "https://github.com/dpjanes/alexa-opendata/issues"
+    }, 
+    "dependencies": {
+        "async": "~2.1.4", 
+        "iotdb": ">=3.0.0", 
+        "js-yaml": "~3.7.0", 
+        "minimist": "~1.2.0", 
+        "q": "~1.4.1", 
+        "unirest": "~0.5.1", 
+        "xml2js": "~0.4.17"
+    }, 
+    "description": "Alexa Open Data interface", 
+    "homepage": "https://github.com/dpjanes/alexa-opendata#readme", 
+    "license": "Apache-2.0", 
+    "main": "index.js", 
+    "name": "alexa-opendata", 
+    "repository": {
+        "type": "git", 
+        "url": "git+https://github.com/dpjanes/alexa-opendata.git"
+    }, 
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }, 
+    "version": "1.0.0"
+}
