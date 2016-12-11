@@ -38,13 +38,14 @@ const minimist = require('minimist');
 const lib = require("../lib")
 
 const ad = minimist(process.argv.slice(2), {
-    boolean: [ "firebase" ],
+    boolean: [ "firebase", "fuzzy", ],
     default: {
         n: 5,
         latitude: 43.736342,
         longitude: -79.419222,
         name: null,
         theme: null,
+        fuzzy: false,
     }
 });
 
@@ -57,6 +58,7 @@ const start = Q({
     n: ad.n,
     latitude: ad.latitude,
     longitude: ad.longitude,
+    fuzzy: ad.fuzzy,
 
     name: ad.name,
     theme_part: ad.theme,
