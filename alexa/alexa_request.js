@@ -18,9 +18,6 @@ const _ = iotdb._;
 const path = require("path");
 const url = require("url");
 
-const homestar = require('..');
-const settings = homestar.settings;
-
 const errors = require("iotdb-errors");
 const iotdb_format = require("iotdb-format");
 
@@ -84,6 +81,7 @@ const _alexa_session_validate = Q.denodeify(__alexa_session_validate);
 const __alexa_session_runner = function(self, done) {
     self = _.d.clone.shallow(self);
 
+    /*
     // get bearer token
     self.bearer_token = _.d.get(self.body, "session/user/accessToken");
     if (!_.is.String(self.bearer_token)) {
@@ -108,6 +106,7 @@ const __alexa_session_runner = function(self, done) {
 
         return done(null, self);
     });
+    */
 };
 const _alexa_session_runner = Q.denodeify(__alexa_session_runner);
 

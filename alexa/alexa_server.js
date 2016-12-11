@@ -29,7 +29,7 @@ const alexa_request = require('./alexa_request');
 /**
  *  This just sets up express
  */
-const _express_setup = function(self, done) {
+const __express_setup = function(self, done) {
     self = _.d.clone.shallow(self);
 
     const app = express();
@@ -41,12 +41,12 @@ const _express_setup = function(self, done) {
         done(null, self);
     });
 };
-const _express_setup = Q.denodeify(_express_setup);
+const _express_setup = Q.denodeify(__express_setup);
 
 /**
  *  This monitors all requests
  */
-const _app_monitor = function(self, done) {
+const __app_monitor = function(self, done) {
     self = _.d.clone.shallow(self);
 
     self.app.use((request, response, next) => {
@@ -66,12 +66,12 @@ const _app_monitor = function(self, done) {
 
     done(null, self);
 };
-const _app_monitor = Q.denodeify(_app_monitor);
+const _app_monitor = Q.denodeify(__app_monitor);
 
 /**
  *  This handles POST requests from AWS
  */
-const _app_alexa = function(_self, done) {
+const __app_alexa = function(_self, done) {
     const self = _.d.clone.shallow(_self);
 
     self.app.use("/request", (request, response) => {
@@ -88,18 +88,18 @@ const _app_alexa = function(_self, done) {
 
     done(null, self);
 };
-const _app_alexa = Q.denodeify(_app_alexa);
+const _app_alexa = Q.denodeify(__app_alexa);
 
 /**
  */
-const __database_setup = function(self, done) {
+const __database_setup = function(_self, done) {
     const self = _.d.clone.shallow(_self);
 };
 const _database_setup = Q.denodeify(__database_setup);
 
 /*
  */
-const __firebase_setup = function(self, done) {
+const __firebase_setup = function(_self, done) {
     const self = _.d.clone.shallow(_self);
 }
 const _firebase_setup = Q.denodeify(__firebase_setup);
