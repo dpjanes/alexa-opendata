@@ -68,8 +68,8 @@ const response_templated = {
     }
   },
  */
-const __alexa_session_validate = function(self, done) {
-    self = _.d.clone.shallow(self);
+const __alexa_session_validate = (_self, done) => {
+    const self = _.d.clone.shallow(_self);
 
     return done(null, self);
 };
@@ -78,9 +78,10 @@ const _alexa_session_validate = Q.denodeify(__alexa_session_validate);
 /**
  *  This handles HomeStar user
  */
-const __alexa_session_runner = function(self, done) {
-    self = _.d.clone.shallow(self);
+const __alexa_session_runner = (_self, done) => {
+    const self = _.d.clone.shallow(_self);
 
+    return done(null, self);
     /*
     // get bearer token
     self.bearer_token = _.d.get(self.body, "session/user/accessToken");
@@ -131,8 +132,8 @@ const _alexa_session_runner = Q.denodeify(__alexa_session_runner);
     }
   }
  */
-const __alexa_request_parse = function(self, done) {
-    self = _.d.clone.shallow(self);
+const __alexa_request_parse = (_self, done) => {
+    const self = _.d.clone.shallow(_self);
 
     console.log("========");
     console.log(JSON.stringify(self.body, null, 2));
@@ -154,8 +155,8 @@ const _alexa_request_parse = Q.denodeify(__alexa_request_parse);
 
 /**
  */
-const __execute = function(self, done) {
-    self = _.d.clone.shallow(self);
+const __execute = (_self, done) => {
+    const self = _.d.clone.shallow(_self);
 
     done(null, self);
 };
@@ -164,8 +165,8 @@ const _execute = Q.denodeify(__execute);
 /**
  *  This does the work of processing an Alexa request
  */
-const _alexa_handle = function(self, done) {
-    self = _.d.clone.shallow(self);
+const _alexa_handle = (_self, done) => {
+    const self = _.d.clone.shallow(_self);
 
     Q(self)
         .then(_alexa_session_validate)
@@ -180,9 +181,7 @@ const _alexa_handle = function(self, done) {
         })
         .catch(error => {
             console.log("#", "error", _.error.message(error));
-            console.log(error.trace);
-
-            done(error);
+            console.log(error.stack);
         })
 };
 
