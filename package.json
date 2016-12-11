@@ -8,8 +8,12 @@
     }, 
     "dependencies": {
         "async": "~2.1.4", 
+        "body-parser": "~1.15.2", 
+        "express": "~4.14.0", 
         "firebase": "~3.6.3", 
         "iotdb": ">=3.0.0", 
+        "iotdb-format": "",
+        "iotdb-errors": "",
         "js-yaml": "~3.7.0", 
         "minimist": "~1.2.0", 
         "node-geocoder": "~3.15.1", 
