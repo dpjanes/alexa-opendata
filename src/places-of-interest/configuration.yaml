@@ -41,3 +41,5 @@ subcategory:
   - "Visitor Information Centre"
   - "Visitor Information"
   - "VIC"
+fix_name:
+  "^Toronto Eaton Centre$": "Eaton Centre"
