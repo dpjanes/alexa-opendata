@@ -123,8 +123,8 @@ const __alexa_request_parse = (_self, done) => {
     console.log(JSON.stringify(self.body, null, 2));
     console.log("========");
 
-    self.name = _.d.get(self.body, "/request/intent/slots/Where/value") || null;
-    self.theme_part = _.d.get(self.body, "/request/intent/slots/What/value") || null;
+    self.where = _.d.get(self.body, "/request/intent/slots/Where/value") || null;
+    self.what = _.d.get(self.body, "/request/intent/slots/What/value") || null;
 
     done(null, self);
 };
@@ -132,54 +132,83 @@ const _alexa_request_parse = Q.denodeify(__alexa_request_parse);
 
 /**
  */
-const __execute = (_self, done) => {
+const __execute_where_what = (_self, done) => {
     const self = _.d.clone.shallow(_self);
 
-    if (self.name && self.theme_part) {
-        start
-            .then(self => _.d.add(self, "title", `<b>${self.theme_part}</b> near <b>${self.name}</b>`))
-            .then(lib.query_name)
-            .then(lib.filter_ll)
-            .then(lib.sort_by_distance)
-            .then(lib.make_result_center)
-            .then(lib.query_theme_part)
-            .then(lib.filter_ll)
-            .then(lib.sort_by_distance)
-            .then(lib.uniq)
-            .then(lib.limit)
-            .then(lib.firebase.update_places)
-            .then(lib.firebase.update_title)
-            .then(self => done(null, self))
-            .catch(error => done(error))
-    } else if (self.name) {
-        start
-            .then(self => _.d.add(self, "title", `<b>${self.name}</b>`))
-            .then(lib.query_name)
-            .then(lib.filter_ll)
-            .then(lib.sort_by_distance)
-            .then(lib.uniq)
-            .then(lib.limit)
-            .then(lib.firebase.update_places)
-            .then(lib.firebase.update_title)
-            .then(self => done(null, self))
-            .catch(error => done(error))
-    } else if (self.theme_part) {
-        start
-            .then(self => _.d.add(self, "title", `<b>${self.theme_part}</b> near me`))
-            .then(lib.query_theme_part)
-            .then(lib.filter_ll)
-            .then(lib.sort_by_distance)
-            .then(lib.uniq)
-            .then(lib.limit)
-            .then(lib.firebase.update_places)
-            .then(lib.firebase.update_title)
-            .then(self => done(null, self))
-            .catch(error => done(error))
-    } else {
-        done(new Error("expected Where or What"));
+    if (!(self.what && self.where)) {
+        return done(null, self);
     }
+
+    self.name = self.where;
+    self.theme_part = self.what;
+
+    Q(self)
+        .then(self => _.d.add(self, "title", `<b>${self.theme_part}</b> near <b>${self.name}</b>`))
+        .then(lib.query_name)
+        .then(lib.filter_ll)
+        .then(lib.sort_by_distance)
+        .then(lib.make_result_center)
+        .then(lib.query_theme_part)
+        .then(lib.filter_ll)
+        .then(lib.sort_by_distance)
+        .then(lib.uniq)
+        .then(lib.limit)
+        .then(lib.firebase.update_places)
+        .then(lib.firebase.update_title)
+        .then(self => done(null, self))
+        .catch(error => done(error))
 };
-const _execute = Q.denodeify(__execute);
+const _execute_where_what = Q.denodeify(__execute_where_what);
+
+/**
+ */
+const __execute_where = (_self, done) => {
+    const self = _.d.clone.shallow(_self);
+
+    if (!(!self.what && self.where)) {
+        return done(null, self);
+    }
+
+    self.name = self.where;
+
+    Q(self)
+        .then(self => _.d.add(self, "title", `<b>${self.name}</b>`))
+        .then(lib.query_name)
+        .then(lib.filter_ll)
+        .then(lib.sort_by_distance)
+        .then(lib.uniq)
+        .then(lib.limit)
+        .then(lib.firebase.update_places)
+        .then(lib.firebase.update_title)
+        .then(self => done(null, self))
+        .catch(error => done(error))
+};
+const _execute_where = Q.denodeify(__execute_where);
+
+/**
+ */
+const __execute_what = (_self, done) => {
+    const self = _.d.clone.shallow(_self);
+
+    if (!(self.what && !self.where)) {
+        return done(null, self);
+    }
+
+    self.theme_part = self.what;
+
+    Q(self)
+        .then(self => _.d.add(self, "title", `<b>${self.theme_part}</b> near me`))
+        .then(lib.query_theme_part)
+        .then(lib.filter_ll)
+        .then(lib.sort_by_distance)
+        .then(lib.uniq)
+        .then(lib.limit)
+        .then(lib.firebase.update_places)
+        .then(lib.firebase.update_title)
+        .then(self => done(null, self))
+        .catch(error => done(error))
+};
+const _execute_what = Q.denodeify(__execute_what);
 
 /**
  *  This does the work of processing an Alexa request
@@ -191,7 +220,9 @@ const _alexa_handle = (_self, done) => {
         .then(_alexa_session_validate)
         .then(_alexa_session_runner)
         .then(_alexa_request_parse)
-        .then(_execute)
+        .then(_execute_where_what)
+        .then(_execute_where)
+        .then(_execute_what)
         .then((self) => {
             done(null, iotdb_format.format(response_templated, {
                 title: success_title,
