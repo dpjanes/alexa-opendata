@@ -28,6 +28,8 @@ const logger = iotdb.logger({
     module: 'alexa/alexa_request',
 });
 
+const lib = require("../lib")
+
 const success_title = "Done!";
 const success_message = "OK, done!";
 
@@ -113,24 +115,6 @@ const _alexa_session_runner = Q.denodeify(__alexa_session_runner);
 
 /**
  *  This parses an Alexa request
-  "request": {
-    "type": "IntentRequest",
-    "requestId": "amzn1.echo-api.request.4c98f240-0ded-4e12-a4a3-223b7df17c81",
-    "timestamp": "2016-04-26T18:24:05Z",
-    "intent": {
-      "name": "HomeStarFirstIntent",
-      "slots": {
-        "Action": {
-          "name": "Action",
-          "value": "turn on"
-        },
-        "Thing": {
-          "name": "Thing",
-          "value": "lights"
-        }
-      }
-    }
-  }
  */
 const __alexa_request_parse = (_self, done) => {
     const self = _.d.clone.shallow(_self);
@@ -139,15 +123,8 @@ const __alexa_request_parse = (_self, done) => {
     console.log(JSON.stringify(self.body, null, 2));
     console.log("========");
 
-    const what = _.d.get(self.body, "/request/intent/slots/What/value");
-    if (what) {
-        self.what = what;
-    }
-
-    const where = _.d.get(self.body, "/request/intent/slots/Where/value");
-    if (where) {
-        self.where = where;
-    }
+    self.name = _.d.get(self.body, "/request/intent/slots/Where/value") || null;
+    self.theme_part = _.d.get(self.body, "/request/intent/slots/What/value") || null;
 
     done(null, self);
 };
@@ -158,7 +135,49 @@ const _alexa_request_parse = Q.denodeify(__alexa_request_parse);
 const __execute = (_self, done) => {
     const self = _.d.clone.shallow(_self);
 
-    done(null, self);
+    if (self.name && self.theme_part) {
+        start
+            .then(self => _.d.add(self, "title", `<b>${self.theme_part}</b> near <b>${self.name}</b>`))
+            .then(lib.query_name)
+            .then(lib.filter_ll)
+            .then(lib.sort_by_distance)
+            .then(lib.make_result_center)
+            .then(lib.query_theme_part)
+            .then(lib.filter_ll)
+            .then(lib.sort_by_distance)
+            .then(lib.uniq)
+            .then(lib.limit)
+            .then(lib.firebase.update_places)
+            .then(lib.firebase.update_title)
+            .then(self => done(null, self))
+            .catch(error => done(error))
+    } else if (self.name) {
+        start
+            .then(self => _.d.add(self, "title", `<b>${self.name}</b>`))
+            .then(lib.query_name)
+            .then(lib.filter_ll)
+            .then(lib.sort_by_distance)
+            .then(lib.uniq)
+            .then(lib.limit)
+            .then(lib.firebase.update_places)
+            .then(lib.firebase.update_title)
+            .then(self => done(null, self))
+            .catch(error => done(error))
+    } else if (self.theme_part) {
+        start
+            .then(self => _.d.add(self, "title", `<b>${self.theme_part}</b> near me`))
+            .then(lib.query_theme_part)
+            .then(lib.filter_ll)
+            .then(lib.sort_by_distance)
+            .then(lib.uniq)
+            .then(lib.limit)
+            .then(lib.firebase.update_places)
+            .then(lib.firebase.update_title)
+            .then(self => done(null, self))
+            .catch(error => done(error))
+    } else {
+        done(new Error("expected Where or What"));
+    }
 };
 const _execute = Q.denodeify(__execute);
 
@@ -182,6 +201,8 @@ const _alexa_handle = (_self, done) => {
         .catch(error => {
             console.log("#", "error", _.error.message(error));
             console.log(error.stack);
+
+            done(error);
         })
 };
 

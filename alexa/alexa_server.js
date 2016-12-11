@@ -17,12 +17,16 @@
 const iotdb = require('iotdb');
 const _ = iotdb._;
 
+const path = require('path');
+
 const express = require('express');
 const body_parser = require('body-parser')
 
 const Q = require('q');
 
 const alexa_request = require('./alexa_request');
+
+const lib = require("../lib")
 
 /* --- this is the setup flow --- */
 
@@ -90,26 +94,19 @@ const __app_alexa = (_self, done) => {
 };
 const _app_alexa = Q.denodeify(__app_alexa);
 
-/**
- */
-const __database_setup = (_self, done) => {
-    const self = _.d.clone.shallow(_self);
-    done(null, self);
-};
-const _database_setup = Q.denodeify(__database_setup);
-
-/*
- */
-const __firebase_setup = (_self, done) => {
-    const self = _.d.clone.shallow(_self);
-    done(null, self);
-}
-const _firebase_setup = Q.denodeify(__firebase_setup);
-
 const setup = () => {
-    Q({})
-        .then(_database_setup)
-        .then(_firebase_setup)
+    Q({
+        dst_folder: path.join(__dirname, "..", "dst"),
+        database: lib.database(),
+
+        station: "xhP0Y6lsKOW0OZXHBMEPnFvmKZw2",
+
+        n: 5,
+        latitude: 43.736342,
+        longitude: -79.419222,
+    })
+        .then(lib.load_database)
+        .then(lib.firebase.connect)
         .then(_express_setup)
         .then(_app_monitor)
         .then(_app_alexa)
