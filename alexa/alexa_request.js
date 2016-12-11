@@ -48,7 +48,7 @@ const response_templated = {
             "title": "{{ title }}",
             "content": "{{ message }}",
         },
-        "shouldEndSession": true
+        "shouldEndSession": true,
     },
     "sessionAttributes": {}
 };
@@ -72,6 +72,8 @@ const response_templated = {
  */
 const __alexa_session_validate = (_self, done) => {
     const self = _.d.clone.shallow(_self);
+
+    self.is_new_session = _.d.first(self.body, "/session/new", false);
 
     return done(null, self);
 };
@@ -123,8 +125,27 @@ const __alexa_request_parse = (_self, done) => {
     console.log(JSON.stringify(self.body, null, 2));
     console.log("========");
 
-    self.where = _.d.get(self.body, "/request/intent/slots/Where/value") || null;
-    self.what = _.d.get(self.body, "/request/intent/slots/What/value") || null;
+    self.response = "Sorry, I don't know how to handle this request";
+    self.end_session = true;
+
+    switch (_.d.get(self.body, "/request/type")) {
+    case "IntentRequest":
+        self.where = _.d.get(self.body, "/request/intent/slots/Where/value") || null;
+        self.what = _.d.get(self.body, "/request/intent/slots/What/value") || null;
+
+        self.end_session = self.is_new_session;
+        break;
+
+    case "LaunchRequest":
+        self.response = "OK, ask me where something is";
+        self.end_session = false;
+        break;
+
+    case "SessionEndedRequest":
+        self.response = "OK, bye";
+        self.end_session = true;
+        break;
+    }
 
     done(null, self);
 };
@@ -224,9 +245,16 @@ const _alexa_handle = (_self, done) => {
         .then(_execute_where)
         .then(_execute_what)
         .then((self) => {
-            done(null, iotdb_format.format(response_templated, {
-                title: success_title,
-                message: success_message,
+            if (self.itemds) {
+                self.response = `found ${self.itemds.length} places`;
+            }
+
+            const templated = _.d.clone.deep(response_templated);
+            _.d.set(templated, "/response/shouldEndSession", self.end_session);
+
+            done(null, iotdb_format.format(templated, {
+                title: self.response,
+                message: self.response,
             }));
         })
         .catch(error => {
