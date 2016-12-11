@@ -101,9 +101,11 @@ const setup = () => {
 
         station: "xhP0Y6lsKOW0OZXHBMEPnFvmKZw2",
 
-        n: 5,
+        n: 10,
         latitude: 43.736342,
         longitude: -79.419222,
+
+        fuzzy: true,
     })
         .then(lib.load_database)
         .then(lib.firebase.connect)
