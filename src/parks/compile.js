@@ -60,6 +60,7 @@ const _build = (_self, done) => {
         _.d.list(self.data, "/Locations/Location", [])
         .map(ld => {
             const ad = _.d.compose.shallow({
+                "_source": self.source,
                 name: _fix_name(self, _.d.first(ld, "LocationName", null)),
                 postalCode: _.d.first(ld, "PostalCode", null),
                 streetAddress: _.d.first(ld, "Address", null),

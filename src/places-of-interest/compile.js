@@ -57,6 +57,7 @@ const _build = (_self, done) => {
     self.itemds = _.d.list(self.data, "/features", [])
         .map(featured => {
             const itemd = _.d.compose.shallow({
+                "_source": self.source,
                 "name": _fix_name(self, _.d.first(featured, "properties/TITLE", null)),
                 "streetAddress": _.d.first(featured, "properties/ADDRESS", null),
                 "latitude": _.d.first(featured, "properties/LATITUDE", null),

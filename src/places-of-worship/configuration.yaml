@@ -1,4 +1,5 @@
 ---
+source: "places-of-worship"
 url: "http://opendata.toronto.ca/gcc/places_of_worship_wgs84.zip"
 extract: "PLACE_OF_WORSHIP_WGS84.shp"
 data_file: 'data.json'
