@@ -5,3 +5,13 @@ HeyFirstIntent where are {What} near {Where}
 HeyFirstIntent where are {What} near me
 HeyFirstIntent where are {What} near us
 HeyFirstIntent where are {What} nearby
+HeyFirstIntent show me {What}
+HeyFirstIntent show me {What} near {Where}
+HeyFirstIntent show me {What} near me
+HeyFirstIntent show me {What} near us
+HeyFirstIntent show me {What} nearby
+HeyFirstIntent find {What}
+HeyFirstIntent find {What} near {Where}
+HeyFirstIntent find {What} near me
+HeyFirstIntent find {What} near us
+HeyFirstIntent find {What} nearby

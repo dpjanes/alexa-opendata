@@ -176,8 +176,26 @@ const __execute_where_what = (_self, done) => {
         .then(lib.limit)
         .then(lib.firebase.update_places)
         .then(lib.firebase.update_title)
-        .then(self => done(null, self))
-        .catch(error => done(error))
+        .then(self => {
+            if (self.itemds.length === 0) {
+                self.response = `found nothing for ${self.theme_part} near ${self.name}`
+            } else if (self.itemds.length === 1) {
+                self.response = `found one place for ${self.theme_part} near ${self.name}`
+            } else {
+                self.response = `found ${self.itemds.length} places for ${self.theme_part} near ${self.name}`
+            }
+
+            done(null, self)
+        })
+        .catch(error => {
+            if (error instanceof errors.NotFound) {
+                self.response = `I did not find ${self.name}`
+                return done(null, self);
+            }
+
+            done(error)
+        })
+        
 };
 const _execute_where_what = Q.denodeify(__execute_where_what);
 
@@ -201,7 +219,17 @@ const __execute_where = (_self, done) => {
         .then(lib.limit)
         .then(lib.firebase.update_places)
         .then(lib.firebase.update_title)
-        .then(self => done(null, self))
+        .then(self => {
+            if (self.itemds.length === 0) {
+                self.response = `found nothing named ${self.name}`
+            } else if (self.itemds.length === 1) {
+                self.response = `found one place named ${self.name}`
+            } else {
+                self.response = `found ${self.itemds.length} place named ${self.name}`
+            }
+
+            done(null, self)
+        })
         .catch(error => done(error))
 };
 const _execute_where = Q.denodeify(__execute_where);
@@ -226,7 +254,17 @@ const __execute_what = (_self, done) => {
         .then(lib.limit)
         .then(lib.firebase.update_places)
         .then(lib.firebase.update_title)
-        .then(self => done(null, self))
+        .then(self => {
+            if (self.itemds.length === 0) {
+                self.response = `found nothing for ${self.theme_part}`
+            } else if (self.itemds.length === 1) {
+                self.response = `found one place for ${self.theme_part}`
+            } else {
+                self.response = `found ${self.itemds.length} places for ${self.theme_part}`
+            }
+
+            done(null, self)
+        })
         .catch(error => done(error))
 };
 const _execute_what = Q.denodeify(__execute_what);
@@ -245,10 +283,6 @@ const _alexa_handle = (_self, done) => {
         .then(_execute_where)
         .then(_execute_what)
         .then((self) => {
-            if (self.itemds) {
-                self.response = `found ${self.itemds.length} places`;
-            }
-
             const templated = _.d.clone.deep(response_templated);
             _.d.set(templated, "/response/shouldEndSession", self.end_session);
 
