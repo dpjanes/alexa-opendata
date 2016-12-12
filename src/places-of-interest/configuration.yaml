@@ -44,3 +44,9 @@ subcategory:
   - "VIC"
 fix_name:
   "^Toronto Eaton Centre$": "Eaton Centre"
+  "^Canadian Broadcasting Corporation Museum": "CBC Museum"
+  "^The ": ""
+  "[-,:].*$": ""
+  "[(].*[)]": " "
+  " +": " "
+  " +$": ""

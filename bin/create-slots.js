@@ -43,12 +43,20 @@ const ad = minimist(process.argv.slice(2), {
     }
 });
 
+/**
+ *  "Where" is the names of places, e.g. "CN Tower"
+ */
 const _extract_where = self => {
     const slot_path = path.join(self.slots_folder, "Where")
 
+    
+
     fs.writeFileSync(
         slot_path, 
-        self.database.names()
+        self.database
+            .all()
+            .filter(itemd => itemd._source === "places-of-interest")
+            .map(itemd => itemd.name)
             .sort()
             .join("\n")
             + "\n",
@@ -59,6 +67,9 @@ const _extract_where = self => {
     return self;
 }
 
+/**
+ *  "What is the theme (part) of places, e.g. "Skating Rink"
+ */
 const _extract_what = self => {
     const slot_path = path.join(self.slots_folder, "What")
 
