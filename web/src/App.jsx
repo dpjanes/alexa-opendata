@@ -7,10 +7,11 @@ import { listenToAuth } from './actions/auth';
 import { placesListen } from './actions/places';
 import PlacePage from './components/PlacePage';
 import HomePage from './components/HomePage';
+import AlexaAuthorize from './components/AlexaAuthorize';
 
 export class App extends Component {
 	componentWillMount() {
-		store.dispatch(listenToAuth());
+		// store.dispatch(listenToAuth());
 		// store.dispatch(placesListen());
 	}
 	render() {
@@ -18,6 +19,7 @@ export class App extends Component {
 			<Provider store={store}>
 			<Router history={history}>
 			<Route path="/" component={HomePage} />
+			<Route path="/authorize" component={AlexaAuthorize} />
 			<Route path="/stations/:station" component={PlacePage} />
 			</Router>
 			</Provider>

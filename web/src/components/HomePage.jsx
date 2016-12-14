@@ -3,6 +3,9 @@ import React from 'react';
 import { connect } from 'react-redux';
 import C from '../constants';
 
+import { listenToAuth } from '../actions/auth';
+import store from '../store'
+
 import Auth from './Auth';
 import Header from './Header';
 
@@ -12,10 +15,13 @@ class HomePage extends React.Component {
 	};
 
 	componentWillMount() {
+		store.dispatch(listenToAuth(true));
+		/*
 		console.log("componentWillMount", this.props.auth)
 		if (this.props.auth.status === C.AUTH_LOGGED_IN) {
 			this.props.history.push(`/stations/${this.props.auth.uid}`)
 		}
+		*/
     }
 
 	render() {

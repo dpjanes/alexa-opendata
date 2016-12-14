@@ -1,26 +1,3 @@
-/*
-
-import { applyMiddleware, createStore } from 'redux';
-import rootReducer from './reducers';
-import thunk from 'redux-thunk';
-import createLogger from 'redux-logger';
-import { Provider } from 'react-redux'
-import { Router, Route, browserHistory } from 'react-router'
-import { syncHistoryWithStore, routerReducer } from 'react-router-redux'
-
-const middlewares = [thunk];
-
-if (process.env.NODE_ENV === 'development') {
-	const logger = createLogger();
-	middlewares.push(logger);
-}
-
-const createStoreWithMiddleware = applyMiddleware(...middlewares)(createStore);
-const store = createStoreWithMiddleware(rootReducer);
-export default store;
-
-
-*/
 
 import { applyMiddleware, createStore, compose, combineReducers } from 'redux'
 import { routerMiddleware, routerReducer, syncHistoryWithStore } from 'react-router-redux'

@@ -22,10 +22,10 @@ app.get('*', (req, res) => {
 	res.sendFile(path.join(__dirname, 'static', 'index.html'));
 });
 
-app.listen(8080, '0.0.0.0', (err) => {
+app.listen(22300, '0.0.0.0', (err) => {
 	if (err) {
 		console.log("#", err);
 		return;
 	}
-	console.log('-','Listening at http://localhost:8080');
+	console.log('-','Listening at http://localhost:22300');
 });

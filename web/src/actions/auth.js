@@ -5,11 +5,15 @@ import { auth } from '../firebaseApp';
 
 import { placesListen } from './places';
 
-export const listenToAuth = () => {
+export const listenToAuth = (push_when_authorized) => {
 	return (dispatch, getState) => {
 		auth.onAuthStateChanged((authData) => {
 			if (authData) {
-				dispatch(push(`/stations/${authData.uid}`));
+				if (push_when_authorized) {
+					console.log("AUTH PUSH")
+					dispatch(push(`/stations/${authData.uid}`));
+				}
+
 				dispatch({
 					type: C.AUTH_LOGIN,
 					uid: authData.uid,
