@@ -1,5 +1,5 @@
 /*
- *  xxx.js
+ *  firebaseApp.js
  *
  *  David Janes
  *  IOTDB.org

@@ -1,5 +1,5 @@
 /*
- *  xxx.js
+ *  actions/map.js
  *
  *  David Janes
  *  IOTDB.org

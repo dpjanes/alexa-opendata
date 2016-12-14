@@ -1,5 +1,5 @@
 /*
- *  xxx.js
+ *  constants/auth.js
  *
  *  David Janes
  *  IOTDB.org

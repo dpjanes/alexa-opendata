@@ -1,5 +1,5 @@
 /*
- *  xxx.js
+ *  constants/index.js
  *
  *  David Janes
  *  IOTDB.org

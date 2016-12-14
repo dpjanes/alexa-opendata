@@ -1,5 +1,5 @@
 /*
- *  xxx.js
+ *  components/PlaceList.jsx
  *
  *  David Janes
  *  IOTDB.org

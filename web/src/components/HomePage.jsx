@@ -1,5 +1,5 @@
 /*
- *  xxx.js
+ *  components/HomePage.jsx
  *
  *  David Janes
  *  IOTDB.org

@@ -1,5 +1,5 @@
 /*
- *  xxx.js
+ *  components/PlaceMap.jsx
  *
  *  David Janes
  *  IOTDB.org

@@ -1,5 +1,5 @@
 /*
- *  xxx.js
+ *  components/Auth.jsx
  *
  *  David Janes
  *  IOTDB.org

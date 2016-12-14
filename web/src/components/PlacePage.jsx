@@ -1,5 +1,5 @@
 /*
- *  xxx.js
+ *  components/PlacePage.jsx
  *
  *  David Janes
  *  IOTDB.org

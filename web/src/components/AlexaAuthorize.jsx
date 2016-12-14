@@ -1,5 +1,5 @@
 /*
- *  xxx.js
+ *  components/AlexaAuthorize.jsx
  *
  *  David Janes
  *  IOTDB.org

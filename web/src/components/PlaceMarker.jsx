@@ -1,5 +1,5 @@
 /*
- *  xxx.js
+ *  components/PlaceMarker.jsx
  *
  *  David Janes
  *  IOTDB.org

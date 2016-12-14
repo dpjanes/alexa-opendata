@@ -1,5 +1,5 @@
 /*
- *  xxx.js
+ *  store/index.js
  *
  *  David Janes
  *  IOTDB.org

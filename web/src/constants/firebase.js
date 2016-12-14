@@ -1,5 +1,5 @@
 /*
- *  xxx.js
+ *  constants/firebase.js
  *
  *  David Janes
  *  IOTDB.org

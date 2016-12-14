@@ -1,5 +1,5 @@
 /*
- *  xxx.js
+ *  actions/auth.js
  *
  *  David Janes
  *  IOTDB.org
