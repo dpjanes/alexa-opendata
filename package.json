@@ -25,7 +25,7 @@
     }, 
     "description": "Alexa Open Data interface", 
     "homepage": "https://github.com/dpjanes/alexa-opendata#readme", 
-    "license": "Apache-2.0", 
+    "license": "GPL-3.0",
     "main": "index.js", 
     "name": "alexa-opendata", 
     "repository": {

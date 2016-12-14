@@ -33,7 +33,7 @@
     "webpack-hot-middleware": "^2.10.0"
   }, 
   "keywords": [], 
-  "license": "Apache-2.0", 
+  "license": "GPL-3.0",
   "main": "index.js", 
   "name": "alexa-opendata/web", 
   "scripts": {
