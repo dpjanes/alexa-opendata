@@ -19,3 +19,13 @@ Example commands:
     node cli --theme "Outdoor Rink" --name "CN Tower" --firebase -n 10
     node cli --theme "Outdoor Rink" --name "Toronto Eaton Centre" --firebase -n 10
     node cli --theme "Skateboard Park" --firebase -n 10
+
+## compile-dst.js
+
+This will go through everything in `../src/`, run the compile function
+and output the data in `../dst/*.yaml`
+
+## create-slots.js
+
+This will create the Alexa slot information in `../skill/slots`. It will 
+use the data from `../dst/*.yaml`
