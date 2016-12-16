@@ -35,7 +35,7 @@
   "keywords": [], 
   "license": "GPL-3.0",
   "main": "index.js", 
-  "name": "alexa-opendata/web", 
+  "name": "alexa-opendata-web", 
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.prod.babel.js", 
     "dev": "node server-dev.es5.js"
