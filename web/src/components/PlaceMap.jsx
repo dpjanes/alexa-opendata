@@ -11,12 +11,12 @@
  *  it under the terms of the GNU General Public License as published by
  *  the Free Software Foundation, either version 3 of the License, or
  *  (at your option) any later version.
- *  
+ *
  *  This program is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details.
- *  
+ *
  *  You should have received a copy of the GNU General Public License
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
@@ -46,13 +46,22 @@ class PlaceMap extends Component {
         }
 
         const gmap = this.refs.map.map_;
+        if (!gmap) {
+            return;
+        }
+
         const bounds = new google.maps.LatLngBounds();
         this.props.places.ds.forEach(place => {
             const ll = new google.maps.LatLng(place.latitude, place.longitude);
             bounds.extend(ll);
         })
 
-        gmap.fitBounds(bounds);
+        if(!bounds.isEmpty()) {
+            var originalMaxZoom = gmap.maxZoom;
+            gmap.setOptions({maxZoom: 18});
+            gmap.fitBounds(bounds);
+            gmap.setOptions({maxZoom: originalMaxZoom});
+        }
 
         this.timestamp = this.props.places.timestamp;
     }
