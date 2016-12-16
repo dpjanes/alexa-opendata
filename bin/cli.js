@@ -35,12 +35,14 @@ const assert = require('assert');
 const Q = require('q');
 const minimist = require('minimist');
 
-const lib = require("../lib")
+const lib = require("../lib");
+const config = require("../config");
 
 const ad = minimist(process.argv.slice(2), {
     boolean: [ "firebase", "fuzzy", ],
     default: {
         n: 5,
+        station: config.station || null,
         latitude: 43.736342,
         longitude: -79.419222,
         name: null,
@@ -50,10 +52,12 @@ const ad = minimist(process.argv.slice(2), {
 });
 
 const start = Q({
+    config: config,
+
     dst_folder: path.join(__dirname, "..", "dst"),
     database: lib.database(),
 
-    station: "xhP0Y6lsKOW0OZXHBMEPnFvmKZw2",
+    station: ad.station,
 
     n: ad.n,
     latitude: ad.latitude,
@@ -81,6 +85,11 @@ const _error = (error) => {
     if (ad.firebase) {
         setInterval(() => process.exit(), 500);
     }
+}
+
+if (!ad.station) {
+    console.log(`${path.basename(process.argv[1])}: --station <station> is required`);
+    process.exit(1)
 }
 
 if (ad.name && ad.theme) {
@@ -124,6 +133,7 @@ if (ad.name && ad.theme) {
         .then(_done)
         .catch(_error);
 } else {
-    console.log("#", "one or both of --name and --theme required");
+    console.log(`${path.basename(process.argv[1])}: --name <name> or --theme <theme> or both are required`);
+    process.exit(1)
 }
 
