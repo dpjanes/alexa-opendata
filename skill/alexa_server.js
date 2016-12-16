@@ -99,6 +99,8 @@ const setup = () => {
         dst_folder: path.join(__dirname, "..", "dst"),
         database: lib.database(),
 
+        config: require("../config.json"),
+
         station: "xhP0Y6lsKOW0OZXHBMEPnFvmKZw2",
 
         n: 10,

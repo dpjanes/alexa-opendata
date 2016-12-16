@@ -22,6 +22,7 @@ const errors = require("iotdb-errors");
 const iotdb_format = require("iotdb-format");
 
 const Q = require('q');
+const jwt = require('jsonwebtoken');
 
 const logger = iotdb.logger({
     name: 'alexa-opendata',
@@ -80,40 +81,27 @@ const __alexa_session_validate = (_self, done) => {
 const _alexa_session_validate = Q.denodeify(__alexa_session_validate);
 
 /**
- *  This handles HomeStar user
+ *  This handles the user that has paired with this echo
  */
-const __alexa_session_runner = (_self, done) => {
+const __decode_access_token = (_self, done) => {
     const self = _.d.clone.shallow(_self);
 
-    return done(null, self);
-    /*
-    // get bearer token
-    self.bearer_token = _.d.get(self.body, "session/user/accessToken");
-    if (!_.is.String(self.bearer_token)) {
+    self.access_token = _.d.get(self.body, "session/user/accessToken");
+    if (!_.is.String(self.access_token)) {
         return done(new errors.NotAuthorized("no access token"));
     }
 
-    // validate and get consumer, user etc.
-    homestar.db.consumer.verify_bearer(self.bearer_token, function (error, resultd) {
+    jwt.verify(self.access_token, self.config.jwtSecret, {}, (error, d) => {
         if (error) {
-            return done(new errors.NotAuthorized(_.error.message(error)));
+            return done(error);
         }
 
-        self.user = resultd.user;
-        self.consumer = resultd.consumer;
+        assert(d.uid, "expected the token to encode a UID");
 
-        self.runner_id = resultd.consumer.id;
-        self.runner_code = self.runner_id.replace(/^.*:/, '')
-        // self.runner_id = "ZYeoe1iA";
-
-        self.user_id = resultd.user.id;
-        self.user_code = self.user_id.replace(/^.*:/, '')
-
-        return done(null, self);
-    });
-    */
+        self.station = d.uid;
+    })
 };
-const _alexa_session_runner = Q.denodeify(__alexa_session_runner);
+const _decode_access_token = Q.denodeify(__decode_access_token);
 
 /**
  *  This parses an Alexa request
@@ -277,7 +265,7 @@ const _alexa_handle = (_self, done) => {
 
     Q(self)
         .then(_alexa_session_validate)
-        .then(_alexa_session_runner)
+        .then(_decode_access_token)
         .then(_alexa_request_parse)
         .then(_execute_where_what)
         .then(_execute_where)
