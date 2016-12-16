@@ -87,8 +87,8 @@ const _error = (error) => {
     }
 }
 
-if (!ad.station) {
-    console.log(`${path.basename(process.argv[1])}: --station <station> is required`);
+if (ad.firebase && !ad.station) {
+    console.log(`${path.basename(process.argv[1])}: --station <station> is required with --firebase`);
     process.exit(1)
 }
 
