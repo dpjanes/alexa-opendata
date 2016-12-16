@@ -101,7 +101,7 @@ const setup = () => {
 
         config: require("../config.json"),
 
-        station: "xhP0Y6lsKOW0OZXHBMEPnFvmKZw2",
+        // station: "xhP0Y6lsKOW0OZXHBMEPnFvmKZw2",
 
         n: 10,
         latitude: 43.736342,

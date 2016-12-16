@@ -173,6 +173,13 @@ const __execute_where_what = (_self, done) => {
                 self.response = `found ${self.itemds.length} places for ${self.theme_part} near ${self.name}`
             }
 
+            if (self.items.length) {
+                const itemd = self.itemds[0];
+                if (itemd.streetAddress) {
+                    self.response += ` at ${itemd.streetAddress}`
+                }
+            }
+
             done(null, self)
         })
         .catch(error => {
@@ -212,8 +219,18 @@ const __execute_where = (_self, done) => {
                 self.response = `found nothing named ${self.name}`
             } else if (self.itemds.length === 1) {
                 self.response = `found one place named ${self.name}`
+                
+                const itemd = self.itemds[0];
+                if (itemd.streetAddress) {
+                    self.response += ` at ${itemd.streetAddress}`
+                }
             } else {
                 self.response = `found ${self.itemds.length} place named ${self.name}`
+                
+                const itemd = self.itemds[0];
+                if (itemd.streetAddress) {
+                    self.response += `. The first is at ${itemd.streetAddress}`
+                }
             }
 
             done(null, self)
@@ -258,7 +275,6 @@ const __execute_what = (_self, done) => {
 const _execute_what = Q.denodeify(__execute_what);
 
 /**
- *  This does the work of processing an Alexa request
  */
 const _alexa_handle = (_self, done) => {
     const self = _.d.clone.shallow(_self);
