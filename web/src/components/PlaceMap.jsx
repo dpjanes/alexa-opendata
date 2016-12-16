@@ -56,11 +56,16 @@ class PlaceMap extends Component {
             bounds.extend(ll);
         })
 
-        if(!bounds.isEmpty()) {
-            var originalMaxZoom = gmap.maxZoom;
+        if (!bounds.isEmpty()) {
+            const originalMaxZoom = gmap.maxZoom;
             gmap.setOptions({maxZoom: 18});
             gmap.fitBounds(bounds);
-            gmap.setOptions({maxZoom: originalMaxZoom});
+
+            /*
+            setTimeout(() => {
+                gmap.setOptions({maxZoom: originalMaxZoom});
+            }, 1000);
+            */
         }
 
         this.timestamp = this.props.places.timestamp;
