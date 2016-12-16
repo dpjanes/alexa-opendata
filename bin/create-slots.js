@@ -36,6 +36,7 @@ const Q = require('q');
 const minimist = require('minimist');
 
 const lib = require("../lib")
+const config = require("../config");
 
 const ad = minimist(process.argv.slice(2), {
     boolean: [],
@@ -48,8 +49,6 @@ const ad = minimist(process.argv.slice(2), {
  */
 const _extract_where = self => {
     const slot_path = path.join(self.slots_folder, "Where")
-
-    
 
     fs.writeFileSync(
         slot_path, 
@@ -87,8 +86,9 @@ const _extract_what = self => {
 }
 
 Q({
+    config: config,
     dst_folder: path.join(__dirname, "..", "dst"),
-    slots_folder: path.join(__dirname, "..", "alexa", "slots"),
+    slots_folder: path.join(__dirname, "..", "skill", "slots"),
     database: lib.database(),
 })
     .then(lib.load_database)

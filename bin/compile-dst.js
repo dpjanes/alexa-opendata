@@ -35,6 +35,8 @@ const yaml = require('js-yaml');
 const Q = require('q');
 const async = require('async');
 
+const config = require("../config");
+
 const _is_directory = path => {
     try {
         return fs.statSync(path).isDirectory();
@@ -122,6 +124,7 @@ const run = Q.denodeify(_run);
 // -- put it altogether
 const compile = () => {
     Q({
+        config: config,
         src_folder: path.join(__dirname, "..", "src"),
         dst_folder: path.join(__dirname, "..", "dst"),
         folder: __dirname,
