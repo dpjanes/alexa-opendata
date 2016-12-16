@@ -17,6 +17,7 @@ const _ = iotdb._;
 
 const path = require("path");
 const url = require("url");
+const assert = require("assert");
 
 const errors = require("iotdb-errors");
 const iotdb_format = require("iotdb-format");
@@ -99,6 +100,9 @@ const __decode_access_token = (_self, done) => {
         assert(d.uid, "expected the token to encode a UID");
 
         self.station = d.uid;
+        console.log("SETTING STATION TO", self.station);
+
+        return done(null, self);
     })
 };
 const _decode_access_token = Q.denodeify(__decode_access_token);
@@ -173,11 +177,9 @@ const __execute_where_what = (_self, done) => {
                 self.response = `found ${self.itemds.length} places for ${self.theme_part} near ${self.name}`
             }
 
-            if (self.items.length) {
-                const itemd = self.itemds[0];
-                if (itemd.streetAddress) {
-                    self.response += ` at ${itemd.streetAddress}`
-                }
+            // this is set by `make_result_center`
+            if (self.itemd && self.itemd.streetAddress) {
+                self.response += ` at ${self.itemd.streetAddress}`
             }
 
             done(null, self)
