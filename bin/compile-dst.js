@@ -101,13 +101,13 @@ const _run = (_self, done) => {
         .map(fd => _.d.add(fd, "compile", require(fd.path).compile))
         .filter(fd => fd.compile)
         .map(fd => inner_done => {
-            fd.compile((error, itemds) => {
+            fd.compile(self, (error, inner_self) => {
                 if (error) {
                     return inner_done(error)
                 }
 
                 const yaml_path = path.join(self.dst_folder, `${fd.name}.yaml`);
-                fs.writeFileSync(yaml_path, yaml.safeDump(itemds, { sortKeys: true, skipInvalid: true }))
+                fs.writeFileSync(yaml_path, yaml.safeDump(inner_self.itemds, { sortKeys: true, skipInvalid: true }))
 
                 console.log("+", "compiled", fd.name, yaml_path);
                 inner_done(null);

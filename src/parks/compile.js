@@ -81,10 +81,11 @@ const _build = (_self, done) => {
 const _q_build = Q.denodeify(_build);
     
 // -- put it altogether
-const compile = (done) => {
-    Q({
-        folder: __dirname,
-    })
+const compile = (_self, done) => {
+    const self = _.d.clone.shallow(_self);
+    self.folder = __dirname;
+
+    Q(self)
         .then(common.load_configuration)
         .then(common.load_data_from_file)
         .then(common.load_data_from_url)
@@ -92,7 +93,7 @@ const compile = (done) => {
         .then(common.flatten_xml)
         .then(_q_build)
         .then(common.geocode_all)
-        .then(self => done(null, self.itemds))
+        .then(self => done(null, self))
         .catch(error => done(error));
 }
 
