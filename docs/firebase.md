@@ -6,6 +6,8 @@
 
 ## Get Settings
 
+This allows our code to access firebase (mostly).
+
 * select your project (if not already selected)
 * click on **Add Firebase to your web app**
 * copy the JSON object to `config.json` in the home folder of this project,
@@ -24,6 +26,8 @@
 
 ## Set up Authentication Methods
 
+This allows users to log in.
+
 * click on **Authentication** (left hand side)
 * click on **Set up Sign-in Method**
 * enable **Google** sign in. 
@@ -34,3 +38,13 @@
   You&apos;ll have to consult the documentation for each of
   those services to get API keys. Except for Google, which 
   you can do with a click
+
+## Add Ouath Redirect Domain
+
+Firebase will only allow named hosts to authenticate. 
+In our case, this is [hey.homestar.io](https://hey.homestar.io).
+
+* click on **Authentication** (left hand side)
+* click on **Set up Sign-in Method**
+* click on **Add Domain** (further down the page)
+* add your domain name.
