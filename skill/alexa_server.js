@@ -40,7 +40,7 @@ const __express_setup = (_self, done) => {
 
     app.use(body_parser.json());
 
-    app.listen(22200, () => {
+    app.listen(self.port, self.host, (error) => {
         self.app = app;
         done(null, self);
     });
@@ -108,14 +108,17 @@ const setup = () => {
         longitude: -79.419222,
 
         fuzzy: true,
+
+        host: "0.0.0.0",
+        port: 22200,
     })
         .then(lib.load_database)
         .then(lib.firebase.connect)
         .then(_express_setup)
         .then(_app_monitor)
         .then(_app_alexa)
-        .then(() => {
-            console.log("-", "app running");
+        .then(self => {
+            console.log('-', `Listening at http://${self.host}:${self.port} `);
         })
         .catch((error) => {
             console.log("#", "cannot start app:", _.error.message(error))
