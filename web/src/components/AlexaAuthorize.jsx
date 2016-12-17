@@ -70,10 +70,25 @@ class AlexaAuthorize extends React.Component {
 			</p>
 
 			<button className="btn" onClick={() => this.authorize()}>Authorize</button>
-			
+
 			</div>
 			</div>
 		);
+	}
+
+};
+
+const mapStateToProps = (state) => {
+	return {
+		auth: state.auth,
+	};
+};
+
+const mapDispatchToProps = {
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(AlexaAuthorize);
+
 
 /*
 
@@ -123,15 +138,3 @@ class AlexaAuthorize extends React.Component {
     	);
 	}
 	*/
-};
-
-const mapStateToProps = (state) => {
-	return {
-		auth: state.auth,
-	};
-};
-
-const mapDispatchToProps = {
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(AlexaAuthorize);

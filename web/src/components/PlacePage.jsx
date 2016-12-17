@@ -26,6 +26,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import C from '../constants';
 import { stationSet } from '../actions/station'
+import { listenToAuth } from '../actions/auth';
 import { placesListen, placesPopulate } from '../actions/places';
 import { mapListen, mapSetCurrent, mapSetPreferred, mapMakePreferredCurrent } from '../actions/map';
 import store from '../store'
@@ -45,12 +46,14 @@ class PlacePage extends React.Component {
 	};
 
 	componentWillMount() {
+		store.dispatch(listenToAuth(true));
+
 		this.props.stationSet(this.props.params.station);
 		store.dispatch(placesListen());
 		store.dispatch(mapListen());
 
 		this.props.mapMakePreferredCurrent();
-	}
+	};
 
 	onBoundsChange(center, zoom) {
 		this.center = center;
@@ -63,7 +66,7 @@ class PlacePage extends React.Component {
 		this.boundsChangeInterval = setTimeout(() => {
 			this.props.mapSetCurrent(this.center.lat, this.center.lng, this.zoom)
 		}, 1000);
-	}
+	};
 
     renderPopulate() {
 		if (this.props.places.ds.length) {
@@ -76,16 +79,20 @@ class PlacePage extends React.Component {
 			return <div />
 		}
 
-		return <div />
-
-/*
 		return (
 			<div className="top-spacer">
-			<button className="btn btn-default" onClick={this.props.placesPopulate}>Load Sample Data</button>
+			<p>
+			In order change what is displayed on the map,
+			please login, add the Hey Toronto app to your Alexa
+			account, and authorize Alexa to control this map.
+			</p>
+			<p>
+			If this is paired with a nearby Echo, try saying
+			**Alexa, start Hey Toronto**.
+			</p>
 			</div>
-		)
-		*/
-    }
+		);
+	};
 
 	renderSaveMap() {
 		if (this.props.auth.status !== C.AUTH_LOGGED_IN) {
@@ -100,7 +107,7 @@ class PlacePage extends React.Component {
 			<button className="btn btn-default" onClick={this.props.mapSetPreferred}>Save Map Position as Default</button>
 			</div>
 		)
-	}
+	};
 
 	render() {
 		const current = this.props.map.current;
@@ -145,3 +152,12 @@ const mapDispatchToProps = {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(PlacePage);
+
+
+/*
+		return (
+			<div className="top-spacer">
+			<button className="btn btn-default" onClick={this.props.placesPopulate}>Load Sample Data</button>
+			</div>
+		)
+		*/
