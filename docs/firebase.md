@@ -60,5 +60,23 @@ on that we use to identify users for Alexa.
 * save the downloaded file to `firebase-admin.json` in the root
   folder of this project
 
+## Database Rules
 
-https://firebase.google.com/docs/admin/setup
+* click on **Databse** (left hand side)
+* click on **Rules**
+* add the following rules
+
+    {
+        "rules": {
+          "stations": {
+            ".read": true,
+            "$station" : {
+              ".write" : "$station === auth.uid",
+              ".read" : true
+            }
+          }
+        }
+    }
+
+These rules allow authenticated users to modify data
+only under `/stations/thier-uid`
