@@ -122,10 +122,25 @@ const __alexa_request_parse = (_self, done) => {
 
     switch (_.d.get(self.body, "/request/type")) {
     case "IntentRequest":
-        self.where = _.d.get(self.body, "/request/intent/slots/Where/value") || null;
-        self.what = _.d.get(self.body, "/request/intent/slots/What/value") || null;
+        switch (_.d.get(self.body, "/request/intent/name")) {
+        case "AMAZON.HelpIntent":
+            self.response = "Ask me a question like 'where are skating rinks near the CN Tower' or 'where is the Eaton Centre'";
+            self.end_session = false;
+            break;
 
-        self.end_session = self.is_new_session;
+        case "AMAZON.CancelIntent":
+        case "AMAZON.StopIntent":
+            self.response = "OK, goodbye";
+            self.end_session = true;
+            break;
+
+        default:
+            self.where = _.d.get(self.body, "/request/intent/slots/Where/value") || null;
+            self.what = _.d.get(self.body, "/request/intent/slots/What/value") || null;
+            // self.end_session = self.is_new_session;
+            break;
+        }
+
         break;
 
     case "LaunchRequest":
