@@ -28,4 +28,4 @@ npm run build
 
 ## History
 
-This is from here: [vkammerer.github.io/react-redux-firebase](http://vkammerer.github.io/react-redux-firebase)  
+This is from here: [github.com/vkammerer/react-redux-firebase](https://github.com/vkammerer/react-redux-firebase)

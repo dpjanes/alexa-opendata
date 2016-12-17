@@ -34,12 +34,18 @@ export default {
 		preLoaders: [{
 			test: /\.js|\.jsx$/,
 			loaders: ['eslint-loader'],
-			exclude: ['node_modules']
+			exclude: ['node_modules',/\.json$/]
 		}],
-		loaders: [{
+		loaders: [
+        {
+            test: /\.json$/,
+            loader: "json-loader"
+        },
+        {
 			test: /\.js|\.jsx$/,
 			loaders: ['babel'],
 			include: path.join(__dirname, 'src')
-		}]
+		} 
+        ]
 	}
 };
