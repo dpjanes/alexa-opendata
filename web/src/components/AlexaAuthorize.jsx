@@ -63,8 +63,19 @@ class AlexaAuthorize extends React.Component {
 			<div>
 			<Header />
 			<div className="row">
-			<h1>Alex Authentication Page</h1>
+			<h1>AlexaAuthorize Authentication Page</h1>
+			<p>
+			Press Authorize to allow Alexa to manipulate the data
+			displayed for this account.
+			</p>
 
+			<button className="btn" onClick={() => this.authorize()}>Authorize</button>
+			
+			</div>
+			</div>
+		);
+
+/*
 
 			<table className="table">
 			<thead>
@@ -111,6 +122,7 @@ class AlexaAuthorize extends React.Component {
 			</div>
     	);
 	}
+	*/
 };
 
 const mapStateToProps = (state) => {
