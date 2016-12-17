@@ -1,0 +1,11 @@
+{
+    "rules": {
+      "stations": {
+        ".read": true,
+        "$station" : {
+          ".write" : "$station === auth.uid",
+          ".read" : true
+        }
+      }
+    }
+}
