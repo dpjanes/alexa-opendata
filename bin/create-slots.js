@@ -52,11 +52,11 @@ const _extract_where = self => {
 
     fs.writeFileSync(
         slot_path, 
-        self.database
+        _.unique(_.flatten(self.database
             .all()
             .filter(itemd => [ "places-of-interest", "intersections" ].indexOf(itemd._source) > -1)
             // .filter(itemd => [ itemd._source === "places-of-interest")
-            .map(itemd => itemd.name)
+            .map(itemd => itemd.name)))
             .sort()
             .join("\n")
             + "\n",
