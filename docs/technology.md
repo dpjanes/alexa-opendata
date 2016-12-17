@@ -1,0 +1,16 @@
+# Technology Used
+
+* Alexa
+  * [Voice Service](https://developer.amazon.com/alexa-voice-service)
+  * [Account Linking](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/linking-an-alexa-user-with-a-user-in-your-system)
+* Firebase
+  * [Firebase Database](https://firebase.google.com/docs/database/)
+  * [Firebase Authentication](https://firebase.google.com/docs/auth/)
+* Web Development
+  * [React](https://facebook.github.io/react/)
+  * [Redux](https://github.com/reactjs/redux)
+  * [NodeJS](https://github.com/reactjs/redux)
+  * [Promises](http://documentup.com/kriskowal/q/)
+* Server
+  * [Apache HTTP](https://httpd.apache.org/)
+  * [Let&apos;s Encrypt](https://letsencrypt.org/)
