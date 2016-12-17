@@ -54,7 +54,8 @@ const _extract_where = self => {
         slot_path, 
         self.database
             .all()
-            .filter(itemd => itemd._source === "places-of-interest")
+            .filter(itemd => [ "places-of-interest", "intersections" ].indexOf(itemd._source) > -1)
+            // .filter(itemd => [ itemd._source === "places-of-interest")
             .map(itemd => itemd.name)
             .sort()
             .join("\n")
