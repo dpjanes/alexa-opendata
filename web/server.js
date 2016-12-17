@@ -6,6 +6,8 @@
  *  2016-12-17
  *
  *  Copyright [2013-2017] [David P. Janes]
+ *
+ *  This is the common code for server-*.js
  */
 
 import path from 'path';
