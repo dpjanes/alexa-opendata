@@ -1,7 +1,7 @@
 # alexa-opendata
-Voice interface for Open Data
+Alexa voice interface for Open Data
 
-Ask Nearby…
+Ask Hey Toronto…
 
 * where are Parks
 * where are Parks near Yonge & Eglinton

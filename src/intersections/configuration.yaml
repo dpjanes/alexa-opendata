@@ -1,0 +1,24 @@
+---
+source: "intersections"
+url: "http://opendata.toronto.ca/gcc/centreline_intersection_wgs84.zip" 
+extract: "CENTRELINE_INTERSECTION_WGS84.shp" 
+data_file: 'data.json'
+address:
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: ON
+filter:
+  "Cul de Sac-Single Level": false
+  "Error No Domain Descrption": false
+  "Expressway Interchange-Single Level": false
+  "Lesser-Multi Level": false
+  "Lesser-Single Level": false
+  "Major-Multi Level": true
+  "Major-Single Level": true
+  "Minor-Multi Level": false
+  "Minor-Single Level": false
+  "Pseudo Intersection-Overpass/Underpass": false
+  "Pseudo Intersection-Single Level": false
+  "Statistical-Single Level": false
+fix_name:
+  " Jehovah's Wi": "Jehovah's Witness"
