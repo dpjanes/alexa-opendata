@@ -1,0 +1,35 @@
+---
+source: "cultural-hotspots"
+url: "http://opendata.toronto.ca/gcc/places_of_interest_wgs84.zip"
+extract: "PLACES_OF_INTEREST_WGS84.shp"
+data_file: 'data.json'
+address:
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: ON
+subcategory:
+  "Architecture": 
+  - "Architecture"
+  - "Art"
+  "Business": null 
+  "Community": null 
+  "Creative": null 
+  "Heritage": 
+  - "Heritage"
+  - "History"
+  "History": 
+  - "History"
+  "Hot Eats": null 
+  "Library": null
+  "Nature": null 
+  "Park": null 
+  "Public Art":
+  - "Art"
+fix_name:
+  "^The ": ""
+  "[-,:].*$": ""
+  "[(].*[)]": " "
+  " +": " "
+  " +$": ""
+
+
