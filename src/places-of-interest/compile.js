@@ -5,8 +5,6 @@
  *  IOTDB.org
  *  2016-11-12
  *
- *  Build Places of Worship Data
- *
  *  Copyright [2013-2017] [David P. Janes]
  *
  *  This program is free software: you can redistribute it and/or modify
