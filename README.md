@@ -16,6 +16,9 @@ Ask Hey Toronto…
 * where is the CN Tower
 * where is the Eaton Centre
 
+The main documentation is in [docs](./docs).
+Start with the [Introduction](./docs/introduction.md) page.
+
 # Project Organizaton
 
 All (most?) folders have their own README.md with more details
