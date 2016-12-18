@@ -58,11 +58,9 @@ const _build = (_self, done) => {
     // process.exit()
 
     self.itemds = _.d.list(self.data, "stationBeanList")
+        .filter(pd => pd.statusValue === "In Service")
+        .map(pd => _.d.transform(pd, { filter: value => value !== "null" && value !== "", }))
         .map(pd => {
-            pd = _.d.transform(pd, {
-                filter: value => value !== "null" && value !== "",
-            })
-            
             const itemd = _.d.compose.shallow({
                 "_source": self.source,
                 "name": _fix_name(self, _.d.first(pd, "stationName")),
