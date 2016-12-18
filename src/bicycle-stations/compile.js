@@ -88,7 +88,7 @@ const _build = (_self, done) => {
         })
         .filter(itemd => itemd)
 
-    console.log(self.itemds)
+    // console.log(self.itemds)
 
     done(null, self);
 }
