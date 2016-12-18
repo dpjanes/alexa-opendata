@@ -1,0 +1,15 @@
+{
+    "jwtSecret": "replace-me-with-random-data",
+    "googleApiKey": "replace-me-with-google-maps-api-key",
+	"firebase": {
+        "apiKey": "all-this-data-comes-from-firebase",
+        "authDomain": "...",
+        "databaseURL": "...",
+        "storageBucket": "...",
+        "messagingSenderId": "..."
+	},
+    "alexa": {
+        "client_id": "alexa-opendata",
+        "redirect": "..."
+    }
+}

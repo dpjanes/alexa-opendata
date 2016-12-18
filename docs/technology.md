@@ -11,6 +11,7 @@
   * [Redux](https://github.com/reactjs/redux)
   * [NodeJS](https://github.com/reactjs/redux)
   * [Promises](http://documentup.com/kriskowal/q/)
+  * [Google Maps](https://developers.google.com/maps/documentation/javascript/)
 * Server
   * [Apache HTTP](https://httpd.apache.org/)
   * [Let&apos;s Encrypt](https://letsencrypt.org/)

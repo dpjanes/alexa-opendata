@@ -1,5 +1,5 @@
 # alexa-opendata
-Alexa voice interface for Open Data
+Alexa voice interface for Toronto Open Data
 
 Ask Hey Toronto…
 
@@ -14,6 +14,7 @@ Ask Hey Toronto…
 * where are Parking Garages near me
 * where are Parking Garages nearby
 * where is the CN Tower
+* where is the Eaton Centre
 
 # Project Organizaton
 

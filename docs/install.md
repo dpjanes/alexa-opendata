@@ -12,6 +12,14 @@ Our environment is set up as
 The first is non-negotiable, the other two
 you can probably subtitute to taste.
 
+### Configuration
+
+Do
+
+    cp ./config.json.template ./config.json
+
+Fill in all the values. 
+
 ### Libraries
 
 This is needed to parse ESRI shapefile data. 
