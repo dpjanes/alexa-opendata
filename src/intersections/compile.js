@@ -98,7 +98,16 @@ const _build = (_self, done) => {
                 "longitude": _.d.first(featured, "properties/LONGITUDE", null),
             }, self.address)
 
-            itemd._id = `urn:x-opendata:ca:on:toronto:intersections:${_.id.slugify(itemd._name)}`;
+            // itemd._id = `urn:x-opendata:ca:on:toronto:intersections:${_.id.slugify(itemd._name)}`;
+            itemd._id = [
+                "urn",
+                "x-opendata",
+                _.id.slugify(self.address.addressCountry),
+                _.id.slugify(self.address.addressRegion),
+                _.id.slugify(self.address.addressLocality),
+                self.source,
+                _.id.slugify(itemd._name),
+            ].join(":")
             itemd._theme = "Intersection"
 
             return itemd;

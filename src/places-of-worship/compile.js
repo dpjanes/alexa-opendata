@@ -63,7 +63,17 @@ const _build = (_self, done) => {
                 "longitude": _.d.first(featured, "properties/LONGITUDE", null),
             }, self.address)
 
-            itemd._id = `urn:x-opendata:ca:on:toronto:places-of-worship:${_.id.slugify(itemd.streetAddress)}:${_.id.slugify(itemd.name)}`;
+            // itemd._id = `urn:x-opendata:ca:on:toronto:places-of-worship:${_.id.slugify(itemd.streetAddress)}:${_.id.slugify(itemd.name)}`;
+            itemd._id = [
+                "urn",
+                "x-opendata",
+                _.id.slugify(self.address.addressCountry),
+                _.id.slugify(self.address.addressRegion),
+                _.id.slugify(self.address.addressLocality),
+                self.source,
+                _.id.slugify(itemd.streetAddress || ""),
+                _.id.slugify(itemd.name),
+            ].join(":")
 
             const faith = _.d.first(featured, "properties/FAITH", null);
             const subcategories = self.subcategory[faith];
