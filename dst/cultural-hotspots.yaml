@@ -1,0 +1,1960 @@
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:150_borough_dr:21_points_in_equilibrium'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.772936248
+  longitude: -79.257066555
+  name: 21 Points in Equilibrium
+  streetAddress: 150 Borough Dr
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:450_scarborough_golf_club_road:crucified_again'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7538063535
+  longitude: -79.216170331
+  name: Crucified Again
+  streetAddress: 450 Scarborough Golf Club Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_187369_43_783078:a_tall_couple'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.783078
+  longitude: -79.187369
+  name: A Tall Couple
+  streetAddress: '-79.187369, 43.783078'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_273286_43_693461:warden_underpass_mural'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.693461
+  longitude: -79.273286
+  name: Warden Underpass Mural
+  streetAddress: '-79.273286, 43.693461'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_255266_43_700826:sustenance'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.700826
+  longitude: -79.255266
+  name: Sustenance
+  streetAddress: '-79.255266, 43.700826'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_256558_43_773699:eruption'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.773699
+  longitude: -79.256558
+  name: Eruption
+  streetAddress: '-79.256558, 43.773699'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_25685_43_773829:procession'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.773829
+  longitude: -79.25685
+  name: Procession
+  streetAddress: '-79.25685, 43.773829'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:3206_danforth_ave:_the_owl_mural'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6926225366
+  longitude: -79.2832958283
+  name: '"The Owl" Mural'
+  streetAddress: 3206 Danforth Ave
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:1445_kingston_road:giant_birch_tree'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6876632719
+  longitude: -79.2706559604
+  name: Giant Birch Tree
+  streetAddress: 1445 Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:1674_kingston_road:birches_and_bluffs'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6919555022
+  longitude: -79.2643033626
+  name: Birches and Bluffs
+  streetAddress: 1674 Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:1650_kingston_road:birch_forest'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.691997318
+  longitude: -79.2655718249
+  name: Birch Forest
+  streetAddress: 1650 Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_171796_43_782407:creekside'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.782407
+  longitude: -79.171796
+  name: Creekside
+  streetAddress: '-79.171796,43.782407'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2075_lawrence_ave_e:torso'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.745252102
+  longitude: -79.2932245847
+  name: Torso
+  streetAddress: 2075 Lawrence Ave E
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_23559879999998_43_7227471:arts_beyond_the_road'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7227471
+  longitude: -79.2355988
+  name: Arts Beyond the Road
+  streetAddress: '-79.23559879999998, 43.7227471'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_257_43_771462:fibonacci_cadenza'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.771462
+  longitude: -79.257
+  name: Fibonacci Cadenza
+  streetAddress: '-79.257, 43.771462'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_259_43_77146:hand_of_god'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.77146
+  longitude: -79.259
+  name: Hand of God
+  streetAddress: '-79.259,43.77146'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_258_43_771462:ode_to_the_sun'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.771462
+  longitude: -79.258
+  name: Ode to the Sun
+  streetAddress: '-79.258, 43.771462'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:30_parma_crt:everyone_has_the_right_to_life'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7169676188
+  longitude: -79.3002694663
+  name: Everyone has the right to life
+  streetAddress: 30 Parma Crt
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_20211_43_764853:bridging_project'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.764853
+  longitude: -79.20211
+  name: Bridging Project
+  streetAddress: '-79.20211,43.764853'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_185406_43_780004:miller_lash_house'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.780004
+  longitude: -79.185406
+  name: Miller Lash House
+  streetAddress: '-79.185406,43.780004'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_169856_43_784111:community_spirit_in_early_highland_creek'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.784111
+  longitude: -79.169856
+  name: Community Spirit in Early Highland Creek
+  streetAddress: '-79.169856,43.784111'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_2224349975585_43_7547264099121:secor_cairn'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7547264099
+  longitude: -79.2224349976
+  name: Secor Cairn
+  streetAddress: '-79.2224349975585,43.7547264099121'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_254642_43_757527:mccowan_log_house'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.757527
+  longitude: -79.254642
+  name: McCowan Log House
+  streetAddress: '-79.254642,43.757527'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_254768371582_43_7581710815429:cornell_house'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7581710815
+  longitude: -79.2547683716
+  name: Cornell House
+  streetAddress: '-79.254768371582,43.7581710815429'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_234471_43_759797:tabor_hill_ossuary'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.759797
+  longitude: -79.234471
+  name: Tabor Hill Ossuary
+  streetAddress: '-79.234471,43.759797'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_252889_43_760321:st_andrews_presbyterian_church_cemetery'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.760321
+  longitude: -79.252889
+  name: St. Andrews Presbyterian Church Cemetery
+  streetAddress: '-79.252889,43.760321'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_251462_43_760415:centennial_library'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.760415
+  longitude: -79.251462
+  name: Centennial Library
+  streetAddress: '-79.251462, 43.760415'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_2531433105468_43_7607383728027:st_andrew_s_sexton_house'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7607383728
+  longitude: -79.2531433105
+  name: "St. Andrew's Sexton House"
+  streetAddress: '-79.2531433105468,43.7607383728027'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_263921_43_73217:a_sense_of_place'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.73217
+  longitude: -79.263921
+  name: A Sense of Place
+  streetAddress: '-79.263921,43.73217'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_216446_43_739794:udhr_article_27'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.739794
+  longitude: -79.216446
+  name: 'UDHR Article #27'
+  streetAddress: '-79.216446,43.739794'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_2145690917968_43_7413215637207:russel_cornell_farm'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7413215637
+  longitude: -79.2145690918
+  name: Russel Cornell Farm
+  streetAddress: '-79.2145690917968,43.7413215637207'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_260737_43_7418:shahab_plaza'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7418
+  longitude: -79.260737
+  name: Shahab Plaza
+  streetAddress: '-79.260737,43.7418'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_220225_43_742515:diversity'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.742515
+  longitude: -79.220225
+  name: Diversity
+  streetAddress: '-79.220225,43.742515'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_193184_43_745173:osterhaut_cabin'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.745173
+  longitude: -79.193184
+  name: Osterhaut Cabin
+  streetAddress: '-79.193184,43.745173'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_2951_43_706197:dawes_crossing_by_noel_harding'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.706197
+  longitude: -79.2951
+  name: Dawes Crossing by Noel Harding
+  streetAddress: '-79.2951,43.706197'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_2486190795898_43_7082786560058:cliffside_golf_course'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.708278656
+  longitude: -79.2486190796
+  name: Cliffside Golf Course
+  streetAddress: '-79.2486190795898,43.7082786560058'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_21696_43_72655:fool_s_paradise'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.72655
+  longitude: -79.21696
+  name: "Fool's Paradise"
+  streetAddress: '-79.21696, 43.72655'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_213701_43_727177:passage'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.727177
+  longitude: -79.213701
+  name: Passage
+  streetAddress: '-79.213701,43.727177'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_2690200805664_43_6893348693847:tudor_birch_grove'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6893348694
+  longitude: -79.2690200806
+  name: Tudor Birch Grove
+  streetAddress: '-79.2690200805664,43.6893348693847'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:1660_kingston_road:bank_of_commerce_council_chambers'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6917306564
+  longitude: -79.2647447175
+  name: Bank of Commerce/Council Chambers
+  streetAddress: 1660 Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_2537689208984_43_7026634216308:scarborough_war_memorial'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7026634216
+  longitude: -79.2537689209
+  name: Scarborough War Memorial
+  streetAddress: '-79.2537689208984,43.7026634216308'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_251959_43_706069:community_tansitions'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.706069
+  longitude: -79.251959
+  name: Community Tansitions
+  streetAddress: '-79.251959,43.706069'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2701_queen_street_east:r_c_harris_water_filtration_plant'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6743851983
+  longitude: -79.2791897892
+  name: R.C. Harris Water Filtration Plant
+  streetAddress: 2701 Queen Street East
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:236_warden_avenue:bauhaus_dwelling'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6892891284
+  longitude: -79.2719094705
+  name: Bauhaus Dwelling
+  streetAddress: 236 Warden Avenue
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:761_meadowvale_road:totem_pole'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.795511013
+  longitude: -79.164068184
+  name: Totem Pole
+  streetAddress: 761 Meadowvale Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2340_kingston_road:spooner_s_garage'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.707032964
+  longitude: -79.251278162
+  name: "Spooner's Garage"
+  streetAddress: 2340 Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2384_kingston_road:bluffs_as_viewed_by_elizabeth_simcoe_c_1793'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7080683649
+  longitude: -79.2507632508
+  name: Bluffs as Viewed by Elizabeth Simcoe c. 1793
+  streetAddress: 2384 Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:450_scarborough_golf_club_road:crucified_again'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.753860323
+  longitude: -79.215992997
+  name: Crucified Again
+  streetAddress: 450 Scarborough Golf Club Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:50_rowena_drive:o_conner_house'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.749890463
+  longitude: -79.317226121
+  name: "O'Conner House"
+  streetAddress: 50 Rowena Drive
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:74_firvalley_court:metamorphosis'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.704002783
+  longitude: -79.278037158
+  name: Metamorphosis
+  streetAddress: 74 Firvalley Court
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:1728_kingston_road:mitchell_s_general_store'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6930516976
+  longitude: -79.2628233249
+  name: "Mitchell's General Store"
+  streetAddress: 1728 Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:3228_eglinton_avenue_east:natural_mystic'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.743946291
+  longitude: -79.216895474
+  name: Natural Mystic
+  streetAddress: 3228 Eglinton Avenue East
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:747_warden_avenue:puzzle'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7178490569
+  longitude: -79.282830154
+  name: Puzzle
+  streetAddress: 747 Warden Avenue
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:510_brimley_road:reflections'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7355747358
+  longitude: -79.2482919201
+  name: Reflections
+  streetAddress: 510 Brimley Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:1051_midland_avenue:sail_on_and_fair_well'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.741911917
+  longitude: -79.260653518
+  name: Sail On And Fair Well
+  streetAddress: 1051 Midland Avenue
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:1577_kingston_road:scarborough_rifle_company'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6899902147
+  longitude: -79.2669572791
+  name: Scarborough Rifle Company
+  streetAddress: 1577 Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2446_kingston_road:chrysalis'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7096163814
+  longitude: -79.2497092724
+  name: Chrysalis
+  streetAddress: 2446 Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_26797485351563_43_70634841918945:flight'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7063484192
+  longitude: -79.2679748535
+  name: Flight
+  streetAddress: '-79.26797485351563, 43.70634841918945'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2685_kingston_road:greeting_to_taniperla'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7169161101
+  longitude: -79.2408650075
+  name: Greeting to Taniperla
+  streetAddress: 2685 Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2340_kingston_road:h_m_schooner'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7069787427
+  longitude: -79.2513684748
+  name: H.M. Schooner
+  streetAddress: 2340 Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2502_kingston_road:halfway_house'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7109837025
+  longitude: -79.2487406351
+  name: Halfway House
+  streetAddress: 2502 Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2835_kingston_road:in_the_way_of_progress'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7212972195
+  longitude: -79.2365055331
+  name: In the Way of Progress
+  streetAddress: 2835 Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2157_lawrence_avenue_east:intersections'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7471911087
+  longitude: -79.2843258911
+  name: Intersections
+  streetAddress: 2157 Lawrence Avenue East
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2231_lawrence_avenue_east:mcgregor_community_centre'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.747628585
+  longitude: -79.280148998
+  name: McGregor Community Centre
+  streetAddress: 2231 Lawrence Avenue East
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:1564_kingston_road:birch_cliff_village'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6901468721
+  longitude: -79.2675918875
+  name: Birch Cliff Village
+  streetAddress: 1564 Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:6540_kingston_road:centennial_united_church'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7943405005
+  longitude: -79.1543326962
+  name: Centennial United Church
+  streetAddress: 6540 Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:4130_lawrence_avenue_east:st_margaret_in_the_pines_west_hill'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7686365005
+  longitude: -79.1926983278
+  name: St Margaret In the Pines West Hill
+  streetAddress: 4130 Lawrence Avenue East
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:27_old_kingston_road:richardson_house'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.775073988
+  longitude: -79.1823067137
+  name: Richardson House
+  streetAddress: 27 Old Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:21_old_kingston_road:richardson'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7746488614
+  longitude: -79.1823210507
+  name: Richardson
+  streetAddress: 21 Old Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:146_st_andrews_road:james_thomson_house'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7602542416
+  longitude: -79.2489204149
+  name: James Thomson House
+  streetAddress: 146 St Andrews Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:1_st_andrews_road:william_thomson_house'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.761639373
+  longitude: -79.2578894787
+  name: William Thomson House
+  streetAddress: 1 St Andrews Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:70_old_kingston_road:melville_presbyterian_church'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7767906939
+  longitude: -79.1811711694
+  name: Melville Presbyterian Church
+  streetAddress: 70 Old Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:1745_victoria_park_avenue:church_of_st_jude_wexford'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7387587288
+  longitude: -79.3068087291
+  name: Church of St. Jude Wexford
+  streetAddress: 1745 Victoria Park Avenue
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2102_lawrence_avenue_east:zion_wexford_united_church'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7467062626
+  longitude: -79.2904655169
+  name: Zion Wexford United Church
+  streetAddress: 2102 Lawrence Avenue East
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:1410_military_trail:highland_creek_public_school'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7835095173
+  longitude: -79.1784494765
+  name: Highland Creek Public School
+  streetAddress: 1410 Military Trail
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:14_centre_street:washington_manse'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7438103341
+  longitude: -79.2214122643
+  name: Washington Manse
+  streetAddress: 14 Centre Street
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:351_birchmount_road:birchmount_firehall'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6998867151
+  longitude: -79.264810207
+  name: Birchmount Firehall
+  streetAddress: 351 Birchmount Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:1253_kingston_road:mann_coach_house'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6830317382
+  longitude: -79.2774564709
+  name: Mann Coach House
+  streetAddress: 1253 Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:171_midland_avenue:stinson_s_stop_17_shop'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7107713465
+  longitude: -79.2478509672
+  name: "Stinson's Stop 17 Shop"
+  streetAddress: 171 Midland Avenue
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:1_fallingbrook_road:eckardt_house'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6757298035
+  longitude: -79.2761930934
+  name: Eckardt House
+  streetAddress: 1 Fallingbrook Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:1355_victoria_park_avenue:william_devenish_house'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.716181507
+  longitude: -79.298734668
+  name: William Devenish House
+  streetAddress: 1355 Victoria Park Avenue
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:115_st_andrews_road:st_andrews_presbyterian_church'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.760227068
+  longitude: -79.251920938
+  name: St Andrews Presbyterian Church
+  streetAddress: 115 St Andrews Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:3750_kingston_road:stone_cottage_pub_jeremiah_annis_house'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7469341868
+  longitude: -79.2091295981
+  name: Stone Cottage Pub/Jeremiah Annis House
+  streetAddress: 3750 Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:1650_kingston_road:birch_cliff_public_school'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.692051549
+  longitude: -79.265481546
+  name: Birch Cliff Public School
+  streetAddress: 1650 Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:68_chine_drive:fred_coates_house'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7098342368
+  longitude: -79.2437497655
+  name: Fred Coates House
+  streetAddress: 68 Chine Drive
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:328_bellamy_road_n:j_p_wheler_house'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7544823172
+  longitude: -79.2349034484
+  name: J. P. Wheler House
+  streetAddress: 328 Bellamy Road N
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2661_kingston_road:saint_augustine_s_seminary'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Heritage
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7133057727
+  longitude: -79.241483608
+  name: "Saint Augustine's Seminary"
+  streetAddress: 2661 Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_480353_43_621234:mimico_creek_bridge'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Architecture
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.621234
+  longitude: -79.480353
+  name: Mimico Creek Bridge
+  streetAddress: '-79.480353,43.621234'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_512277_43_662689:lambton_canadian_pacific_railway_bridge'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Architecture
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.662689
+  longitude: -79.512277
+  name: Lambton Canadian Pacific Railway Bridge
+  streetAddress: '-79.512277,43.662689'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_511785_43_662352:guelph_radial_line_bridge_tower_footings'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Architecture
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.662352
+  longitude: -79.511785
+  name: Guelph Radial Line Bridge Tower Footings
+  streetAddress: '-79.511785,43.662352'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_505289_43_662879:dundas_street_bridge'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Architecture
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.662879
+  longitude: -79.505289
+  name: Dundas Street Bridge
+  streetAddress: '-79.505289,43.662879'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_503130_43_654535:lambton_mills_bridge_abutments'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Architecture
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.654535
+  longitude: -79.50313
+  name: Lambton Mills Bridge Abutments
+  streetAddress: '-79.503130,43.654535'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_491232_43_651455:old_mill_bridge'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Architecture
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.651455
+  longitude: -79.491232
+  name: Old Mill Bridge
+  streetAddress: '-79.491232,43.651455'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_491640_43_648877:old_mill_subway_station_bridge'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Architecture
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.648877
+  longitude: -79.49164
+  name: Old Mill Subway Station Bridge
+  streetAddress: '-79.491640,43.648877'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_491983_43_648474:bloor_street_bridge'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Architecture
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.648474
+  longitude: -79.491983
+  name: Bloor Street Bridge
+  streetAddress: '-79.491983,43.648474'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_471255_43_631889:humber_river_bicycle'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Architecture
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.631889
+  longitude: -79.471255
+  name: Humber River Bicycle
+  streetAddress: '-79.471255,43.631889'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:399_the_west_mall:etobicoke_civic_centre'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Architecture
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6437806
+  longitude: -79.5654560752
+  name: Etobicoke Civic Centre
+  streetAddress: 399 The West Mall
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_477289_43_624176:guardians'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.624176
+  longitude: -79.477289
+  name: Guardians
+  streetAddress: '-79.477289,43.624176'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_475587_43_623094:air_india_sundial'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.623094
+  longitude: -79.475587
+  name: Air India Sundial
+  streetAddress: '-79.475587,43.623094'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_488264_43_613860:wave'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.61386
+  longitude: -79.488264
+  name: Wave
+  streetAddress: '-79.488264,43.613860'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2413_lake_shore_blvd_w:birds_beans_caf_mural'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6140117524
+  longitude: -79.4889233195
+  name: 'Birds & Beans Café mural'
+  streetAddress: 2413 Lake Shore Blvd W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_488949_43_613977:fowl_play'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.613977
+  longitude: -79.488949
+  name: Fowl Play
+  streetAddress: '-79.488949,43.613977'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_498201_43_615768:generations'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.615768
+  longitude: -79.498201
+  name: Generations
+  streetAddress: '-79.498201,43.615768'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2318_lake_shore_blvd_w:inspiration'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6175856232
+  longitude: -79.4876716152
+  name: Inspiration
+  streetAddress: 2318 Lake Shore Blvd W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_4890674511_43_6148857874:lakeshore_on_the_level'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6148857874
+  longitude: -79.4890674511
+  name: Lakeshore on the Level
+  streetAddress: '-79.4890674511,43.6148857874'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2399_lake_shore_blvd_w:articulate_murals'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6146598066
+  longitude: -79.4884368573
+  name: Articulate murals
+  streetAddress: 2399 Lake Shore Blvd W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2454_lake_shore_blvd_w:lakeshore_aquarium'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.613574389
+  longitude: -79.489760042
+  name: Lakeshore Aquarium
+  streetAddress: 2454 Lake Shore Blvd W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2458_lake_shore_blvd_w:in_perspective'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.613420701
+  longitude: -79.4897675
+  name: In Perspective
+  streetAddress: 2458 Lake Shore Blvd W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2491_lake_shore_blvd_w:down_the_creek_way'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6128878274
+  longitude: -79.4893105217
+  name: Down the Creek Way
+  streetAddress: 2491 Lake Shore Blvd W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2491_lake_shore_blvd_w:morning_ice_harvest_on_the_humber'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6128878274
+  longitude: -79.4893105217
+  name: Morning Ice Harvest on the Humber
+  streetAddress: 2491 Lake Shore Blvd W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2749_lake_shore_blvd_w:seasons'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6020464129
+  longitude: -79.4985328696
+  name: Seasons
+  streetAddress: 2749 Lake Shore Blvd W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:2938_lake_shore_blvd_w:commemorating_50_years_of_the_canadian_flag'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6009677696
+  longitude: -79.5055771522
+  name: Commemorating 50 years of the Canadian Flag
+  streetAddress: 2938 Lake Shore Blvd W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:3019_lake_shore_blvd_w:pizzaiolo_mural'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.5998790414
+  longitude: -79.5082980456
+  name: Pizzaiolo mural
+  streetAddress: 3019 Lake Shore Blvd W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_516437_43_598083:third_garden'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.598083
+  longitude: -79.516437
+  name: Third Garden
+  streetAddress: '-79.516437,43.598083'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:3235_lake_shore_blvd_w:cavalcade_of_colour'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.5968724216
+  longitude: -79.5218159091
+  name: Cavalcade of Colour
+  streetAddress: 3235 Lake Shore Blvd W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_5231411626_43_5971164311:girl_on_a_swing'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.5971164311
+  longitude: -79.5231411626
+  name: Girl on a Swing
+  streetAddress: '-79.5231411626,43.5971164311'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_5263445379_43_5958652736:gazebo'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.5958652736
+  longitude: -79.5263445379
+  name: Gazebo
+  streetAddress: '-79.5263445379,43.5958652736'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:3481_lake_shore_blvd_w:bringing_the_lake_up_to_lakeshore'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.5949369079
+  longitude: -79.5305829321
+  name: Bringing the Lake up to Lakeshore
+  streetAddress: 3481 Lake Shore Blvd W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:3850_lake_shore_blvd_w:land'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.5910127359
+  longitude: -79.5451557956
+  name: Land
+  streetAddress: 3850 Lake Shore Blvd W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_564918_43_643992:cenotaph_at_etobicoke_civic_centre'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.643992
+  longitude: -79.564918
+  name: Cenotaph at Etobicoke Civic Centre
+  streetAddress: '-79.564918,43.643992'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_565752_43_643563:galaxy'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.643563
+  longitude: -79.565752
+  name: Galaxy
+  streetAddress: '-79.565752,43.643563'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_526130_43_650975:everyone_everywhere'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.650975
+  longitude: -79.52613
+  name: Everyone Everywhere
+  streetAddress: '-79.526130,43.650975'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_526842_43_651081:welcome_mural'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.651081
+  longitude: -79.526842
+  name: Welcome Mural
+  streetAddress: '-79.526842,43.651081'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:4866_dundas_st_w:golfing_in_islington'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6500092928
+  longitude: -79.5280327272
+  name: Golfing in Islington
+  streetAddress: 4866 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:4868_dundas_st_w:aftermath'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6499816189
+  longitude: -79.5280966079
+  name: Aftermath
+  streetAddress: 4868 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:4886_dundas_st_w:portraits_from_our_past'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6496233919
+  longitude: -79.5283308795
+  name: Portraits from our Past
+  streetAddress: 4886 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:4914_dundas_st_w:battersby_s_march'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6490479589
+  longitude: -79.5289278791
+  name: "Battersby's March"
+  streetAddress: 4914 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:4946_dundas_st_w:pub_with_no_beer'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.648197146
+  longitude: -79.529554523
+  name: Pub with No Beer
+  streetAddress: 4946 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:4968_dundas_st_w:gordon_s_dairy_ca_1940'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.647644389
+  longitude: -79.530097879
+  name: "Gordon's Dairy ca.1940"
+  streetAddress: 4968 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:4972_dundas_st_w:way_we_were'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6474681468
+  longitude: -79.5302638094
+  name: Way We Were
+  streetAddress: 4972 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:4984_dundas_st_w:way_we_were'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6472609484
+  longitude: -79.5305481787
+  name: Way We Were
+  streetAddress: 4984 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:4986_dundas_st_w:mimico_creek_ca_1920'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6472188233
+  longitude: -79.5305868225
+  name: Mimico Creek ca. 1920
+  streetAddress: 4986 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:4988_dundas_st_w:honouring_islington_s_volunteer_fire_brigade'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6469883819
+  longitude: -79.530697869
+  name: "Honouring Islington's Volunteer Fire Brigade"
+  streetAddress: 4988 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_5308380266_43_6468487972:ontario_gothic'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6468487972
+  longitude: -79.5308380266
+  name: Ontario Gothic
+  streetAddress: '-79.5308380266,43.6468487972'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_5309095766_43_6467701938:harold_g_shipp_s_first_high_flyer_'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6467701938
+  longitude: -79.5309095766
+  name: "Harold G. Shipp's \"First High Flyer!\""
+  streetAddress: '-79.5309095766,43.6467701938'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:5048_dundas_st_w:prodigy'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6460852027
+  longitude: -79.5315332825
+  name: Prodigy
+  streetAddress: 5048 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:5096_dundas_st_w:fishing_in_mimico_creek'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6449575221
+  longitude: -79.5326476145
+  name: Fishing in Mimico Creek
+  streetAddress: 5096 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:5110_dundas_st_w:riding_the_radials'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6448173789
+  longitude: -79.5328870932
+  name: Riding the Radials
+  streetAddress: 5110 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:5112_dundas_st_w:toboggan_hill'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6447082138
+  longitude: -79.5329833521
+  name: Toboggan Hill
+  streetAddress: 5112 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:5126_dundas_st_w:old_swimming_hole'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6443962786
+  longitude: -79.5332690442
+  name: Old Swimming Hole
+  streetAddress: 5126 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:4959_dundas_st_w:timeline'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.647648338
+  longitude: -79.529536763
+  name: Timeline
+  streetAddress: 4959 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:4937_dundas_st_w:briarly'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.647966212
+  longitude: -79.529237266
+  name: Briarly
+  streetAddress: 4937 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_5283714371_43_6488010896:faces_of_islington'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6488010896
+  longitude: -79.5283714371
+  name: Faces of Islington
+  streetAddress: '-79.5283714371,43.6488010896'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_5282358652_43_6489614153:faith_of_our_fathers_2'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6489614153
+  longitude: -79.5282358652
+  name: Faith of Our Fathers 2
+  streetAddress: '-79.5282358652,43.6489614153'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_5279550995_43_6492248609:art_alley_mural_project'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6492248609
+  longitude: -79.5279550995
+  name: Art Alley Mural Project
+  streetAddress: '-79.5279550995,43.6492248609'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:4879_dundas_st_w:manse_committee'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6493940378
+  longitude: -79.5278560896
+  name: Manse Committee
+  streetAddress: 4879 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_505438_43_662888:album'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … Art
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.662888
+  longitude: -79.505438
+  name: Album
+  streetAddress: '-79.505438,43.662888'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:10_judson_st:mimico_train_station'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.616227254
+  longitude: -79.499372236
+  name: Mimico Train Station
+  streetAddress: 10 Judson St
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:277_royal_york_rd:st_leo_s_catholic_church'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6142793673
+  longitude: -79.4970091168
+  name: "St. Leo's Catholic Church"
+  streetAddress: 277 Royal York Rd
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:285_royal_york_rd:mimico_post_office'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6145180114
+  longitude: -79.4974456594
+  name: Mimico Post Office
+  streetAddress: 285 Royal York Rd
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:1_blue_goose_st:windsor_public_house'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6167534553
+  longitude: -79.4957531911
+  name: Windsor Public House
+  streetAddress: 1 Blue Goose St
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_514122_43_594505:lakeshore_grounds'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.594505
+  longitude: -79.514122
+  name: Lakeshore Grounds
+  streetAddress: '-79.514122,43.594505'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_513625_43_596234:lakeshore_grounds'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.596234
+  longitude: -79.513625
+  name: Lakeshore Grounds
+  streetAddress: '-79.513625,43.596234'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_515158_43_596678:lakeshore_grounds'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.596678
+  longitude: -79.515158
+  name: Lakeshore Grounds
+  streetAddress: '-79.515158,43.596678'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_515969_43_596597:lakeshore_grounds'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.596597
+  longitude: -79.515969
+  name: Lakeshore Grounds
+  streetAddress: '-79.515969,43.596597'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_511742_43_596038:lakeshore_grounds'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.596038
+  longitude: -79.511742
+  name: Lakeshore Grounds
+  streetAddress: '-79.511742 ,43.596038'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:3101_lake_shore_blvd_w:lakeshore_grounds'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.5987929589
+  longitude: -79.5130799811
+  name: Lakeshore Grounds
+  streetAddress: 3101 Lake Shore Blvd W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_515377_43_593509:lakeshore_grounds'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.593509
+  longitude: -79.515377
+  name: Lakeshore Grounds
+  streetAddress: '-79.515377,43.593509'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:450_the_west_mall:applewood_shaver_homestead'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.648051488
+  longitude: -79.56876232
+  name: Applewood Shaver Homestead
+  streetAddress: 450 The West Mall
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:72_old_burnhamthorpe_rd:samuel_ann_mercer_house'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6426312592
+  longitude: -79.581289809
+  name: 'Samuel & Ann Mercer House'
+  streetAddress: 72 Old Burnhamthorpe Rd
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_575065_43_670432:richview_memorial_cemetery'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.670432
+  longitude: -79.575065
+  name: Richview Memorial Cemetery
+  streetAddress: '-79.575065,43.670432'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_5680783472_43_6637011769:andrew_coulter_house'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6637011769
+  longitude: -79.5680783472
+  name: Andrew Coulter House
+  streetAddress: '-79.5680783472,43.6637011769'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:4709_dundas_st_w:montgomery_s_inn'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.651678917
+  longitude: -79.525658746
+  name: "Montgomery's Inn"
+  streetAddress: 4709 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_523823_43_653452:briarly_lane'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.653452
+  longitude: -79.523823
+  name: Briarly Lane
+  streetAddress: '-79.523823,43.653452'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:4600_dundas_st_w:st_george_s_on'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6569434147
+  longitude: -79.5212340243
+  name: "St. George's On"
+  streetAddress: 4600 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_525260_43_652318:montgomery_road'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.652318
+  longitude: -79.52526
+  name: Montgomery Road
+  streetAddress: '-79.525260,43.652318'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:4884_dundas_st_w:musson_house'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6497490704
+  longitude: -79.5282173329
+  name: Musson House
+  streetAddress: 4884 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:4946_dundas_st_w:etobicoke_township_hall'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.648197146
+  longitude: -79.529554523
+  name: Etobicoke Township Hall
+  streetAddress: 4946 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_529917_43_648014:islington_burying_ground'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.648014
+  longitude: -79.529917
+  name: Islington Burying Ground
+  streetAddress: '-79.529917,43.648014'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:4968_dundas_st_w:islington_senior_s_centre'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.647644389
+  longitude: -79.530097879
+  name: "Islington Senior's Centre"
+  streetAddress: 4968 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:61_edgehill_rd:edgehill_house'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6707003324
+  longitude: -79.5167005104
+  name: Edgehill House
+  streetAddress: 61 Edgehill Rd
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_503608068_43_663141392:lambton_house'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.663141392
+  longitude: -79.503608068
+  name: Lambton House
+  streetAddress: '-79.503608068,43.663141392'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:_79_501486_43_653499:baby_point'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.653499
+  longitude: -79.501486
+  name: Baby Point
+  streetAddress: '-79.501486,43.653499'
+- _id: 'urn:x-opendata:ca:on:toronto:cultural-hotspots:21_old_mill_rd:old_mill_toronto'
+  _source: cultural-hotspots
+  _theme:
+    - Cultural … History
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6509501455
+  longitude: -79.4934452357
+  name: Old Mill Toronto
+  streetAddress: 21 Old Mill Rd

@@ -1,0 +1,3523 @@
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:kipling_ave_the_queensway'
+  _name: Kipling Ave / The Queensway
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.620918249
+  longitude: -79.526741958
+  name:
+    - Kipling and The Queensway
+    - The Queensway and Kipling
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:renforth_dr_eglinton_ave_w'
+  _name: Renforth Dr / Eglinton Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.666100958
+  longitude: -79.58767597
+  name:
+    - Eglinton and Renforth
+    - Renforth and Eglinton
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:martin_grove_rd_eglinton_ave_w'
+  _name: Martin Grove Rd / Eglinton Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.674477761
+  longitude: -79.563176723
+  name:
+    - Eglinton and Martin Grove
+    - Martin Grove and Eglinton
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:martin_grove_rd_eglinton_ave_w'
+  _name: Martin Grove Rd / Eglinton Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.674477761
+  longitude: -79.563176723
+  name:
+    - Eglinton and Martin Grove
+    - Martin Grove and Eglinton
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:dixon_rd_carlingview_dr'
+  _name: Dixon Rd / Carlingview Dr
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.686757331
+  longitude: -79.595566224
+  name:
+    - Carlingview and Dixon
+    - Dixon and Carlingview
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:kipling_ave_eglinton_ave_w'
+  _name: Kipling Ave / Eglinton Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.67717874
+  longitude: -79.550891235
+  name:
+    - Eglinton and Kipling
+    - Kipling and Eglinton
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:dundas_st_w_viking_lane_jopling_ave_s'
+  _name: Dundas St W / Viking Lane / Jopling Ave S
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.638977315
+  longitude: -79.537640114
+  name:
+    - Dundas and Jopling
+    - Dundas and Viking Lane
+    - Jopling and Viking Lane
+    - Jopling and Dundas
+    - Viking Lane and Dundas
+    - Viking Lane and Jopling
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bloor_st_w_dundas_st_w'
+  _name: Bloor St W / Dundas St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.641005184
+  longitude: -79.534914601
+  name:
+    - Bloor and Dundas
+    - Dundas and Bloor
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:kipling_ave_bloor_st_w_dundas_st_w'
+  _name: Kipling Ave / Bloor St W / Dundas St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.641454148
+  longitude: -79.535223812
+  name:
+    - Bloor and Dundas
+    - Bloor and Kipling
+    - Dundas and Kipling
+    - Dundas and Bloor
+    - Kipling and Bloor
+    - Kipling and Dundas
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:kipling_ave_bloor_st_w_dundas_st_w'
+  _name: Kipling Ave / Bloor St W / Dundas St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.641454148
+  longitude: -79.535223812
+  name:
+    - Bloor and Dundas
+    - Bloor and Kipling
+    - Dundas and Kipling
+    - Dundas and Bloor
+    - Kipling and Bloor
+    - Kipling and Dundas
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bloor_st_w_dunbloor_rd'
+  _name: Bloor St W / Dunbloor Rd
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.642669681
+  longitude: -79.532294407
+  name:
+    - Bloor and Dunbloor
+    - Dunbloor and Bloor
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:dundas_st_w_renown_rd'
+  _name: Dundas St W / Renown Rd
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.643028018
+  longitude: -79.533992187
+  name:
+    - Dundas and Renown
+    - Renown and Dundas
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:burnhamthorpe_rd_dundas_st_w_cordova_ave'
+  _name: Burnhamthorpe Rd / Dundas St W / Cordova Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.648770795
+  longitude: -79.528749185
+  name:
+    - Burnhamthorpe and Cordova
+    - Burnhamthorpe and Dundas
+    - Cordova and Dundas
+    - Cordova and Burnhamthorpe
+    - Dundas and Burnhamthorpe
+    - Dundas and Cordova
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:burnhamthorpe_rd_kipling_ave'
+  _name: Burnhamthorpe Rd / Kipling Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.650977958
+  longitude: -79.539395411
+  name:
+    - Burnhamthorpe and Kipling
+    - Kipling and Burnhamthorpe
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:islington_ave_dundas_st_w'
+  _name: Islington Ave / Dundas St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.651361511
+  longitude: -79.526398228
+  name:
+    - Dundas and Islington
+    - Islington and Dundas
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:islington_ave_evans_ave'
+  _name: Islington Ave / Evans Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.618393334
+  longitude: -79.511328449
+  name:
+    - Evans and Islington
+    - Islington and Evans
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:islington_ave_lake_shore_blvd_w_seventh_st'
+  _name: Islington Ave / Lake Shore Blvd W / Seventh St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.60076195
+  longitude: -79.505274575
+  name:
+    - Islington and Lake Shore
+    - Islington and Seventh
+    - Lake Shore and Seventh
+    - Lake Shore and Islington
+    - Seventh and Islington
+    - Seventh and Lake Shore
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:rexdale_blvd_highway_27_s'
+  _name: Rexdale Blvd / Highway 27 S
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.717318066
+  longitude: -79.595825256
+  name:
+    - Highway 27 and Rexdale
+    - Rexdale and Highway 27
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:rexdale_blvd_highway_27_n'
+  _name: Rexdale Blvd / Highway 27 N
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.71726873
+  longitude: -79.595622735
+  name:
+    - Highway 27 and Rexdale
+    - Rexdale and Highway 27
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:martin_grove_rd_rexdale_blvd'
+  _name: Martin Grove Rd / Rexdale Blvd
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.713844916
+  longitude: -79.581117615
+  name:
+    - Martin Grove and Rexdale
+    - Rexdale and Martin Grove
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:islington_ave_the_queensway'
+  _name: Islington Ave / The Queensway
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.623592268
+  longitude: -79.514783857
+  name:
+    - Islington and The Queensway
+    - The Queensway and Islington
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:rexdale_blvd_kipling_ave'
+  _name: Rexdale Blvd / Kipling Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.711703398
+  longitude: -79.566702345
+  name:
+    - Kipling and Rexdale
+    - Rexdale and Kipling
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:kipling_ave_lake_shore_blvd_w_colonel_samuel_smith_park_dr'
+  _name: Kipling Ave / Lake Shore Blvd W / Colonel Samuel Smith Park Dr
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.59819824
+  longitude: -79.516950311
+  name:
+    - Colonel Samuel Smith Park and Kipling
+    - Colonel Samuel Smith Park and Lake Shore
+    - Kipling and Lake Shore
+    - Kipling and Colonel Samuel Smith Park
+    - Lake Shore and Colonel Samuel Smith Park
+    - Lake Shore and Kipling
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:rexdale_blvd_islington_ave'
+  _name: Rexdale Blvd / Islington Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.713657684
+  longitude: -79.554967141
+  name:
+    - Islington and Rexdale
+    - Rexdale and Islington
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:rexdale_blvd_islington_ave'
+  _name: Rexdale Blvd / Islington Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.714481366
+  longitude: -79.554963657
+  name:
+    - Islington and Rexdale
+    - Rexdale and Islington
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:dixon_rd_kipling_ave'
+  _name: Dixon Rd / Kipling Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.694249638
+  longitude: -79.558649126
+  name:
+    - Dixon and Kipling
+    - Kipling and Dixon
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:dixon_rd_st_phillips_rd_royal_york_rd'
+  _name: Dixon Rd / St Phillips Rd / Royal York Rd
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.699821682
+  longitude: -79.5342721
+  name:
+    - Dixon and Royal York
+    - Royal York and Dixon
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:dixon_rd_islington_ave'
+  _name: Dixon Rd / Islington Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.697049452
+  longitude: -79.546731704
+  name:
+    - Dixon and Islington
+    - Islington and Dixon
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:islington_ave_eglinton_ave_w'
+  _name: Islington Ave / Eglinton Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.67983519
+  longitude: -79.539014642
+  name:
+    - Eglinton and Islington
+    - Islington and Eglinton
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:martin_grove_rd_dixon_rd'
+  _name: Martin Grove Rd / Dixon Rd
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.691592488
+  longitude: -79.570838263
+  name:
+    - Dixon and Martin Grove
+    - Martin Grove and Dixon
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:kipling_ave_evans_ave'
+  _name: Kipling Ave / Evans Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.615873728
+  longitude: -79.524628244
+  name:
+    - Evans and Kipling
+    - Kipling and Evans
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:park_lawn_rd_lake_shore_blvd_w_marine_parade_dr'
+  _name: Park Lawn Rd / Lake Shore Blvd W / Marine Parade Dr
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.62296877
+  longitude: -79.481211303
+  name:
+    - Lake Shore and Marine Parade
+    - Lake Shore and Park Lawn
+    - Marine Parade and Park Lawn
+    - Marine Parade and Lake Shore
+    - Park Lawn and Lake Shore
+    - Park Lawn and Marine Parade
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:park_lawn_rd_the_queensway'
+  _name: Park Lawn Rd / The Queensway
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.629050143
+  longitude: -79.490364001
+  name:
+    - Park Lawn and The Queensway
+    - The Queensway and Park Lawn
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:king_st_w_queen_st_w_the_queensway_roncesvalles_ave_martin_goodman_trl'
+  _name: King St W / Queen St W / The Queensway / Roncesvalles Ave / Martin Goodman Trl
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.63871533
+  longitude: -79.446219418
+  name:
+    - King and Martin Goodman
+    - King and Queen
+    - Martin Goodman and Queen
+    - Martin Goodman and King
+    - Queen and King
+    - Queen and Martin Goodman
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:king_st_w_queen_st_w_the_queensway_roncesvalles_ave_martin_goodman_trl'
+  _name: King St W / Queen St W / The Queensway / Roncesvalles Ave / Martin Goodman Trl
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.63871533
+  longitude: -79.446219418
+  name:
+    - King and Martin Goodman
+    - King and Queen
+    - Martin Goodman and Queen
+    - Martin Goodman and King
+    - Queen and King
+    - Queen and Martin Goodman
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:jane_st_dundas_st_w'
+  _name: Jane St / Dundas St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.665734711
+  longitude: -79.491186227
+  name:
+    - Dundas and Jane
+    - Jane and Dundas
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:jane_st_st_clair_ave_w'
+  _name: Jane St / St Clair Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.667184902
+  longitude: -79.491767788
+  name:
+    - Jane
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:islington_ave_bloor_st_w'
+  _name: Islington Ave / Bloor St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.644648578
+  longitude: -79.523438098
+  name:
+    - Bloor and Islington
+    - Islington and Bloor
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bathurst_st_lake_shore_blvd_w'
+  _name: Bathurst St / Lake Shore Blvd W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.636484714
+  longitude: -79.399649677
+  name:
+    - Bathurst and Lake Shore
+    - Lake Shore and Bathurst
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:parkside_dr_keele_st_bloor_st_w'
+  _name: Parkside Dr / Keele St / Bloor St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.654707051
+  longitude: -79.460048108
+  name:
+    - Bloor and Keele
+    - Bloor and Parkside
+    - Keele and Parkside
+    - Keele and Bloor
+    - Parkside and Bloor
+    - Parkside and Keele
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:jane_st_bloor_st_w'
+  _name: Jane St / Bloor St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.649330369
+  longitude: -79.484483036
+  name:
+    - Bloor and Jane
+    - Jane and Bloor
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:keele_st_dundas_st_w'
+  _name: Keele St / Dundas St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.665404354
+  longitude: -79.464557781
+  name:
+    - Dundas and Keele
+    - Keele and Dundas
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:black_creek_dr_eglinton_ave_w'
+  _name: Black Creek Dr / Eglinton Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.688368362
+  longitude: -79.482878351
+  name:
+    - Black Creek and Eglinton
+    - Eglinton and Black Creek
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:jane_st_eglinton_ave_w'
+  _name: Jane St / Eglinton Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.684476407
+  longitude: -79.498823083
+  name:
+    - Eglinton and Jane
+    - Jane and Eglinton
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:jane_st_lawrence_ave_w'
+  _name: Jane St / Lawrence Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.702878069
+  longitude: -79.503838437
+  name:
+    - Jane and Lawrence
+    - Lawrence and Jane
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:trethewey_dr_keele_st_eglinton_ave_w'
+  _name: Trethewey Dr / Keele St / Eglinton Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.690165352
+  longitude: -79.475062683
+  name:
+    - Eglinton and Keele
+    - Eglinton and Trethewey
+    - Keele and Trethewey
+    - Keele and Eglinton
+    - Trethewey and Eglinton
+    - Trethewey and Keele
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:black_creek_dr_lawrence_ave_w'
+  _name: Black Creek Dr / Lawrence Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.70495025
+  longitude: -79.494096677
+  name:
+    - Black Creek and Lawrence
+    - Lawrence and Black Creek
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:scarlett_rd_eglinton_ave_w'
+  _name: Scarlett Rd / Eglinton Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.683962091
+  longitude: -79.511457502
+  name:
+    - Eglinton and Scarlett
+    - Scarlett and Eglinton
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:weston_rd_keele_st_st_clair_ave_w'
+  _name: Weston Rd / Keele St / St Clair Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.672534507
+  longitude: -79.467623432
+  name:
+    - Keele and Weston
+    - Weston and Keele
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:scarlett_rd_lawrence_ave_w'
+  _name: Scarlett Rd / Lawrence Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.698175505
+  longitude: -79.523294752
+  name:
+    - Lawrence and Scarlett
+    - Scarlett and Lawrence
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:eglinton_ave_w_sanderstead_ave'
+  _name: Eglinton Ave W / Sanderstead Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.692842859
+  longitude: -79.463053183
+  name:
+    - Eglinton and Sanderstead
+    - Sanderstead and Eglinton
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:keele_st_lawrence_ave_w'
+  _name: Keele St / Lawrence Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.708659308
+  longitude: -79.478062181
+  name:
+    - Keele and Lawrence
+    - Lawrence and Keele
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:dufferin_st_lawrence_ave_w'
+  _name: Dufferin St / Lawrence Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7140869
+  longitude: -79.454751125
+  name:
+    - Dufferin and Lawrence
+    - Lawrence and Dufferin
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:dufferin_st_dupont_st'
+  _name: Dufferin St / Dupont St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.668464816
+  longitude: -79.439035921
+  name:
+    - Dufferin and Dupont
+    - Dupont and Dufferin
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:college_st_bathurst_st'
+  _name: College St / Bathurst St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.656481958
+  longitude: -79.407722935
+  name:
+    - Bathurst and College
+    - College and Bathurst
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bathurst_st_dundas_st_w'
+  _name: Bathurst St / Dundas St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.652311681
+  longitude: -79.406022366
+  name:
+    - Bathurst and Dundas
+    - Dundas and Bathurst
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:spadina_ave_college_st'
+  _name: Spadina Ave / College St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.657948511
+  longitude: -79.400048419
+  name:
+    - College and Spadina
+    - Spadina and College
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:spadina_ave_spadina_cres'
+  _name: Spadina Ave / Spadina Cres
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.658972508
+  longitude: -79.400469246
+  name:
+    - Spadina and Spadina Cres
+    - Spadina Cres and Spadina
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:spadina_ave_spadina_cres'
+  _name: Spadina Ave / Spadina Cres
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.658972508
+  longitude: -79.400469246
+  name:
+    - Spadina and Spadina Cres
+    - Spadina Cres and Spadina
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bathurst_st_king_st_w'
+  _name: Bathurst St / King St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.643926314
+  longitude: -79.402705536
+  name:
+    - Bathurst and King
+    - King and Bathurst
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:spadina_ave_dundas_st_w'
+  _name: Spadina Ave / Dundas St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.652944322
+  longitude: -79.398049999
+  name:
+    - Dundas and Spadina
+    - Spadina and Dundas
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bathurst_st_adelaide_st_w'
+  _name: Bathurst St / Adelaide St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.645192006
+  longitude: -79.403233734
+  name:
+    - Adelaide and Bathurst
+    - Bathurst and Adelaide
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bathurst_st_richmond_st_w'
+  _name: Bathurst St / Richmond St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.646471749
+  longitude: -79.403760948
+  name:
+    - Bathurst and Richmond
+    - Richmond and Bathurst
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bathurst_st_queen_st_w'
+  _name: Bathurst St / Queen St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.647188293
+  longitude: -79.404010501
+  name:
+    - Bathurst and Queen
+    - Queen and Bathurst
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:dufferin_st_st_clair_ave_w'
+  _name: Dufferin St / St Clair Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.677961457
+  longitude: -79.443081164
+  name:
+    - Dufferin
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:dufferin_st_bloor_st_w'
+  _name: Dufferin St / Bloor St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.659883758
+  longitude: -79.435365846
+  name:
+    - Bloor and Dufferin
+    - Dufferin and Bloor
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:queen_s_park_queen_s_park_cres_w'
+  _name: "Queen's Park / Queen's Park Cres W"
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.665791861
+  longitude: -79.393390207
+  name:
+    - "Queen's Park and Queen's Park Cres"
+    - "Queen's Park Cres and Queen's Park"
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:avenue_rd_queen_s_park_bloor_st_w'
+  _name: "Avenue Rd / Queen's Park / Bloor St W"
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.668720261
+  longitude: -79.394141415
+  name:
+    - Avenue and Bloor
+    - "Avenue and Queen's Park"
+    - "Bloor and Queen's Park"
+    - Bloor and Avenue
+    - "Queen's Park and Avenue"
+    - "Queen's Park and Bloor"
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bathurst_st_bloor_st_w'
+  _name: Bathurst St / Bloor St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.665115741
+  longitude: -79.411212997
+  name:
+    - Bathurst and Bloor
+    - Bloor and Bathurst
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:queen_s_park_cres_e_queen_s_park'
+  _name: "Queen's Park Cres E / Queen's Park"
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.666032664
+  longitude: -79.392233733
+  name:
+    - "Queen's Park and Queen's Park Cres"
+    - "Queen's Park Cres and Queen's Park"
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:college_st_bay_st'
+  _name: College St / Bay St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.660815665
+  longitude: -79.385854942
+  name:
+    - Bay and College
+    - College and Bay
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:college_st_yonge_st_carlton_st'
+  _name: College St / Yonge St / Carlton St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.661371813
+  longitude: -79.383110377
+  name:
+    - Carlton and College
+    - Carlton and Yonge
+    - College and Yonge
+    - College and Carlton
+    - Yonge and Carlton
+    - Yonge and College
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:harbour_st_lake_shore_blvd_w'
+  _name: Harbour St / Lake Shore Blvd W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.640613789
+  longitude: -79.382543468
+  name:
+    - Harbour and Lake Shore
+    - Lake Shore and Harbour
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:york_st_harbour_st'
+  _name: York St / Harbour St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.641004594
+  longitude: -79.380691968
+  name:
+    - Harbour and York
+    - York and Harbour
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:york_st_lake_shore_blvd_w'
+  _name: York St / Lake Shore Blvd W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.641460543
+  longitude: -79.380868707
+  name:
+    - Lake Shore and York
+    - York and Lake Shore
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:university_ave_king_st_w'
+  _name: University Ave / King St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.647662148
+  longitude: -79.384806858
+  name:
+    - King and University
+    - University and King
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:university_ave_adelaide_st_w'
+  _name: University Ave / Adelaide St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.648869021
+  longitude: -79.385556196
+  name:
+    - Adelaide and University
+    - University and Adelaide
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bay_st_king_st_w'
+  _name: Bay St / King St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.648650656
+  longitude: -79.380278786
+  name:
+    - Bay and King
+    - King and Bay
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:spadina_ave_spadina_cres'
+  _name: Spadina Ave / Spadina Cres
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.660367755
+  longitude: -79.401029214
+  name:
+    - Spadina and Spadina Cres
+    - Spadina Cres and Spadina
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:spadina_ave_spadina_cres'
+  _name: Spadina Ave / Spadina Cres
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.660367755
+  longitude: -79.401029214
+  name:
+    - Spadina and Spadina Cres
+    - Spadina Cres and Spadina
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:spadina_ave_bloor_st_w_spadina_rd'
+  _name: Spadina Ave / Bloor St W / Spadina Rd
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.666657287
+  longitude: -79.403870741
+  name:
+    - Bloor and Spadina
+    - Spadina and Bloor
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bay_st_bloor_st_w'
+  _name: Bay St / Bloor St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.669669059
+  longitude: -79.38950758
+  name:
+    - Bay and Bloor
+    - Bloor and Bay
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:dupont_st_bathurst_st'
+  _name: Dupont St / Bathurst St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.673150259
+  longitude: -79.414391202
+  name:
+    - Bathurst and Dupont
+    - Dupont and Bathurst
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:davenport_rd_bay_st'
+  _name: Davenport Rd / Bay St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.673198369
+  longitude: -79.390833425
+  name:
+    - Bay and Davenport
+    - Davenport and Bay
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:avenue_rd_davenport_rd'
+  _name: Avenue Rd / Davenport Rd
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.674724924
+  longitude: -79.396605801
+  name:
+    - Avenue and Davenport
+    - Davenport and Avenue
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:dufferin_st_eglinton_ave_w'
+  _name: Dufferin St / Eglinton Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.695691999
+  longitude: -79.450278981
+  name:
+    - Dufferin and Eglinton
+    - Eglinton and Dufferin
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:dufferin_st_eglinton_ave_w'
+  _name: Dufferin St / Eglinton Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.695691999
+  longitude: -79.450278981
+  name:
+    - Dufferin and Eglinton
+    - Eglinton and Dufferin
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:university_ave_queen_st_w'
+  _name: University Ave / Queen St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.650852846
+  longitude: -79.386628631
+  name:
+    - Queen and University
+    - University and Queen
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:university_ave_richmond_st_w'
+  _name: University Ave / Richmond St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.650087001
+  longitude: -79.38629115
+  name:
+    - Richmond and University
+    - University and Richmond
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bay_st_adelaide_st_w'
+  _name: Bay St / Adelaide St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.649892718
+  longitude: -79.380810201
+  name:
+    - Adelaide and Bay
+    - Bay and Adelaide
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bay_st_richmond_st_w'
+  _name: Bay St / Richmond St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.651170123
+  longitude: -79.38133373
+  name:
+    - Bay and Richmond
+    - Richmond and Bay
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bay_st_queen_st_w'
+  _name: Bay St / Queen St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.651893769
+  longitude: -79.381718253
+  name:
+    - Bay and Queen
+    - Queen and Bay
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:university_ave_dundas_st_w'
+  _name: University Ave / Dundas St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.654790183
+  longitude: -79.388314517
+  name:
+    - Dundas and University
+    - University and Dundas
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bay_st_dundas_st_w'
+  _name: Bay St / Dundas St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.655715964
+  longitude: -79.383766191
+  name:
+    - Bay and Dundas
+    - Dundas and Bay
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:dundas_st_e_yonge_st_dundas_st_w'
+  _name: Dundas St E / Yonge St / Dundas St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.656328776
+  longitude: -79.380926409
+  name:
+    - Dundas and Yonge
+    - Yonge and Dundas
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bloor_st_e_yonge_st_bloor_st_w'
+  _name: Bloor St E / Yonge St / Bloor St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.670226387
+  longitude: -79.386788062
+  name:
+    - Bloor and Yonge
+    - Yonge and Bloor
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:davenport_rd_yonge_st_church_st'
+  _name: Davenport Rd / Yonge St / Church St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.672873841
+  longitude: -79.387866473
+  name:
+    - Church and Davenport
+    - Church and Yonge
+    - Davenport and Yonge
+    - Davenport and Church
+    - Yonge and Church
+    - Yonge and Davenport
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:spadina_ave_king_st_w'
+  _name: Spadina Ave / King St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.64547051
+  longitude: -79.395046842
+  name:
+    - King and Spadina
+    - Spadina and King
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:spadina_ave_adelaide_st_w'
+  _name: Spadina Ave / Adelaide St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.646740586
+  longitude: -79.395570794
+  name:
+    - Adelaide and Spadina
+    - Spadina and Adelaide
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:spadina_ave_richmond_st_w'
+  _name: Spadina Ave / Richmond St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.647807823
+  longitude: -79.39596965
+  name:
+    - Richmond and Spadina
+    - Spadina and Richmond
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:spadina_ave_queen_st_w'
+  _name: Spadina Ave / Queen St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.648765518
+  longitude: -79.396381621
+  name:
+    - Queen and Spadina
+    - Spadina and Queen
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:queen_s_park_queen_s_park_cres_w_queen_s_park_trl'
+  _name: "Queen's Park / Queen's Park Cres W / Queen's Park Trl"
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.660608998
+  longitude: -79.391164404
+  name:
+    - "Queen's Park and Queen's Park Cres"
+    - "Queen's Park Cres and Queen's Park"
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:university_ave_queen_s_park_college_st'
+  _name: "University Ave / Queen's Park / College St"
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.659858837
+  longitude: -79.390494599
+  name:
+    - "College and Queen's Park"
+    - College and University
+    - "Queen's Park and University"
+    - "Queen's Park and College"
+    - University and College
+    - "University and Queen's Park"
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:queen_s_park_cres_e_queen_s_park_queen_s_park_trl'
+  _name: "Queen's Park Cres E / Queen's Park / Queen's Park Trl"
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.660724909
+  longitude: -79.390531953
+  name:
+    - "Queen's Park and Queen's Park Cres"
+    - "Queen's Park Cres and Queen's Park"
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bloor_st_e_church_st'
+  _name: Bloor St E / Church St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.671046405
+  longitude: -79.383160451
+  name:
+    - Bloor and Church
+    - Church and Bloor
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:mount_pleasant_rd_jarvis_st_ted_rogers_way_charles_st_e'
+  _name: Mount Pleasant Rd / Jarvis St / ted rogers Way / Charles St E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.669973975
+  longitude: -79.379905718
+  name:
+    - Charles and Jarvis
+    - Charles and Mount Pleasant
+    - Jarvis and Mount Pleasant
+    - Jarvis and Charles
+    - Mount Pleasant and Charles
+    - Mount Pleasant and Jarvis
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bloor_st_e_ted_rogers_way'
+  _name: Bloor St E / ted rogers Way
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.671610817
+  longitude: -79.380566377
+  name:
+    - Bloor and ted rogers Way
+    - ted rogers Way and Bloor
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bathurst_st_st_clair_ave_w'
+  _name: Bathurst St / St Clair Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.683167498
+  longitude: -79.41830144
+  name:
+    - Bathurst
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:mount_pleasant_rd_st_clair_ave_e'
+  _name: Mount Pleasant Rd / St Clair Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.690372039
+  longitude: -79.383328235
+  name:
+    - Mount Pleasant
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:avenue_rd_st_clair_ave_w'
+  _name: Avenue Rd / St Clair Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.686640698
+  longitude: -79.401495486
+  name:
+    - Avenue
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:oxton_ave_oriole_pkwy'
+  _name: Oxton Ave / Oriole Pkwy
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.696618222
+  longitude: -79.402784027
+  name:
+    - Oriole Pkwy and Oxton
+    - Oxton and Oriole Pkwy
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bathurst_st_eglinton_ave_w'
+  _name: Bathurst St / Eglinton Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.700992517
+  longitude: -79.425561957
+  name:
+    - Bathurst and Eglinton
+    - Eglinton and Bathurst
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:st_clair_ave_e_yonge_st_st_clair_ave_w'
+  _name: St Clair Ave E / Yonge St / St Clair Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.688083036
+  longitude: -79.394141978
+  name:
+    - St Clair and Yonge
+    - Yonge and St Clair
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:allen_rd_eglinton_ave_w'
+  _name: ALLEN RD / Eglinton Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.698685217
+  longitude: -79.436461216
+  name:
+    - ALLEN RD and Eglinton
+    - Eglinton and ALLEN RD
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:allen_rd_eglinton_ave_w'
+  _name: ALLEN RD / Eglinton Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.698990023
+  longitude: -79.43503301
+  name:
+    - ALLEN RD and Eglinton
+    - Eglinton and ALLEN RD
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bathurst_st_lawrence_ave_w'
+  _name: Bathurst St / Lawrence Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.719258979
+  longitude: -79.429816144
+  name:
+    - Bathurst and Lawrence
+    - Lawrence and Bathurst
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:highway_27_s_finch_ave_w'
+  _name: Highway 27 S / Finch Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.734134476
+  longitude: -79.603200969
+  name:
+    - Finch and Highway 27
+    - Highway 27 and Finch
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:highway_27_n_finch_ave_w'
+  _name: Highway 27 N / Finch Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.734169116
+  longitude: -79.603087839
+  name:
+    - Finch and Highway 27
+    - Highway 27 and Finch
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:mount_pleasant_rd_eglinton_ave_e'
+  _name: Mount Pleasant Rd / Eglinton Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.708407749
+  longitude: -79.390197174
+  name:
+    - Eglinton and Mount Pleasant
+    - Mount Pleasant and Eglinton
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:islington_ave_finch_ave_w_humber_river_e_branch'
+  _name: Islington Ave / Finch Ave W / Humber River E Branch
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.746247698
+  longitude: -79.568621085
+  name:
+    - Finch and Humber River
+    - Finch and Islington
+    - Humber River and Islington
+    - Humber River and Finch
+    - Islington and Finch
+    - Islington and Humber River
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:islington_ave_finch_ave_w_humber_river_e_branch'
+  _name: Islington Ave / Finch Ave W / Humber River E Branch
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.746247698
+  longitude: -79.568621085
+  name:
+    - Finch and Humber River
+    - Finch and Islington
+    - Humber River and Islington
+    - Humber River and Finch
+    - Islington and Finch
+    - Islington and Humber River
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:albion_rd_highway_27_s'
+  _name: Albion Rd / Highway 27 S
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.744310618
+  longitude: -79.607727138
+  name:
+    - Albion and Highway 27
+    - Highway 27 and Albion
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:albion_rd_highway_27_n'
+  _name: Albion Rd / Highway 27 N
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.744280734
+  longitude: -79.60755789
+  name:
+    - Albion and Highway 27
+    - Highway 27 and Albion
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:highway_27_s_steeles_ave_w'
+  _name: Highway 27 S / Steeles Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.755433379
+  longitude: -79.614245429
+  name:
+    - Highway 27 and Steeles
+    - Steeles and Highway 27
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:highway_27_n_steeles_ave_w'
+  _name: Highway 27 N / Steeles Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.755454098
+  longitude: -79.61409028
+  name:
+    - Highway 27 and Steeles
+    - Steeles and Highway 27
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:albion_rd_islington_ave'
+  _name: Albion Rd / Islington Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.737236726
+  longitude: -79.565305566
+  name:
+    - Albion and Islington
+    - Islington and Albion
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:albion_rd_finch_ave_w'
+  _name: Albion Rd / Finch Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.741093842
+  longitude: -79.589232607
+  name:
+    - Albion and Finch
+    - Finch and Albion
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:kipling_ave_finch_ave_w_kipling_ave_bicycle_trl'
+  _name: Kipling Ave / Finch Ave W / Kipling Ave Bicycle Trl
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.743263602
+  longitude: -79.582116042
+  name:
+    - Finch and Kipling
+    - Kipling and Finch
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:martin_grove_rd_finch_ave_w'
+  _name: Martin Grove Rd / Finch Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.736772982
+  longitude: -79.591703289
+  name:
+    - Finch and Martin Grove
+    - Martin Grove and Finch
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:avenue_rd_eglinton_ave_w'
+  _name: Avenue Rd / Eglinton Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.704598461
+  longitude: -79.408516109
+  name:
+    - Avenue and Eglinton
+    - Eglinton and Avenue
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:kipling_ave_steeles_ave_w_kipling_ave_bicycle_trl'
+  _name: Kipling Ave / Steeles Ave W / Kipling Ave Bicycle Trl
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.759607633
+  longitude: -79.58991126
+  name:
+    - Kipling and Steeles
+    - Steeles and Kipling
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:eglinton_ave_e_yonge_st_eglinton_ave_w'
+  _name: Eglinton Ave E / Yonge St / Eglinton Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.706731991
+  longitude: -79.398366496
+  name:
+    - Eglinton and Yonge
+    - Yonge and Eglinton
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:albion_rd_kipling_ave'
+  _name: Albion Rd / Kipling Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.739724842
+  longitude: -79.580402437
+  name:
+    - Albion and Kipling
+    - Kipling and Albion
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:weston_rd_sheppard_ave_w'
+  _name: Weston Rd / Sheppard Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.733746804
+  longitude: -79.538228852
+  name:
+    - Sheppard and Weston
+    - Weston and Sheppard
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:weston_rd_sheppard_ave_w'
+  _name: Weston Rd / Sheppard Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.733746804
+  longitude: -79.538228852
+  name:
+    - Sheppard and Weston
+    - Weston and Sheppard
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:jane_st_sheppard_ave_w'
+  _name: Jane St / Sheppard Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.739389324
+  longitude: -79.513221028
+  name:
+    - Jane and Sheppard
+    - Sheppard and Jane
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:wilson_ave_keele_st'
+  _name: Wilson Ave / Keele St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.726642385
+  longitude: -79.482069737
+  name:
+    - Keele and Wilson
+    - Wilson and Keele
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:william_r_allen_rd_sheppard_ave_w'
+  _name: William R Allen Rd / Sheppard Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.750251127
+  longitude: -79.46339036
+  name:
+    - Sheppard and William R Allen
+    - William R Allen and Sheppard
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:william_r_allen_rd_sheppard_ave_w'
+  _name: William R Allen Rd / Sheppard Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.750251127
+  longitude: -79.46339036
+  name:
+    - Sheppard and William R Allen
+    - William R Allen and Sheppard
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:weston_rd_finch_ave_w'
+  _name: Weston Rd / Finch Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.752089994
+  longitude: -79.542380573
+  name:
+    - Finch and Weston
+    - Weston and Finch
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:islington_ave_steeles_ave_w'
+  _name: Islington Ave / Steeles Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.764343482
+  longitude: -79.574871956
+  name:
+    - Islington and Steeles
+    - Steeles and Islington
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:jane_st_finch_ave_w'
+  _name: Jane St / Finch Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.75723482
+  longitude: -79.517731819
+  name:
+    - Finch and Jane
+    - Jane and Finch
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:weston_rd_steeles_ave_w'
+  _name: Weston Rd / Steeles Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.770281249
+  longitude: -79.546526784
+  name:
+    - Steeles and Weston
+    - Weston and Steeles
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:wilson_ave_dufferin_st'
+  _name: Wilson Ave / Dufferin St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.732092618
+  longitude: -79.458918743
+  name:
+    - Dufferin and Wilson
+    - Wilson and Dufferin
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:wilson_ave_jane_st'
+  _name: Wilson Ave / Jane St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.720915422
+  longitude: -79.508634418
+  name:
+    - Jane and Wilson
+    - Wilson and Jane
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:keele_st_sheppard_ave_w'
+  _name: Keele St / Sheppard Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.744777513
+  longitude: -79.486452433
+  name:
+    - Keele and Sheppard
+    - Sheppard and Keele
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:keele_st_finch_ave_w'
+  _name: Keele St / Finch Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.763502154
+  longitude: -79.491053414
+  name:
+    - Finch and Keele
+    - Keele and Finch
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:wilson_ave_bathurst_st'
+  _name: Wilson Ave / Bathurst St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.737354505
+  longitude: -79.434005363
+  name:
+    - Bathurst and Wilson
+    - Wilson and Bathurst
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:avenue_rd_lawrence_ave_w'
+  _name: Avenue Rd / Lawrence Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.722255597
+  longitude: -79.415609513
+  name:
+    - Avenue and Lawrence
+    - Lawrence and Avenue
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:keele_st_steeles_ave_w'
+  _name: Keele St / Steeles Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.78157907
+  longitude: -79.494506362
+  name:
+    - Keele and Steeles
+    - Steeles and Keele
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:dufferin_st_finch_ave_w'
+  _name: Dufferin St / Finch Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.768852099
+  longitude: -79.466927821
+  name:
+    - Dufferin and Finch
+    - Finch and Dufferin
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:lawrence_ave_e_yonge_st_lawrence_ave_w'
+  _name: Lawrence Ave E / Yonge St / Lawrence Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.725101791
+  longitude: -79.402195289
+  name:
+    - Lawrence and Yonge
+    - Yonge and Lawrence
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bathurst_st_sheppard_ave_w'
+  _name: Bathurst St / Sheppard Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.755458418
+  longitude: -79.438481647
+  name:
+    - Bathurst and Sheppard
+    - Sheppard and Bathurst
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:dufferin_st_steeles_ave_w'
+  _name: Dufferin St / Steeles Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.787283202
+  longitude: -79.470089677
+  name:
+    - Dufferin and Steeles
+    - Steeles and Dufferin
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:sheppard_ave_e_bayview_ave'
+  _name: Sheppard Ave E / Bayview Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.766589273
+  longitude: -79.388056216
+  name:
+    - Bayview and Sheppard
+    - Sheppard and Bayview
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bathurst_st_finch_ave_w'
+  _name: Bathurst St / Finch Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.773859221
+  longitude: -79.443008603
+  name:
+    - Bathurst and Finch
+    - Finch and Bathurst
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:steeles_ave_e_yonge_st_steeles_ave_w'
+  _name: Steeles Ave E / Yonge St / Steeles Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.79799966
+  longitude: -79.420084
+  name:
+    - Steeles and Yonge
+    - Yonge and Steeles
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:sheppard_ave_e_yonge_st_sheppard_ave_w'
+  _name: Sheppard Ave E / Yonge St / Sheppard Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.761508831
+  longitude: -79.410937979
+  name:
+    - Sheppard and Yonge
+    - Yonge and Sheppard
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:york_mills_rd_wilson_ave_yonge_st'
+  _name: York Mills Rd / Wilson Ave / Yonge St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.744149548
+  longitude: -79.406725515
+  name:
+    - Wilson and Yonge
+    - Wilson and York Mills
+    - Yonge and York Mills
+    - Yonge and Wilson
+    - York Mills and Wilson
+    - York Mills and Yonge
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:finch_ave_e_bayview_ave_revcoe_ravine_don_river_e_branch'
+  _name: Finch Ave E / Bayview Ave / Revcoe Ravine / Don River E Branch
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.785005601
+  longitude: -79.392147426
+  name:
+    - Bayview and Don River
+    - Bayview and Finch
+    - Don River and Finch
+    - Don River and Bayview
+    - Finch and Bayview
+    - Finch and Don River
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:finch_ave_e_bayview_ave_revcoe_ravine_don_river_e_branch'
+  _name: Finch Ave E / Bayview Ave / Revcoe Ravine / Don River E Branch
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.785005601
+  longitude: -79.392147426
+  name:
+    - Bayview and Don River
+    - Bayview and Finch
+    - Don River and Finch
+    - Don River and Bayview
+    - Finch and Bayview
+    - Finch and Don River
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:finch_ave_e_yonge_st_finch_ave_w'
+  _name: Finch Ave E / Yonge St / Finch Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.779769082
+  longitude: -79.415577699
+  name:
+    - Finch and Yonge
+    - Yonge and Finch
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:york_mills_rd_bayview_ave'
+  _name: York Mills Rd / Bayview Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.748059355
+  longitude: -79.384155779
+  name:
+    - Bayview and York Mills
+    - York Mills and Bayview
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bathurst_st_steeles_ave_w'
+  _name: Bathurst St / Steeles Ave W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.792407463
+  longitude: -79.445755162
+  name:
+    - Bathurst and Steeles
+    - Steeles and Bathurst
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:mount_pleasant_rd_lawrence_ave_e'
+  _name: Mount Pleasant Rd / Lawrence Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.726148155
+  longitude: -79.397246807
+  name:
+    - Lawrence and Mount Pleasant
+    - Mount Pleasant and Lawrence
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:steeles_ave_e_bayview_ave'
+  _name: Steeles Ave E / Bayview Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.803270124
+  longitude: -79.39623006
+  name:
+    - Bayview and Steeles
+    - Steeles and Bayview
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:king_st_e_yonge_st_king_st_w'
+  _name: King St E / Yonge St / King St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.649148742
+  longitude: -79.377918325
+  name:
+    - King and Yonge
+    - Yonge and King
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:adelaide_st_e_yonge_st_adelaide_st_w'
+  _name: Adelaide St E / Yonge St / Adelaide St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.650407486
+  longitude: -79.378470071
+  name:
+    - Adelaide and Yonge
+    - Yonge and Adelaide
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:richmond_st_e_yonge_st_richmond_st_w'
+  _name: Richmond St E / Yonge St / Richmond St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.651692009
+  longitude: -79.378984674
+  name:
+    - Richmond and Yonge
+    - Yonge and Richmond
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:queen_st_e_yonge_st_queen_st_w'
+  _name: Queen St E / Yonge St / Queen St W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.652439942
+  longitude: -79.379258941
+  name:
+    - Queen and Yonge
+    - Yonge and Queen
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:king_st_e_jarvis_st'
+  _name: King St E / Jarvis St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.650463956
+  longitude: -79.371913897
+  name:
+    - Jarvis and King
+    - King and Jarvis
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:richmond_st_e_jarvis_st'
+  _name: Richmond St E / Jarvis St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.652704475
+  longitude: -79.372831826
+  name:
+    - Jarvis and Richmond
+    - Richmond and Jarvis
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:queen_st_e_jarvis_st'
+  _name: Queen St E / Jarvis St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.653729068
+  longitude: -79.373254533
+  name:
+    - Jarvis and Queen
+    - Queen and Jarvis
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:adelaide_st_e_jarvis_st'
+  _name: Adelaide St E / Jarvis St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.651527616
+  longitude: -79.372365357
+  name:
+    - Adelaide and Jarvis
+    - Jarvis and Adelaide
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:dundas_st_e_jarvis_st'
+  _name: Dundas St E / Jarvis St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.657067082
+  longitude: -79.374566917
+  name:
+    - Dundas and Jarvis
+    - Jarvis and Dundas
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:richmond_st_e_eastern_ave_diversion_st_lawrence_st'
+  _name: Richmond St E / Eastern Ave Diversion / St Lawrence St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.655346763
+  longitude: -79.355882596
+  name:
+    - Eastern and Richmond
+    - Richmond and Eastern
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:richmond_st_e_eastern_ave_diversion_st_lawrence_st'
+  _name: Richmond St E / Eastern Ave Diversion / St Lawrence St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.655346763
+  longitude: -79.355882596
+  name:
+    - Eastern and Richmond
+    - Richmond and Eastern
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:bay_st_lake_shore_blvd_w'
+  _name: Bay St / Lake Shore Blvd W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.643006997
+  longitude: -79.377823754
+  name:
+    - Bay and Lake Shore
+    - Lake Shore and Bay
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:lake_shore_blvd_e_yonge_st_harbour_st'
+  _name: Lake Shore Blvd E / Yonge St / Harbour St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.643313896
+  longitude: -79.375477773
+  name:
+    - Harbour and Lake Shore
+    - Harbour and Yonge
+    - Lake Shore and Yonge
+    - Lake Shore and Harbour
+    - Yonge and Harbour
+    - Yonge and Lake Shore
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:lake_shore_blvd_e_yonge_st_lake_shore_blvd_w'
+  _name: Lake Shore Blvd E / Yonge St / Lake Shore Blvd W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.644062384
+  longitude: -79.375769704
+  name:
+    - Lake Shore and Yonge
+    - Yonge and Lake Shore
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:king_st_e_queen_st_e'
+  _name: King St E / Queen St E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.657737067
+  longitude: -79.354962758
+  name:
+    - King and Queen
+    - Queen and King
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:pape_ave_danforth_ave'
+  _name: Pape Ave / Danforth Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.678951974
+  longitude: -79.3448428
+  name:
+    - Danforth and Pape
+    - Pape and Danforth
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:dvp_dvp_lake_shore_blvd_e_don_roadway'
+  _name: DVP / DVP / Lake Shore Blvd E / Don Roadway
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.65089307
+  longitude: -79.346962081
+  name:
+    - DVP and Don Roadway
+    - DVP and Lake Shore
+    - Don Roadway and Lake Shore
+    - Don Roadway and DVP
+    - Lake Shore and DVP
+    - Lake Shore and Don Roadway
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:carlton_st_jarvis_st'
+  _name: Carlton St / Jarvis St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.662418858
+  longitude: -79.376716938
+  name:
+    - Carlton and Jarvis
+    - Jarvis and Carlton
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:castle_frank_rd_bloor_st_e'
+  _name: Castle Frank Rd / Bloor St E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.673775492
+  longitude: -79.368204105
+  name:
+    - Bloor and Castle Frank
+    - Castle Frank and Bloor
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:adelaide_st_e_eastern_ave_diversion_bayview_ave'
+  _name: Adelaide St E / Eastern Ave Diversion / Bayview Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.656352059
+  longitude: -79.353477746
+  name:
+    - Adelaide and Bayview
+    - Adelaide and Eastern
+    - Bayview and Eastern
+    - Bayview and Adelaide
+    - Eastern and Adelaide
+    - Eastern and Bayview
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:adelaide_st_e_eastern_ave_diversion_bayview_ave'
+  _name: Adelaide St E / Eastern Ave Diversion / Bayview Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.656352059
+  longitude: -79.353477746
+  name:
+    - Adelaide and Bayview
+    - Adelaide and Eastern
+    - Bayview and Eastern
+    - Bayview and Adelaide
+    - Eastern and Adelaide
+    - Eastern and Bayview
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:kingston_rd_woodbine_ave'
+  _name: Kingston Rd / Woodbine Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.673928506
+  longitude: -79.307926627
+  name:
+    - Kingston and Woodbine
+    - Woodbine and Kingston
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:ellesmere_rd_brimley_rd'
+  _name: Ellesmere Rd / Brimley Rd
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.770065338
+  longitude: -79.261331289
+  name:
+    - Brimley and Ellesmere
+    - Ellesmere and Brimley
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:markham_rd_sheppard_ave_e'
+  _name: Markham Rd / Sheppard Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.793869815
+  longitude: -79.238752983
+  name:
+    - Markham and Sheppard
+    - Sheppard and Markham
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:steeles_ave_e_leslie_st'
+  _name: Steeles Ave E / Leslie St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.808507954
+  longitude: -79.372508245
+  name:
+    - Leslie and Steeles
+    - Steeles and Leslie
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:steeles_ave_e_warden_ave'
+  _name: Steeles Ave E / Warden Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.81963118
+  longitude: -79.32443664
+  name:
+    - Steeles and Warden
+    - Warden and Steeles
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:ellesmere_rd_mccowan_rd'
+  _name: Ellesmere Rd / McCowan Rd
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.772142024
+  longitude: -79.251498432
+  name:
+    - Ellesmere and McCowan
+    - McCowan and Ellesmere
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:don_mills_rd_steeles_ave_e'
+  _name: Don Mills Rd / Steeles Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.811184151
+  longitude: -79.36077696
+  name:
+    - Don Mills and Steeles
+    - Steeles and Don Mills
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:brimley_rd_sheppard_ave_e'
+  _name: Brimley Rd / Sheppard Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.787578239
+  longitude: -79.268312034
+  name:
+    - Brimley and Sheppard
+    - Sheppard and Brimley
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:mccowan_rd_sheppard_ave_e'
+  _name: McCowan Rd / Sheppard Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.789620159
+  longitude: -79.25883875
+  name:
+    - McCowan and Sheppard
+    - Sheppard and McCowan
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:birchmount_rd_steeles_ave_e'
+  _name: Birchmount Rd / Steeles Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.821392698
+  longitude: -79.316925221
+  name:
+    - Birchmount and Steeles
+    - Steeles and Birchmount
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:kennedy_rd_steeles_ave_e'
+  _name: Kennedy Rd / Steeles Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.823689926
+  longitude: -79.307066646
+  name:
+    - Kennedy and Steeles
+    - Steeles and Kennedy
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:steeles_ave_e_victoria_park_ave'
+  _name: Steeles Ave E / Victoria Park Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.815650752
+  longitude: -79.341317897
+  name:
+    - Steeles and Victoria Park
+    - Victoria Park and Steeles
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:sheppard_ave_e_victoria_park_ave'
+  _name: Sheppard Ave E / Victoria Park Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.775244616
+  longitude: -79.323017109
+  name:
+    - Sheppard and Victoria Park
+    - Victoria Park and Sheppard
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:victoria_park_ave_eglinton_sq_o_connor_dr'
+  _name: "Victoria Park Ave / Eglinton Sq / O'Connor Dr"
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.723380976
+  longitude: -79.302100282
+  name:
+    - "Eglinton Sq and O'Connor"
+    - Eglinton Sq and Victoria Park
+    - "O'Connor and Victoria Park"
+    - "O'Connor and Eglinton Sq"
+    - Victoria Park and Eglinton Sq
+    - "Victoria Park and O'Connor"
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:eglinton_ave_e_victoria_park_ave'
+  _name: Eglinton Ave E / Victoria Park Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.724723021
+  longitude: -79.302645014
+  name:
+    - Eglinton and Victoria Park
+    - Victoria Park and Eglinton
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:eglinton_ave_e_eglinton_sq'
+  _name: Eglinton Ave E / Eglinton Sq
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.724967482
+  longitude: -79.300538793
+  name:
+    - Eglinton and Eglinton Sq
+    - Eglinton Sq and Eglinton
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:sheppard_ave_e_warden_ave'
+  _name: Sheppard Ave E / Warden Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.778731095
+  longitude: -79.307905915
+  name:
+    - Sheppard and Warden
+    - Warden and Sheppard
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:york_mills_rd_parkwoods_village_dr'
+  _name: York Mills Rd / Parkwoods Village Dr
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.761296065
+  longitude: -79.324994931
+  name:
+    - Parkwoods Village and York Mills
+    - York Mills and Parkwoods Village
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:birchmount_rd_lawrence_ave_e'
+  _name: Birchmount Rd / Lawrence Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.74751869
+  longitude: -79.284836745
+  name:
+    - Birchmount and Lawrence
+    - Lawrence and Birchmount
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:eglinton_ave_e_warden_ave'
+  _name: Eglinton Ave E / Warden Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.727846986
+  longitude: -79.287616161
+  name:
+    - Eglinton and Warden
+    - Warden and Eglinton
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:finch_ave_e_victoria_park_ave'
+  _name: Finch Ave E / Victoria Park Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.793106458
+  longitude: -79.331412424
+  name:
+    - Finch and Victoria Park
+    - Victoria Park and Finch
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:kennedy_rd_lawrence_ave_e'
+  _name: Kennedy Rd / Lawrence Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.749497973
+  longitude: -79.274934957
+  name:
+    - Kennedy and Lawrence
+    - Lawrence and Kennedy
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:birchmount_rd_eglinton_ave_e'
+  _name: Birchmount Rd / Eglinton Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.729962108
+  longitude: -79.277859535
+  name:
+    - Birchmount and Eglinton
+    - Eglinton and Birchmount
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:finch_ave_e_warden_ave'
+  _name: Finch Ave E / Warden Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.796772994
+  longitude: -79.315766111
+  name:
+    - Finch and Warden
+    - Warden and Finch
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:lawrence_ave_e_warden_ave'
+  _name: Lawrence Ave E / Warden Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.745376512
+  longitude: -79.294730397
+  name:
+    - Lawrence and Warden
+    - Warden and Lawrence
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:sheppard_ave_e_morningside_ave'
+  _name: Sheppard Ave E / Morningside Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.801974588
+  longitude: -79.199771823
+  name:
+    - Morningside and Sheppard
+    - Sheppard and Morningside
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:hwy_2a_kingston_rd_highland_creek'
+  _name: HWY 2A / Kingston Rd / Highland Creek
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.78006299
+  longitude: -79.170656238
+  name:
+    - HWY 2A and Highland Creek
+    - HWY 2A and Kingston
+    - Highland Creek and Kingston
+    - Highland Creek and HWY 2A
+    - Kingston and HWY 2A
+    - Kingston and Highland Creek
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:hwy_2a_kingston_rd_highland_creek'
+  _name: HWY 2A / Kingston Rd / Highland Creek
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.78006299
+  longitude: -79.170656238
+  name:
+    - HWY 2A and Highland Creek
+    - HWY 2A and Kingston
+    - Highland Creek and Kingston
+    - Highland Creek and HWY 2A
+    - Kingston and HWY 2A
+    - Kingston and Highland Creek
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:ellesmere_rd_morningside_ave'
+  _name: Ellesmere Rd / Morningside Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.785344331
+  longitude: -79.193342308
+  name:
+    - Ellesmere and Morningside
+    - Morningside and Ellesmere
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:kingston_rd_lawrence_ave_e'
+  _name: Kingston Rd / Lawrence Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.767653017
+  longitude: -79.189609494
+  name:
+    - Kingston and Lawrence
+    - Lawrence and Kingston
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:kingston_rd_morningside_ave'
+  _name: Kingston Rd / Morningside Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.770612669
+  longitude: -79.186865725
+  name:
+    - Kingston and Morningside
+    - Morningside and Kingston
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:ellesmere_rd_markham_rd'
+  _name: Ellesmere Rd / Markham Rd
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.776436249
+  longitude: -79.231756836
+  name:
+    - Ellesmere and Markham
+    - Markham and Ellesmere
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:st_clair_ave_e_victoria_park_ave'
+  _name: St Clair Ave E / Victoria Park Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.708776529
+  longitude: -79.29598558
+  name:
+    - St Clair and Victoria Park
+    - Victoria Park and St Clair
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:st_clair_ave_e_victoria_park_ave'
+  _name: St Clair Ave E / Victoria Park Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.70927755
+  longitude: -79.29619001
+  name:
+    - St Clair and Victoria Park
+    - Victoria Park and St Clair
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:danforth_ave_victoria_park_ave'
+  _name: Danforth Ave / Victoria Park Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.691232336
+  longitude: -79.288358609
+  name:
+    - Danforth and Victoria Park
+    - Victoria Park and Danforth
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:eglinton_ave_e_midland_ave'
+  _name: Eglinton Ave E / Midland Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.734530683
+  longitude: -79.25810431
+  name:
+    - Eglinton and Midland
+    - Midland and Eglinton
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:brimley_rd_lawrence_ave_e_gatineau_hydro_corridor_trl'
+  _name: Brimley Rd / Lawrence Ave E / Gatineau Hydro Corridor Trl
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.753526949
+  longitude: -79.255367207
+  name:
+    - Brimley and Gatineau Hydro Corridor
+    - Brimley and Lawrence
+    - Gatineau Hydro Corridor and Lawrence
+    - Gatineau Hydro Corridor and Brimley
+    - Lawrence and Brimley
+    - Lawrence and Gatineau Hydro Corridor
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:birchmount_rd_sheppard_ave_e'
+  _name: Birchmount Rd / Sheppard Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.781054406
+  longitude: -79.298106451
+  name:
+    - Birchmount and Sheppard
+    - Sheppard and Birchmount
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:kennedy_rd_sheppard_ave_e'
+  _name: Kennedy Rd / Sheppard Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.783286859
+  longitude: -79.288263729
+  name:
+    - Kennedy and Sheppard
+    - Sheppard and Kennedy
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:ellesmere_rd_warden_ave'
+  _name: Ellesmere Rd / Warden Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.761193442
+  longitude: -79.300751924
+  name:
+    - Ellesmere and Warden
+    - Warden and Ellesmere
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:birchmount_rd_finch_ave_e'
+  _name: Birchmount Rd / Finch Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.798998223
+  longitude: -79.305981545
+  name:
+    - Birchmount and Finch
+    - Finch and Birchmount
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:brimley_rd_eglinton_ave_e'
+  _name: Brimley Rd / Eglinton Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.736696453
+  longitude: -79.248084587
+  name:
+    - Brimley and Eglinton
+    - Eglinton and Brimley
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:danforth_rd_eglinton_ave_e'
+  _name: Danforth Rd / Eglinton Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.737097293
+  longitude: -79.246164069
+  name:
+    - Danforth and Eglinton
+    - Eglinton and Danforth
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:ellesmere_rd_birchmount_rd'
+  _name: Ellesmere Rd / Birchmount Rd
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.763427113
+  longitude: -79.291362823
+  name:
+    - Birchmount and Ellesmere
+    - Ellesmere and Birchmount
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:sheppard_ave_e_midland_ave'
+  _name: Sheppard Ave E / Midland Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.785348047
+  longitude: -79.278570092
+  name:
+    - Midland and Sheppard
+    - Sheppard and Midland
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:ellesmere_rd_kennedy_rd'
+  _name: Ellesmere Rd / Kennedy Rd
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.76580202
+  longitude: -79.281078252
+  name:
+    - Ellesmere and Kennedy
+    - Kennedy and Ellesmere
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:ellesmere_rd_midland_ave'
+  _name: Ellesmere Rd / Midland Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.767924951
+  longitude: -79.271110442
+  name:
+    - Ellesmere and Midland
+    - Midland and Ellesmere
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:kennedy_rd_eglinton_ave_e'
+  _name: Kennedy Rd / Eglinton Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.732201552
+  longitude: -79.26793172
+  name:
+    - Eglinton and Kennedy
+    - Kennedy and Eglinton
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:mccowan_rd_lawrence_ave_e'
+  _name: McCowan Rd / Lawrence Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.755548525
+  longitude: -79.245422779
+  name:
+    - Lawrence and McCowan
+    - McCowan and Lawrence
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:lawrence_ave_e_midland_ave'
+  _name: Lawrence Ave E / Midland Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.751521702
+  longitude: -79.265052497
+  name:
+    - Lawrence and Midland
+    - Midland and Lawrence
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:kingston_rd_claremore_ave_cliffside_dr'
+  _name: Kingston Rd / Claremore Ave / Cliffside Dr
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.703953474
+  longitude: -79.252772902
+  name:
+    - Claremore and Cliffside
+    - Claremore and Kingston
+    - Cliffside and Kingston
+    - Cliffside and Claremore
+    - Kingston and Claremore
+    - Kingston and Cliffside
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:kennedy_rd_st_clair_ave_e'
+  _name: Kennedy Rd / St Clair Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.716525807
+  longitude: -79.261334057
+  name:
+    - Kennedy
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:lawrence_ave_e_leslie_st'
+  _name: Lawrence Ave E / Leslie St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.734535674
+  longitude: -79.355979903
+  name:
+    - Lawrence and Leslie
+    - Leslie and Lawrence
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:kingston_rd_glen_everest_rd'
+  _name: Kingston Rd / Glen Everest Rd
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.697554362
+  longitude: -79.256789839
+  name:
+    - Glen Everest and Kingston
+    - Kingston and Glen Everest
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:st_clair_ave_e_warden_ave'
+  _name: St Clair Ave E / Warden Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.712045649
+  longitude: -79.281003255
+  name:
+    - St Clair and Warden
+    - Warden and St Clair
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:finch_ave_e_midland_ave'
+  _name: Finch Ave E / Midland Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.803751827
+  longitude: -79.286293645
+  name:
+    - Finch and Midland
+    - Midland and Finch
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:mccowan_rd_finch_ave_e'
+  _name: McCowan Rd / Finch Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.808026677
+  longitude: -79.26650628
+  name:
+    - Finch and McCowan
+    - McCowan and Finch
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:brimley_rd_finch_ave_e'
+  _name: Brimley Rd / Finch Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.80570624
+  longitude: -79.277400939
+  name:
+    - Brimley and Finch
+    - Finch and Brimley
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:markham_rd_kingston_rd'
+  _name: Markham Rd / Kingston Rd
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.738776808
+  longitude: -79.217035945
+  name:
+    - Kingston and Markham
+    - Markham and Kingston
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:markham_rd_finch_ave_e'
+  _name: Markham Rd / Finch Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.812971092
+  longitude: -79.243076379
+  name:
+    - Finch and Markham
+    - Markham and Finch
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:markham_rd_eglinton_ave_e'
+  _name: Markham Rd / Eglinton Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.743182014
+  longitude: -79.218913538
+  name:
+    - Eglinton and Markham
+    - Markham and Eglinton
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:steeles_ave_e_midland_ave'
+  _name: Steeles Ave E / Midland Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.825950474
+  longitude: -79.297332525
+  name:
+    - Midland and Steeles
+    - Steeles and Midland
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:markham_rd_lawrence_ave_e'
+  _name: Markham Rd / Lawrence Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.759822656
+  longitude: -79.225324349
+  name:
+    - Lawrence and Markham
+    - Markham and Lawrence
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:kennedy_rd_finch_ave_e'
+  _name: Kennedy Rd / Finch Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.80126823
+  longitude: -79.296598767
+  name:
+    - Finch and Kennedy
+    - Kennedy and Finch
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:brimley_rd_steeles_ave_e'
+  _name: Brimley Rd / Steeles Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.828294934
+  longitude: -79.287202146
+  name:
+    - Brimley and Steeles
+    - Steeles and Brimley
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:kingston_rd_eglinton_ave_e'
+  _name: Kingston Rd / Eglinton Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.743722155
+  longitude: -79.211663265
+  name:
+    - Eglinton and Kingston
+    - Kingston and Eglinton
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:ellesmere_rd_victoria_park_ave_parkwoods_village_dr'
+  _name: Ellesmere Rd / Victoria Park Ave / Parkwoods Village Dr
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.757869425
+  longitude: -79.315245441
+  name:
+    - Ellesmere and Parkwoods Village
+    - Ellesmere and Victoria Park
+    - Parkwoods Village and Victoria Park
+    - Parkwoods Village and Ellesmere
+    - Victoria Park and Ellesmere
+    - Victoria Park and Parkwoods Village
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:finch_ave_e_leslie_st'
+  _name: Finch Ave E / Leslie St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.790012097
+  longitude: -79.368067064
+  name:
+    - Finch and Leslie
+    - Leslie and Finch
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:sheppard_ave_e_leslie_st_don_river_e_branch'
+  _name: Sheppard Ave E / Leslie St / Don River E Branch
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.771643761
+  longitude: -79.364136074
+  name:
+    - Don River and Leslie
+    - Don River and Sheppard
+    - Leslie and Sheppard
+    - Leslie and Don River
+    - Sheppard and Don River
+    - Sheppard and Leslie
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:sheppard_ave_e_leslie_st_don_river_e_branch'
+  _name: Sheppard Ave E / Leslie St / Don River E Branch
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.771643761
+  longitude: -79.364136074
+  name:
+    - Don River and Leslie
+    - Don River and Sheppard
+    - Leslie and Sheppard
+    - Leslie and Don River
+    - Sheppard and Don River
+    - Sheppard and Leslie
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:york_mills_rd_leslie_st'
+  _name: York Mills Rd / Leslie St
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.752954496
+  longitude: -79.359970231
+  name:
+    - Leslie and York Mills
+    - York Mills and Leslie
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:york_mills_rd_don_mills_rd'
+  _name: York Mills Rd / Don Mills Rd
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.755811758
+  longitude: -79.347045215
+  name:
+    - Don Mills and York Mills
+    - York Mills and Don Mills
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:don_mills_rd_eglinton_ave_e'
+  _name: Don Mills Rd / Eglinton Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.720500805
+  longitude: -79.338873881
+  name:
+    - Don Mills and Eglinton
+    - Eglinton and Don Mills
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:don_mills_rd_e_don_mills_rd_w'
+  _name: Don Mills Rd E / Don Mills Rd W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.786486668
+  longitude: -79.352101271
+  name:
+    - Don Mills
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:don_mills_rd_don_mills_rd_e_don_mills_rd_w_van_horne_ave'
+  _name: Don Mills Rd / Don Mills Rd E / Don Mills Rd W / Van Horne Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.787345015
+  longitude: -79.353029966
+  name:
+    - Don Mills and Van Horne
+    - Van Horne and Don Mills
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:don_mills_rd_finch_ave_e'
+  _name: Don Mills Rd / Finch Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.792660486
+  longitude: -79.354736954
+  name:
+    - Don Mills and Finch
+    - Finch and Don Mills
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:lawrence_ave_e_victoria_park_ave'
+  _name: Lawrence Ave E / Victoria Park Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.742144039
+  longitude: -79.309793757
+  name:
+    - Lawrence and Victoria Park
+    - Victoria Park and Lawrence
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:don_mills_rd_sheppard_ave_e'
+  _name: Don Mills Rd / Sheppard Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.775107149
+  longitude: -79.347040973
+  name:
+    - Don Mills and Sheppard
+    - Sheppard and Don Mills
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:don_mills_rd_e_don_mills_rd_w'
+  _name: Don Mills Rd E / Don Mills Rd W
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.780028938
+  longitude: -79.349764524
+  name:
+    - Don Mills
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:don_mills_rd_don_mills_rd_w_esterbrooke_ave_fairview_mall_dr'
+  _name: Don Mills Rd / Don Mills Rd W / Esterbrooke Ave / Fairview Mall Dr
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.779085608
+  longitude: -79.348737709
+  name:
+    - Don Mills and Esterbrooke
+    - Don Mills and Fairview Mall
+    - Esterbrooke and Fairview Mall
+    - Esterbrooke and Don Mills
+    - Fairview Mall and Don Mills
+    - Fairview Mall and Esterbrooke
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:don_mills_rd_don_mills_rd_e'
+  _name: Don Mills Rd / Don Mills Rd E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.780264683
+  longitude: -79.348718196
+  name:
+    - Don Mills
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:don_mills_rd_lawrence_ave_e'
+  _name: Don Mills Rd / Lawrence Ave E
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.737173348
+  longitude: -79.343448292
+  name:
+    - Don Mills and Lawrence
+    - Lawrence and Don Mills
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:millwood_rd_overlea_blvd'
+  _name: Millwood Rd / Overlea Blvd
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.701917913
+  longitude: -79.352842378
+  name:
+    - Millwood and Overlea
+    - Overlea and Millwood
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:don_mills_rd_overlea_blvd_gateway_blvd'
+  _name: Don Mills Rd / Overlea Blvd / Gateway Blvd
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.70999645
+  longitude: -79.334394981
+  name:
+    - Don Mills and Gateway
+    - Don Mills and Overlea
+    - Gateway and Overlea
+    - Gateway and Don Mills
+    - Overlea and Don Mills
+    - Overlea and Gateway
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:eglinton_ave_e_leslie_st_west_don_river_trl'
+  _name: Eglinton Ave E / Leslie St / West Don River Trl
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.717098739
+  longitude: -79.349979797
+  name:
+    - Eglinton and Leslie
+    - Eglinton and West Don River
+    - Leslie and West Don River
+    - Leslie and Eglinton
+    - West Don River and Eglinton
+    - West Don River and Leslie
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:eglinton_ave_e_leslie_st_west_don_river_trl'
+  _name: Eglinton Ave E / Leslie St / West Don River Trl
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.717098739
+  longitude: -79.349979797
+  name:
+    - Eglinton and Leslie
+    - Eglinton and West Don River
+    - Leslie and West Don River
+    - Leslie and Eglinton
+    - West Don River and Eglinton
+    - West Don River and Leslie
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:woodbine_ave_o_connor_dr'
+  _name: "Woodbine Ave / O'Connor Dr"
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.699666414
+  longitude: -79.318838118
+  name:
+    - "O'Connor and Woodbine"
+    - "Woodbine and O'Connor"
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:woodbine_ave_o_connor_dr'
+  _name: "Woodbine Ave / O'Connor Dr"
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.700156683
+  longitude: -79.319031996
+  name:
+    - "O'Connor and Woodbine"
+    - "Woodbine and O'Connor"
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:woodbine_ave_o_connor_dr'
+  _name: "Woodbine Ave / O'Connor Dr"
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.700156683
+  longitude: -79.319031996
+  name:
+    - "O'Connor and Woodbine"
+    - "Woodbine and O'Connor"
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:woodbine_ave_danforth_ave'
+  _name: Woodbine Ave / Danforth Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.68568481
+  longitude: -79.312778955
+  name:
+    - Danforth and Woodbine
+    - Woodbine and Danforth
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:st_clair_ave_e_o_connor_dr'
+  _name: "St Clair Ave E / O'Connor Dr"
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.705396177
+  longitude: -79.312836303
+  name:
+    - "O'Connor and St Clair"
+    - "St Clair and O'Connor"
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:pape_ave_o_connor_dr'
+  _name: "Pape Ave / O'Connor Dr"
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.693241761
+  longitude: -79.350291418
+  name:
+    - "O'Connor and Pape"
+    - "Pape and O'Connor"
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:eglinton_ave_e_bayview_ave'
+  _name: Eglinton Ave E / Bayview Ave
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.711036573
+  longitude: -79.377158372
+  name:
+    - Bayview and Eglinton
+    - Eglinton and Bayview
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:don_mills_rd_o_connor_dr'
+  _name: "Don Mills Rd / O'Connor Dr"
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.695574217
+  longitude: -79.339648967
+  name:
+    - "Don Mills and O'Connor"
+    - "O'Connor and Don Mills"
+- _id: 'urn:x-opendata:ca:on:toronto:intersections:eglinton_ave_e_laird_dr'
+  _name: Eglinton Ave E / Laird Dr
+  _source: intersections
+  _theme: Intersection
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.71356588
+  longitude: -79.364802153
+  name:
+    - Eglinton and Laird
+    - Laird and Eglinton

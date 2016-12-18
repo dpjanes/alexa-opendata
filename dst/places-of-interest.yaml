@@ -1,0 +1,2072 @@
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:35_carl_hall_rd:downsview_park'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.746666625
+  longitude: -79.4791601094
+  name: Downsview Park
+  streetAddress: 35 Carl Hall Rd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:189_yonge_st:elgin_and_winter_garden_theatre_centre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.653065074
+  longitude: -79.3792038148
+  name: Elgin and Winter Garden Theatre Centre
+  streetAddress: 189 Yonge St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:8_case_goods_lane:eskimo_art_gallery'
+  _source: places-of-interest
+  _theme:
+    - POI … Gallery
+    - POI … Art Gallery
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.649977138
+  longitude: -79.358899085
+  name: Eskimo Art Gallery
+  streetAddress: 8 Case Goods Lane
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:550_bayview_ave:evergreen_brick_works'
+  _source: places-of-interest
+  _theme:
+    - POI … Attractions
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.683783348
+  longitude: -79.365627973
+  name: Evergreen Brick Works
+  streetAddress: 550 Bayview Ave
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:200_princes_blvd:exhibition_place'
+  _source: places-of-interest
+  _theme:
+    - POI … Convention Centre
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6327994434
+  longitude: -79.4219307401
+  name: Exhibition Place
+  streetAddress: 200 Princes Blvd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:125_bathurst_st:factory_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6455792099
+  longitude: -79.402717686
+  name: Factory Theatre
+  streetAddress: 125 Bathurst St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:343_evans_ave:famous_people_players'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.615163795
+  longitude: -79.520767631
+  name: Famous PEOPLE Players
+  streetAddress: 343 Evans Ave
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:100_garrison_rd:fort_york_national_historic_site'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.639052762
+  longitude: -79.403486525
+  name: Fort York National Historic Site
+  streetAddress: 100 Garrison Rd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:145_queen_st_w:four_seasons_centre_for_the_performing_arts'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6506273744
+  longitude: -79.3858097966
+  name: Four Seasons Centre for the Performing Arts
+  streetAddress: 145 Queen St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:30_centre_island_pk:franklin_children_s_garden'
+  _source: places-of-interest
+  _theme:
+    - POI … Garden
+    - POI … Conservatory
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6157088532
+  longitude: -79.3783913628
+  name: "Franklin Children's Garden"
+  streetAddress: 30 Centre Island Pk
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:111_queen_s_park:gardiner_museum_of_ceramic_art'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6679937777
+  longitude: -79.3935127552
+  name: Gardiner Museum of Ceramic Art
+  streetAddress: "111 Queen's Park"
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:15_devonshire_pl:george_ignatieff_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6658505718
+  longitude: -79.3971144923
+  name: George Ignatieff Theatre
+  streetAddress: 15 Devonshire Pl
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:443_lakeshore_ave:gibraltar_point_beach'
+  _source: places-of-interest
+  _theme:
+    - POI … Beach
+    - POI … Beaches
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.613088947
+  longitude: -79.383680871
+  name: Gibraltar Point Beach
+  streetAddress: 443 Lakeshore Ave
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:5172_yonge_st:gibson_house'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.769686148
+  longitude: -79.414666941
+  name: Gibson House
+  streetAddress: 5172 Yonge St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:190_princes_blvd:queen_elizabeth_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.632728155
+  longitude: -79.421378204
+  name: Queen Elizabeth Theatre
+  streetAddress: 190 Princes Blvd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:111_wellesley_st_w:queen_s_park'
+  _source: places-of-interest
+  _theme:
+    - POI … Landmark
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.663126523
+  longitude: -79.391758739
+  name: "Queen's Park"
+  streetAddress: 111 Wellesley St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:736_bathurst_st:randolph_academy_of_the_performing_arts'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6635950964
+  longitude: -79.4108799886
+  name: Randolph Academy of the Performing Arts
+  streetAddress: 736 Bathurst St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:100_princes_blvd:ricoh_coliseum'
+  _source: places-of-interest
+  _theme:
+    - POI … Sports Bar
+    - POI … Sports Center
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6345388663
+  longitude: -79.4125548185
+  name: Ricoh Coliseum
+  streetAddress: 100 Princes Blvd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:288_bremner_blvd:ripley_s_aquarium_of_canada'
+  _source: places-of-interest
+  _theme:
+    - POI … Attractions
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.642378606
+  longitude: -79.38603487
+  name: "Ripley's Aquarium of Canada"
+  streetAddress: 288 Bremner Blvd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:201_winchester_st:riverdale_farm'
+  _source: places-of-interest
+  _theme:
+    - POI … Attractions
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.667321121
+  longitude: -79.361052363
+  name: Riverdale Farm
+  streetAddress: 201 Winchester St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:550_broadview_ave:riverdale_park_east'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.670821027
+  longitude: -79.354585256
+  name: Riverdale Park East
+  streetAddress: 550 Broadview Ave
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:500_gerrard_st_e:riverdale_park_west'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6641008482
+  longitude: -79.3585575759
+  name: Riverdale Park West
+  streetAddress: 500 Gerrard St E
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:1_blue_jays_way:rogers_centre'
+  _source: places-of-interest
+  _theme:
+    - POI … Sports Bar
+    - POI … Sports Center
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.642178727
+  longitude: -79.389371081
+  name: Rogers Centre
+  streetAddress: 1 Blue Jays Way
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:5_glen_everest_rd:rosetta_mcclain_gardens'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.69741681
+  longitude: -79.255651311
+  name: Rosetta McClain Gardens
+  streetAddress: 5 Glen Everest Rd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:195_rouge_hills_dr:rouge_beach'
+  _source: places-of-interest
+  _theme:
+    - POI … Beach
+    - POI … Beaches
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.791668853
+  longitude: -79.121396999
+  name: Rouge Beach
+  streetAddress: 195 Rouge Hills Dr
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:1749_meadowvale_rd:rouge_park'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.818375579
+  longitude: -79.171862702
+  name: Rouge Park
+  streetAddress: 1749 Meadowvale Rd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:60_simcoe_st:roy_thomson_hall'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6467072718
+  longitude: -79.3864537867
+  name: Roy Thomson Hall
+  streetAddress: 60 Simcoe St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:273_bloor_st_w:royal_conservatory_of_music'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.667856304
+  longitude: -79.396058814
+  name: Royal Conservatory of Music
+  streetAddress: 273 Bloor St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:100_queen_s_park:royal_ontario_museum'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.667795387
+  longitude: -79.394212289
+  name: Royal Ontario Museum
+  streetAddress: "100 Queen's Park"
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:33_gould_st:ryerson_image_centre'
+  _source: places-of-interest
+  _theme:
+    - POI … Gallery
+    - POI … Art Gallery
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6576709716
+  longitude: -79.3792655209
+  name: Ryerson Image Centre
+  streetAddress: 33 Gould St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:120_king_st_e:st_james_park'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.650567909
+  longitude: -79.372573871
+  name: St. James Park
+  streetAddress: 120 King St E
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:27_front_st_e:st_lawrence_centre_for_the_arts'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.647413879
+  longitude: -79.3752174619
+  name: St. Lawrence Centre for the Arts
+  streetAddress: 27 Front St E
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:95_front_st_e:st_lawrence_market_market_gallery'
+  _source: places-of-interest
+  _theme:
+    - POI … Attractions
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6491898377
+  longitude: -79.3714969414
+  name: 'St. Lawrence Market & Market Gallery'
+  streetAddress: 95 Front St E
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:255_bremner_blvd:steam_whistle_brewery'
+  _source: places-of-interest
+  _theme:
+    - POI … Attractions
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.641692103
+  longitude: -79.385566845
+  name: Steam Whistle Brewery
+  streetAddress: 255 Bremner Blvd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:11_dockside_dr:sugar_beach_park'
+  _source: places-of-interest
+  _theme:
+    - POI … Beach
+    - POI … Beaches
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.643565619
+  longitude: -79.367544538
+  name: Sugar Beach Park
+  streetAddress: 11 Dockside Dr
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:1755_lake_shore_blvd_w:sunnyside_beach'
+  _source: places-of-interest
+  _theme:
+    - POI … Beach
+    - POI … Beaches
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6377087094
+  longitude: -79.4574334276
+  name: Sunnyside Beach
+  streetAddress: 1755 Lake Shore Blvd W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:1614_bloor_st_w:taras_h_shevchenko_museum'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.655881108
+  longitude: -79.455501812
+  name: Taras H. Shevchenko Museum
+  streetAddress: 1614 Bloor St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:40_bay_st:air_canada_centre'
+  _source: places-of-interest
+  _theme:
+    - POI … Sports Bar
+    - POI … Sports Center
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6434462761
+  longitude: -79.3790038505
+  name: Air Canada Centre
+  streetAddress: 40 Bay St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:750_spadina_ave:al_green_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6662151687
+  longitude: -79.404065499
+  name: Al Green Theatre
+  streetAddress: 750 Spadina Ave
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:2901_yonge_st:alexander_muir_memorial_gardens'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7215421049
+  longitude: -79.401166806
+  name: Alexander Muir Memorial Gardens
+  streetAddress: 2901 Yonge St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:19_horticultural_ave:allan_gardens'
+  _source: places-of-interest
+  _theme:
+    - POI … Garden
+    - POI … Conservatory
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.660945552
+  longitude: -79.374750667
+  name: Allan Gardens
+  streetAddress: 19 Horticultural Ave
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:105_princes_blvd:allstream_centre'
+  _source: places-of-interest
+  _theme:
+    - POI … Convention Centre
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6340387119
+  longitude: -79.4106499034
+  name: Allstream Centre
+  streetAddress: 105 Princes Blvd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:70_berkeley_st:alumnae_theatre_company'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6527506908
+  longitude: -79.3649542108
+  name: Alumnae Theatre Company
+  streetAddress: 70 Berkeley St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:730_bathurst_st:annex_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6635243513
+  longitude: -79.410849096
+  name: Annex Theatre
+  streetAddress: 730 Bathurst St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:317_dundas_st_w:art_gallery_of_ontario'
+  _source: places-of-interest
+  _theme:
+    - POI … Gallery
+    - POI … Art Gallery
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.653511557
+  longitude: -79.392569777
+  name: Art Gallery of Ontario
+  streetAddress: 317 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:61_claireville_dr:baps_shri_swaminarayan_mandir'
+  _source: places-of-interest
+  _theme:
+    - POI … Landmark
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7392916464
+  longitude: -79.6250026664
+  name: BAPS Shri Swaminarayan Mandir
+  streetAddress: 61 Claireville Dr
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:404_jarvis_st:betty_oliphant_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6642703443
+  longitude: -79.3780847605
+  name: Betty Oliphant Theatre
+  streetAddress: 404 Jarvis St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:4_eireann_quay:billy_bishop_toronto_city_airport'
+  _source: places-of-interest
+  _theme:
+    - POI … Mass Transit
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.633926409
+  longitude: -79.397482414
+  name: Billy Bishop Toronto City Airport
+  streetAddress: 4 Eireann Quay
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:1000_murray_ross_pkwy:black_creek_pioneer_village'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.774770404
+  longitude: -79.518036212
+  name: Black Creek Pioneer Village
+  streetAddress: 1000 Murray Ross Pkwy
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:1_brimley_rd_s:bluffer_s_park_and_beach'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.706205603
+  longitude: -79.234973581
+  name: "Bluffer's Park and Beach"
+  streetAddress: 1 Brimley Rd S
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:27_front_st_e:bluma_appel_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.647413879
+  longitude: -79.3752174619
+  name: Bluma Appel Theatre
+  streetAddress: 27 Front St E
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:170_princes_blvd:bmo_field'
+  _source: places-of-interest
+  _theme:
+    - POI … Sports Bar
+    - POI … Sports Center
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.632672586
+  longitude: -79.4186175379
+  name: BMO Field
+  streetAddress: 170 Princes Blvd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:12_alexander_st:buddies_in_bad_times_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.66331001
+  longitude: -79.383062692
+  name: Buddies in Bad Times Theatre
+  streetAddress: 12 Alexander St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:160_queen_st_w:campbell_house'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.65090189
+  longitude: -79.38715271
+  name: Campbell House
+  streetAddress: 160 Queen St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:400_jarvis_st:canada_s_national_ballet_school'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6636067238
+  longitude: -79.3775865244
+  name: "Canada's National Ballet School"
+  streetAddress: 400 Jarvis St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:215_king_st_w:canada_s_walk_of_fame'
+  _source: places-of-interest
+  _theme:
+    - POI … Landmark
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.646941775
+  longitude: -79.387564025
+  name: "Canada's Walk of Fame"
+  streetAddress: 215 King St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:250_front_st_w:cbc_museum'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6444264922
+  longitude: -79.3877064317
+  name: CBC Museum
+  streetAddress: 250 Front St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:500_church_st:canadian_sculpture_centre'
+  _source: places-of-interest
+  _theme:
+    - POI … Gallery
+    - POI … Art Gallery
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.663990263
+  longitude: -79.3805176002
+  name: Canadian Sculpture Centre
+  streetAddress: 500 Church St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:1_austin_ter:casa_loma'
+  _source: places-of-interest
+  _theme:
+    - POI … Attractions
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6781217528
+  longitude: -79.4095269982
+  name: Casa Loma
+  streetAddress: 1 Austin Ter
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:275_unwin_ave:cherry_beach_clarke_beach'
+  _source: places-of-interest
+  _theme:
+    - POI … Beach
+    - POI … Beaches
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.641175262
+  longitude: -79.341627761
+  name: Cherry Beach/Clarke Beach
+  streetAddress: 275 Unwin Ave
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:225_confederation_dr:cedar_ridge_creative_centre_gardens'
+  _source: places-of-interest
+  _theme:
+    - POI … Garden
+    - POI … Conservatory
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.757430206
+  longitude: -79.207131759
+  name: 'Cedar Ridge Creative Centre & Gardens'
+  streetAddress: 225 Confederation Dr
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:256_centennial_park_rd:centennial_park'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.657319079
+  longitude: -79.586864373
+  name: Centennial Park
+  streetAddress: 256 Centennial Park Rd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:151_elmcrest_rd:centennial_park_conservatory'
+  _source: places-of-interest
+  _theme:
+    - POI … Garden
+    - POI … Conservatory
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.649474769
+  longitude: -79.5883451487
+  name: Centennial Park Conservatory
+  streetAddress: 151 Elmcrest Rd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:1_avenue_of_the_islands:centre_island_beach'
+  _source: places-of-interest
+  _theme:
+    - POI … Beach
+    - POI … Beaches
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.616599524
+  longitude: -79.371760882
+  name: Centre Island Beach
+  streetAddress: 1 Avenue Of The Islands
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:21_avenue_of_the_islands:centreville_amusement_park'
+  _source: places-of-interest
+  _theme:
+    - POI … Attractions
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.620406989
+  longitude: -79.373180934
+  name: Centreville Amusement Park
+  streetAddress: 21 Avenue Of The Islands
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:5183_sheppard_ave_e:chinese_cultural_centre_of_greater_toronto'
+  _source: places-of-interest
+  _theme:
+    - POI … Attractions
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.794675633
+  longitude: -79.233487478
+  name: Chinese Cultural Centre of Greater Toronto
+  streetAddress: 5183 Sheppard Ave E
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:14_temperance_st:cloud_gardens_conservatory'
+  _source: places-of-interest
+  _theme:
+    - POI … Garden
+    - POI … Conservatory
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.651076519
+  longitude: -79.379709734
+  name: Cloud Gardens Conservatory
+  streetAddress: 14 Temperance St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:301_front_st_w:cn_tower'
+  _source: places-of-interest
+  _theme:
+    - POI … Attractions
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6426041806
+  longitude: -79.3871262961
+  name: CN Tower
+  streetAddress: 301 Front St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:11_colborne_lodge_dr:colborne_lodge'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.640347955
+  longitude: -79.459963485
+  name: Colborne Lodge
+  streetAddress: 11 Colborne Lodge Dr
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:234_bay_st:design_exchange'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6481536686
+  longitude: -79.3804869189
+  name: Design Exchange
+  streetAddress: 234 Bay St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:100_princes_blvd:enercare_centre'
+  _source: places-of-interest
+  _theme:
+    - POI … Convention Centre
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6345388663
+  longitude: -79.4125548185
+  name: EnerCare Centre
+  streetAddress: 100 Princes Blvd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:16_ryerson_ave:theatre_passe_muraille'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6486090547
+  longitude: -79.4026151848
+  name: Theatre Passe Muraille
+  streetAddress: 16 Ryerson Ave
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:6_trinity_st:thompson_landry_gallery'
+  _source: places-of-interest
+  _theme:
+    - POI … Gallery
+    - POI … Art Gallery
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.65010183
+  longitude: -79.359633601
+  name: Thompson Landry Gallery
+  streetAddress: 6 Trinity St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:3600_kingston_rd:theatre_scarborough'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.739991316
+  longitude: -79.216758124
+  name: Theatre Scarborough
+  streetAddress: 3600 Kingston Rd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:67_pottery_rd:todmorden_mills_heritage_site'
+  _source: places-of-interest
+  _theme:
+    - POI … Landmark
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.686361228
+  longitude: -79.36033401
+  name: Todmorden Mills Heritage Site
+  streetAddress: 67 Pottery Rd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:1_leslie_st:tommy_thompson_park'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6511942287
+  longitude: -79.3215975478
+  name: Tommy Thompson Park
+  streetAddress: 1 Leslie St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:777_lawrence_ave_e:toronto_botanical_gardens_and_edwards_gardens'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.734346145
+  longitude: -79.358667018
+  name: Toronto Botanical Gardens and Edwards Gardens
+  streetAddress: 777 Lawrence Ave E
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:100_queen_st_w:toronto_city_hall_nathan_phillips_square'
+  _source: places-of-interest
+  _theme:
+    - POI … Landmark
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.65282214
+  longitude: -79.383625059
+  name: 'Toronto City Hall & Nathan Phillips Square'
+  streetAddress: 100 Queen St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:610_bay_st:toronto_coach_terminal'
+  _source: places-of-interest
+  _theme:
+    - POI … Mass Transit
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6561826233
+  longitude: -79.3844323131
+  name: Toronto Coach Terminal
+  streetAddress: 610 Bay St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:650_dixon_rd:toronto_congress_centre'
+  _source: places-of-interest
+  _theme:
+    - POI … Convention Centre
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6909062533
+  longitude: -79.5781710851
+  name: Toronto Congress Centre
+  streetAddress: 650 Dixon Rd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:220_yonge_st:eaton_centre'
+  _source: places-of-interest
+  _theme:
+    - POI … Mall
+    - POI … Shopping Center
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.653677971
+  longitude: -79.3801129844
+  name: Eaton Centre
+  streetAddress: 220 Yonge St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:1_centre_island_pk:toronto_island_park'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.615215203
+  longitude: -79.377275496
+  name: Toronto Island Park
+  streetAddress: 1 Centre Island Pk
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:479_queens_quay_w:toronto_music_garden'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.637216117
+  longitude: -79.393497458
+  name: Toronto Music Garden
+  streetAddress: 479 Queens Quay W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:40_college_st:toronto_police_museum_discovery_centre'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6613577145
+  longitude: -79.3851429052
+  name: 'Toronto Police Museum & Discovery Centre'
+  streetAddress: 40 College St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:19_trinity_sq:toronto_public_labyrinth_at_trinity_square'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6547094
+  longitude: -79.381728516
+  name: Toronto Public Labyrinth at Trinity Square
+  streetAddress: 19 Trinity Sq
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:255_bremner_blvd:toronto_railway_museum'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.641692103
+  longitude: -79.385566845
+  name: Toronto Railway Museum
+  streetAddress: 255 Bremner Blvd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:789_yonge_st:toronto_reference_library'
+  _source: places-of-interest
+  _theme:
+    - POI … Landmark
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6718875247
+  longitude: -79.3866732078
+  name: Toronto Reference Library
+  streetAddress: 789 Yonge St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:15_king_s_college_crcl:university_of_toronto_art_centre'
+  _source: places-of-interest
+  _theme:
+    - POI … Gallery
+    - POI … Art Gallery
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6625507272
+  longitude: -79.3953416867
+  name: University of Toronto Art Centre
+  streetAddress: "15 King's College Crcl"
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:115_cumberland_st:village_of_yorkville_park'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.67002689
+  longitude: -79.391674784
+  name: Village of Yorkville Park
+  streetAddress: 115 Cumberland St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:40_lakeshore_ave:ward_s_island_beach'
+  _source: places-of-interest
+  _theme:
+    - POI … Beach
+    - POI … Beaches
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6296146572
+  longitude: -79.3548111828
+  name: "Ward's Island Beach"
+  streetAddress: 40 Lakeshore Ave
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:80_winchester_st:winchester_street_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6664311301
+  longitude: -79.3670154515
+  name: Winchester Street Theatre
+  streetAddress: 80 Winchester St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:1675_lake_shore_blvd_e:woodbine_beach'
+  _source: places-of-interest
+  _theme:
+    - POI … Beach
+    - POI … Beaches
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.661541179
+  longitude: -79.31117942
+  name: Woodbine Beach
+  streetAddress: 1675 Lake Shore Blvd E
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:500_rexdale_blvd:woodbine_shopping_centre_and_fantasy_fair'
+  _source: places-of-interest
+  _theme:
+    - POI … Attractions
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7203852206
+  longitude: -79.600063976
+  name: Woodbine Shopping Centre and Fantasy Fair
+  streetAddress: 500 Rexdale Blvd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:555_rexdale_blvd:woodbine_racetrack'
+  _source: places-of-interest
+  _theme:
+    - POI … Attractions
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7090112564
+  longitude: -79.6056416244
+  name: Woodbine Racetrack
+  streetAddress: 555 Rexdale Blvd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:1_dundas_st_e:yonge'
+  _source: places-of-interest
+  _theme:
+    - POI … Landmark
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6562020334
+  longitude: -79.3804417766
+  name: Yonge
+  streetAddress: 1 Dundas St E
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:235_queens_quay_w:york_quay_centre'
+  _source: places-of-interest
+  _theme:
+    - POI … Landmark
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6392404419
+  longitude: -79.3831085596
+  name: York Quay Centre
+  streetAddress: 235 Queens Quay W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:3401_dufferin_st:yorkdale_mall'
+  _source: places-of-interest
+  _theme:
+    - POI … Mall
+    - POI … Shopping Center
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7260790335
+  longitude: -79.4514704404
+  name: Yorkdale Mall
+  streetAddress: 3401 Dufferin St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:50_tank_house_lane:young_centre_for_the_performing_arts'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.650850928
+  longitude: -79.357458674
+  name: Young Centre for the Performing Arts
+  streetAddress: 50 Tank House Lane
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:165_front_st_e:young_people_s_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6499984416
+  longitude: -79.3687420725
+  name: "Young People's Theatre"
+  streetAddress: 165 Front St E
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:224_richmond_st_w:yuk_yuk_s'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6498795782
+  longitude: -79.3883656024
+  name: "Yuk Yuk's"
+  streetAddress: 224 Richmond St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:50_carlton_st:mattamy_athletic_centre'
+  _source: places-of-interest
+  _theme:
+    - POI … Sports Bar
+    - POI … Sports Center
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.661819192
+  longitude: -79.380314098
+  name: Mattamy Athletic Centre
+  streetAddress: 50 Carlton St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:2000_meadowvale_rd:toronto_zoo'
+  _source: places-of-interest
+  _theme:
+    - POI … Attractions
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.8238795101
+  longitude: -79.1783447828
+  name: Toronto Zoo
+  streetAddress: 2000 Meadowvale Rd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:260_adelaide_st_e:toronto_s_first_post_office'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6519195715
+  longitude: -79.3705397498
+  name: "Toronto's First Post Office"
+  streetAddress: 260 Adelaide St E
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:65_front_st_w:travellers_aid_society_of_toronto'
+  _source: places-of-interest
+  _theme:
+    - POI … Visitor Information Centre
+    - POI … Visitor Information
+    - POI … VIC
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6455282399
+  longitude: -79.380348382
+  name: "Travellers' Aid Society of Toronto"
+  streetAddress: 65 Front St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:620_spadina_ave:ukrainian_museum_of_canada'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6619493533
+  longitude: -79.4022412135
+  name: Ukrainian Museum of Canada
+  streetAddress: 620 Spadina Ave
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:65_front_st_w:union_station'
+  _source: places-of-interest
+  _theme:
+    - POI … Mass Transit
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6455282399
+  longitude: -79.380348382
+  name: Union Station
+  streetAddress: 65 Front St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:65_front_st_w:union_station_tourism_information_centre'
+  _source: places-of-interest
+  _theme:
+    - POI … Visitor Information Centre
+    - POI … Visitor Information
+    - POI … VIC
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6455282399
+  longitude: -79.380348382
+  name: Union Station Tourism Information Centre
+  streetAddress: 65 Front St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:67_pottery_rd:papermill_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.686361228
+  longitude: -79.36033401
+  name: Papermill Theatre
+  streetAddress: 67 Pottery Rd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:77_wynford_dr:aga_khan_museum'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.725385704
+  longitude: -79.332331141
+  name: Aga Khan Museum
+  streetAddress: 77 Wynford Dr
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:5040_yonge_st:toronto_centre_for_the_arts'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7662885073
+  longitude: -79.4140243396
+  name: Toronto Centre for the Arts
+  streetAddress: 5040 Yonge St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:1675_lake_shore_blvd_e:ashbridge_s_bay_park'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.661541179
+  longitude: -79.31117942
+  name: "Ashbridge's Bay Park"
+  streetAddress: 1675 Lake Shore Blvd E
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:9_trinity_st:dancemakers_and_the_centre_for_creation'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.650026117
+  longitude: -79.359260798
+  name: Dancemakers and the Centre for Creation
+  streetAddress: 9 Trinity St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:201_guildwood_pkwy:guild_park_and_gardens'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.749166521
+  longitude: -79.190729272
+  name: Guild Park and Gardens
+  streetAddress: 201 Guildwood Pkwy
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:95_queens_quay_e:redpath_sugar_museum'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6425570049
+  longitude: -79.3704011103
+  name: Redpath Sugar Museum
+  streetAddress: 95 Queens Quay E
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:350_king_st_w:tiff_bell_lightbox'
+  _source: places-of-interest
+  _theme:
+    - POI … Landmark
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6466546111
+  longitude: -79.3904541241
+  name: TIFF Bell Lightbox
+  streetAddress: 350 King St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:115_king_st_e:toronto_sculpture_garden'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.649846786
+  longitude: -79.373664452
+  name: Toronto Sculpture Garden
+  streetAddress: 115 King St E
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:26_berkeley_st:berkeley_street_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.65057724
+  longitude: -79.36426063
+  name: Berkeley Street Theatre
+  streetAddress: 26 Berkeley St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:244_victoria_st:ed_mirvish_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6552549708
+  longitude: -79.3794015406
+  name: Ed Mirvish Theatre
+  streetAddress: 244 Victoria St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:2_bloor_st_e:japan_foundation'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6707278444
+  longitude: -79.3855547228
+  name: Japan Foundation
+  streetAddress: 2 Bloor St E
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:61_claireville_dr:museum_of_cultural_heritage_of_indo'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7392916464
+  longitude: -79.6250026664
+  name: Museum of Cultural Heritage of Indo
+  streetAddress: 61 Claireville Dr
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:260_king_st_w:royal_alexandra_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6474590772
+  longitude: -79.3876454469
+  name: Royal Alexandra Theatre
+  streetAddress: 260 King St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest::toronto_pearson_international_airport'
+  _source: places-of-interest
+  _theme:
+    - POI … Mass Transit
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6689038
+  longitude: -79.6631841
+  name: Toronto Pearson International Airport
+  streetAddress: null
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:7450_kingston_rd:glen_rouge_campground'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.804849635
+  longitude: -79.13734962
+  name: Glen Rouge Campground
+  streetAddress: 7450 Kingston Rd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:250_front_st_w:glenn_gould_studio'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6444264922
+  longitude: -79.3877064317
+  name: Glenn Gould Studio
+  streetAddress: 250 Front St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:695_lakeshore_ave:hanlan_s_point_beach'
+  _source: places-of-interest
+  _theme:
+    - POI … Beach
+    - POI … Beaches
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.619297883
+  longitude: -79.391240016
+  name: "Hanlan's Point Beach"
+  streetAddress: 695 Lakeshore Ave
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:235_queens_quay_w:harbourfront_centre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6392404419
+  longitude: -79.3831085596
+  name: Harbourfront Centre
+  streetAddress: 235 Queens Quay W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:7_hart_house_crcl:hart_house_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6637205734
+  longitude: -79.3945670206
+  name: Hart House Theatre
+  streetAddress: 7 Hart House Crcl
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:1873_bloor_st_w:high_park'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.653569557
+  longitude: -79.464086679
+  name: High Park
+  streetAddress: 1873 Bloor St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:1091_finch_ave_e:historic_zion_schoolhouse'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.790365157
+  longitude: -79.363407399
+  name: Historic Zion Schoolhouse
+  streetAddress: 1091 Finch Ave E
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:30_yonge_st:hockey_hall_of_fame'
+  _source: places-of-interest
+  _theme:
+    - POI … Attractions
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6471224259
+  longitude: -79.377386749
+  name: Hockey Hall of Fame
+  streetAddress: 30 Yonge St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:50_bloor_st_w:holt_renfrew'
+  _source: places-of-interest
+  _theme:
+    - POI … Mall
+    - POI … Shopping Center
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6703872721
+  longitude: -79.3883179536
+  name: Holt Renfrew
+  streetAddress: 50 Bloor St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:339_queens_quay_w:hto_park'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.637690309
+  longitude: -79.388613019
+  name: HTO Park
+  streetAddress: 339 Queens Quay W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:176_yonge_st:hudson_s_bay'
+  _source: places-of-interest
+  _theme:
+    - POI … Mall
+    - POI … Shopping Center
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6517512823
+  longitude: -79.3803004679
+  name: "Hudson's Bay"
+  streetAddress: 176 Yonge St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:205_humber_college_blvd:humber_arboretum'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.729166545
+  longitude: -79.606839866
+  name: Humber Arboretum
+  streetAddress: 205 Humber College Blvd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:100_humber_bay_park_rd_w:humber_bay_park'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.618778863
+  longitude: -79.481084536
+  name: Humber Bay Park
+  streetAddress: 100 Humber Bay Park Rd W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:93_charles_st_w:isabel_bader_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.667307184
+  longitude: -79.3924220296
+  name: Isabel Bader Theatre
+  streetAddress: 93 Charles St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:9_queens_quay_w:jack_layton_ferry_terminal'
+  _source: places-of-interest
+  _theme:
+    - POI … Mass Transit
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6404497638
+  longitude: -79.3750946721
+  name: Jack Layton Ferry Terminal
+  streetAddress: 9 Queens Quay W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:61_edgehill_rd:james_garden_park'
+  _source: places-of-interest
+  _theme:
+    - POI … Garden
+    - POI … Conservatory
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6707003324
+  longitude: -79.5167005104
+  name: James Garden Park
+  streetAddress: 61 Edgehill Rd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:2075_queen_st_e:kew_gardens_park'
+  _source: places-of-interest
+  _theme:
+    - POI … Park
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.669989568
+  longitude: -79.299292604
+  name: Kew Gardens Park
+  streetAddress: 2075 Queen St E
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:2075_queen_st_e:kew'
+  _source: places-of-interest
+  _theme:
+    - POI … Beach
+    - POI … Beaches
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.669989568
+  longitude: -79.299292604
+  name: Kew
+  streetAddress: 2075 Queen St E
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:1_shoreham_dr:aviva_centre'
+  _source: places-of-interest
+  _theme:
+    - POI … Sports Bar
+    - POI … Sports Center
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.771640453
+  longitude: -79.511841342
+  name: Aviva Centre
+  streetAddress: 1 Shoreham Dr
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:273_bloor_st_w:koerner_hall'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.667856304
+  longitude: -79.396058814
+  name: Koerner Hall
+  streetAddress: 273 Bloor St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:100_ossington_ave:lower_ossington_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6463700566
+  longitude: -79.4199109078
+  name: Lower Ossington Theatre
+  streetAddress: 100 Ossington Ave
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:82_bond_st:mackenzie_house'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.655680554
+  longitude: -79.378454394
+  name: Mackenzie House
+  streetAddress: 82 Bond St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:2_forty_second_st:marie_curtis_park_east_beach'
+  _source: places-of-interest
+  _theme:
+    - POI … Beach
+    - POI … Beaches
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.5867701329
+  longitude: -79.5420817771
+  name: Marie Curtis Park East Beach
+  streetAddress: 2 Forty Second St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:178_victoria_st:massey_hall'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.653816876
+  longitude: -79.378770185
+  name: Massey Hall
+  streetAddress: 178 Victoria St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:10_dufferin_st:medieval_times_dinner_and_tournament'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6327058078
+  longitude: -79.4255096192
+  name: Medieval Times Dinner and Tournament
+  streetAddress: 10 Dufferin St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:255_front_st_w:metro_toronto_convention_centre'
+  _source: places-of-interest
+  _theme:
+    - POI … Convention Centre
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6440582387
+  longitude: -79.3867239907
+  name: Metro Toronto Convention Centre
+  streetAddress: 255 Front St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:909_lake_shore_blvd_w:molson_canadian_amphitheatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Sports Bar
+    - POI … Sports Center
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6293330956
+  longitude: -79.4151167811
+  name: Molson Canadian Amphitheatre
+  streetAddress: 909 Lake Shore Blvd W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:4709_dundas_st_w:montgomery_s_inn'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.651678917
+  longitude: -79.525658746
+  name: "Montgomery's Inn"
+  streetAddress: 4709 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:299_queen_st_w:muchmusic'
+  _source: places-of-interest
+  _theme:
+    - POI … Landmark
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6495602631
+  longitude: -79.390380519
+  name: MuchMusic
+  streetAddress: 299 Queen St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:158_sterling_rd:museum_of_contemporary_canadian_art'
+  _source: places-of-interest
+  _theme:
+    - POI … Gallery
+    - POI … Art Gallery
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6545981285
+  longitude: -79.4459660382
+  name: Museum of Contemporary Canadian Art
+  streetAddress: 158 Sterling Rd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:207_queens_quay_w:museum_of_inuit_art'
+  _source: places-of-interest
+  _theme:
+    - POI … Gallery
+    - POI … Art Gallery
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6387762011
+  longitude: -79.3806461799
+  name: Museum of Inuit Art
+  streetAddress: 207 Queens Quay W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:2026_yonge_st:mysteriously_yours_mystery_dinner_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7011927969
+  longitude: -79.3975361692
+  name: Mysteriously Yours¿ Mystery Dinner Theatre
+  streetAddress: 2026 Yonge St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:585_dundas_st_e:native_earth_performing_arts'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.660085913
+  longitude: -79.361941522
+  name: Native Earth Performing Arts
+  streetAddress: 585 Dundas St E
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:60_queen_st_w:old_city_hall'
+  _source: places-of-interest
+  _theme:
+    - POI … Landmark
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.652103862
+  longitude: -79.381751975
+  name: Old City Hall
+  streetAddress: 60 Queen St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:230_richmond_st_w:onsite_at_ocadu'
+  _source: places-of-interest
+  _theme:
+    - POI … Gallery
+    - POI … Art Gallery
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.649827904
+  longitude: -79.3886340923
+  name: 'Onsite [at] OCADU'
+  streetAddress: 230 Richmond St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:770_don_mills_rd:ontario_science_centre'
+  _source: places-of-interest
+  _theme:
+    - POI … Attractions
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7164526013
+  longitude: -79.3381489594
+  name: Ontario Science Centre
+  streetAddress: 770 Don Mills Rd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:130_queen_st_w:osgoode_hall'
+  _source: places-of-interest
+  _theme:
+    - POI … Landmark
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6516778778
+  longitude: -79.3849510753
+  name: Osgoode Hall
+  streetAddress: 130 Queen St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:651_yonge_st:panasonic_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6681227549
+  longitude: -79.3855576384
+  name: Panasonic Theatre
+  streetAddress: 651 Yonge St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:245_queens_quay_w:pawsway_toronto'
+  _source: places-of-interest
+  _theme:
+    - POI … Attractions
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6388865928
+  longitude: -79.3851665097
+  name: PawsWay Toronto
+  streetAddress: 245 Queens Quay W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:11_polson_st:polson_pier'
+  _source: places-of-interest
+  _theme:
+    - POI … Attractions
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6410955976
+  longitude: -79.3547054387
+  name: Polson Pier
+  streetAddress: 11 Polson St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:300_king_st_w:princess_of_wales_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6470541772
+  longitude: -79.3893227131
+  name: Princess of Wales Theatre
+  streetAddress: 300 King St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:30_bridgman_ave:tarragon_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6749125374
+  longitude: -79.4128632527
+  name: Tarragon Theatre
+  streetAddress: 30 Bridgman Ave
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:55_centre_ave:textile_museum_of_canada'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6545873402
+  longitude: -79.3866557106
+  name: Textile Museum of Canada
+  streetAddress: 55 Centre Ave
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:73_simcoe_st:48th_highlanders_museum'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.646788227
+  longitude: -79.3855559467
+  name: 48th Highlanders Museum
+  streetAddress: 73 Simcoe St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:327_bloor_st_w:bata_shoe_museum'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6672407978
+  longitude: -79.4001516216
+  name: Bata Shoe Museum
+  streetAddress: 327 Bloor St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:147_danforth_ave:danforth_music_hall'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6762079856
+  longitude: -79.3570247867
+  name: Danforth Music Hall
+  streetAddress: 147 Danforth Ave
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:55_mill_st:distillery_historic_district'
+  _source: places-of-interest
+  _theme:
+    - POI … Landmark
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.65063867
+  longitude: -79.359661916
+  name: Distillery Historic District
+  streetAddress: 55 Mill St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:231_queens_quay_w:power_plant_contemporary_art_gallery'
+  _source: places-of-interest
+  _theme:
+    - POI … Gallery
+    - POI … Art Gallery
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6386791219
+  longitude: -79.3821610852
+  name: Power Plant Contemporary Art Gallery
+  streetAddress: 231 Queens Quay W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:43_gerrard_st_e:ryerson_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6596014581
+  longitude: -79.3790567334
+  name: Ryerson Theatre
+  streetAddress: 43 Gerrard St E
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:4600_bathurst_st:sarah_and_chaim_neuberger_holocaust_education_centre'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7645114928
+  longitude: -79.4411232259
+  name: Sarah and Chaim Neuberger Holocaust Education Centre
+  streetAddress: 4600 Bathurst St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:1007_brimley_rd:scarborough_museum'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.758044503
+  longitude: -79.256434326
+  name: Scarborough Museum
+  streetAddress: 1007 Brimley Rd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:3600_kingston_rd:scarborough_village_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.739991316
+  longitude: -79.216758124
+  name: Scarborough Village Theatre
+  streetAddress: 3600 Kingston Rd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:4950_yonge_st:solar_stage_children_s_theatre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.7648290093
+  longitude: -79.4126792586
+  name: "Solar Stage Children's Theatre"
+  streetAddress: 4950 Yonge St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:1_front_st_e:sony_centre_for_the_performing_arts'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6465882061
+  longitude: -79.3762015648
+  name: Sony Centre for the Performing Arts
+  streetAddress: 1 Front St E
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:285_spadina_rd:spadina_museum'
+  _source: places-of-interest
+  _theme:
+    - POI … Museum
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.679028036
+  longitude: -79.408327627
+  name: Spadina Museum
+  streetAddress: 285 Spadina Rd
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:51_mercer_st:second_city'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.645374149
+  longitude: -79.391536986
+  name: Second City
+  streetAddress: 51 Mercer St
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:1115_queen_st_w:theatre_centre'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6431077956
+  longitude: -79.4232855544
+  name: Theatre Centre
+  streetAddress: 1115 Queen St W
+- _id: 'urn:x-opendata:ca:on:toronto:places-of-interest:2190_bloor_st_w:village_playhouse'
+  _source: places-of-interest
+  _theme:
+    - POI … Arts
+    - POI … Performing Arts
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6516627404
+  longitude: -79.4748098773
+  name: Village Playhouse
+  streetAddress: 2190 Bloor St W

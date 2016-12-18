@@ -1,0 +1,1099 @@
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:agincourt'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.29342962962961
+  longitude: 43.78516666666665
+  name: Agincourt
+  postalCode: M1T 3W6
+  streetAddress: 155 Bonis Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:albert_campbell'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.26925185185183
+  longitude: 43.708018518518514
+  name: Albert Campbell
+  postalCode: M1K 1N8
+  streetAddress: 496 Birchmount Road
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:albion'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.58409629629628
+  longitude: 43.7398259259259
+  name: Albion
+  postalCode: M9V 1B2
+  streetAddress: 1515 Albion Road
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:alderwood'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.54725185185184
+  longitude: 43.60194444444441
+  name: Alderwood
+  postalCode: M8W 4Y1
+  streetAddress: 2 Orianna Drive
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:amesbury_park'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.4857259259259
+  longitude: 43.706455555555536
+  name: Amesbury Park
+  postalCode: M6L 1A8
+  streetAddress: 1565 Lawrence Ave. W.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:annette_street'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.46634814814814
+  longitude: 43.66335925925924
+  name: Annette Street
+  postalCode: M6P 1P3
+  streetAddress: 145 Annette Street
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:armour_heights'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.42188888888889
+  longitude: 43.73933703703702
+  name: Armour Heights
+  postalCode: M5M 4M7
+  streetAddress: 2140 Avenue Road
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:barbara_frum'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.43221481481477
+  longitude: 43.72075185185185
+  name: Barbara Frum
+  postalCode: M6A 3C1
+  streetAddress: 20 Covington Road
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:bayview'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.38499999999999
+  longitude: 43.76885555555552
+  name: Bayview
+  postalCode: M2K 1E6
+  streetAddress: 2901 Bayview Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:beaches'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.29852592592593
+  longitude: 43.670129629629606
+  name: Beaches
+  postalCode: M4L 1J1
+  streetAddress: 2161 Queen Street East
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:bendale'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.24405185185185
+  longitude: 43.75106296296295
+  name: Bendale
+  postalCode: M1J 1H5
+  streetAddress: 1515 Danforth Road
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:black_creek'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.51046666666666
+  longitude: 43.72121851851851
+  name: Black Creek
+  postalCode: M3L 1B2
+  streetAddress: 1700 Wilson Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:bloor_gladstone'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.43402222222223
+  longitude: 43.659877777777766
+  name: Bloor/gladstone
+  postalCode: M6H 1M7
+  streetAddress: 1101 Bloor Street West
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:brentwood'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.51425925925925
+  longitude: 43.64744814814814
+  name: Brentwood
+  postalCode: M8X 2B5
+  streetAddress: 36 Brentwood Road North
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:bridlewood'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.31777037037037
+  longitude: 43.79714444444444
+  name: Bridlewood
+  postalCode: M1W 2S8
+  streetAddress: 2900 Warden Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:brookbanks'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.32590370370369
+  longitude: 43.7595074074074
+  name: Brookbanks
+  postalCode: M3A 2T8
+  streetAddress: 210 Brookbanks Dr.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:burrows_hall'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.23422962962961
+  longitude: 43.79388518518518
+  name: Burrows Hall
+  postalCode: M1B 5Z6
+  streetAddress: 1081 Progress Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:cedarbrae'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.22396296296296
+  longitude: 43.75752962962963
+  name: Cedarbrae
+  postalCode: M1H 2A1
+  streetAddress: 545 Markham Road
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:centennial'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.44957777777775
+  longitude: 43.77298888888886
+  name: Centennial
+  postalCode: M2R 1N7
+  streetAddress: 578 Finch Ave. West
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:city_hall'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.38399259259258
+  longitude: 43.65336666666666
+  name: City Hall
+  postalCode: M5H 2N3
+  streetAddress: 100 Queen Street West
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:cliffcrest'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.23077
+  longitude: 43.72517
+  name: Cliffcrest
+  postalCode: M1M 1P1
+  streetAddress: 3017 Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:college_shaw'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.4201111111111
+  longitude: 43.65515925925925
+  name: College/shaw
+  postalCode: M6G 1C4
+  streetAddress: 766 College Street
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:danforth_coxwell'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.32139999999998
+  longitude: 43.683574074074066
+  name: Danforth/coxwell
+  postalCode: M4C 5P2
+  streetAddress: 1675 Danforth Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:davenport'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.42845185185185
+  longitude: 43.67452962962962
+  name: Davenport
+  postalCode: M6G 3P1
+  streetAddress: 1246 Shaw Street
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:dawes_road'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.29732592592592
+  longitude: 43.70117407407407
+  name: Dawes Road
+  postalCode: M4B 2E8
+  streetAddress: 416 Dawes Road
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:deer_park'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.39248148148147
+  longitude: 43.68858148148147
+  name: Deer Park
+  postalCode: M4T 1M9
+  streetAddress: 40 St. Clair Ave. E.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:don_mills'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.34734074074075
+  longitude: 43.73664074074071
+  name: Don Mills
+  postalCode: M3C 1P6
+  streetAddress: 888 Lawrence Ave. East
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:downsview'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.48205185185185
+  longitude: 43.72887037037032
+  name: Downsview
+  postalCode: M3M 2G3
+  streetAddress: 2793 Keele Street
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:dufferin_st_clair'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.4424074074074
+  longitude: 43.67692962962961
+  name: Dufferin/st. Clair
+  postalCode: M6H 3L9
+  streetAddress: 1625 Dufferin Street
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:eatonville'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.55916296296293
+  longitude: 43.6461222222222
+  name: Eatonville
+  postalCode: M9B 2B1
+  streetAddress: 430 Burnhamthorpe Road
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:eglinton_square'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.30033333333333
+  longitude: 43.723685185185175
+  name: Eglinton Square
+  postalCode: M1L 2K1
+  streetAddress: 1 Eglinton Square
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:elmbrook_park'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.58384444444444
+  longitude: 43.6601222222222
+  name: Elmbrook Park
+  postalCode: M9C 5B4
+  streetAddress: 2 Elmbrook Cres.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:evelyn_gregory'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.47234814814814
+  longitude: 43.68618888888887
+  name: Evelyn Gregory
+  postalCode: M6M 1L7
+  streetAddress: 120 Trowell Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:fairview'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.34664444444444
+  longitude: 43.77902592592591
+  name: Fairview
+  postalCode: M2J 4S4
+  streetAddress: 35 Fairview Mall Dr.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:flemingdon_park'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.33175555555552
+  longitude: 43.717811111111104
+  name: Flemingdon Park
+  postalCode: M3C 3J3
+  streetAddress: 29 St. Dennis Dr.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:forest_hill'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.42057037037036
+  longitude: 43.702366666666634
+  name: Forest Hill
+  postalCode: M5N 1B9
+  streetAddress: 700 Eglinton Ave. West
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:fort_york'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.4003296
+  longitude: 43.6393204
+  name: Fort York
+  streetAddress: 190 Fort York Boulevard
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:gerrard_ashdale'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.3221259259259
+  longitude: 43.67246296296294
+  name: Gerrard/ashdale
+  postalCode: M4L 1Z6
+  streetAddress: 1432 Gerrard Street East
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:goldhawk_park'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.27799259259261
+  longitude: 43.82397407407406
+  name: Goldhawk Park
+  postalCode: M1V 4P1
+  streetAddress: 295 Alton Towers Circle
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:guildwood'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.1998888888889
+  longitude: 43.74667037037035
+  name: Guildwood
+  postalCode: M1E 4V2
+  streetAddress: 123 Guildwood Parkway
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:high_park'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.44898518518518
+  longitude: 43.645203703703686
+  name: High Park
+  postalCode: M6R 2L7
+  streetAddress: 228 Roncesvalles Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:highland_creek'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.17520740740741
+  longitude: 43.789959259259255
+  name: Highland Creek
+  postalCode: M1C 3Z2
+  streetAddress: 3550 Ellesmere Road
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:hillcrest'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.36904444444444
+  longitude: 43.797025925925915
+  name: Hillcrest
+  postalCode: M2H 1J8
+  streetAddress: 5801 Leslie Street
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:humber_bay'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.4911925925926
+  longitude: 43.62995925925924
+  name: Humber Bay
+  postalCode: M8Y 3J1
+  streetAddress: 200 Park Lawn Road
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:humber_summit'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.57151851851852
+  longitude: 43.75898148148147
+  name: Humber Summit
+  postalCode: M9L 2K6
+  streetAddress: 2990 Islington Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:humberwood'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.61916296296296
+  longitude: 43.72899629629626
+  name: Humberwood
+  postalCode: M9W 7A6
+  streetAddress: 850 Humberwood Blvd.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:jane_dundas'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.49141481481482
+  longitude: 43.66547037037034
+  name: Jane/dundas
+  postalCode: M6S 4A6
+  streetAddress: 620 Jane Street
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:jane_sheppard'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.51005
+  longitude: 43.73988
+  name: Jane/sheppard
+  postalCode: M3L 1Y7
+  streetAddress: 1906 Sheppard Ave West
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:jones'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.3344962962963
+  longitude: 43.66595185185183
+  name: Jones
+  postalCode: M4M 2Z9
+  streetAddress: 118 Jones Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:kennedy_eglinton'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.27049629629629
+  longitude: 43.73215925925921
+  name: Kennedy/eglinton
+  postalCode: M1K 2P3
+  streetAddress: 2380 Eglinton Ave. East
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:leaside'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.36756296296295
+  longitude: 43.70649259259256
+  name: Leaside
+  postalCode: M4G 1S8
+  streetAddress: 165 McRae Dr.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:lillian_h_smith'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.3984
+  longitude: 43.6581
+  name: Lillian H. Smith
+  postalCode: M5T 1R5
+  streetAddress: 239 College Street
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:locke'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.40181481481483
+  longitude: 43.72487777777776
+  name: Locke
+  postalCode: M4N 2K7
+  streetAddress: 3083 Yonge Street
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:long_branch'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.5315037037037
+  longitude: 43.59526296296294
+  name: Long Branch
+  postalCode: M8W 1N6
+  streetAddress: 3500 Lake Shore Blvd. West
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:main_street'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.29957777777776
+  longitude: 43.68335925925925
+  name: Main Street
+  postalCode: M4E 2V9
+  streetAddress: 137 Main Street
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:malvern'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.21606666666663
+  longitude: 43.808314814814814
+  name: Malvern
+  postalCode: M1B 3G5
+  streetAddress: 30 Sewells Road
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:maria_a_shchuka'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.44719259259259
+  longitude: 43.69612962962959
+  name: Maria A. Shchuka
+  postalCode: M6E 2H4
+  streetAddress: 1745 Eglinton Avenue W
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:maryvale'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.3117111111111
+  longitude: 43.757262962962955
+  name: Maryvale
+  postalCode: M1R 4B9
+  streetAddress: 85 Ellesmere Road
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:mcgregor_park'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.28071851851853
+  longitude: 43.747707407407404
+  name: Mcgregor Park
+  postalCode: M1P 2P5
+  streetAddress: 2219 Lawrence Ave. East
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:mimico_centennial'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.49390370370371
+  longitude: 43.61490740740739
+  name: Mimico Centennial
+  postalCode: M8V 2R1
+  streetAddress: 47 Station Road
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:morningside'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.17854074074076
+  longitude: 43.76988518518516
+  name: Morningside
+  postalCode: M1E 2S8
+  streetAddress: 4279 Lawrence Ave. East
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:mount_dennis'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.48825925925925
+  longitude: 43.686581481481475
+  name: Mount Dennis
+  postalCode: M6N 3S3
+  streetAddress: 1123 Weston Road
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:mount_pleasant'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.38812592592595
+  longitude: 43.703899999999976
+  name: Mount Pleasant
+  postalCode: M4S 2M5
+  streetAddress: 599 Mt. Pleasant Road
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:new_toronto'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.50974074074074
+  longitude: 43.599085185185174
+  name: New Toronto
+  postalCode: M8V 3G5
+  streetAddress: 110 Eleventh Street
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:north_york_central_library'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.41424444
+  longitude: 43.76807778
+  name: North York Central Library
+  postalCode: M2N 5N9
+  streetAddress: 5120 Yonge Street
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:northern_district'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.39987407407408
+  longitude: 43.708240740740706
+  name: Northern District
+  postalCode: M4R 1B9
+  streetAddress: 40 Orchard View Blvd.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:northern_elms'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.56554814814814
+  longitude: 43.71132962962962
+  name: Northern Elms
+  postalCode: M9W 1P1
+  streetAddress: 123B Rexdale Blvd.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:oakwood_village_library_and_arts_centre'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.4381111111111
+  longitude: 43.68654444444444
+  name: Oakwood Village Library And Arts Centre
+  postalCode: M6E 2W1
+  streetAddress: 341 Oakwood Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:palmerston'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.41405185185185
+  longitude: 43.66509259259255
+  name: Palmerston
+  postalCode: M6G 2P7
+  streetAddress: 560 Palmerston Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:pape_danforth'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.34457037037036
+  longitude: 43.67855925925923
+  name: Pape/danforth
+  postalCode: M4K 3S6
+  streetAddress: 701 Pape Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:parkdale'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.43265925925925
+  longitude: 43.64117407407406
+  name: Parkdale
+  postalCode: M6K 1L6
+  streetAddress: 1303 Queen Street West
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:parliament_street'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.36779999999999
+  longitude: 43.66180370370367
+  name: Parliament Street
+  postalCode: M5A 2G3
+  streetAddress: 269 Gerrard Street East
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:perth_dupont'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.45382962962962
+  longitude: 43.6650333333333
+  name: Perth/dupont
+  postalCode: M6P 3S5
+  streetAddress: 1589 Dupont Street
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:pleasant_view'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.33542962962962
+  longitude: 43.787559259259254
+  name: Pleasant View
+  postalCode: M2J 4S8
+  streetAddress: 575 Van Horne Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:port_union'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.14028888888889
+  longitude: 43.77947777777776
+  name: Port Union
+  postalCode: M1C 3B2
+  streetAddress: 5450 Lawrence Ave. East
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:queen_saulter'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.34759259259259
+  longitude: 43.65914444444443
+  name: Queen/saulter
+  postalCode: M4M 1H3
+  streetAddress: 765 Queen Street East
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:rexdale'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.57320740740741
+  longitude: 43.72612962962962
+  name: Rexdale
+  postalCode: M9W 4L5
+  streetAddress: 2243 Kipling Avenue
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:richview'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.5411185185185
+  longitude: 43.68340370370369
+  name: Richview
+  postalCode: M9P 3N3
+  streetAddress: 1806 Islington Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:riverdale'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.35316296296295
+  longitude: 43.66575925925923
+  name: Riverdale
+  postalCode: M4K 2M8
+  streetAddress: 370 Broadview Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:runnymede'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.47384444444442
+  longitude: 43.65185555555554
+  name: Runnymede
+  postalCode: M6S 1M8
+  streetAddress: 2178 Bloor Street West
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:scarborough_civic_centre'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.256764
+  longitude: 43.772096
+  name: Scarborough Civic Centre
+  postalCode: M1P 4N7
+  streetAddress: 156 Borough Dr.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:s_walter_stewart'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.32969629629628
+  longitude: 43.6921148148148
+  name: S. Walter Stewart
+  postalCode: M4J 2K5
+  streetAddress: 170 Memorial Park Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:sanderson'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.40551851851849
+  longitude: 43.65208518518517
+  name: Sanderson
+  postalCode: M5T 1J1
+  streetAddress: 327 Bathurst Street
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:spadina_road'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.40437777777778
+  longitude: 43.66715925925923
+  name: Spadina Road
+  postalCode: M5R 2S7
+  streetAddress: 10 Spadina Road
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:st_clair_silverthorn'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.4605851851852
+  longitude: 43.674262962962956
+  name: St. Clair/silverthorn
+  postalCode: M6N 1J3
+  streetAddress: 1748 St. Clair Ave. West
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:st_james_town'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.37446666666666
+  longitude: 43.667262962962944
+  name: St. James Town
+  postalCode: M4X 1K7
+  streetAddress: 495 Sherbourne Street
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:st_lawrence'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.36849629629629
+  longitude: 43.64998148148147
+  name: St. Lawrence
+  postalCode: M5A 4H3
+  streetAddress: 171 Front Street East
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:steeles'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.32230370370368
+  longitude: 43.81538148148147
+  name: Steeles
+  postalCode: M1W 3Y1
+  streetAddress: Bamburgh Gardens Shopping Plaza
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:swansea_memorial'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.47802222222221
+  longitude: 43.64792962962962
+  name: Swansea Memorial
+  postalCode: M6S 3H9
+  streetAddress: 95 Lavinia Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:taylor_memorial'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.27125185185186
+  longitude: 43.68778148148149
+  name: Taylor Memorial
+  postalCode: M1N 1R3
+  streetAddress: 1440 Kingston Road
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:thorncliffe'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.34264444444442
+  longitude: 43.70290740740739
+  name: Thorncliffe
+  postalCode: M4H 1J7
+  streetAddress: 48 Thorncliffe Park Dr.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:todmorden_room'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.34932592592591
+  longitude: 43.691625925925905
+  name: Todmorden Room
+  postalCode: M4K 3W6
+  streetAddress: 1081 1/2 Pape Ave (at Torrens)
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:toronto_reference_library'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.38676296296298
+  longitude: 43.671737037037005
+  name: Toronto Reference Library
+  postalCode: M4W 2G8
+  streetAddress: 789 Yonge Street
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:victoria_village'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.3129111111111
+  longitude: 43.736011111111075
+  name: Victoria Village
+  postalCode: M4A 2C4
+  streetAddress: 184 Sloane Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:weston'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.52058518518517
+  longitude: 43.701796296296266
+  name: Weston
+  postalCode: M9N 1K9
+  streetAddress: 2 King Street
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:woodside_square'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.26954814814812
+  longitude: 43.809462962962954
+  name: Woodside Square
+  postalCode: M1V 1V2
+  streetAddress: Woodside Square Mall
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:woodview_park'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.53894074074073
+  longitude: 43.7397222222222
+  name: Woodview Park
+  postalCode: M9M 1M8
+  streetAddress: 16 Bradstock Road
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:wychwood'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.41754814814814
+  longitude: 43.682181481481464
+  name: Wychwood
+  postalCode: M5R 3J2
+  streetAddress: 1431 Bathurst Street
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:york_woods'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.50726666666665
+  longitude: 43.758892592592574
+  name: York Woods
+  postalCode: M3N 1M6
+  streetAddress: 1785 Finch Ave. West
+- _id: 'urn:x-opendata:ca:on:toronto:libraries:yorkville'
+  _source: libraries
+  _theme: Library
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: -79.38864444444445
+  longitude: 43.6718259259259
+  name: Yorkville
+  postalCode: M4W 1L4
+  streetAddress: 22 Yorkville Ave.

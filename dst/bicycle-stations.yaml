@@ -1,0 +1,2316 @@
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7000'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.639832
+  longitude: -79.395954
+  name: Ft. York / Capreol Crt.
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7001'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.647992
+  longitude: -79.370907
+  name: Lower Jarvis St / The Esplanade
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7002'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.667333
+  longitude: -79.399429
+  name: St George St / Bloor St W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7003'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.667158
+  longitude: -79.402761
+  name: Madison Ave / Bloor St W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7004'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.656518
+  longitude: -79.389099
+  name: University Ave / Elm St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7005'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.648093
+  longitude: -79.384749
+  name: University Ave / King St W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7006'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.66009
+  longitude: -79.385653
+  name: Bay St / College St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7007'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.658148
+  longitude: -79.398167
+  name: College St / Huron St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7008'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.663376
+  longitude: -79.392125
+  name: "Wellesley/queen's Park"
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7009'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.650325
+  longitude: -79.372287
+  name: King St E / Jarvis St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7010'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.645323
+  longitude: -79.395003
+  name: King St W / Spadina Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7011'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.642982
+  longitude: -79.399256
+  name: Wellington St / Portland St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7012'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.656152
+  longitude: -79.385225
+  name: Elizabeth St / Edward St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7013'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.64656
+  longitude: -79.375274
+  name: Scott St / The Esplanade
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7014'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.663102
+  longitude: -79.373181
+  name: Sherbourne / Carlton
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7015'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.64852
+  longitude: -79.380576
+  name: King St W / Bay St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7016'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.640823
+  longitude: -79.376265
+  name: Ferry Ramp / Queens Quay W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7017'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.647145
+  longitude: -79.391479
+  name: Widmer St / Adelaide St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7018'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.641529
+  longitude: -79.386741
+  name: Bremner Blvd / Rees St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7019'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.650855
+  longitude: -79.379492
+  name: Temperance St / Yonge St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7020'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.650033
+  longitude: -79.396555
+  name: Phoebe St / Spadina Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7021'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.653264
+  longitude: -79.382458
+  name: Bay St / Albert St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7022'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.650858
+  longitude: -79.387582
+  name: Simcoe St / Queen St W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7023'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6571
+  longitude: -79.4056
+  name: College St / Borden St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7024'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.666725
+  longitude: -79.381351
+  name: Dundonald St/ Church St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7025'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.671293
+  longitude: -79.380471
+  name: Ted Rogers Way
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7026'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.665527
+  longitude: -79.387499
+  name: Bay St / St. Joseph St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7027'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.652823
+  longitude: -79.393388
+  name: Beverly St / Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7028'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6582
+  longitude: -79.3768
+  name: Gould St / Mutual St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7029'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.669429
+  longitude: -79.389326
+  name: Bay St / Bloor St W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7030'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.664088
+  longitude: -79.387095
+  name: Bay St / Wellesley St W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7031'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.669192
+  longitude: -79.379128
+  name: Jarvis St / Isabella St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7032'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.652473
+  longitude: -79.401456
+  name: Augusta Ave / Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7033'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.645566
+  longitude: -79.379438
+  name: Union Station
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7034'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.671389
+  longitude: -79.382919
+  name: Church St / Bloor St E
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7035'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.643975
+  longitude: -79.419576
+  name: Queen St / Ossington Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7036'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.651318
+  longitude: -79.36023
+  name: Trinity St/ Front St E
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7037'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6523
+  longitude: -79.4058
+  name: Bathurst St / Dundas St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7038'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.656094
+  longitude: -79.381484
+  name: Dundas St / Yonge St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7039'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.653743
+  longitude: -79.38882
+  name: Simcoe St / Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7040'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6643
+  longitude: -79.415
+  name: Euclid Ave / Bloor St.
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7041'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.656729
+  longitude: -79.382736
+  name: Edward St / Yonge St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7042'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6673
+  longitude: -79.374
+  name: Sherbourne St / Wellesley St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7043'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.63951
+  longitude: -79.383717
+  name: Queens Quay / Lower Simcoe
+  streetAddress: 229 Queens Quay West
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7044'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6636
+  longitude: -79.3806
+  name: Church St / Alexander St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7045'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.653236
+  longitude: -79.376716
+  name: Bond St / Queen St E
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7046'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.64534
+  longitude: -79.409597
+  name: Niagara St. / Richmond St. W.
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7047'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.657763
+  longitude: -79.389165
+  name: University Ave / Gerrard St W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7048'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.646144
+  longitude: -79.377962
+  name: Front/yonge
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7049'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6476
+  longitude: -79.4015
+  name: Queen St / Portland St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7050'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.652634
+  longitude: -79.374222
+  name: Richmond St E / Jarvis St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7051'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.664953
+  longitude: -79.384423
+  name: Wellesley St E. / Yonge St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7052'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.647259
+  longitude: -79.379878
+  name: Wellington St W / Bay St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7053'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.645859
+  longitude: -79.38783
+  name: Metro Hall Plaza
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7054'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.640722
+  longitude: -79.391051
+  name: Navy Wharf Ct. / Bremner Blvd.
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7055'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.66207
+  longitude: -79.37617
+  name: Jarvis St / Carlton St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7056'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.661149
+  longitude: -79.366648
+  name: Parliament St / Gerrard St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7057'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.645533
+  longitude: -79.3854
+  name: Simcoe St / Wellington St W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7058'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6637
+  longitude: -79.400053
+  name: Huron/ Harbord St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7059'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.643473
+  longitude: -79.390477
+  name: Front St W / Blue Jays Way
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7060'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.652123
+  longitude: -79.367139
+  name: Princess Ave / Adelaide St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7061'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.665876
+  longitude: -79.407224
+  name: Bloor St / Brunswick Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7062'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.659226
+  longitude: -79.390213
+  name: University Ave / College St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7063'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.668327
+  longitude: -79.39355
+  name: Queens Park / Bloor St W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7064'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.65205
+  longitude: -79.362198
+  name: 51 Parliament St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7065'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.659575
+  longitude: -79.365769
+  name: Dundas St / Parliament St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7066'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.662237
+  longitude: -79.397716
+  name: Willcocks St / St. George St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7067'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.643795
+  longitude: -79.375413
+  name: Yonge St. / Harbour St.
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7068'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.644272
+  longitude: -79.367766
+  name: Dockside Dr / Queens Quay E.
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7069'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.649147
+  longitude: -79.395504
+  name: Queen St W / Spadina Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7070'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.643667
+  longitude: -79.380414
+  name: 25 York St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7071'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.634982
+  longitude: -79.397574
+  name: Bathurst / Queens Quay
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7072'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.644524
+  longitude: -79.416519
+  name: Queen St W / Shaw St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7073'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.640903
+  longitude: -79.392895
+  name: Bremner / Spadina
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7074'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.664137
+  longitude: -79.402496
+  name: Spadina Ave / Sussex Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7075'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.636533
+  longitude: -79.395854
+  name: Queens Quay W / Dan Leckie Way
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7076'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.640132
+  longitude: -79.380464
+  name: York St / Queens Quay W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7077'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.659777
+  longitude: -79.382767
+  name: College Park South
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7078'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6576
+  longitude: -79.4032
+  name: College St / Major St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7079'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.660694
+  longitude: -79.379052
+  name: Mcgill St / Church St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7083'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.688325
+  longitude: -79.300463
+  name: Danforth/barrington
+  streetAddress: 2575 Danforth Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7084'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.68704
+  longitude: -79.301915
+  name: Stephenson/main
+  streetAddress: 148 Stephenson Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7085'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.687393
+  longitude: -79.303888
+  name: Danforth/westlake
+  streetAddress: 2451 Danforth Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7086'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.686829
+  longitude: -79.311073
+  name: Cedarvale/danforth
+  streetAddress: 101 Cedarvale Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7087'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.684371
+  longitude: -79.316756
+  name: Danforth/aldridge
+  streetAddress: 55 Aldridge Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7088'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.683378
+  longitude: -79.322961
+  name: Danforth/coxwell
+  streetAddress: 1577 Danforth Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7089'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.662767
+  longitude: -79.379577
+  name: Church St / Wood
+  streetAddress: 411 Church St.
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7090'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.681991
+  longitude: -79.329455
+  name: Danforth/lamb
+  streetAddress: 1323 Danforth Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7091'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.681329
+  longitude: -79.337506
+  name: Danforth/donlands
+  streetAddress: 6-22 Donlands Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7092'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.680223
+  longitude: -79.344062
+  name: Lipton/pape
+  streetAddress: 19 Lipton Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7093'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.678401
+  longitude: -79.346289
+  name: Danforth/gough
+  streetAddress: 38 Gough Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7094'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.678056
+  longitude: -79.352222
+  name: Chester/danforth
+  streetAddress: 22 Chester Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7095'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.677076
+  longitude: -79.35667
+  name: Danforth/ellerbeck
+  streetAddress: 8 Ellerbeck St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7096'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.661508
+  longitude: -79.338931
+  name: Boston/queen
+  streetAddress: 8 Boston Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7097'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.671172
+  longitude: -79.354704
+  name: Montcrest/broadview
+  streetAddress: 550 Broadview Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7098'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.667819
+  longitude: -79.35347
+  name: Langley/broadview
+  streetAddress: 450 Broadview Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7099'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.651248
+  longitude: -79.357848
+  name: Cherry/mill
+  streetAddress: 90 Mill St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7100'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.660207
+  longitude: -79.361275
+  name: Dundas/regent Park Blvd
+  streetAddress: 77 regent park Blvd
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7101'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.647756
+  longitude: -79.366415
+  name: Lower Sherbourne/the Esplanade
+  streetAddress: 11 Lower Sherbourne St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7102'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.648711
+  longitude: -79.389728
+  name: Nelson/john
+  streetAddress: 86 Nelson St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7103'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.660176
+  longitude: -79.344946
+  name: Jimmie Simpson Park
+  streetAddress: 870 Queen St E
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7104'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.657071
+  longitude: -79.356598
+  name: King/river
+  streetAddress: 540 King St E
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7105'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6561111
+  longitude: -79.36138888888888
+  name: Queen/sackville
+  streetAddress: 80 Sackville St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7106'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.652219
+  longitude: -79.354455
+  name: Mill/tannery
+  streetAddress: Mill Street/Tannery Road
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7107'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.650279
+  longitude: -79.356832
+  name: Cherry/distillery Ln
+  streetAddress: 391 Cherry St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7108'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.652686
+  longitude: -79.358395
+  name: Front/cherry
+  streetAddress: 380 Front St. E. Cherry St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7109'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.658777
+  longitude: -79.369596
+  name: Seaton/dundas St E
+  streetAddress: 166 Seaton Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7110'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6552778
+  longitude: -79.36583333333333
+  name: Queen/berkely
+  streetAddress: 310 Queen St E
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7111'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.640885
+  longitude: -79.416379
+  name: King/douro
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7112'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.637981
+  longitude: -79.424146
+  name: Liberty/fraser
+  streetAddress: 100 Liberty St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7113'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.665278
+  longitude: -79.368333
+  name: Parliament/aberdeen
+  streetAddress: 517 Parliament St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7114'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.664524
+  longitude: -79.36793
+  name: Carlton/parliament
+  streetAddress: 255 Carlton St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7115'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6712581
+  longitude: -79.376367
+  name: Howard St./ Sherbourne St.
+  streetAddress: 5 Howard St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7116'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.671827
+  longitude: -79.371849
+  name: Parliament/bloor
+  streetAddress: '550 Bloor St E '
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7117'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.674083
+  longitude: -79.368579
+  name: Castle Frank/bloor
+  streetAddress: 75 Castle Frank Rd
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7118'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.648575
+  longitude: -79.380042
+  name: King/bay
+  streetAddress: 243 Bay St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7119'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.66721
+  longitude: -79.362379
+  name: Sumach/winchester
+  streetAddress: 181 Winchester St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7120'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.663993
+  longitude: -79.358534
+  name: Gerrard/river
+  streetAddress: 500 Gerrard St E
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7121'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.657266
+  longitude: -79.374756
+  name: Jarvis/dundas
+  streetAddress: 202 Jarvis Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7122'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.641389
+  longitude: -79.404444
+  name: Niagara/tecumseth
+  streetAddress: 111 Niagara Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7123'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.643603
+  longitude: -79.399802
+  name: Portland/stewart
+  streetAddress: 60 Portland ST
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7124'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.662365
+  longitude: -79.351104
+  name: Dundas/broadview
+  streetAddress: 235 Broadview
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7126'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.671944
+  longitude: -79.387778
+  name: Yonge/yorkville
+  streetAddress: 16 Yorkville Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7127'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.672829
+  longitude: -79.390592
+  name: Bay/davenport
+  streetAddress: '1331 Bay St. '
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7128'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.675492
+  longitude: -79.388858
+  name: Yonge/aylmer
+  streetAddress: ' 955 Yonge St'
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7129'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.674991
+  longitude: -79.396273
+  name: Davenport/avenue
+  streetAddress: 175 Avenue Rd
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7130'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.674613
+  longitude: -79.399807
+  name: Davenport/bedford
+  streetAddress: 160 Bedford Rd.
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7131'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.66986
+  longitude: -79.398443
+  name: Taddle Creek Park
+  streetAddress: 40 Bedford Rd
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7132'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.670303
+  longitude: -79.405416
+  name: Kendal/spadina
+  streetAddress: 68-72 Spadina Rd
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7133'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.681944
+  longitude: -79.390556
+  name: Summerhill Station
+  streetAddress: 16 Shaftesbury Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7134'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.68
+  longitude: -79.391111
+  name: Marlborough/yonge
+  streetAddress: 11 Marlborough Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7135'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.638333
+  longitude: -79.419722
+  name: Hanna/liberty
+  streetAddress: 34 Hanna Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7136'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.640634
+  longitude: -79.435841
+  name: Queen/close
+  streetAddress: 1375 Queen St W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7137'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.676667
+  longitude: -79.416111
+  name: Davenport/bathurst
+  streetAddress: 750 Davenport RD
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7138'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.675278
+  longitude: -79.423889
+  name: Davenport/christie
+  streetAddress: 900 Davenport Rd
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7139'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.677778
+  longitude: -79.405556
+  name: Glen Edyth/davenport
+  streetAddress: 2 Glen Edyth Dr
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7140'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.675791
+  longitude: -79.40698
+  name: Macpherson/ Spadina
+  streetAddress: 200 Madison Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7141'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.675556
+  longitude: -79.410278
+  name: Bridgeman/kendal
+  streetAddress: 142 Kendal Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7142'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.674444
+  longitude: -79.414722
+  name: Bridgeman/bathurst
+  streetAddress: 1175 Bathurst St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7143'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.671513
+  longitude: -79.408317
+  name: Kendal/bernard
+  streetAddress: 50 Kendal Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7144'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.671389
+  longitude: -79.416389
+  name: Palmerston/vermont
+  streetAddress: 843 Palmerston Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7146'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.68
+  longitude: -79.42500000000001
+  name: 'Benson/christie "Wychwood Barns"'
+  streetAddress: '76 Wychwood Avenue '
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7147'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6394444
+  longitude: -79.42527777777778
+  name: King St / Mowat
+  streetAddress: 1116 King Street
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7148'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.639444
+  longitude: -79.423611
+  name: King / Jefferson
+  streetAddress: 1155 King st W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7149'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.67
+  longitude: -79.42083333333333
+  name: Yarmouth/christie
+  streetAddress: 249 Christie St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7150'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6555556
+  longitude: -79.43361111111112
+  name: Dufferin Grove Park
+  streetAddress: 875 Dufferin ST
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7151'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6686111
+  longitude: -79.42027777777778
+  name: Essex/christie
+  streetAddress: 176 Christie St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7152'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6619444
+  longitude: -79.42555555555556
+  name: Bloor/ossington
+  streetAddress: 720 Ossington Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7153'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6638889
+  longitude: -79.41888888888889
+  name: Bloor/christie
+  streetAddress: 750 Bloor St W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7154'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6666667
+  longitude: -79.41166666666668
+  name: Bathurst Subway Station
+  streetAddress: 843 Bathurst St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7155'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6638889
+  longitude: -79.41055555555556
+  name: Bathurst/lennox
+  streetAddress: 693 Bathurst St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7156'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6608333
+  longitude: -79.43166666666667
+  name: Salem/bloor
+  streetAddress: 9 Salem Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7157'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.66083333333333
+  longitude: -79.43583333333333
+  name: Bloor/dufferin
+  streetAddress: 1141 Bloor St W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7158'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6422222
+  longitude: -79.41111111111111
+  name: King/strachan
+  streetAddress: ' 901 King St W'
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7160'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.64333333333333
+  longitude: -79.40555555555557
+  name: King/tecumseth
+  streetAddress: 725 King St W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7161'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6575
+  longitude: -79.39527777777778
+  name: Beverly/college
+  streetAddress: 228 Beverly St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7162'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6591666666667
+  longitude: -79.3855555555556
+  name: Hayter/laplante
+  streetAddress: 64-72 Hayter St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7163'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6622222
+  longitude: -79.3825
+  name: Yonge/wood
+  streetAddress: 9 Wood St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7164'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.657189
+  longitude: -79.379953
+  name: Victoria/dundas
+  streetAddress: 297 Victoria St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7167'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6544444
+  longitude: -79.3711111111111
+  name: Moss Park
+  streetAddress: 189 Queen St E
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7168'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6436111
+  longitude: -79.37694444444443
+  name: Bay/lakeshore
+  streetAddress: 30 Lakeshore Blvd W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7169'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.646162
+  longitude: -79.378912
+  name: Front/bay
+  streetAddress: 32 Front St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7170'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6616667
+  longitude: -79.40138888888889
+  name: Spadina / Willcocks
+  streetAddress: 607 Spadina Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7171'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.63409333
+  longitude: -79.40909861
+  name: Strachan/lakeshore
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7172'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.635
+  longitude: -79.4088888888889
+  name: "Strachan And Princes' Blvd"
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7173'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.66666667
+  longitude: -79.45833333333334
+  name: Cariboo St/ Rail Path
+  streetAddress: '23 Cariboo Ave2.    '
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7174'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6563889
+  longitude: -79.45166666666667
+  name: Bloor/dundas St W
+  streetAddress: 1500 Bloor St W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7175'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6386
+  longitude: -79.3875
+  name: Hto Park
+  streetAddress: 339 Queens Quay W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7176'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.639114
+  longitude: -79.399995
+  name: Fort York/bathurst
+  streetAddress: 170 Fort York Blvd
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7177'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6386111111111
+  longitude: -79.4147222222222
+  name: Liberty/pirandello
+  streetAddress: 70 East Liberty St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7178'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6575
+  longitude: -79.4525
+  name: Dundas W/bloor
+  streetAddress: 2340 Dundas St W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7179'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6575
+  longitude: -79.4502777777778
+  name: Bloor Go/up Station
+  streetAddress: 120 Perth
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7180'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6591666666667
+  longitude: -79.4427777777778
+  name: Lansdowne/wade
+  streetAddress: 695 Lansdowne Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7181'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6538888888889
+  longitude: -79.4413888888889
+  name: Lansdowne/whytock
+  streetAddress: 346 Lansdowne Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7182'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6508333333333
+  longitude: -79.4430555555556
+  name: Sterling/dundas
+  streetAddress: 1900 Dundas St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7183'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6513888888889
+  longitude: -79.4377777777778
+  name: Margueretta/college
+  streetAddress: 1235 College St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7184'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6544915
+  longitude: -79.422634
+  name: Ossington Ave/college St.
+  streetAddress: 455 Ossington Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7188'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6366666666667
+  longitude: -79.4197222222222
+  name: Atlantic/liberty
+  streetAddress: 1 Atlantic ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7189'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6541666666667
+  longitude: -79.4019444444445
+  name: Augusta/denison Sq
+  streetAddress: 182 Augusta Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7190'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.664059
+  longitude: -79.398334
+  name: St. George/hoskin
+  streetAddress: 85 St. George St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7191'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.661975
+  longitude: -79.407896
+  name: Central Tech
+  streetAddress: 238 Harbord St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7192'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.660167
+  longitude: -79.416277
+  name: Harbord/ Clinton
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7193'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6430555555556
+  longitude: -79.4275
+  name: Queen/gladstone
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7194'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.690564
+  longitude: -79.326319
+  name: Mortimer/coxwell
+  streetAddress: 569 Mortimer Ave.
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7195'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.66
+  longitude: -79.4088888888889
+  name: Ulster/bathurst
+  streetAddress: 621 Bathurst St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7196'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6588888888889
+  longitude: -79.4233333333333
+  name: Roxton/harbord
+  streetAddress: 386 Harbord St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7197'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6436111111111
+  longitude: -79.4225
+  name: Queen/dovercourt
+  streetAddress: 1069 Queen St W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7198'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6409
+  longitude: -79.432837
+  name: Queen/cowan
+  streetAddress: |
+    1303 Queen St W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7199'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6563888888889
+  longitude: -79.4091666666667
+  name: College/markham
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7202'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.651667
+  longitude: -79.384167
+  name: City Hall
+  streetAddress: 100 Queen St W
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7203'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.650978
+  longitude: -79.424557
+  name: Harrison/dovercourt
+  streetAddress: 146 Harrison St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7204'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.655
+  longitude: -79.418889
+  name: College/crawford
+  streetAddress: 730 College St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7205'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.65277778
+  longitude: -79.42972222
+  name: Rusholme Park/college
+  streetAddress: 1033 College St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7206'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.651667
+  longitude: -79.411667
+  name: Claremont/dundas
+  streetAddress: 201 Claremont St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7207'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.649722
+  longitude: -79.416944
+  name: Dundas/crawford
+  streetAddress: 1053 Dundas St E
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7208'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.656296
+  longitude: -79.414663
+  name: College/clinton
+  streetAddress: 80 Clinton St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7209'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.651111111111106
+  longitude: -79.4213888888889
+  name: Ossington/harrison
+  streetAddress: 108 Harrison St
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7210'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6475
+  longitude: -79.43305555555555
+  name: Mary Mccormick Rec Centre
+  streetAddress: 66 Sheridan Ave
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7211'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.6375
+  longitude: -79.40611111111112
+  name: Fort York/garrison
+  streetAddress: 250 Fort York Blvd
+- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7216'
+  _source: bicycle-stations
+  _theme:
+    - Bikes … Bike Station
+    - Bikes … Bicycle Station
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: 'ON'
+  latitude: 43.641281
+  longitude: -79.409339
+  name: Wellington Dog Park
+  streetAddress: 700 Wellington St W
