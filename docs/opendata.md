@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project is built to showcase Toronto&apos Open Data
+This project is built to showcase Toronto Open Data
 datasets, 
 [available here](http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=9e56e03bb8d1e310VgnVCM10000071d60f89RCRD).
 

@@ -80,8 +80,10 @@ const _build = (_self, done) => {
 
             const type = pd.carpark_type_str
             if (type === "Garage") {
+                itemd.name = "Parking Garage"
                 itemd._theme = [ "Parking … Parking Garage" ];
             } else if (type === "Surface") {
+                itemd.name = "Parking Lot"
                 itemd._theme = [ "Parking … Parking Lot" ];
             } else {
                 itemd._theme = [ "Parking" ]

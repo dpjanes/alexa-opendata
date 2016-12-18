@@ -1,3 +1,4 @@
+# Firebase Setup
 ## Create New Project
 
 * go to the [Firebase Console](https://console.firebase.google.com/)
@@ -13,6 +14,7 @@ This allows our code to access firebase (mostly).
 * copy the JSON object to `config.json` in the home folder of this project,
   specifically in the `firebase` section. It will look something like this:
 
+
     {
         …
         "firebase": {
@@ -23,6 +25,8 @@ This allows our code to access firebase (mostly).
         },
         …
     }
+    
+    
 
 ## Set up Authentication Methods
 

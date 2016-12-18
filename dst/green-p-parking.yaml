@@ -7,7 +7,7 @@
   addressRegion: 'ON'
   latitude: 43.668997
   longitude: -79.385093
-  name: 20 Charles Street
+  name: Parking Garage
   streetAddress: 20 Charles Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:3'
   _source: green-p-parking
@@ -18,7 +18,7 @@
   addressRegion: 'ON'
   latitude: 43.667577
   longitude: -79.384707
-  name: 13 Isabella Street
+  name: Parking Lot
   streetAddress: 13 Isabella Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:5'
   _source: green-p-parking
@@ -29,7 +29,7 @@
   addressRegion: 'ON'
   latitude: 43.664837
   longitude: -79.383591
-  name: 15 Wellesley Street East
+  name: Parking Lot
   streetAddress: 15 Wellesley Street East
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:11'
   _source: green-p-parking
@@ -40,7 +40,7 @@
   addressRegion: 'ON'
   latitude: 43.687092
   longitude: -79.39285
-  name: 21 Pleasant Blvd.
+  name: Parking Garage
   streetAddress: 21 Pleasant Blvd.
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:12'
   _source: green-p-parking
@@ -51,7 +51,7 @@
   addressRegion: 'ON'
   latitude: 43.689202
   longitude: -79.393269
-  name: 30 Alvin Avenue
+  name: Parking Lot
   streetAddress: 30 Alvin Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:13'
   _source: green-p-parking
@@ -62,7 +62,7 @@
   addressRegion: 'ON'
   latitude: 43.689
   longitude: -79.395586
-  name: 20 Delisle Avenue
+  name: Parking Garage
   streetAddress: 20 Delisle Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:15'
   _source: green-p-parking
@@ -73,7 +73,7 @@
   addressRegion: 'ON'
   latitude: 43.671286
   longitude: -79.389331
-  name: 37 Yorkville Avenue
+  name: Parking Garage
   streetAddress: 37 Yorkville Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:28'
   _source: green-p-parking
@@ -84,7 +84,7 @@
   addressRegion: 'ON'
   latitude: 43.678146
   longitude: -79.344774
-  name: 670 Pape Avenue
+  name: Parking Lot
   streetAddress: 670 Pape Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:18'
   _source: green-p-parking
@@ -95,7 +95,7 @@
   addressRegion: 'ON'
   latitude: 43.664581
   longitude: -79.463993
-  name: 351 Keele Street
+  name: Parking Lot
   streetAddress: 351 Keele Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:19'
   _source: green-p-parking
@@ -106,7 +106,7 @@
   addressRegion: 'ON'
   latitude: 43.664736
   longitude: -79.468124
-  name: 385 Pacific Avenue
+  name: Parking Lot
   streetAddress: 385 Pacific Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:20'
   _source: green-p-parking
@@ -117,7 +117,7 @@
   addressRegion: 'ON'
   latitude: 43.686541
   longitude: -79.310957
-  name: 101 Cedarvale Avenue
+  name: Parking Lot
   streetAddress: 101 Cedarvale Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:21'
   _source: green-p-parking
@@ -128,7 +128,7 @@
   addressRegion: 'ON'
   latitude: 43.685377
   longitude: -79.311708
-  name: 72 Amroth Avenue
+  name: Parking Lot
   streetAddress: 72 Amroth Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:26'
   _source: green-p-parking
@@ -139,7 +139,7 @@
   addressRegion: 'ON'
   latitude: 43.652705
   longitude: -79.377218
-  name: 37 Queen Street East
+  name: Parking Garage
   streetAddress: 37 Queen Street East
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:17'
   _source: green-p-parking
@@ -150,7 +150,7 @@
   addressRegion: 'ON'
   latitude: 43.679713
   longitude: -79.345375
-  name: 716 Pape Avenue
+  name: Parking Lot
   streetAddress: 716 Pape Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:29'
   _source: green-p-parking
@@ -161,7 +161,7 @@
   addressRegion: 'ON'
   latitude: 43.706469
   longitude: -79.396348
-  name: 75 Holly Street
+  name: Parking Garage
   streetAddress: 75 Holly Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:32'
   _source: green-p-parking
@@ -172,7 +172,7 @@
   addressRegion: 'ON'
   latitude: 43.643785
   longitude: -79.378002
-  name: 45 Bay Street
+  name: Parking Lot
   streetAddress: 45 Bay Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:34'
   _source: green-p-parking
@@ -183,7 +183,7 @@
   addressRegion: 'ON'
   latitude: 43.656004
   longitude: -79.379933
-  name: 25 Dundas Street East
+  name: Parking Garage
   streetAddress: 25 Dundas Street East
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:36'
   _source: green-p-parking
@@ -194,7 +194,7 @@
   addressRegion: 'ON'
   latitude: 43.651696
   longitude: -79.383699
-  name: 110 Queen Street West
+  name: Parking Garage
   streetAddress: 110 Queen Street West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:39'
   _source: green-p-parking
@@ -205,7 +205,7 @@
   addressRegion: 'ON'
   latitude: 43.711828
   longitude: -79.400082
-  name: 20 Castlefield Avenue
+  name: Parking Lot
   streetAddress: 20 Castlefield Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:41'
   _source: green-p-parking
@@ -216,7 +216,7 @@
   addressRegion: 'ON'
   latitude: 43.678365
   longitude: -79.443882
-  name: 7 Norton Avenue
+  name: Parking Lot
   streetAddress: 7 Norton Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:42'
   _source: green-p-parking
@@ -227,7 +227,7 @@
   addressRegion: 'ON'
   latitude: 43.676817
   longitude: -79.445239
-  name: 91 Via Italia
+  name: Parking Garage
   streetAddress: 91 Via Italia
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:43'
   _source: green-p-parking
@@ -238,7 +238,7 @@
   addressRegion: 'ON'
   latitude: 43.64644
   longitude: -79.373066
-  name: 2 Church Street
+  name: Parking Garage
   streetAddress: 2 Church Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:44'
   _source: green-p-parking
@@ -249,7 +249,7 @@
   addressRegion: 'ON'
   latitude: 43.640788
   longitude: -79.439542
-  name: 14 Fuller Avenue
+  name: Parking Lot
   streetAddress: 14 Fuller Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:45'
   _source: green-p-parking
@@ -260,7 +260,7 @@
   addressRegion: 'ON'
   latitude: 43.659179
   longitude: -79.349774
-  name: 111 Broadview Avenue
+  name: Parking Lot
   streetAddress: 111 Broadview Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:47'
   _source: green-p-parking
@@ -271,7 +271,7 @@
   addressRegion: 'ON'
   latitude: 43.704445
   longitude: -79.412076
-  name: 125 Burnaby Blvd.
+  name: Parking Lot
   streetAddress: 125 Burnaby Blvd.
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:48'
   _source: green-p-parking
@@ -282,7 +282,7 @@
   addressRegion: 'ON'
   latitude: 43.670037
   longitude: -79.297621
-  name: 85 Lee Avenue
+  name: Parking Lot
   streetAddress: 85 Lee Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:51'
   _source: green-p-parking
@@ -293,7 +293,7 @@
   addressRegion: 'ON'
   latitude: 43.665054
   longitude: -79.409662
-  name: 365 Lippincott Street
+  name: Parking Lot
   streetAddress: 365 Lippincott Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:52'
   _source: green-p-parking
@@ -304,7 +304,7 @@
   addressRegion: 'ON'
   latitude: 43.645571
   longitude: -79.382937
-  name: 40 York Street
+  name: Parking Garage
   streetAddress: 40 York Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:53'
   _source: green-p-parking
@@ -315,7 +315,7 @@
   addressRegion: 'ON'
   latitude: 43.644546
   longitude: -79.410778
-  name: 803 Richmond Street West
+  name: Parking Lot
   streetAddress: 803 Richmond Street West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:55'
   _source: green-p-parking
@@ -326,7 +326,7 @@
   addressRegion: 'ON'
   latitude: 43.72677
   longitude: -79.40433
-  name: 23 Bedford Park Avenue West
+  name: Parking Lot
   streetAddress: 23 Bedford Park Avenue West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:58'
   _source: green-p-parking
@@ -337,7 +337,7 @@
   addressRegion: 'ON'
   latitude: 43.668655
   longitude: -79.397475
-  name: 9 Bedford Road
+  name: Parking Garage
   streetAddress: 9 Bedford Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:62'
   _source: green-p-parking
@@ -348,7 +348,7 @@
   addressRegion: 'ON'
   latitude: 43.642954
   longitude: -79.424211
-  name: 1119 Queen Street West
+  name: Parking Lot
   streetAddress: 1119 Queen Street West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:64'
   _source: green-p-parking
@@ -359,7 +359,7 @@
   addressRegion: 'ON'
   latitude: 43.650881
   longitude: -79.479014
-  name: 265 Durie Street
+  name: Parking Lot
   streetAddress: 265 Durie Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:68'
   _source: green-p-parking
@@ -370,7 +370,7 @@
   addressRegion: 'ON'
   latitude: 43.654303
   longitude: -79.400079
-  name: 20 St. Andrew Street
+  name: Parking Garage
   streetAddress: 20 St. Andrew Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:71'
   _source: green-p-parking
@@ -381,7 +381,7 @@
   addressRegion: 'ON'
   latitude: 43.654184
   longitude: -79.403176
-  name: 35 Bellevue Avenue
+  name: Parking Lot
   streetAddress: 35 Bellevue Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:78'
   _source: green-p-parking
@@ -392,7 +392,7 @@
   addressRegion: 'ON'
   latitude: 43.677316
   longitude: -79.357467
-  name: 35 Erindale Avenue
+  name: Parking Lot
   streetAddress: 35 Erindale Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:79'
   _source: green-p-parking
@@ -403,7 +403,7 @@
   addressRegion: 'ON'
   latitude: 43.66452
   longitude: -79.373502
-  name: 405 Sherbourne Street
+  name: Parking Lot
   streetAddress: 405 Sherbourne Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:80'
   _source: green-p-parking
@@ -414,7 +414,7 @@
   addressRegion: 'ON'
   latitude: 43.66611
   longitude: -79.465045
-  name: 400 Keele Street
+  name: Parking Lot
   streetAddress: 400 Keele Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:81'
   _source: green-p-parking
@@ -425,7 +425,7 @@
   addressRegion: 'ON'
   latitude: 43.658969
   longitude: -79.442739
-  name: 695 Lansdowne Avenue
+  name: Parking Lot
   streetAddress: 695 Lansdowne Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:82'
   _source: green-p-parking
@@ -436,7 +436,7 @@
   addressRegion: 'ON'
   latitude: 43.659412
   longitude: -79.440143
-  name: 92 Margueretta Avenue
+  name: Parking Lot
   streetAddress: 92 Margueretta Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:84'
   _source: green-p-parking
@@ -447,7 +447,7 @@
   addressRegion: 'ON'
   latitude: 43.661011
   longitude: -79.431667
-  name: 9 Salem Avenue
+  name: Parking Lot
   streetAddress: 9 Salem Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:85'
   _source: green-p-parking
@@ -458,7 +458,7 @@
   addressRegion: 'ON'
   latitude: 43.665039
   longitude: -79.413579
-  name: 557 Palmerston Avenue
+  name: Parking Lot
   streetAddress: 557 Palmerston Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:87'
   _source: green-p-parking
@@ -469,7 +469,7 @@
   addressRegion: 'ON'
   latitude: 43.678456
   longitude: -79.351223
-  name: 14 Arundel Avenue
+  name: Parking Lot
   streetAddress: 14 Arundel Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:88'
   _source: green-p-parking
@@ -480,7 +480,7 @@
   addressRegion: 'ON'
   latitude: 43.679007
   longitude: -79.348379
-  name: 25 Ferrier Avenue
+  name: Parking Lot
   streetAddress: 25 Ferrier Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:89'
   _source: green-p-parking
@@ -491,7 +491,7 @@
   addressRegion: 'ON'
   latitude: 43.679954
   longitude: -79.343948
-  name: 20 Eaton Avenue
+  name: Parking Lot
   streetAddress: 20 Eaton Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:90'
   _source: green-p-parking
@@ -502,7 +502,7 @@
   addressRegion: 'ON'
   latitude: 43.680078
   longitude: -79.343197
-  name: 17 Eaton Avenue
+  name: Parking Lot
   streetAddress: 17 Eaton Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:91'
   _source: green-p-parking
@@ -513,7 +513,7 @@
   addressRegion: 'ON'
   latitude: 43.650283
   longitude: -79.483039
-  name: 265 Armadale Avenue
+  name: Parking Lot
   streetAddress: 265 Armadale Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:93'
   _source: green-p-parking
@@ -524,7 +524,7 @@
   addressRegion: 'ON'
   latitude: 43.664651
   longitude: -79.416014
-  name: 675 Manning Avenue
+  name: Parking Lot
   streetAddress: 675 Manning Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:104'
   _source: green-p-parking
@@ -535,7 +535,7 @@
   addressRegion: 'ON'
   latitude: 43.662431
   longitude: -79.425648
-  name: '745 Ossington Avenue, 16 Carling Avenue'
+  name: Parking Lot
   streetAddress: '745 Ossington Avenue, 16 Carling Avenue'
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:106'
   _source: green-p-parking
@@ -546,7 +546,7 @@
   addressRegion: 'ON'
   latitude: 43.648412
   longitude: -79.400307
-  name: 15 Denison Avenue
+  name: Parking Lot
   streetAddress: 15 Denison Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:107'
   _source: green-p-parking
@@ -557,7 +557,7 @@
   addressRegion: 'ON'
   latitude: 43.677378
   longitude: -79.40035
-  name: 251 Macpherson Avenue
+  name: Parking Lot
   streetAddress: 251 Macpherson Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:109'
   _source: green-p-parking
@@ -568,7 +568,7 @@
   addressRegion: 'ON'
   latitude: 43.664703
   longitude: -79.36905
-  name: 51 Aberdeen Avenue
+  name: Parking Lot
   streetAddress: 51 Aberdeen Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:110'
   _source: green-p-parking
@@ -579,7 +579,7 @@
   addressRegion: 'ON'
   latitude: 43.683577
   longitude: -79.322995
-  name: 1612 Danforth Avenue
+  name: Parking Lot
   streetAddress: 1612 Danforth Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:111'
   _source: green-p-parking
@@ -590,7 +590,7 @@
   addressRegion: 'ON'
   latitude: 43.656159
   longitude: -79.41448
-  name: 74 Clinton Street
+  name: Parking Garage
   streetAddress: 74 Clinton Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:116'
   _source: green-p-parking
@@ -601,7 +601,7 @@
   addressRegion: 'ON'
   latitude: 43.65168
   longitude: -79.475119
-  name: 255 Kennedy Avenue
+  name: Parking Lot
   streetAddress: 255 Kennedy Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:125'
   _source: green-p-parking
@@ -612,7 +612,7 @@
   addressRegion: 'ON'
   latitude: 43.653381
   longitude: -79.368582
-  name: 323 Richmond Street East
+  name: Parking Garage
   streetAddress: 323 Richmond Street East
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:130'
   _source: green-p-parking
@@ -623,7 +623,7 @@
   addressRegion: 'ON'
   latitude: 43.660899
   longitude: -79.433013
-  name: 7 Bartlett Avenue
+  name: Parking Lot
   streetAddress: 7 Bartlett Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:131'
   _source: green-p-parking
@@ -634,7 +634,7 @@
   addressRegion: 'ON'
   latitude: 43.700543
   longitude: -79.428073
-  name: 912 Eglinton Avenue West
+  name: Parking Lot
   streetAddress: 912 Eglinton Avenue West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:137'
   _source: green-p-parking
@@ -645,7 +645,7 @@
   addressRegion: 'ON'
   latitude: 43.679481
   longitude: -79.346287
-  name: 77 Gough Avenue
+  name: Parking Lot
   streetAddress: 77 Gough Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:139'
   _source: green-p-parking
@@ -656,7 +656,7 @@
   addressRegion: 'ON'
   latitude: 43.713751
   longitude: -79.399213
-  name: 6 Sherwood Avenue
+  name: Parking Lot
   streetAddress: 6 Sherwood Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:141'
   _source: green-p-parking
@@ -667,7 +667,7 @@
   addressRegion: 'ON'
   latitude: 43.676198
   longitude: -79.447739
-  name: 141 Greenlaw Avenue
+  name: Parking Lot
   streetAddress: 141 Greenlaw Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:142'
   _source: green-p-parking
@@ -678,7 +678,7 @@
   addressRegion: 'ON'
   latitude: 43.680613
   longitude: -79.340751
-  name: 31 Langford Avenue
+  name: Parking Lot
   streetAddress: 31 Langford Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:143'
   _source: green-p-parking
@@ -689,7 +689,7 @@
   addressRegion: 'ON'
   latitude: 43.650431
   longitude: -79.481771
-  name: 265 Willard Avenue
+  name: Parking Lot
   streetAddress: 265 Willard Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:144'
   _source: green-p-parking
@@ -700,7 +700,7 @@
   addressRegion: 'ON'
   latitude: 43.664441
   longitude: -79.41758
-  name: 376 Clinton Street
+  name: Parking Lot
   streetAddress: 376 Clinton Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:146'
   _source: green-p-parking
@@ -711,7 +711,7 @@
   addressRegion: 'ON'
   latitude: 43.665202
   longitude: -79.353164
-  name: 573 Gerrard Street East
+  name: Parking Lot
   streetAddress: 573 Gerrard Street East
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:149'
   _source: green-p-parking
@@ -722,7 +722,7 @@
   addressRegion: 'ON'
   latitude: 43.68035
   longitude: -79.342339
-  name: 12 Woodycrest Avenue
+  name: Parking Lot
   streetAddress: 12 Woodycrest Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:152'
   _source: green-p-parking
@@ -733,7 +733,7 @@
   addressRegion: 'ON'
   latitude: 43.730266
   longitude: -79.402734
-  name: 25 Glenforest Road
+  name: Parking Lot
   streetAddress: 25 Glenforest Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:155'
   _source: green-p-parking
@@ -744,7 +744,7 @@
   addressRegion: 'ON'
   latitude: 43.699612
   longitude: -79.431131
-  name: 995 Eglinton Avenue West
+  name: Parking Lot
   streetAddress: 995 Eglinton Avenue West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:156'
   _source: green-p-parking
@@ -755,7 +755,7 @@
   addressRegion: 'ON'
   latitude: 43.678945
   longitude: -79.348798
-  name: 18 Ferrier Avenue
+  name: Parking Lot
   streetAddress: 18 Ferrier Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:157'
   _source: green-p-parking
@@ -766,7 +766,7 @@
   addressRegion: 'ON'
   latitude: 43.704181
   longitude: -79.374053
-  name: 709 Millwood Road
+  name: Parking Garage
   streetAddress: 709 Millwood Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:158'
   _source: green-p-parking
@@ -777,7 +777,7 @@
   addressRegion: 'ON'
   latitude: 43.64095
   longitude: -79.433856
-  name: 1325 Queen Street West
+  name: Parking Lot
   streetAddress: 1325 Queen Street West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:161'
   _source: green-p-parking
@@ -788,7 +788,7 @@
   addressRegion: 'ON'
   latitude: 43.688007
   longitude: -79.395468
-  name: 30 St. Clair Avenue West
+  name: Parking Garage
   streetAddress: 30 St. Clair Avenue West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:164'
   _source: green-p-parking
@@ -799,7 +799,7 @@
   addressRegion: 'ON'
   latitude: 43.689543
   longitude: -79.412946
-  name: 453 Spadina Road
+  name: Parking Lot
   streetAddress: 453 Spadina Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:167'
   _source: green-p-parking
@@ -810,7 +810,7 @@
   addressRegion: 'ON'
   latitude: 43.644655
   longitude: -79.419286
-  name: 18 Ossington Avenue
+  name: Parking Lot
   streetAddress: 18 Ossington Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:168'
   _source: green-p-parking
@@ -821,7 +821,7 @@
   addressRegion: 'ON'
   latitude: 43.650423
   longitude: -79.424404
-  name: 146 Harrison Street
+  name: Parking Lot
   streetAddress: 146 Harrison Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:170'
   _source: green-p-parking
@@ -832,7 +832,7 @@
   addressRegion: 'ON'
   latitude: 43.671597
   longitude: -79.294446
-  name: 17 Hammersmith Avenue
+  name: Parking Lot
   streetAddress: 17 Hammersmith Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:171'
   _source: green-p-parking
@@ -843,7 +843,7 @@
   addressRegion: 'ON'
   latitude: 43.706702
   longitude: -79.38975
-  name: 730 Mt. Pleasant Road
+  name: Parking Garage
   streetAddress: 730 Mt. Pleasant Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:173'
   _source: green-p-parking
@@ -854,7 +854,7 @@
   addressRegion: 'ON'
   latitude: 43.682926
   longitude: -79.324476
-  name: 737 Rhodes Avenue
+  name: Parking Lot
   streetAddress: 737 Rhodes Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:174'
   _source: green-p-parking
@@ -865,7 +865,7 @@
   addressRegion: 'ON'
   latitude: 43.672598
   longitude: -79.322941
-  name: 151 Hiawatha Road
+  name: Parking Lot
   streetAddress: 151 Hiawatha Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:178'
   _source: green-p-parking
@@ -876,7 +876,7 @@
   addressRegion: 'ON'
   latitude: 43.704763
   longitude: -79.388956
-  name: 650 Mt. Pleasant Road
+  name: Parking Garage
   streetAddress: 650 Mt. Pleasant Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:179'
   _source: green-p-parking
@@ -887,7 +887,7 @@
   addressRegion: 'ON'
   latitude: 43.665784
   longitude: -79.350195
-  name: 653 Gerrard Street East
+  name: Parking Lot
   streetAddress: 653 Gerrard Street East
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:180'
   _source: green-p-parking
@@ -898,7 +898,7 @@
   addressRegion: 'ON'
   latitude: 43.672047
   longitude: -79.320366
-  name: 268 Rhodes Ave
+  name: Parking Lot
   streetAddress: 268 Rhodes Ave
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:181'
   _source: green-p-parking
@@ -909,7 +909,7 @@
   addressRegion: 'ON'
   latitude: 43.637863
   longitude: -79.424011
-  name: 1155 King Street West
+  name: Parking Lot
   streetAddress: 1155 King Street West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:184'
   _source: green-p-parking
@@ -920,7 +920,7 @@
   addressRegion: 'ON'
   latitude: 43.668004
   longitude: -79.307384
-  name: 192 Boardwalk Dr
+  name: Parking Lot
   streetAddress: 192 Boardwalk Dr
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:185'
   _source: green-p-parking
@@ -931,7 +931,7 @@
   addressRegion: 'ON'
   latitude: 43.667724
   longitude: -79.308522
-  name: 116 Joseph Duggan Rd
+  name: Parking Lot
   streetAddress: 116 Joseph Duggan Rd
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:186'
   _source: green-p-parking
@@ -942,7 +942,7 @@
   addressRegion: 'ON'
   latitude: 43.667445
   longitude: -79.309487
-  name: 118 Sarah Ashbridge Ave
+  name: Parking Lot
   streetAddress: 118 Sarah Ashbridge Ave
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:188'
   _source: green-p-parking
@@ -953,7 +953,7 @@
   addressRegion: 'ON'
   latitude: 43.654669
   longitude: -79.416411
-  name: 157 Beatrice Street
+  name: Parking Lot
   streetAddress: 157 Beatrice Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:204'
   _source: green-p-parking
@@ -964,7 +964,7 @@
   addressRegion: 'ON'
   latitude: 43.649267
   longitude: -79.420135
-  name: 1117 Dundas Street West
+  name: Parking Lot
   streetAddress: 1117 Dundas Street West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:205'
   _source: green-p-parking
@@ -975,7 +975,7 @@
   addressRegion: 'ON'
   latitude: 43.667778
   longitude: -79.401648
-  name: 465 Huron Street
+  name: Parking Lot
   streetAddress: 465 Huron Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:400'
   _source: green-p-parking
@@ -986,7 +986,7 @@
   addressRegion: 'ON'
   latitude: 43.770373
   longitude: -79.41257
-  name: 10 Kingsdale Avenue
+  name: Parking Lot
   streetAddress: 10 Kingsdale Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:401'
   _source: green-p-parking
@@ -997,7 +997,7 @@
   addressRegion: 'ON'
   latitude: 43.733158
   longitude: -79.420295
-  name: 246 Brooke Avenue
+  name: Parking Lot
   streetAddress: 246 Brooke Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:271'
   _source: green-p-parking
@@ -1008,7 +1008,7 @@
   addressRegion: 'ON'
   latitude: 43.636821
   longitude: -79.409705
-  name: 800 Fleet Street
+  name: Parking Lot
   streetAddress: 800 Fleet Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:402'
   _source: green-p-parking
@@ -1019,7 +1019,7 @@
   addressRegion: 'ON'
   latitude: 43.769459
   longitude: -79.412484
-  name: 10 Empress Avenue
+  name: Parking Lot
   streetAddress: 10 Empress Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:403'
   _source: green-p-parking
@@ -1030,7 +1030,7 @@
   addressRegion: 'ON'
   latitude: 43.762168
   longitude: -79.412441
-  name: 10 Harlandale Avenue
+  name: Parking Lot
   streetAddress: 10 Harlandale Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:404'
   _source: green-p-parking
@@ -1041,7 +1041,7 @@
   addressRegion: 'ON'
   latitude: 43.763594
   longitude: -79.414051
-  name: 95 Beecroft Road
+  name: Parking Garage
   streetAddress: 95 Beecroft Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:410'
   _source: green-p-parking
@@ -1052,7 +1052,7 @@
   addressRegion: 'ON'
   latitude: 43.767569
   longitude: -79.416143
-  name: 180 Beecroft Road
+  name: Parking Lot
   streetAddress: 180 Beecroft Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:411'
   _source: green-p-parking
@@ -1063,7 +1063,7 @@
   addressRegion: 'ON'
   latitude: 43.732182
   longitude: -79.419576
-  name: 1880 Avenue Road
+  name: Parking Lot
   streetAddress: 1880 Avenue Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:412'
   _source: green-p-parking
@@ -1074,7 +1074,7 @@
   addressRegion: 'ON'
   latitude: 43.779321
   longitude: -79.416572
-  name: 11 Finch West
+  name: Parking Lot
   streetAddress: 11 Finch West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:413'
   _source: green-p-parking
@@ -1085,7 +1085,7 @@
   addressRegion: 'ON'
   latitude: 43.756023
   longitude: -79.410403
-  name: 4576 Yonge Street
+  name: Parking Lot
   streetAddress: 4576 Yonge Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:418'
   _source: green-p-parking
@@ -1096,7 +1096,7 @@
   addressRegion: 'ON'
   latitude: 43.76082
   longitude: -79.414662
-  name: 68 Sheppard Avenue West
+  name: Parking Lot
   streetAddress: 68 Sheppard Avenue West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:500'
   _source: green-p-parking
@@ -1107,7 +1107,7 @@
   addressRegion: 'ON'
   latitude: 43.648474
   longitude: -79.508958
-  name: 7 Jackson Avenue
+  name: Parking Lot
   streetAddress: 7 Jackson Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:501'
   _source: green-p-parking
@@ -1118,7 +1118,7 @@
   addressRegion: 'ON'
   latitude: 43.648738
   longitude: -79.507853
-  name: 11 Grenview Blvd. N.
+  name: Parking Lot
   streetAddress: 11 Grenview Blvd. N.
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:502'
   _source: green-p-parking
@@ -1129,7 +1129,7 @@
   addressRegion: 'ON'
   latitude: 43.649142
   longitude: -79.505889
-  name: 342 Prince Edward Drive
+  name: Parking Lot
   streetAddress: 342 Prince Edward Drive
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:503'
   _source: green-p-parking
@@ -1140,7 +1140,7 @@
   addressRegion: 'ON'
   latitude: 43.648389
   longitude: -79.510632
-  name: 12 Willingdon Blvd.
+  name: Parking Lot
   streetAddress: 12 Willingdon Blvd.
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:504'
   _source: green-p-parking
@@ -1151,7 +1151,7 @@
   addressRegion: 'ON'
   latitude: 43.648234
   longitude: -79.510117
-  name: 9 Willingdon Blvd.
+  name: Parking Lot
   streetAddress: 9 Willingdon Blvd.
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:505'
   _source: green-p-parking
@@ -1162,7 +1162,7 @@
   addressRegion: 'ON'
   latitude: 43.646766
   longitude: -79.511318
-  name: 934 Royal York Road
+  name: Parking Lot
   streetAddress: 934 Royal York Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:506'
   _source: green-p-parking
@@ -1173,7 +1173,7 @@
   addressRegion: 'ON'
   latitude: 43.60169
   longitude: -79.503422
-  name: 140 Fifth Street
+  name: Parking Lot
   streetAddress: 140 Fifth Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:507'
   _source: green-p-parking
@@ -1184,7 +1184,7 @@
   addressRegion: 'ON'
   latitude: 43.601216
   longitude: -79.500697
-  name: 66 Third Street
+  name: Parking Lot
   streetAddress: 66 Third Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:508'
   _source: green-p-parking
@@ -1195,7 +1195,7 @@
   addressRegion: 'ON'
   latitude: 43.600906
   longitude: -79.506769
-  name: 128 Eighth Street
+  name: Parking Lot
   streetAddress: 128 Eighth Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:510'
   _source: green-p-parking
@@ -1206,7 +1206,7 @@
   addressRegion: 'ON'
   latitude: 43.59664
   longitude: -79.521446
-  name: 3239 Lakeshore Blvd W.
+  name: Parking Lot
   streetAddress: 3239 Lakeshore Blvd W.
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:511'
   _source: green-p-parking
@@ -1217,7 +1217,7 @@
   addressRegion: 'ON'
   latitude: 43.600152
   longitude: -79.50399
-  name: 120 Sixth Street
+  name: Parking Lot
   streetAddress: 120 Sixth Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:512'
   _source: green-p-parking
@@ -1228,7 +1228,7 @@
   addressRegion: 'ON'
   latitude: 43.645959
   longitude: -79.518067
-  name: 3220 Bloor Street West
+  name: Parking Lot
   streetAddress: 3220 Bloor Street West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:513'
   _source: green-p-parking
@@ -1239,7 +1239,7 @@
   addressRegion: 'ON'
   latitude: 43.626997
   longitude: -79.502724
-  name: 575 Royal York Road
+  name: Parking Lot
   streetAddress: 575 Royal York Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:517'
   _source: green-p-parking
@@ -1250,7 +1250,7 @@
   addressRegion: 'ON'
   latitude: 43.614299
   longitude: -79.489882
-  name: 15 Primrose Avenue
+  name: Parking Lot
   streetAddress: 15 Primrose Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:519'
   _source: green-p-parking
@@ -1261,7 +1261,7 @@
   addressRegion: 'ON'
   latitude: 43.625584
   longitude: -79.503551
-  name: 5 Dayton Avenue
+  name: Parking Lot
   streetAddress: 5 Dayton Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:520'
   _source: green-p-parking
@@ -1272,7 +1272,7 @@
   addressRegion: 'ON'
   latitude: 43.645253
   longitude: -79.532733
-  name: 20 Royalavon Crescent
+  name: Parking Lot
   streetAddress: 20 Royalavon Crescent
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:600'
   _source: green-p-parking
@@ -1283,7 +1283,7 @@
   addressRegion: 'ON'
   latitude: 43.690428
   longitude: -79.327898
-  name: 550 Mortimer Avenue
+  name: Parking Lot
   streetAddress: 550 Mortimer Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:650'
   _source: green-p-parking
@@ -1294,7 +1294,7 @@
   addressRegion: 'ON'
   latitude: 43.701334
   longitude: -79.517477
-  name: 22 John Street
+  name: Parking Lot
   streetAddress: 22 John Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:652'
   _source: green-p-parking
@@ -1305,7 +1305,7 @@
   addressRegion: 'ON'
   latitude: 43.690343
   longitude: -79.472383
-  name: 301 Scott Road
+  name: Parking Lot
   streetAddress: 301 Scott Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:653'
   _source: green-p-parking
@@ -1316,7 +1316,7 @@
   addressRegion: 'ON'
   latitude: 43.649119
   longitude: -79.486397
-  name: 17 Riverview Gardens
+  name: Parking Lot
   streetAddress: 17 Riverview Gardens
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:654'
   _source: green-p-parking
@@ -1327,7 +1327,7 @@
   addressRegion: 'ON'
   latitude: 43.648894
   longitude: -79.486663
-  name: 16 Riverview Gardens
+  name: Parking Lot
   streetAddress: 16 Riverview Gardens
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:657'
   _source: green-p-parking
@@ -1338,7 +1338,7 @@
   addressRegion: 'ON'
   latitude: 43.67789
   longitude: -79.506555
-  name: 271a Scarlett Road
+  name: Parking Lot
   streetAddress: 271a Scarlett Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:658'
   _source: green-p-parking
@@ -1349,7 +1349,7 @@
   addressRegion: 'ON'
   latitude: 43.686611
   longitude: -79.446806
-  name: 2054 Dufferin Street
+  name: Parking Lot
   streetAddress: 2054 Dufferin Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:660'
   _source: green-p-parking
@@ -1360,7 +1360,7 @@
   addressRegion: 'ON'
   latitude: 43.688069
   longitude: -79.439317
-  name: 406 Oakwood Avenue
+  name: Parking Lot
   streetAddress: 406 Oakwood Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:661'
   _source: green-p-parking
@@ -1371,7 +1371,7 @@
   addressRegion: 'ON'
   latitude: 43.682507
   longitude: -79.463983
-  name: 433 Rogers Road
+  name: Parking Lot
   streetAddress: 433 Rogers Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:663'
   _source: green-p-parking
@@ -1382,7 +1382,7 @@
   addressRegion: 'ON'
   latitude: 43.695951
   longitude: -79.451795
-  name: 1 Shortt Street
+  name: Parking Lot
   streetAddress: 1 Shortt Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:664'
   _source: green-p-parking
@@ -1393,7 +1393,7 @@
   addressRegion: 'ON'
   latitude: 43.696952
   longitude: -79.443727
-  name: 1607 Eglinton Avenue West
+  name: Parking Lot
   streetAddress: 1607 Eglinton Avenue West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:700'
   _source: green-p-parking
@@ -1404,7 +1404,7 @@
   addressRegion: 'ON'
   latitude: 43.775378
   longitude: -79.250093
-  name: 101 Grangeway Avenue
+  name: Parking Lot
   streetAddress: 101 Grangeway Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:701'
   _source: green-p-parking
@@ -1415,7 +1415,7 @@
   addressRegion: 'ON'
   latitude: 43.68177
   longitude: -79.281496
-  name: 197 Blantyre Avenue
+  name: Parking Lot
   streetAddress: 197 Blantyre Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:150'
   _source: green-p-parking
@@ -1426,7 +1426,7 @@
   addressRegion: 'ON'
   latitude: 43.652954
   longitude: -79.397024
-  name: 40 Larch Street
+  name: Parking Garage
   streetAddress: 40 Larch Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:521'
   _source: green-p-parking
@@ -1437,7 +1437,7 @@
   addressRegion: 'ON'
   latitude: 43.644336
   longitude: -79.521886
-  name: 7 Monkton Avenue
+  name: Parking Lot
   streetAddress: 7 Monkton Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:414'
   _source: green-p-parking
@@ -1448,7 +1448,7 @@
   addressRegion: 'ON'
   latitude: 43.741786
   longitude: -79.40595
-  name: 3885 Yonge Street
+  name: Parking Lot
   streetAddress: 3885 Yonge Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:651'
   _source: green-p-parking
@@ -1459,7 +1459,7 @@
   addressRegion: 'ON'
   latitude: 43.687441
   longitude: -79.4903
-  name: 1169 Weston Road
+  name: Parking Lot
   streetAddress: 1169 Weston Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:200'
   _source: green-p-parking
@@ -1470,7 +1470,7 @@
   addressRegion: 'ON'
   latitude: 43.665986
   longitude: -79.313049
-  name: 1167 Eastern Avenue
+  name: Parking Lot
   streetAddress: 1167 Eastern Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:202'
   _source: green-p-parking
@@ -1481,7 +1481,7 @@
   addressRegion: 'ON'
   latitude: 43.66566
   longitude: -79.314079
-  name: 1141 Eastern Avenue
+  name: Parking Lot
   streetAddress: 1141 Eastern Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:215'
   _source: green-p-parking
@@ -1492,7 +1492,7 @@
   addressRegion: 'ON'
   latitude: 43.670936
   longitude: -79.392222
-  name: 74 Yorkville Avenue
+  name: Parking Garage
   streetAddress: 74 Yorkville Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:96'
   _source: green-p-parking
@@ -1503,7 +1503,7 @@
   addressRegion: 'ON'
   latitude: 43.641635
   longitude: -79.399159
-  name: 10 Portland Street
+  name: Parking Garage
   streetAddress: 10 Portland Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:216'
   _source: green-p-parking
@@ -1514,7 +1514,7 @@
   addressRegion: 'ON'
   latitude: 43.657231
   longitude: -79.392475
-  name: 205 Mccaul Street
+  name: Parking Lot
   streetAddress: 205 Mccaul Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:212'
   _source: green-p-parking
@@ -1525,7 +1525,7 @@
   addressRegion: 'ON'
   latitude: 43.646712
   longitude: -79.39491
-  name: 363 Adelaide Street West
+  name: Parking Lot
   streetAddress: 363 Adelaide Street West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:706'
   _source: green-p-parking
@@ -1536,7 +1536,7 @@
   addressRegion: 'ON'
   latitude: 43.789429
   longitude: -79.238387
-  name: 284 Milner Avenue
+  name: Parking Lot
   streetAddress: 284 Milner Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:209'
   _source: green-p-parking
@@ -1547,7 +1547,7 @@
   addressRegion: 'ON'
   latitude: 43.634366
   longitude: -79.407235
-  name: 711 Lakeshore Blvd W
+  name: Parking Lot
   streetAddress: 711 Lakeshore Blvd W
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:195'
   _source: green-p-parking
@@ -1558,7 +1558,7 @@
   addressRegion: 'ON'
   latitude: 43.679814
   longitude: -79.390007
-  name: 15 Price St
+  name: Parking Lot
   streetAddress: 15 Price St
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:667'
   _source: green-p-parking
@@ -1569,7 +1569,7 @@
   addressRegion: 'ON'
   latitude: 43.697588
   longitude: -79.440712
-  name: 1531 Eglinton Avenue West
+  name: Parking Lot
   streetAddress: 1531 Eglinton Avenue West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:218'
   _source: green-p-parking
@@ -1580,7 +1580,7 @@
   addressRegion: 'ON'
   latitude: 43.665668
   longitude: -79.4819
-  name: 3354 Dundas Street West
+  name: Parking Lot
   streetAddress: 3354 Dundas Street West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:219'
   _source: green-p-parking
@@ -1591,7 +1591,7 @@
   addressRegion: 'ON'
   latitude: 43.652464
   longitude: -79.374326
-  name: 87 Richmond Street East
+  name: Parking Lot
   streetAddress: 87 Richmond Street East
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:707'
   _source: green-p-parking
@@ -1602,7 +1602,7 @@
   addressRegion: 'ON'
   latitude: 43.789507
   longitude: -79.237915
-  name: 1530 Markham Road
+  name: Parking Lot
   streetAddress: 1530 Markham Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:221'
   _source: green-p-parking
@@ -1613,7 +1613,7 @@
   addressRegion: 'ON'
   latitude: 43.653575
   longitude: -79.389685
-  name: 121 St. Patrick Street
+  name: Parking Lot
   streetAddress: 121 St. Patrick Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:220'
   _source: green-p-parking
@@ -1624,7 +1624,7 @@
   addressRegion: 'ON'
   latitude: 43.680738
   longitude: -79.429629
-  name: 789 St. Clair Avenue West
+  name: Parking Lot
   streetAddress: 789 St. Clair Avenue West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:223'
   _source: green-p-parking
@@ -1635,7 +1635,7 @@
   addressRegion: 'ON'
   latitude: 43.689148
   longitude: -79.394374
-  name: 1501 Yonge Street
+  name: Parking Lot
   streetAddress: 1501 Yonge Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:668'
   _source: green-p-parking
@@ -1646,7 +1646,7 @@
   addressRegion: 'ON'
   latitude: 43.690203
   longitude: -79.477919
-  name: 2700 Eglinton Avenue West
+  name: Parking Lot
   streetAddress: 2700 Eglinton Avenue West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:669'
   _source: green-p-parking
@@ -1657,7 +1657,7 @@
   addressRegion: 'ON'
   latitude: 43.690792
   longitude: -79.478585
-  name: 2700 Eglinton Avenue West
+  name: Parking Lot
   streetAddress: 2700 Eglinton Avenue West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:528'
   _source: green-p-parking
@@ -1668,7 +1668,7 @@
   addressRegion: 'ON'
   latitude: 43.597008
   longitude: -79.516075
-  name: 1 Colonel Samuel Smith Park Drive
+  name: Parking Lot
   streetAddress: 1 Colonel Samuel Smith Park Drive
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:529'
   _source: green-p-parking
@@ -1679,7 +1679,7 @@
   addressRegion: 'ON'
   latitude: 43.593757
   longitude: -79.516468
-  name: 65 Colonel Samuel Smith Park
+  name: Parking Lot
   streetAddress: 65 Colonel Samuel Smith Park
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:602'
   _source: green-p-parking
@@ -1690,7 +1690,7 @@
   addressRegion: 'ON'
   latitude: 43.703909
   longitude: -79.374332
-  name: 1503 Bayview Avenue
+  name: Parking Lot
   streetAddress: 1503 Bayview Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:224'
   _source: green-p-parking
@@ -1701,7 +1701,7 @@
   addressRegion: 'ON'
   latitude: 43.638242
   longitude: -79.419812
-  name: 34 Hanna Avenue
+  name: Parking Lot
   streetAddress: 34 Hanna Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:225'
   _source: green-p-parking
@@ -1712,7 +1712,7 @@
   addressRegion: 'ON'
   latitude: 43.656346
   longitude: -79.414555
-  name: 80 Clinton Street
+  name: Parking Lot
   streetAddress: 80 Clinton Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:226'
   _source: green-p-parking
@@ -1723,7 +1723,7 @@
   addressRegion: 'ON'
   latitude: 43.682103
   longitude: -79.4242
-  name: 646 St. Clair Avenue West
+  name: Parking Lot
   streetAddress: 646 St. Clair Avenue West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:227'
   _source: green-p-parking
@@ -1734,7 +1734,7 @@
   addressRegion: 'ON'
   latitude: 43.64668
   longitude: -79.395233
-  name: 105 Spadina Avenue
+  name: Parking Lot
   streetAddress: 105 Spadina Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:228'
   _source: green-p-parking
@@ -1745,7 +1745,7 @@
   addressRegion: 'ON'
   latitude: 43.68298
   longitude: -79.422065
-  name: 11 Kenwood Avenue
+  name: Parking Lot
   streetAddress: 11 Kenwood Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:229'
   _source: green-p-parking
@@ -1756,7 +1756,7 @@
   addressRegion: 'ON'
   latitude: 43.64384
   longitude: -79.422762
-  name: 110 Dovercourt Road
+  name: Parking Lot
   streetAddress: 110 Dovercourt Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:230'
   _source: green-p-parking
@@ -1767,7 +1767,7 @@
   addressRegion: 'ON'
   latitude: 43.649553
   longitude: -79.361694
-  name: 55 Mill Street
+  name: Parking Lot
   streetAddress: 55 Mill Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:231'
   _source: green-p-parking
@@ -1778,7 +1778,7 @@
   addressRegion: 'ON'
   latitude: 43.667974
   longitude: -79.404218
-  name: 19 Spadina Road
+  name: Parking Lot
   streetAddress: 19 Spadina Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:233'
   _source: green-p-parking
@@ -1789,7 +1789,7 @@
   addressRegion: 'ON'
   latitude: 43.650361
   longitude: -79.362445
-  name: 44 Parliament Street
+  name: Parking Lot
   streetAddress: 44 Parliament Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:235'
   _source: green-p-parking
@@ -1800,7 +1800,7 @@
   addressRegion: 'ON'
   latitude: 43.653388
   longitude: -79.451323
-  name: 2201 Dundas Street West
+  name: Parking Lot
   streetAddress: 2201 Dundas Street West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:183'
   _source: green-p-parking
@@ -1811,7 +1811,7 @@
   addressRegion: 'ON'
   latitude: 43.668252
   longitude: -79.306226
-  name: 166 Woodbine Ave
+  name: Parking Lot
   streetAddress: 166 Woodbine Ave
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:187'
   _source: green-p-parking
@@ -1822,7 +1822,7 @@
   addressRegion: 'ON'
   latitude: 43.667107
   longitude: -79.31074
-  name: 116 Winners Circle
+  name: Parking Lot
   streetAddress: 116 Winners Circle
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:710'
   _source: green-p-parking
@@ -1833,7 +1833,7 @@
   addressRegion: 'ON'
   latitude: 43.77458
   longitude: -79.251359
-  name: 100 Grangeway Avenue
+  name: Parking Lot
   streetAddress: 100 Grangeway Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:419'
   _source: green-p-parking
@@ -1844,7 +1844,7 @@
   addressRegion: 'ON'
   latitude: 43.781482
   longitude: -79.415703
-  name: 5667 Yonge Street
+  name: Parking Lot
   streetAddress: 5667 Yonge Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:193'
   _source: green-p-parking
@@ -1855,7 +1855,7 @@
   addressRegion: 'ON'
   latitude: 43.662417
   longitude: -79.311188
-  name: 1675 Lakeshore Blvd. E.
+  name: Parking Lot
   streetAddress: 1675 Lakeshore Blvd. E.
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:194'
   _source: green-p-parking
@@ -1866,7 +1866,7 @@
   addressRegion: 'ON'
   latitude: 43.660056
   longitude: -79.311365
-  name: 20 Ashbridges Bay Park
+  name: Parking Lot
   streetAddress: 20 Ashbridges Bay Park
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:206'
   _source: green-p-parking
@@ -1877,7 +1877,7 @@
   addressRegion: 'ON'
   latitude: 43.634103
   longitude: -79.469036
-  name: 2001 Lakeshore Blvd. West
+  name: Parking Lot
   streetAddress: 2001 Lakeshore Blvd. West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:207'
   _source: green-p-parking
@@ -1888,7 +1888,7 @@
   addressRegion: 'ON'
   latitude: 43.637123
   longitude: -79.462266
-  name: 2001 Lakeshore Blvd. West
+  name: Parking Lot
   streetAddress: 2001 Lakeshore Blvd. West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:208'
   _source: green-p-parking
@@ -1899,7 +1899,7 @@
   addressRegion: 'ON'
   latitude: 43.637473
   longitude: -79.451301
-  name: 1575 Lakeshore Blvd. W.
+  name: Parking Lot
   streetAddress: 1575 Lakeshore Blvd. W.
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:210'
   _source: green-p-parking
@@ -1910,7 +1910,7 @@
   addressRegion: 'ON'
   latitude: 43.632829
   longitude: -79.438124
-  name: 1095 Lakeshore Blvd. W.
+  name: Parking Lot
   streetAddress: 1095 Lakeshore Blvd. W.
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:522'
   _source: green-p-parking
@@ -1921,7 +1921,7 @@
   addressRegion: 'ON'
   latitude: 43.62247
   longitude: -79.476707
-  name: 2235 Lakeshore Blvd West
+  name: Parking Lot
   streetAddress: 2235 Lakeshore Blvd West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:523'
   _source: green-p-parking
@@ -1932,7 +1932,7 @@
   addressRegion: 'ON'
   latitude: 43.620031
   longitude: -79.480698
-  name: 2235 Lakeshore Blvd West
+  name: Parking Lot
   streetAddress: 2235 Lakeshore Blvd West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:524'
   _source: green-p-parking
@@ -1943,7 +1943,7 @@
   addressRegion: 'ON'
   latitude: 43.619642
   longitude: -79.479722
-  name: 2235 Lakeshore Blvd West
+  name: Parking Lot
   streetAddress: 2235 Lakeshore Blvd West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:525'
   _source: green-p-parking
@@ -1954,7 +1954,7 @@
   addressRegion: 'ON'
   latitude: 43.616982
   longitude: -79.477247
-  name: 2235 Lakeshore Blvd West
+  name: Parking Lot
   streetAddress: 2235 Lakeshore Blvd West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:526'
   _source: green-p-parking
@@ -1965,7 +1965,7 @@
   addressRegion: 'ON'
   latitude: 43.61478
   longitude: -79.478059
-  name: 2235 Lakeshore Blvd West
+  name: Parking Lot
   streetAddress: 2235 Lakeshore Blvd West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:527'
   _source: green-p-parking
@@ -1976,7 +1976,7 @@
   addressRegion: 'ON'
   latitude: 43.613359
   longitude: -79.479926
-  name: 2235 Lakeshore Blvd West
+  name: Parking Lot
   streetAddress: 2235 Lakeshore Blvd West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:702'
   _source: green-p-parking
@@ -1987,7 +1987,7 @@
   addressRegion: 'ON'
   latitude: 43.70664
   longitude: -79.235437
-  name: 1 Brimley Road
+  name: Parking Lot
   streetAddress: 1 Brimley Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:703'
   _source: green-p-parking
@@ -1998,7 +1998,7 @@
   addressRegion: 'ON'
   latitude: 43.707446
   longitude: -79.234632
-  name: 1 Brimley Road
+  name: Parking Lot
   streetAddress: 1 Brimley Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:705'
   _source: green-p-parking
@@ -2009,7 +2009,7 @@
   addressRegion: 'ON'
   latitude: 43.712603
   longitude: -79.230051
-  name: 1 Brimley Road
+  name: Parking Lot
   streetAddress: 1 Brimley Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:238'
   _source: green-p-parking
@@ -2020,7 +2020,7 @@
   addressRegion: 'ON'
   latitude: 43.667558
   longitude: -79.4028
-  name: 9 Madison Ave.
+  name: Parking Lot
   streetAddress: 9 Madison Ave.
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:239'
   _source: green-p-parking
@@ -2031,7 +2031,7 @@
   addressRegion: 'ON'
   latitude: 43.704072
   longitude: -79.409362
-  name: 333 Eglinton Avenue West
+  name: Parking Lot
   streetAddress: 333 Eglinton Avenue West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:240'
   _source: green-p-parking
@@ -2042,7 +2042,7 @@
   addressRegion: 'ON'
   latitude: 43.681847
   longitude: -79.426539
-  name: 700 St. Clair Ave
+  name: Parking Lot
   streetAddress: 700 St. Clair Ave
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:670'
   _source: green-p-parking
@@ -2053,7 +2053,7 @@
   addressRegion: 'ON'
   latitude: 43.6866
   longitude: -79.446383
-  name: 2053 Dufferin Street
+  name: Parking Lot
   streetAddress: 2053 Dufferin Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:709'
   _source: green-p-parking
@@ -2064,7 +2064,7 @@
   addressRegion: 'ON'
   latitude: 43.744476
   longitude: -79.299188
-  name: 1940 Lawrence Avenue East
+  name: Parking Lot
   streetAddress: 1940 Lawrence Avenue East
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:659'
   _source: green-p-parking
@@ -2075,7 +2075,7 @@
   addressRegion: 'ON'
   latitude: 43.686479
   longitude: -79.43819
-  name: 341 Oakwood Avenue
+  name: Parking Lot
   streetAddress: 341 Oakwood Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:241'
   _source: green-p-parking
@@ -2086,7 +2086,7 @@
   addressRegion: 'ON'
   latitude: 43.652822
   longitude: -79.433341
-  name: 9 Bonar Place
+  name: Parking Lot
   streetAddress: 9 Bonar Place
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:244'
   _source: green-p-parking
@@ -2097,7 +2097,7 @@
   addressRegion: 'ON'
   latitude: 43.682646
   longitude: -79.326321
-  name: 1439 Danforth Avenue
+  name: Parking Lot
   streetAddress: 1439 Danforth Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:800'
   _source: green-p-parking
@@ -2108,7 +2108,7 @@
   addressRegion: 'ON'
   latitude: 43.635485
   longitude: -79.539084
-  name: Ttc Commuter Lot - Kipling North Lot - 120 Subway Cres
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Kipling North Lot - 120 Subway Cres
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:801'
   _source: green-p-parking
@@ -2119,7 +2119,7 @@
   addressRegion: 'ON'
   latitude: 43.636572
   longitude: -79.534117
-  name: Ttc Commuter Lot - Kipling South Lot - 400 Munster Avenue
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Kipling South Lot - 400 Munster Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:802'
   _source: green-p-parking
@@ -2130,7 +2130,7 @@
   addressRegion: 'ON'
   latitude: 43.644181
   longitude: -79.526188
-  name: Ttc Commuter Lot - Islington Main Lot - 3330 Bloor Street West
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Islington Main Lot - 3330 Bloor Street West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:803'
   _source: green-p-parking
@@ -2141,7 +2141,7 @@
   addressRegion: 'ON'
   latitude: 43.646852
   longitude: -79.525255
-  name: Ttc Commuter Lot - Islington Cordova Lot - 70 Cordova Avenue
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Islington Cordova Lot - 70 Cordova Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:804'
   _source: green-p-parking
@@ -2152,7 +2152,7 @@
   addressRegion: 'ON'
   latitude: 43.646774
   longitude: -79.522862
-  name: Ttc Commuter Lot - Islington Lomond Lot - 20 Lomond Drive
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Islington Lomond Lot - 20 Lomond Drive
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:805'
   _source: green-p-parking
@@ -2163,7 +2163,7 @@
   addressRegion: 'ON'
   latitude: 43.655818
   longitude: -79.457159
-  name: Ttc Commuter Lot - Keele Lot - 400 Indian Road
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Keele Lot - 400 Indian Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:809'
   _source: green-p-parking
@@ -2174,7 +2174,7 @@
   addressRegion: 'ON'
   latitude: 43.732166
   longitude: -79.451687
-  name: Ttc Commuter Lot - Wilson West Lot - 75 Billy Bishop Way
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Wilson West Lot - 75 Billy Bishop Way
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:810'
   _source: green-p-parking
@@ -2185,7 +2185,7 @@
   addressRegion: 'ON'
   latitude: 43.733662
   longitude: -79.447117
-  name: Ttc Commuter Lot - Wilson South Lot - 30 Tippett Road
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Wilson South Lot - 30 Tippett Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:811'
   _source: green-p-parking
@@ -2196,7 +2196,7 @@
   addressRegion: 'ON'
   latitude: 43.736244
   longitude: -79.449177
-  name: Ttc Commuter Lot - Wilson Main Lot - 50 Wilson Heights Blvd
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Wilson Main Lot - 50 Wilson Heights Blvd
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:812'
   _source: green-p-parking
@@ -2207,7 +2207,7 @@
   addressRegion: 'ON'
   latitude: 43.744638
   longitude: -79.407098
-  name: Ttc Commuter Lot - York Mills Lot - 4050 Yonge Street
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - York Mills Lot - 4050 Yonge Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:813'
   _source: green-p-parking
@@ -2218,7 +2218,7 @@
   addressRegion: 'ON'
   latitude: 43.782032
   longitude: -79.416368
-  name: Ttc Commuter Lot - Finch West Lot - 18 Hendon Ave
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Finch West Lot - 18 Hendon Ave
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:814'
   _source: green-p-parking
@@ -2229,7 +2229,7 @@
   addressRegion: 'ON'
   latitude: 43.782319
   longitude: -79.415907
-  name: Ttc Commuter Lot - Finch East Lot - 814 Willowdale Ave
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Finch East Lot - 814 Willowdale Ave
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:815'
   _source: green-p-parking
@@ -2240,7 +2240,7 @@
   addressRegion: 'ON'
   latitude: 43.770058
   longitude: -79.367484
-  name: Ttc Commuter Lot - Leslie Lot - 2760 Old Leslie Street
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Leslie Lot - 2760 Old Leslie Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:817'
   _source: green-p-parking
@@ -2251,7 +2251,7 @@
   addressRegion: 'ON'
   latitude: 43.766793
   longitude: -79.276394
-  name: Ttc Commuter Lot - Ellesmere Lot - Near 1050 Ellesmere Ave
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Ellesmere Lot - Near 1050 Ellesmere Ave
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:818'
   _source: green-p-parking
@@ -2262,7 +2262,7 @@
   addressRegion: 'ON'
   latitude: 43.750477
   longitude: -79.270269
-  name: Ttc Commuter Lot - Lawrence East Lot - Near 2450 Lawrence Ave East
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Lawrence East Lot - Near 2450 Lawrence Ave East
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:819'
   _source: green-p-parking
@@ -2273,7 +2273,7 @@
   addressRegion: 'ON'
   latitude: 43.732924
   longitude: -79.264042
-  name: Ttc Commuter Lot - Kennedy North Lot - Near 2445 Eglinton Avenue East
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Kennedy North Lot - Near 2445 Eglinton Avenue East
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:820'
   _source: green-p-parking
@@ -2284,7 +2284,7 @@
   addressRegion: 'ON'
   latitude: 43.733062
   longitude: -79.262282
-  name: Ttc Commuter Lot - Kennedy East Lot - Near 2467 Eglinton Ave East
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Kennedy East Lot - Near 2467 Eglinton Ave East
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:821'
   _source: green-p-parking
@@ -2295,7 +2295,7 @@
   addressRegion: 'ON'
   latitude: 43.731844
   longitude: -79.263471
-  name: Ttc Commuter Lot - Kennedy South Lot -155 Transway Cres
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Kennedy South Lot -155 Transway Cres
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:822'
   _source: green-p-parking
@@ -2306,7 +2306,7 @@
   addressRegion: 'ON'
   latitude: 43.715522
   longitude: -79.28131
-  name: Ttc Commuter Lot - Warden North Lot - 705 Warden Ave
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Warden North Lot - 705 Warden Ave
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:823'
   _source: green-p-parking
@@ -2317,7 +2317,7 @@
   addressRegion: 'ON'
   latitude: 43.710032
   longitude: -79.27979
-  name: Ttc Commuter Lot - Warden South Lot - 701 Warden Ave
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Warden South Lot - 701 Warden Ave
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:824'
   _source: green-p-parking
@@ -2328,7 +2328,7 @@
   addressRegion: 'ON'
   latitude: 43.693563
   longitude: -79.289052
-  name: Ttc Commuter Lot - Victoria Main Lot - 777 Victoria Park Avenue
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Victoria Main Lot - 777 Victoria Park Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:816'
   _source: green-p-parking
@@ -2339,7 +2339,7 @@
   addressRegion: 'ON'
   latitude: 43.775815
   longitude: -79.346707
-  name: Ttc Commuter Lot - Don Mills Lot - 1800 Sheppard Ave East
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Don Mills Lot - 1800 Sheppard Ave East
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:825'
   _source: green-p-parking
@@ -2350,7 +2350,7 @@
   addressRegion: 'ON'
   latitude: 43.634292
   longitude: -79.538184
-  name: Ttc Commuter Lot - Subway Crescent Lot - 95 Subway Cres
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Subway Crescent Lot - 95 Subway Cres
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:826'
   _source: green-p-parking
@@ -2361,7 +2361,7 @@
   addressRegion: 'ON'
   latitude: 43.734117
   longitude: -79.263977
-  name: Ttc Commuter Lot - Kennedy North Service Road - 2450 Eglinton Ave East
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Kennedy North Service Road - 2450 Eglinton Ave East
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:827'
   _source: green-p-parking
@@ -2372,7 +2372,7 @@
   addressRegion: 'ON'
   latitude: 43.747011
   longitude: -79.459006
-  name: Ttc Commuter Lot - Downsview Lot - 415 William R Allen Rd
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Downsview Lot - 415 William R Allen Rd
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:263'
   _source: green-p-parking
@@ -2383,7 +2383,7 @@
   addressRegion: 'ON'
   latitude: 43.655501
   longitude: -79.386022
-  name: 130 Elizabeth Street - Toronto Coach Terminal
+  name: Parking Lot
   streetAddress: 130 Elizabeth Street - Toronto Coach Terminal
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:829'
   _source: green-p-parking
@@ -2394,7 +2394,7 @@
   addressRegion: 'ON'
   latitude: 43.733843
   longitude: -79.452436
-  name: Ttc Commuter Lot - Transit Road Lot - 25 Transit Rd
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Transit Road Lot - 25 Transit Rd
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:249'
   _source: green-p-parking
@@ -2405,7 +2405,7 @@
   addressRegion: 'ON'
   latitude: 43.7074
   longitude: -79.376543
-  name: 1670 Bayview Ave
+  name: Parking Lot
   streetAddress: 1670 Bayview Ave
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:246'
   _source: green-p-parking
@@ -2416,7 +2416,7 @@
   addressRegion: 'ON'
   latitude: 43.675267
   longitude: -79.458876
-  name: 31 Blackthorne Ave.
+  name: Parking Lot
   streetAddress: 31 Blackthorne Ave.
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:243'
   _source: green-p-parking
@@ -2427,7 +2427,7 @@
   addressRegion: 'ON'
   latitude: 43.641425
   longitude: -79.341888
-  name: 115 Unwin Avenue
+  name: Parking Lot
   streetAddress: 115 Unwin Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:252'
   _source: green-p-parking
@@ -2438,7 +2438,7 @@
   addressRegion: 'ON'
   latitude: 43.678635
   longitude: -79.442364
-  name: 1695 Dufferin Street
+  name: Parking Lot
   streetAddress: 1695 Dufferin Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:133'
   _source: green-p-parking
@@ -2449,7 +2449,7 @@
   addressRegion: 'ON'
   latitude: 43.675143
   longitude: -79.457513
-  name: 20 Prescott Avenue
+  name: Parking Lot
   streetAddress: 20 Prescott Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:251'
   _source: green-p-parking
@@ -2460,7 +2460,7 @@
   addressRegion: 'ON'
   latitude: 43.651657
   longitude: -79.41125
-  name: 201 Claremont Street
+  name: Parking Lot
   streetAddress: 201 Claremont Street
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:831'
   _source: green-p-parking
@@ -2471,7 +2471,7 @@
   addressRegion: 'ON'
   latitude: 43.642473
   longitude: -79.52754
-  name: Ttc Commuter Lot - Islington Fieldway Lot - 22 Fieldway Rd
+  name: Parking Lot
   streetAddress: Ttc Commuter Lot - Islington Fieldway Lot - 22 Fieldway Rd
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:532'
   _source: green-p-parking
@@ -2482,7 +2482,7 @@
   addressRegion: 'ON'
   latitude: 43.738468
   longitude: -79.564984
-  name: 14 Barkwin Dr.
+  name: Parking Lot
   streetAddress: 14 Barkwin Dr.
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:259'
   _source: green-p-parking
@@ -2493,7 +2493,7 @@
   addressRegion: 'ON'
   latitude: 43.666878
   longitude: -79.404116
-  name: 4 Spadina Road
+  name: Parking Lot
   streetAddress: 4 Spadina Road
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:270'
   _source: green-p-parking
@@ -2504,7 +2504,7 @@
   addressRegion: 'ON'
   latitude: 43.649589
   longitude: -79.396818
-  name: 180 Spadina Avenue
+  name: Parking Lot
   streetAddress: 180 Spadina Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:262'
   _source: green-p-parking
@@ -2515,7 +2515,7 @@
   addressRegion: 'ON'
   latitude: 43.649429
   longitude: -79.393569
-  name: 302 Queen Street West
+  name: Parking Lot
   streetAddress: 302 Queen Street West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:248'
   _source: green-p-parking
@@ -2526,7 +2526,7 @@
   addressRegion: 'ON'
   latitude: 43.659822
   longitude: -79.350373
-  name: 136 Broadview Avenue
+  name: Parking Lot
   streetAddress: 136 Broadview Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:264'
   _source: green-p-parking
@@ -2537,7 +2537,7 @@
   addressRegion: 'ON'
   latitude: 43.63894
   longitude: -79.404202
-  name: 250 Fort York Boulevard
+  name: Parking Lot
   streetAddress: 250 Fort York Boulevard
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:265'
   _source: green-p-parking
@@ -2548,7 +2548,7 @@
   addressRegion: 'ON'
   latitude: 43.639127
   longitude: -79.403601
-  name: 250 Fort York Boulevard
+  name: Parking Lot
   streetAddress: 250 Fort York Boulevard
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:268'
   _source: green-p-parking
@@ -2559,7 +2559,7 @@
   addressRegion: 'ON'
   latitude: 43.651254
   longitude: -79.362971
-  name: 271 Front Street East
+  name: Parking Lot
   streetAddress: 271 Front Street East
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:267'
   _source: green-p-parking
@@ -2570,7 +2570,7 @@
   addressRegion: 'ON'
   latitude: 43.65012
   longitude: -79.357531
-  name: 70 Distillery Lane
+  name: Parking Garage
   streetAddress: 70 Distillery Lane
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:269'
   _source: green-p-parking
@@ -2581,7 +2581,7 @@
   addressRegion: 'ON'
   latitude: 43.675942
   longitude: -79.389439
-  name: 1010 Yonge St.
+  name: Parking Lot
   streetAddress: 1010 Yonge St.
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:272'
   _source: green-p-parking
@@ -2592,7 +2592,7 @@
   addressRegion: 'ON'
   latitude: 43.642808
   longitude: -79.405092
-  name: 775 King Street West
+  name: Parking Garage
   streetAddress: 775 King Street West
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:534'
   _source: green-p-parking
@@ -2603,7 +2603,7 @@
   addressRegion: 'ON'
   latitude: 43.628862
   longitude: -79.475564
-  name: 15 Marine Parade Drive
+  name: Parking Lot
   streetAddress: 15 Marine Parade Drive
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:273'
   _source: green-p-parking
@@ -2614,7 +2614,7 @@
   addressRegion: 'ON'
   latitude: 43.711355
   longitude: -79.39855
-  name: 20 Erskine Avenue
+  name: Parking Lot
   streetAddress: 20 Erskine Avenue
 - _id: 'urn:x-opendata:ca:on:toronto:green-p-parking:711'
   _source: green-p-parking
@@ -2625,5 +2625,5 @@
   addressRegion: 'ON'
   latitude: 43.772181
   longitude: -79.256377
-  name: 158 Borough Drive
+  name: Parking Lot
   streetAddress: 158 Borough Drive
