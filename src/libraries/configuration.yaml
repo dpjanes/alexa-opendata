@@ -1,0 +1,12 @@
+---
+source: "libraries"
+url: "http://www.torontopubliclibrary.ca/data/library-data.kml"
+data_file: "data.xml"
+address:
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: ON
+fix_name:
+  "[(][^)]*[)]": ""
+  "  *": " "
+  " +$": ""
