@@ -1,0 +1,12 @@
+---
+source: "bicycle-stations"
+url: "https://feeds.bikesharetoronto.com/stations/stations.json"
+data_file: "data.json"
+address:
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: ON
+fix_name:
+  "[(][^)]*[)]": ""
+  "  *": " "
+  " +$": ""
