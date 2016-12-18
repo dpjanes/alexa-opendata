@@ -1,0 +1,12 @@
+---
+source: "green-p-parking"
+url: "http://www1.toronto.ca/City%20Of%20Toronto/Information%20&%20Technology/Open%20Data/Data%20Sets/Assets/Files/greenPParking2015.json"
+data_file: "data.json"
+address:
+  addressCountry: CA
+  addressLocality: Toronto
+  addressRegion: ON
+fix_name:
+  "[(][^)]*[)]": ""
+  "  *": " "
+  " +$": ""
