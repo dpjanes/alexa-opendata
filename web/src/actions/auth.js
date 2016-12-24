@@ -61,6 +61,7 @@ export const openAuth = () => {
 		// const provider = new firebase.auth.GithubAuthProvider();
         console.log("AUTH OPEN")
 		const provider = new firebase.auth.GoogleAuthProvider();
+		// auth.signInWithPopup(provider)
 		auth.signInWithRedirect(provider)
 			.catch((error) => {
                 console.log("AUTH FAIL", error)
