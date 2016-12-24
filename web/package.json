@@ -38,7 +38,7 @@
   "name": "alexa-opendata-web", 
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.prod.babel.js", 
-    "dev": "node server-dev.es5.js"
+    "dev": "node server-development.js"
   }, 
   "version": "1.0.0"
 }
