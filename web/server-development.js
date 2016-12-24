@@ -10,6 +10,6 @@
 
 require('babel-register');
 require("./server").server({
-    webpack: true,
+    use_webpack: true,
 });
 

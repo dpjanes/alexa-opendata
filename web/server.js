@@ -37,6 +37,7 @@ const server = (_initd) => {
     const app = express();
 
     if (initd.use_webpack) {
+        console.log("-", "using webpack");
         const compiler = webpack(config);
 
         app.use(require('webpack-dev-middleware')(compiler, {

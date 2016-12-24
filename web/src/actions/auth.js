@@ -59,6 +59,7 @@ export const openAuth = () => {
 		dispatch({ type: C.AUTH_OPEN });
 		// const provider = new firebase.auth.FacebookAuthProvider();
 		// const provider = new firebase.auth.GithubAuthProvider();
+        console.log("AUTH OPEN")
 		const provider = new firebase.auth.GoogleAuthProvider();
 		auth.signInWithRedirect(provider)
 			.catch((error) => {

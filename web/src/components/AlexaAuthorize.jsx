@@ -28,7 +28,7 @@ import { push } from 'react-router-redux';
 import C from '../constants';
 import * as firebase from 'firebase';
 
-import { listenToAuth } from '../actions/auth';
+import { openAuth, listenToAuth } from '../actions/auth';
 import store from '../store'
 
 import Header from './Header';
@@ -38,13 +38,21 @@ class AlexaAuthorize extends React.Component {
 		super();
 
 		this.authorize = this.authorize.bind(this);
+		this.sign_in = this.sign_in.bind(this);
 	};
 
 	componentWillMount() {
         store.dispatch(listenToAuth(false));
 	};
 
-	authorize() {
+	sign_in(event) {
+		event.preventDefault();
+		this.props.openAuth();
+	}
+
+	authorize(event) {
+		event.preventDefault();
+
 		const props = this.props;
 		const query = this.props.location.query;
 
@@ -59,22 +67,42 @@ class AlexaAuthorize extends React.Component {
 		const props = this.props;
 		const query = this.props.location.query;
 
-		return (
-			<div>
-			<Header />
-			<div className="row">
-			<h1>AlexaAuthorize Authentication Page</h1>
-			<p>
-			Press Authorize to allow Alexa to manipulate the data
-			displayed for this account.
-			</p>
+        let result = null;
+        if (props.auth.status === C.AUTH_LOGGED_IN) {
+            result = (
+                <div>
+                <Header />
+                <div className="row">
+                <h1>Alexa Authentication Page</h1>
+                <p>
+                Press Authorize to allow Alexa to manipulate the data
+                displayed for this account.
+                </p>
 
-			<button className="btn" onClick={() => this.authorize()}>Authorize</button>
+                <button className="btn" onClick={this.authorize}>Authorize Alexa</button>
 
-			</div>
-			</div>
-		);
-	}
+                </div>
+                </div>
+            );
+        } else {
+            result = (
+                <div>
+                <Header />
+                <div className="row">
+                <h1>Alexa Authentication Page</h1>
+                <p>
+                Sign in using Google First.
+                </p>
+
+                <button className="btn" onClick={this.sign_in}>Sign In</button>
+
+                </div>
+                </div>
+            )
+		}
+
+        return result;
+	};
 
 };
 
@@ -85,6 +113,7 @@ const mapStateToProps = (state) => {
 };
 
 const mapDispatchToProps = {
+	openAuth,
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(AlexaAuthorize);
