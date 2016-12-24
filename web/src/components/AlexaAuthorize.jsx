@@ -37,8 +37,19 @@ class AlexaAuthorize extends React.Component {
 	constructor() {
 		super();
 
+        this.lines = []
+        window.console.log = (...rest) => {
+            this.lines.push(rest.join(" "));
+            this.forceUpdate();
+        };
+        console.log = window.console.log;
+
 		this.authorize = this.authorize.bind(this);
 		this.sign_in = this.sign_in.bind(this);
+
+        setInterval(() => {
+            console.log(".");
+        }, 10000);
 	};
 
 	componentWillMount() {
@@ -81,6 +92,8 @@ class AlexaAuthorize extends React.Component {
 
                 <button className="btn" onClick={this.authorize}>Authorize Alexa</button>
 
+                <pre>{this.lines.join("\n")}</pre>
+
                 </div>
                 </div>
             );
@@ -95,6 +108,7 @@ class AlexaAuthorize extends React.Component {
                 </p>
 
                 <button className="btn" onClick={this.sign_in}>Sign In</button>
+                <pre>{this.lines.join("\n")}</pre>
 
                 </div>
                 </div>
