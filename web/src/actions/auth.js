@@ -63,6 +63,7 @@ export const openAuth = () => {
 		const provider = new firebase.auth.GoogleAuthProvider();
 		auth.signInWithRedirect(provider)
 			.catch((error) => {
+                console.log("AUTH FAIL", error)
 				dispatch({
 					type: C.FEEDBACK_DISPLAY_ERROR,
 					error: `Login failed! ${error}`
