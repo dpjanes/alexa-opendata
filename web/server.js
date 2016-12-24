@@ -23,7 +23,7 @@ const project_config = require("../config.json");
 
 const admin = require("firebase-admin");
 const admin_app = admin.initializeApp({
-    credential: admin.credential.cert("../firebase-admin.json"),
+    credential: admin.credential.cert(path.join(__dirname, "../firebase-admin.json")),
     databaseURL: project_config.firebase.databaseURL,
 })
 
@@ -38,6 +38,7 @@ const server = (_initd) => {
 
     if (initd.use_webpack) {
         console.log("-", "using webpack");
+
         const compiler = webpack(config);
 
         app.use(require('webpack-dev-middleware')(compiler, {
@@ -51,7 +52,7 @@ const server = (_initd) => {
         app.use(require('webpack-hot-middleware')(compiler));
     }
 
-    app.use(express.static('static'));
+    app.use(express.static(path.join(__dirname, 'static')));
 
     /**
      *  The "original_token" is a short-lived JWT provided  by firebase. 
