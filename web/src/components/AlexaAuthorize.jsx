@@ -37,19 +37,25 @@ class AlexaAuthorize extends React.Component {
 	constructor() {
 		super();
 
+        /*
         this.lines = []
         window.console.log = (...rest) => {
             this.lines.push(rest.join(" "));
             this.forceUpdate();
         };
         console.log = window.console.log;
+        */
 
 		this.authorize = this.authorize.bind(this);
 		this.sign_in = this.sign_in.bind(this);
 
+        /*
+        console.log(navigator.userAgent);
+
         setInterval(() => {
             console.log(".");
         }, 10000);
+        */
 	};
 
 	componentWillMount() {
@@ -79,7 +85,21 @@ class AlexaAuthorize extends React.Component {
 		const query = this.props.location.query;
 
         let result = null;
-        if (props.auth.status === C.AUTH_LOGGED_IN) {
+        if (navigator.userAgent.indexOf("PitanguiBridge") > -1) {
+            result = (
+                <div>
+                <Header />
+                <div className="row">
+                <h1>Alexa Authentication Page</h1>
+                <p>
+                Many apologies, but this Alexa Skill must be enabled from 
+                the desktop in a standard web browser due to Google security controls.
+                </p>
+
+                </div>
+                </div>
+            );
+        } else if (props.auth.status === C.AUTH_LOGGED_IN) {
             result = (
                 <div>
                 <Header />
@@ -91,8 +111,6 @@ class AlexaAuthorize extends React.Component {
                 </p>
 
                 <button className="btn" onClick={this.authorize}>Authorize Alexa</button>
-
-                <pre>{this.lines.join("\n")}</pre>
 
                 </div>
                 </div>
@@ -108,7 +126,6 @@ class AlexaAuthorize extends React.Component {
                 </p>
 
                 <button className="btn" onClick={this.sign_in}>Sign In</button>
-                <pre>{this.lines.join("\n")}</pre>
 
                 </div>
                 </div>
@@ -180,4 +197,5 @@ export default connect(mapStateToProps, mapDispatchToProps)(AlexaAuthorize);
 			</div>
     	);
 	}
+                <pre>{this.lines.join("\n")}</pre>
 	*/
