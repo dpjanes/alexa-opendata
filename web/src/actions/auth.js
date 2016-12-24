@@ -60,7 +60,7 @@ export const openAuth = () => {
 		// const provider = new firebase.auth.FacebookAuthProvider();
 		// const provider = new firebase.auth.GithubAuthProvider();
 		const provider = new firebase.auth.GoogleAuthProvider();
-		auth.signInWithPopup(provider)
+		auth.signInWithRedirect(provider)
 			.catch((error) => {
 				dispatch({
 					type: C.FEEDBACK_DISPLAY_ERROR,
