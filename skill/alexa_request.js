@@ -55,6 +55,21 @@ const response_templated = {
     "sessionAttributes": {}
 };
 
+const link_account = {
+    "version": "1.0",
+    "response": {
+        "outputSpeech": {
+            "type": "PlainText",
+            "text": "You must have a Hey Toronto account to use this skill. Please use the Alexa desktop website to link your Amazon account with your Hey Toronto Account."
+        },
+        "card": {
+             "type": "LinkAccount"
+        },
+        "shouldEndSession": true,
+    },
+    "sessionAttributes": {}
+};
+
 /* --- this is the request flow --- */
 
 /**
@@ -313,6 +328,10 @@ const _alexa_handle = (_self, done) => {
             }));
         })
         .catch(error => {
+            if (error instanceof errors.NotAuthorized) {
+                return done(null, link_account);
+            }
+
             console.log("#", "error", _.error.message(error));
             console.log(error.stack);
 
