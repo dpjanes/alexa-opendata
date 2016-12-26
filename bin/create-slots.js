@@ -73,10 +73,24 @@ const _extract_where = self => {
 const _extract_what = self => {
     const slot_path = path.join(self.slots_folder, "What")
 
+    const _plural = word => {
+        if (word.endsWith("s")) {
+            return;
+        } else if (word.endsWith("y")) {
+            return word.replace(/y$/, "ies");
+        } else if (word.endsWith("ch")) {
+            return word.replace(/ch$/, "ches");
+        } else {
+            return word + "s";
+        }
+    }
+
     fs.writeFileSync(
         slot_path, 
-        self.database.theme_parts()
-            .sort()
+        _.unique(_.flatten(self.database.theme_parts()
+            .map(part => [ part, _plural(part) ]))
+            .filter(x => x)
+            .sort())
             .join("\n")
             + "\n",
         "utf-8"

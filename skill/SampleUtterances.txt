@@ -10,6 +10,11 @@ HeyFirstIntent show me {What} near {Where}
 HeyFirstIntent show me {What} near me
 HeyFirstIntent show me {What} near us
 HeyFirstIntent show me {What} nearby
+HeyFirstIntent show {What}
+HeyFirstIntent show {What} near {Where}
+HeyFirstIntent show {What} near me
+HeyFirstIntent show {What} near us
+HeyFirstIntent show {What} nearby
 HeyFirstIntent find {What}
 HeyFirstIntent find {What} near {Where}
 HeyFirstIntent find {What} near me
