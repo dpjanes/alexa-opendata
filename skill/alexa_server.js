@@ -38,7 +38,27 @@ const __express_setup = (_self, done) => {
 
     const app = express();
 
-    app.use(body_parser.json());
+    /*
+    app.use((request, response, next) => {
+        request.raw_body = '';
+        request.setEncoding('utf8');
+
+        request.on('data', chunk => {
+            request.raw_body += chunk;
+        });
+
+        request.on('end', () => {
+            next();
+        });
+    });
+    */
+    app.use(body_parser.json({
+        verify: (request, response, buffer, encoding) => {
+            if (buffer && buffer.length) {
+                request.raw_body = buffer.toString(encoding || 'utf8');
+            }
+        }
+    }));
 
     app.listen(self.port, self.host, (error) => {
         self.app = app;
@@ -81,6 +101,7 @@ const __app_alexa = (_self, done) => {
     self.app.use("/request", (request, response) => {
         alexa_request.handle(_.d.compose.shallow(self, {
             body: request.body,
+            raw_body: request.raw_body,
             headers: request.headers,
         }), (error, responsed) => {
             if (error) {

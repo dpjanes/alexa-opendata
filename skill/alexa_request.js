@@ -18,12 +18,15 @@ const _ = iotdb._;
 const path = require("path");
 const url = require("url");
 const assert = require("assert");
+const crypto = require("crypto");
 
 const errors = require("iotdb-errors");
 const iotdb_format = require("iotdb-format");
 
 const Q = require('q');
 const jwt = require('jsonwebtoken');
+const unirest = require('unirest');
+const cert_tools = require('openssl-cert-tools');
 
 const logger = iotdb.logger({
     name: 'alexa-opendata',
@@ -73,23 +76,6 @@ const link_account = {
 /* --- this is the request flow --- */
 
 /**
- *  This handles the signature header validation
- *
- *  signature: '',
- */
-const __validate_signature = (_self, done) => {
-    const self = _.d.clone.shallow(_self);
-
-    const signature_url = _.d.first(self.headers, "signature")
-    if (!_.is.String(signature_url)) {
-        return done(new errors.Invalid("no signature"));
-    }
-
-    return done(null, self);
-};
-const _validate_signature = Q.denodeify(__validate_signature);
-
-/**
  *  This handles the signature chain header URL validation
  *
  *  signaturecertchainurl: 'https://s3.amazonaws.com/echo.api/echo-api-cert-4.pem',
@@ -103,6 +89,7 @@ const __validate_signature_chain = (_self, done) => {
     }
 
     const urlp = url.parse(self.signature_chain_url)
+
     if (urlp.protocol !== "https:") {
         return done(new errors.Invalid("signaturecertchainurl: expected protocol=https"));
     }
@@ -112,7 +99,7 @@ const __validate_signature_chain = (_self, done) => {
     if (urlp.port && (urlp.port !== "443")) {
         return done(new errors.Invalid("signaturecertchainurl: expected port=null|443"));
     }
-    if (url.path.startswith("/echo.api/")) {
+    if (!urlp.path.startsWith("/echo.api/")) {
         return done(new errors.Invalid("signaturecertchainurl: expected path to start with /echo.api/"));
     }
 
@@ -120,16 +107,77 @@ const __validate_signature_chain = (_self, done) => {
 };
 const _validate_signature_chain = Q.denodeify(__validate_signature_chain);
 
+const certd = {}
+
 /**
  *  This will download the signature chain URL (if it isn't already)
  */
 const __download_signature_chain = (_self, done) => {
     const self = _.d.clone.shallow(_self);
 
+    self.signature_chain = certd[self.signature_chain_url];
+    if (self.signature_chain) {
+        return done(null, self);
+    }
+
+    unirest
+        .get(self.signature_chain_url)
+        .end(result => {
+            if (result.error) {
+                return done(result.error);
+            } 
+
+            self.signature_chain = result.body;
+
+            cert_tools.getCertificateInfo(result.body, (error, data) => {
+                if (error) {
+                    return done(error);
+                }
+
+                if (data.subject.CN.indexOf('echo-api.amazon.com') === -1) {
+                    return done(new errors.Invalid("certificate: expected to see echo-api.amazon.com in subject.CN"));
+                }
+
+                if (data.remainingDays < 1) {
+                    return done(new errors.Invalid("certificate: expired"));
+                }
+
+                certd[self.signature_chain_url] = self.signature_chain;
+            
+                return done(null, self);
+            })
+        })
+};
+const _download_signature_chain = Q.denodeify(__download_signature_chain);
+
+/**
+ *  This handles the signature header validation
+ *
+ *  signature: '...'
+ */
+const __validate_signature = (_self, done) => {
+    const self = _.d.clone.shallow(_self);
+
+    self.signature = _.d.first(self.headers, "signature")
+    if (_.is.Empty(self.signature)) {
+        return done(new errors.Invalid("no signature"));
+    }
+    if (!_.is.String(self.signature)) {
+        return done(new errors.Invalid("invalid signature type"));
+    } 
+
+    const verifier = crypto.createVerify('RSA-SHA1');
+    verifier.update(self.raw_body);
+
+    if (!verifier.verify(self.signature_chain, self.signature, "base64")) {
+        return done(new errors.Invalid("the signature did not validate"));
+    }
+
+    // console.log("-", "SIGNATURE VALIDATED");
 
     return done(null, self);
 };
-const _download_signature_chain = Q.denodeify(__download_signature_chain);
+const _validate_signature = Q.denodeify(__validate_signature);
 
 /**
  *  This handles the timestamp
@@ -185,7 +233,7 @@ const __decode_access_token = (_self, done) => {
         assert(d.uid, "expected the token to encode a UID");
 
         self.station = d.uid;
-        console.log("SETTING STATION TO", self.station);
+        // console.log("-", "SETTING STATION TO", self.station);
 
         return done(null, self);
     })
@@ -382,6 +430,10 @@ const _execute_what = Q.denodeify(__execute_what);
  */
 const _alexa_handle = (_self, done) => {
     const self = _.d.clone.shallow(_self);
+
+    assert.ok(self.raw_body, "expected self.raw_body")
+    assert.ok(self.body, "expected self.body")
+    assert.ok(self.headers, "expected self.headers")
 
     Q(self)
         .then(_validate_signature_chain)
