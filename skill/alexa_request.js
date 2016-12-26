@@ -140,7 +140,7 @@ const __alexa_request_parse = (_self, done) => {
         switch (_.d.get(self.body, "/request/intent/name")) {
         case "AMAZON.HelpIntent":
             self.response = "Ask me a question like 'where are skating rinks near the CN Tower' or 'where is the Eaton Centre'";
-            self.end_session = false;
+            self.end_session = true;
             break;
 
         case "AMAZON.CancelIntent":
@@ -160,7 +160,7 @@ const __alexa_request_parse = (_self, done) => {
 
     case "LaunchRequest":
         self.response = "Ask Hey Toronto a question like 'where are skating rinks near the CN Tower' or 'where is the Eaton Centre'";
-        self.end_session = false;
+        self.end_session = true;
         // self.response = "OK, ask me where something is";
         // self.end_session = false;
         break;
