@@ -73,19 +73,89 @@ const link_account = {
 /* --- this is the request flow --- */
 
 /**
- *  This handles Alexa session
+ *  This handles the signature header validation
  *
- "session": {
-    "new": true,
-    "sessionId": "amzn1.echo-api.session.7ca859a1-b687-4240-adeb-8477453f7b68",
-    "application": {
-      "applicationId": "amzn1.echo-sdk-ams.app.c054b062-0579-4b0d-9aae-0a5d1cfbc577"
-    },
-    "user": {
-      "userId": "amzn1.ask.account.XXXX",
-      "accessToken": "XXXX"
+ *  signature: '',
+ */
+const __validate_signature = (_self, done) => {
+    const self = _.d.clone.shallow(_self);
+
+    const signature_url = _.d.first(self.headers, "signature")
+    if (!_.is.String(signature_url)) {
+        return done(new errors.Invalid("no signature"));
     }
-  },
+
+    return done(null, self);
+};
+const _validate_signature = Q.denodeify(__validate_signature);
+
+/**
+ *  This handles the signature chain header URL validation
+ *
+ *  signaturecertchainurl: 'https://s3.amazonaws.com/echo.api/echo-api-cert-4.pem',
+ */
+const __validate_signature_chain = (_self, done) => {
+    const self = _.d.clone.shallow(_self);
+
+    self.signature_chain_url = _.d.first(self.headers, "signaturecertchainurl")
+    if (!_.is.String(self.signature_chain_url)) {
+        return done(new errors.Invalid("no signaturecertchainurl"));
+    }
+
+    const urlp = url.parse(self.signature_chain_url)
+    if (urlp.protocol !== "https:") {
+        return done(new errors.Invalid("signaturecertchainurl: expected protocol=https"));
+    }
+    if (urlp.host !== "s3.amazonaws.com") {
+        return done(new errors.Invalid("signaturecertchainurl: expected host=s3.amazonaws.com"));
+    }
+    if (urlp.port && (urlp.port !== "443")) {
+        return done(new errors.Invalid("signaturecertchainurl: expected port=null|443"));
+    }
+    if (url.path.startswith("/echo.api/")) {
+        return done(new errors.Invalid("signaturecertchainurl: expected path to start with /echo.api/"));
+    }
+
+    return done(null, self);
+};
+const _validate_signature_chain = Q.denodeify(__validate_signature_chain);
+
+/**
+ *  This will download the signature chain URL (if it isn't already)
+ */
+const __download_signature_chain = (_self, done) => {
+    const self = _.d.clone.shallow(_self);
+
+
+    return done(null, self);
+};
+const _download_signature_chain = Q.denodeify(__download_signature_chain);
+
+/**
+ *  This handles the timestamp
+ */
+const __validate_timestamp = (_self, done) => {
+    const self = _.d.clone.shallow(_self);
+
+    const timestamp = _.d.first(self.body, "/request/timestamp", null);
+    if (!_.is.String(timestamp)) {
+        return done(new errors.Timestamp("no timestamp"));
+    }
+
+    const dt_now = new Date()
+    const dt_timestamp = new Date(timestamp)
+    const delta = Math.abs(dt_now - dt_timestamp);
+
+    if (delta > (5 * 60 * 1000)) {
+        return done(new errors.Timestamp("timestamp out of date: delta=" + delta));
+    }
+
+    return done(null, self);
+};
+const _validate_timestamp = Q.denodeify(__validate_timestamp);
+
+/**
+ *  This handles Alexa session
  */
 const __alexa_session_validate = (_self, done) => {
     const self = _.d.clone.shallow(_self);
@@ -314,6 +384,10 @@ const _alexa_handle = (_self, done) => {
     const self = _.d.clone.shallow(_self);
 
     Q(self)
+        .then(_validate_signature_chain)
+        .then(_download_signature_chain)
+        .then(_validate_signature)
+        .then(_validate_timestamp)
         .then(_alexa_session_validate)
         .then(_decode_access_token)
         .then(_alexa_request_parse)

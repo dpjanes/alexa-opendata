@@ -81,6 +81,7 @@ const __app_alexa = (_self, done) => {
     self.app.use("/request", (request, response) => {
         alexa_request.handle(_.d.compose.shallow(self, {
             body: request.body,
+            headers: request.headers,
         }), (error, responsed) => {
             if (error) {
                 return response.status(400).send(_.error.message(error));
