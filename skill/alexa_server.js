@@ -38,20 +38,6 @@ const __express_setup = (_self, done) => {
 
     const app = express();
 
-    /*
-    app.use((request, response, next) => {
-        request.raw_body = '';
-        request.setEncoding('utf8');
-
-        request.on('data', chunk => {
-            request.raw_body += chunk;
-        });
-
-        request.on('end', () => {
-            next();
-        });
-    });
-    */
     app.use(body_parser.json({
         verify: (request, response, buffer, encoding) => {
             if (buffer && buffer.length) {
