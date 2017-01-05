@@ -74,7 +74,7 @@ class AlexaAuthorize extends React.Component {
 		const query = this.props.location.query;
 
 		firebase.auth().currentUser.getToken(true).then(token => {
-			window.location = `/authorize-commit?token=${token}&client_id=${query.client_id}&response_type=${query.response_type}&state=${query.state}`;
+			window.location = `/authorize/commit?token=${token}&client_id=${query.client_id}&response_type=${query.response_type}&state=${query.state}`;
 		}).catch(error => {
 			alert(`something went wrong: ${error.message}`)
 		});

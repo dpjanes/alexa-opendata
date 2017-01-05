@@ -26,14 +26,18 @@ import { Link } from 'react-router';
 import { connect } from 'react-redux';
 import { openAuth, logoutUser } from '../actions/auth';
 import C from '../constants';
+import * as firebase from 'firebase';
+import * as axios from 'axios';
 
 class Header extends React.Component {
 	constructor() {
 		super();
 
-		this.loginState = this.loginState.bind(this);
+		this.login_state = this.login_state.bind(this);
+		this.login_token = this.login_token.bind(this);
 		this.sign_in = this.sign_in.bind(this);
 		this.sign_out = this.sign_out.bind(this);
+		this.send_alexa_token = this.send_alexa_token.bind(this);
 	};
 
 	sign_in(event) {
@@ -46,7 +50,39 @@ class Header extends React.Component {
 		this.props.logoutUser();
 	}
 
-    loginState() {
+    send_alexa_token(event) {
+		event.preventDefault();
+
+        console.log("-", "send_alexa_token");
+
+		firebase.auth().currentUser.getToken(true).then(token => {
+            const l = window.location;
+            const url = `${l.protocol}//${l.host}/authorize/token?token=${token}`
+            console.log("url", url);
+            axios
+                .get(url)
+                .then(result => {
+                    if (result.status === 200) {
+                        alert(`use the following code to authorize the Alexa App: ${result.data}`);
+                    } else {
+                        alert(`something went wrong: ${result.data}`);
+                    }
+                })
+                .catch(error => {
+                    alert(`something went wrong: ${error.message}`);
+                });
+		}).catch(error => {
+			alert(`something went wrong: ${error.message}`)
+		});
+    }
+
+    login_token() {
+        return (
+			<li className="navbar-link navbar-text" href="#" onClick={this.send_alexa_token}>Send Alexa Token</li>
+        )
+    }
+
+    login_state() {
         const props = this.props;
         switch (props.auth.status) {
             case C.AUTH_LOGGED_IN: return (
@@ -86,7 +122,8 @@ class Header extends React.Component {
 			</div>
 			<div id="navbar" className="collapse navbar-collapse">
 			<ul className="nav navbar-nav navbar-right">
-			<li>{ this.loginState()}</li>
+			<span>{ this.login_token()}</span>
+			<li>{ this.login_state()}</li>
 			</ul>
 			</div>
 			</div>

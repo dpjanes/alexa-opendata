@@ -18,14 +18,134 @@ import config from './webpack.config.dev';
 const iotdb = require("iotdb");
 const _ = iotdb._;
 
+const nodemailer = require("nodemailer");
 const jwt = require("jsonwebtoken");
 const project_config = require("../config.json");
 
 const admin = require("firebase-admin");
-const admin_app = admin.initializeApp({
+admin.initializeApp({
     credential: admin.credential.cert(path.join(__dirname, "../firebase-admin.json")),
     databaseURL: project_config.firebase.databaseURL,
 })
+
+const firebase = require('firebase');
+firebase.initializeApp(project_config.firebase);
+
+const db = firebase.database();
+
+/**
+ *  The "original_token" is a short-lived JWT provided  by firebase. 
+ *  The "final_token" is a long-lived JWT that we've signed ourselves
+ *  and will be passed back to alexa for session management.
+ */
+const authorize_commit = (request, response) => {
+    const original_token = request.query.token;
+    if (!original_token) {
+        return response.send("ERROR: expected: token")
+    }
+
+    const client_id = request.query.client_id;
+    if (!client_id) {
+        return response.send("ERROR: expected: client_id")
+    } else if (client_id !== project_config.alexa.client_id) {
+        return response.send(`ERROR: expected client_id to be ${project_config.alexa.client_id}`);
+    }
+
+    const response_type = request.query.response_type;
+    if (!response_type) {
+        return response.send("ERROR: expected: response_type")
+    } else if (response_type !== "token") {
+        return response.send("ERROR: expected response_type to be 'token'")
+    }
+
+    const state = request.query.state;
+    if (!state) {
+        return response.send("ERROR: expected: state")
+    }
+
+    admin.auth()
+        .verifyIdToken(original_token)
+        .then(decoded_token => {
+            jwt.sign({ "uid": decoded_token.uid }, project_config.jwtSecret, {}, (error, final_token) => {
+                if (error) {
+                    return response.send(`ERROR: could not make JWT: ${error.message}`)
+                }
+
+                const return_url =
+                    project_config.alexa.redirect +
+                    "#state=" + state +
+                    "&access_token=" + final_token +
+                    "&token_type=Bearer";
+
+                return response.redirect(return_url);
+            })
+        })
+        .catch(error => {
+            return response.send(`ERROR: could not verify token: ${error.message}`)
+        });
+};
+
+const authorize_send_token = (request, response) => {
+    const original_token = request.query.token;
+    if (!original_token) {
+        return response.send("ERROR: expected: token")
+    }
+
+    admin.auth()
+        .verifyIdToken(original_token)
+        .then(tokend => {
+            if (!tokend.email) {
+                return response.status(400).send("ERROR - no email address associated with this account");
+            }
+            if (!tokend.email_verified) {
+                return response.status(400).send("ERROR - the email address has not been verified yet");
+            }
+
+            const token = _.random.id(4)
+            const ref = db.ref(`tokens/${token}`);
+
+            ref.set({
+                token: token,
+                when: _.timestamp.make(),
+                station: tokend.uid,
+            }, (error) => {
+                if (error) {
+                    return response.status(400).send("ERROR:" + _.error.message(error));
+                }
+
+                return response.send(token);
+            });
+
+/*
+            return;
+
+            console.log("HERE:C");
+            const maild = {
+                from: "<hey-toronto@discoveranywheremobile.com>",
+                to: tokend.email,
+                subject: "Here is your Alexa App login token",
+                text: ""
+            };
+
+            console.log("HERE:D");
+            const transporter = nodemailer.createTransport();
+            console.log("HERE:E");
+            transporter.sendMail(maild, function(error, info){
+                console.log("HERE:F");
+                if (error) {
+                    return response.status(400).send("ERROR - " + _.error.message(error));
+                }
+
+                return response.send("OK - press back");
+            });
+            console.log("HERE:G");
+ */
+        })
+        .catch(error => {
+            return response.status(400).send(`ERROR: could not verify token: ${error.message}`)
+        });
+};
+
 
 const server = (_initd) => {
     const initd = _.d.compose.shallow(_initd, {
@@ -54,57 +174,8 @@ const server = (_initd) => {
 
     app.use(express.static(path.join(__dirname, 'static')));
 
-    /**
-     *  The "original_token" is a short-lived JWT provided  by firebase. 
-     *  The "final_token" is a long-lived JWT that we've signed ourselves
-     *  and will be passed back to alexa for session management.
-     */
-    app.use("/authorize-commit", (request, response) => {
-        const original_token = request.query.token;
-        if (!original_token) {
-            return response.send("ERROR: expected: token")
-        }
-
-        const client_id = request.query.client_id;
-        if (!client_id) {
-            return response.send("ERROR: expected: client_id")
-        } else if (client_id !== project_config.alexa.client_id) {
-            return response.send(`ERROR: expected client_id to be ${project_config.alexa.client_id}`);
-        }
-
-        const response_type = request.query.response_type;
-        if (!response_type) {
-            return response.send("ERROR: expected: response_type")
-        } else if (response_type !== "token") {
-            return response.send("ERROR: expected response_type to be 'token'")
-        }
-
-        const state = request.query.state;
-        if (!state) {
-            return response.send("ERROR: expected: state")
-        }
-
-        admin.auth()
-            .verifyIdToken(original_token)
-            .then(decoded_token => {
-                jwt.sign({ "uid": decoded_token.uid }, project_config.jwtSecret, {}, (error, final_token) => {
-                    if (error) {
-                        return response.send(`ERROR: could not make JWT: ${error.message}`)
-                    }
-
-                    const return_url =
-                        project_config.alexa.redirect +
-                        "#state=" + state +
-                        "&access_token=" + final_token +
-                        "&token_type=Bearer";
-
-                    return response.redirect(return_url);
-                })
-            })
-            .catch(error => {
-                return response.send(`ERROR: could not verify token: ${error.message}`)
-            });
-    })
+    app.use("/authorize/commit", authorize_commit);
+    app.use("/authorize/token", authorize_send_token);
 
     app.get('*', (request, response) => {
         response.sendFile(path.join(__dirname, 'static', 'index.html'));
