@@ -73,27 +73,39 @@ class AlexaAuthorize extends React.Component {
 		const props = this.props;
 		const query = this.props.location.query;
 
-		firebase.auth().currentUser.getToken(true).then(token => {
-			window.location = `/authorize/commit?token=${token}&client_id=${query.client_id}&response_type=${query.response_type}&state=${query.state}`;
-		}).catch(error => {
-			alert(`something went wrong: ${error.message}`)
-		});
-	};
+        if (this.code && this.code.value) {
+            window.location = `/authorize/commit-code?client_id=${query.client_id}&response_type=${query.response_type}&state=${query.state}&code=${this.code.value}`;
+        } else {
+            firebase.auth().currentUser.getToken(true).then(token => {
+                window.location = `/authorize/commit?token=${token}&client_id=${query.client_id}&response_type=${query.response_type}&state=${query.state}`;
+            }).catch(error => {
+                alert(`something went wrong: ${error.message}`)
+            });
+        }
+    };
 
 	render() {
 		const props = this.props;
 		const query = this.props.location.query;
 
         let result = null;
-        if (navigator.userAgent.indexOf("PitanguiBridge") > -1) {
+        if (true || (navigator.userAgent.indexOf("PitanguiBridge") > -1)) {
             result = (
                 <div>
                 <Header />
                 <div className="row">
                 <h1>Alexa Authentication Page</h1>
+
                 <p>
-                Many apologies, but this Alexa Skill must be enabled from 
-                the desktop in a standard web browser due to Google security controls.
+                Sign into the Hey, Toronto website and request an Authorization Code.
+                Then enter it below and then press <b>Authorize Alexa</b>.
+                </p>
+
+                <p>
+                <input ref={(input) => { this.code = input }} type="text" placeholder="Authorization Code" />
+                <br />
+                <br />
+                <button className="btn" onClick={this.authorize}>Authorize Alexa</button>
                 </p>
 
                 </div>

@@ -63,7 +63,7 @@ class Header extends React.Component {
                 .get(url)
                 .then(result => {
                     if (result.status === 200) {
-                        alert(`use the following code to authorize the Alexa App: ${result.data}`);
+                        alert(`\n\nUse the following Authorization Code in the Alexa App: ${result.data}\n\n`);
                     } else {
                         alert(`something went wrong: ${result.data}`);
                     }
@@ -78,7 +78,7 @@ class Header extends React.Component {
 
     login_token() {
         return (
-			<li className="navbar-link navbar-text" href="#" onClick={this.send_alexa_token}>Send Alexa Token</li>
+			<li className="navbar-link navbar-text" href="#" onClick={this.send_alexa_token}>Create Authorization Code</li>
         )
     }
 
