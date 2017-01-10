@@ -35,12 +35,6 @@ const logger = iotdb.logger({
 
 const lib = require("../lib")
 
-const success_title = "Done!";
-const success_message = "OK, done!";
-
-const nothing_title = "There was an issue";
-const nothing_message = "I didn't find a Thing that could do this";
-
 const response_templated = {
     "version": "1.0",
     "response": {
@@ -257,8 +251,8 @@ const __alexa_request_parse = (_self, done) => {
     case "IntentRequest":
         switch (_.d.get(self.body, "/request/intent/name")) {
         case "AMAZON.HelpIntent":
-            self.response = "Ask me a question like 'where are skating rinks near the CN Tower' or 'where is the Eaton Centre'";
-            self.end_session = true;
+            self.response = "Ask me a question like 'where are skating rinks near the CN Tower' or 'where is the Eaton Centre'. What would you like to find?";
+            self.end_session = false;
             break;
 
         case "AMAZON.CancelIntent":
@@ -277,7 +271,7 @@ const __alexa_request_parse = (_self, done) => {
         break;
 
     case "LaunchRequest":
-        self.response = "Ask Hey Toronto a question like 'where are skating rinks near the CN Tower' or 'where is the Eaton Centre'";
+        self.response = "Ask Hey Toronto a question like 'where is the Eaton Centre'";
         // self.response = "OK, ask me where something is";
         self.end_session = false;
         break;

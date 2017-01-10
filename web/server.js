@@ -43,21 +43,21 @@ const db = firebase.database();
 const authorize_by_login = (request, response) => {
     const original_token = request.query.token;
     if (!original_token) {
-        return response.send("ERROR: expected: token")
+        return response.status(400).send("ERROR: expected: token")
     }
 
     const client_id = request.query.client_id;
     if (!client_id) {
-        return response.send("ERROR: expected: client_id")
+        return response.status(400).send("ERROR: expected: client_id")
     } else if (client_id !== project_config.alexa.client_id) {
-        return response.send(`ERROR: expected client_id to be ${project_config.alexa.client_id}`);
+        return response.status(400).send(`ERROR: expected client_id to be ${project_config.alexa.client_id}`);
     }
 
     const response_type = request.query.response_type;
     if (!response_type) {
-        return response.send("ERROR: expected: response_type")
+        return response.status(400).send("ERROR: expected: response_type")
     } else if (response_type !== "token") {
-        return response.send("ERROR: expected response_type to be 'token'")
+        return response.status(400).send("ERROR: expected response_type to be 'token'")
     }
 
     const state = request.query.state;
@@ -70,7 +70,7 @@ const authorize_by_login = (request, response) => {
         .then(decoded_token => {
             jwt.sign({ "uid": decoded_token.uid }, project_config.jwtSecret, {}, (error, final_token) => {
                 if (error) {
-                    return response.send(`ERROR: could not make JWT: ${error.message}`)
+                    return response.status(400).send(`ERROR: could not make JWT: ${error.message}`)
                 }
 
                 const return_url =
@@ -83,36 +83,38 @@ const authorize_by_login = (request, response) => {
             })
         })
         .catch(error => {
-            return response.send(`ERROR: could not verify token: ${error.message}`)
+            return response.status(400).send(`ERROR: could not verify token: ${error.message}`)
         });
 };
 
 const authorize_by_code = (request, response) => {
+    console.log("-", authorize_by_code);
+
     const client_id = request.query.client_id;
     if (!client_id) {
-        return response.send("ERROR: expected: client_id")
+        return response.status(400).send("ERROR: expected: client_id")
     } else if (client_id !== project_config.alexa.client_id) {
-        return response.send(`ERROR: expected client_id to be ${project_config.alexa.client_id}`);
+        return response.status(400).send(`ERROR: expected client_id to be ${project_config.alexa.client_id}`);
     }
 
     const response_type = request.query.response_type;
     if (!response_type) {
-        return response.send("ERROR: expected: response_type")
+        return response.status(400).send("ERROR: expected: response_type")
     } else if (response_type !== "token") {
-        return response.send("ERROR: expected response_type to be 'token'")
+        return response.status(400).send("ERROR: expected response_type to be 'token'")
     }
 
     const state = request.query.state;
     if (!state) {
-        return response.send("ERROR: expected: state")
+        return response.status(400).send("ERROR: expected: state")
     }
 
     const code = request.query.code;
     if (!code) {
-        return response.send("ERROR: expected: token")
+        return response.status(400).send("ERROR: expected: token")
     }
 
-    const ref = db.ref(`tokens/${code}`);
+    const ref = db.ref(`tokens/${code.toLowerCase()}`);
     ref.once("value")
         .then(snapshot => {
             const d = snapshot.val();
@@ -123,13 +125,13 @@ const authorize_by_code = (request, response) => {
             ref.remove();
 
             const delta = new Date() - new Date(d.when);
-            if (delta > 20 * 60 * 1000) {
+            if (delta > 3 * 60 * 1000) {
                 return response.status(400).send(`code expired: trying getting another code`);
             }
 
             jwt.sign({ "uid": d.station }, project_config.jwtSecret, {}, (error, final_token) => {
                 if (error) {
-                    return response.send(`ERROR: could not make JWT: ${error.message}`)
+                    return response.status(400).send(`ERROR: could not make JWT: ${error.message}`)
                 }
 
                 const return_url =
@@ -159,7 +161,7 @@ const authorize_token = (request, response) => {
                 return response.status(400).send("ERROR - the email address has not been verified yet");
             }
 
-            const token = _.random.id(4)
+            const token = _.random.id(6)
             const ref = db.ref(`tokens/${token}`);
 
             ref.set({

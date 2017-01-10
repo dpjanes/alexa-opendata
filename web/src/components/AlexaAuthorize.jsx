@@ -94,6 +94,7 @@ class AlexaAuthorize extends React.Component {
                 <div>
                 <Header />
                 <div className="row">
+                <div className="col-xs-12">
                 <h1>Alexa Authentication Page</h1>
 
                 <p>
@@ -108,6 +109,7 @@ class AlexaAuthorize extends React.Component {
                 <button className="btn" onClick={this.authorize}>Authorize Alexa</button>
                 </p>
 
+                </div>
                 </div>
                 </div>
             );
