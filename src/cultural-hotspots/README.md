@@ -1,6 +1,6 @@
 # Cultural Hotspots
 
-* [Data Source]http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=c63e6b6911b31510VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD()
+* [Data Source](http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=c63e6b6911b31510VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD)
 
 Use `sh download.sh` to download the data. 
 At some point we'll integrate that into the Node.JS code.
