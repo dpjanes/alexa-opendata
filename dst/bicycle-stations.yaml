@@ -1966,7 +1966,7 @@
   addressRegion: 'ON'
   latitude: 43.6575
   longitude: -79.4525
-  name: Dundas W/bloor
+  name: Dundas St W/edna Ave
   streetAddress: 2340 Dundas St W
 - _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7179'
   _source: bicycle-stations
@@ -2146,18 +2146,6 @@
   longitude: -79.4233333333333
   name: Roxton/harbord
   streetAddress: 386 Harbord St
-- _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7197'
-  _source: bicycle-stations
-  _theme:
-    - Bikes … Bike Station
-    - Bikes … Bicycle Station
-  addressCountry: CA
-  addressLocality: Toronto
-  addressRegion: 'ON'
-  latitude: 43.6436111111111
-  longitude: -79.4225
-  name: Queen/dovercourt
-  streetAddress: 1069 Queen St W
 - _id: 'urn:x-opendata:ca:on:toronto:bicycle-stations:7198'
   _source: bicycle-stations
   _theme:

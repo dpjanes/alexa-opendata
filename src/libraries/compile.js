@@ -67,8 +67,8 @@ const _build = (_self, done) => {
             const itemd = _.d.compose.shallow({
                 "_source": self.source,
                 "name": _fix_name(self, _.d.first(pd, "name")),
-                "latitude": ll[0],
-                "longitude": ll[1],
+                "latitude": ll[1],
+                "longitude": ll[0],
             }, self.address)
 
             const address = _.d.first(pd, "address")
