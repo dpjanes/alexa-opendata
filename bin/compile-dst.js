@@ -107,7 +107,7 @@ const _run = (_self, done) => {
                 }
 
                 const yaml_path = path.join(self.dst_folder, `${fd.name}.yaml`);
-                fs.writeFileSync(yaml_path, yaml.safeDump(inner_self.itemds, { sortKeys: true, skipInvalid: true }))
+                fs.writeFileSync(yaml_path, yaml.dump(inner_self.itemds, { sortKeys: true, skipInvalid: true }))
 
                 console.log("+", "compiled", fd.name, yaml_path);
                 inner_done(null);
